@@ -23,6 +23,16 @@ function SceneNode(props) {
     bind = () => { }
   }
 
+  if (props.isGroup) {
+    const children = props.children.map((childObject, index) => {
+      return <SceneNode key={index} {...childObject} customDrag={false}></SceneNode>
+    })
+    return (
+    <group>
+      {children}
+    </group>)
+  }
+
   return (
     <mesh
       {...props}

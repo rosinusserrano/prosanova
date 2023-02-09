@@ -1,19 +1,16 @@
 import './App.css';
-import { Canvas } from '@react-three/fiber';
 import WholeSceneAsNodes from './components/WholeSceneAsNodes';
+import WholeScene from './components/WholeScene';
+import { useState } from 'react';
 
 function App() {
+
+  const wholeScene = true
 
   return (
     <div className="App">
       <header className="App-header">
-        <Canvas
-          style={{
-            height: "100vh",
-            width: "100vw"
-          }}>
-          <WholeSceneAsNodes></WholeSceneAsNodes>
-        </Canvas>
+        <WholeScene></WholeScene>
       </header>
     </div>
   );

@@ -1,8 +1,9 @@
-import { useLoader, useThree } from '@react-three/fiber'
+import { useLoader, useThree, Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import SceneNode from './SceneNode'
 import { AxesHelper } from 'three'
+import { PerspectiveCamera } from '@react-three/drei'
 
 export default function WholeSceneAsNodes() {
     const gltf = useLoader(GLTFLoader, "./PN-0202.glb")
@@ -17,14 +18,9 @@ export default function WholeSceneAsNodes() {
 
     const axesHelper = new AxesHelper(50)
 
-    useThree(({camera}) => {
-        camera.position.set(3.5, 0, -.043)
-        camera.rotation.set(0, Math.PI/2, 0)
-        camera.fov = 25
-    })
-
     return (
-        <>
+        <Canvas style={{ height: "100vh", width: "100vw" }}>
+            <PerspectiveCamera makeDefault position={[3.5, 0, -.043]} rotation={[0, Math.PI / 2, 0]} fov={25}></PerspectiveCamera>
             <pointLight position={[-3, -3, 10]}></pointLight>
             <pointLight position={[3, 3, 10]}></pointLight>
             <Suspense>
@@ -40,8 +36,9 @@ export default function WholeSceneAsNodes() {
                 <SceneNode {...gltf.nodes["A"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["2"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["3"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Bald"]} customDrag={true}></SceneNode>
             </Suspense>
             <axesHelper></axesHelper>
-        </>
+        </Canvas>
     )
 }
