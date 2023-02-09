@@ -1,3 +1,13 @@
+###
+# CUSTOM .gitignores
+###
+
+public/*.glb
+
+###
+# THE CODE BELOW WAS GENERATED AUTOMATICALLY BY create-react-app
+###
+
 # Logs
 logs
 *.log
