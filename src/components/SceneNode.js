@@ -1,4 +1,3 @@
-import { OrbitControls } from "@react-three/drei";
 import { useDrag } from "@use-gesture/react"
 const { useThree } = require("@react-three/fiber");
 const { useRef, useState } = require("react");

@@ -1,8 +1,7 @@
-import { useLoader, Canvas, useThree } from '@react-three/fiber'
+import { useLoader, useThree } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import SceneNode from './SceneNode'
-import { OrbitControls, Stats } from '@react-three/drei'
 import { AxesHelper } from 'three'
 
 export default function WholeSceneAsNodes() {
@@ -19,8 +18,6 @@ export default function WholeSceneAsNodes() {
     const axesHelper = new AxesHelper(50)
 
     useThree(({camera}) => {
-        // console.log(camera.rotation)
-        // console.log(camera.position)
         camera.position.set(3.5, 0, -.043)
         camera.rotation.set(0, Math.PI/2, 0)
         camera.fov = 25
@@ -31,7 +28,6 @@ export default function WholeSceneAsNodes() {
             <pointLight position={[-3, -3, 10]}></pointLight>
             <pointLight position={[3, 3, 10]}></pointLight>
             <Suspense>
-                {/* {sceneNodes} */}
                 <SceneNode {...gltf.nodes["Fridge_low004"]} customDrag={false}></SceneNode>
                 <SceneNode {...gltf.nodes["P"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["R"]} customDrag={true}></SceneNode>
@@ -45,8 +41,6 @@ export default function WholeSceneAsNodes() {
                 <SceneNode {...gltf.nodes["2"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["3"]} customDrag={true}></SceneNode>
             </Suspense>
-            {/* <OrbitControls></OrbitControls> */}
-            <Stats></Stats>
             <axesHelper></axesHelper>
         </>
     )
