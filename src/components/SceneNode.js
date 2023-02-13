@@ -1,48 +1,15 @@
-import { useDrag } from "@use-gesture/react"
-const { useThree } = require("@react-three/fiber");
-const { useRef, useState } = require("react");
+import React from "react";
+import SceneGroup from "./SceneGroup";
+import SceneMesh from "./SceneMesh";
 
 
 function SceneNode(props) {
-  const ref = useRef();
-
-  const [position, setPosition] = useState(props.position)
-
-  const { size, viewport } = useThree()
-  const aspect = (size.width / viewport.width)
-
-  var bind = useDrag(
-    ({ offset: [xOffset, yOffset] }) => {
-      const [x, y, z] = props.position;
-      setPosition([x, y - (yOffset / aspect), z - (xOffset / aspect)]);
-    },
-    { pointerEvents: true }
-  );
-
-  if (!props.customDrag) {
-    bind = () => { }
-  }
 
   if (props.isGroup) {
-    const children = props.children.map((childObject, index) => {
-      return <SceneNode key={index} {...childObject} customDrag={false}></SceneNode>
-    })
-    return (
-    <group>
-      {children}
-    </group>)
+    return <SceneGroup {...props}></SceneGroup>
+  } else {
+    return <SceneMesh {...props}></SceneMesh>
   }
-
-  return (
-    <mesh
-      {...props}
-      position={position}
-      {...bind()}
-      ref={ref}
-      onClick={() => console.log(ref)}
-    >
-    </mesh>
-  )
 }
 
 
