@@ -1,8 +1,8 @@
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import React, {Suspense, useRef} from 'react'
-import { useLoader, Canvas } from 'react-three-fiber'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { AxesHelper } from 'three'
+import { Canvas, useLoader } from '@react-three/fiber'
 
 export default function WholeScene() {
     const gltf = useLoader(GLTFLoader, "./PN-0202.glb")
