@@ -10,12 +10,6 @@ export default function WholeSceneAsNodes() {
 
     console.log(gltf)
 
-    const sceneNodes = Object.keys(gltf.nodes).map((key, index, arr) => {
-        return (
-            <SceneNode {...gltf.nodes[key]}>
-            </SceneNode>)
-    })
-
     const axesHelper = new AxesHelper(50)
 
     return (
@@ -37,6 +31,9 @@ export default function WholeSceneAsNodes() {
                 <SceneNode {...gltf.nodes["2"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["3"]} customDrag={true}></SceneNode>
                 <SceneNode {...gltf.nodes["Bald"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["mehr"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Infos"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["2020"]} customDrag={true}></SceneNode>
             </Suspense>
             <axesHelper></axesHelper>
         </Canvas>
