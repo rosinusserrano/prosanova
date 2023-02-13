@@ -1,7 +1,7 @@
 import './App.css';
 import WholeSceneAsNodes from './components/WholeSceneAsNodes';
 import WholeScene from './components/WholeScene';
-import { useState } from 'react';
+import React from 'react';
 
 function App() {
 
@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <WholeScene></WholeScene>
+        {/* <WholeScene></WholeScene> */}
+        <WholeSceneAsNodes></WholeSceneAsNodes>
       </header>
     </div>
   );
