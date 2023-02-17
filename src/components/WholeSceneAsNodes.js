@@ -30,30 +30,30 @@ export default function WholeSceneAsNodes() {
 
     return (
         <Canvas style={{ height: "100vh", width: "100vw" }}>
-            <PerspectiveCamera makeDefault position={[3, 1.5, -.043]} rotation={[0, Math.PI / 2, 0]} fov={12}></PerspectiveCamera>
+            <PerspectiveCamera makeDefault position={[3, 1.5, -.043]} rotation={[0, Math.PI / 2, 0]} fov={20}></PerspectiveCamera>
             <pointLight castShadow position={[-3, -3, 10]}></pointLight>
             <pointLight castShadow position={[3, 3, 10]}></pointLight>
             <Suspense fallback={null}>
                 <SceneNode {...gltf.nodes["Kühlschrank"]} customDrag={false}></SceneNode>
-                <SceneMesh {...gltf.nodes["P"]} customDrag={false}></SceneMesh>
-                <SceneNode {...gltf.nodes["R"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["O"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["S"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["A001"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["N"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["O001"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["V"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["A"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["2"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["3"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["Bald"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["mehr"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["Infos"]} customDrag={false}></SceneNode>
-                <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["Schlechte_Wörter_Sticker"]} customDrag={false}></SceneNode>
-                <SceneNode {...gltf.nodes["Kalender"]} customDrag={false}></SceneNode>
-                <SceneNode url={"instagram.com"} {...gltf.nodes["Instagram_Magnet"]} customDrag={false}></SceneNode>
-                <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020001"]} customDrag={false}></SceneNode>
+                <SceneMesh {...gltf.nodes["P"]} customDrag={true}></SceneMesh>
+                <SceneNode {...gltf.nodes["R"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["O"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["S"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["A001"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["N"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["O001"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["V"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["A"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["2"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["3"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Bald"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["mehr"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Infos"]} customDrag={true}></SceneNode>
+                <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Schlechte_Wörter_Sticker"]} customDrag={true}></SceneNode>
+                <SceneNode {...gltf.nodes["Kalender"]} customDrag={true}></SceneNode>
+                <SceneNode url={"instagram.com"} {...gltf.nodes["Instagram_Magnet"]} customDrag={true}></SceneNode>
+                <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020001"]} customDrag={true}></SceneNode>
 
             </Suspense>
             {/* <axesHelper></axesHelper> */}
