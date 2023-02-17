@@ -35,7 +35,7 @@ export default function SceneMeshWithPhysics(props) {
     
 
 
-    const [ref] = useBox(() => ({ mass: 0, position: pos, rotation: [props.rotation._x, props.rotation._y, props.rotation._z], args: [.001, .001, .001] }), useRef())
+    const [ref] = useBox(() => ({ mass: 0, position: [0, 0, 0], rotation: [props.rotation._x, props.rotation._y, props.rotation._z], args: [.001, .001, .001] }), useRef())
     // const ref = useRef()
 
     return (
