@@ -5,7 +5,7 @@ import { AxesHelper } from 'three'
 import { Canvas, useLoader } from '@react-three/fiber'
 
 export default function WholeScene() {
-    const gltf = useLoader(GLTFLoader, "./PN-0202.glb")
+    const gltf = useLoader(GLTFLoader, "./PN-1603-7.glb")
 
     const ref = useRef()
 
@@ -13,13 +13,13 @@ export default function WholeScene() {
 
     return (
         <Canvas style={{height: "100vh", width: "100vw"}}>
-            <PerspectiveCamera makeDefault position={[3.5, 0, -.043]} rotation={[0, Math.PI / 2, 0]} fov={25}></PerspectiveCamera>
+            <PerspectiveCamera makeDefault position={[3.5, 1.5, -.043]} rotation={[0, Math.PI / 2, 0]} fov={25}></PerspectiveCamera>
             <pointLight position={[-3, -3, 10]}></pointLight>
             <pointLight position={[3, 3, 10]}></pointLight>
             <Suspense>
                 <primitive object={gltf.scene} ref={ref}></primitive>
             </Suspense>
-            <OrbitControls></OrbitControls>
+            {/* <OrbitControls></OrbitControls> */}
             <axesHelper></axesHelper>
         </Canvas>
     )
