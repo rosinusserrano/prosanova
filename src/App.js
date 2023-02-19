@@ -19,25 +19,6 @@ function App() {
   const wholeScene = true
 
   return (
-    // <div className="App">
-    //   <>
-    //     <Router>
-    //       <Imprint />
-    //       <Routes>
-    //         <Route ></Route>
-    //       </Routes>
-
-    //     </Router>
-
-    //   </>
-
-
-
-    //   <header className="App-header">
-    //     {/* <WholeScene></WholeScene> */}
-    //     <WholeSceneAsNodes></WholeSceneAsNodes>
-    //   </header>
-    // </div>
     <BrowserRouter>
       <Routes>
         <Route index element={
