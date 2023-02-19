@@ -8,7 +8,7 @@ function App() {
   const wholeScene = true
 
   return (
-    <div className="App">
+    <div className="App1">
       <header className="App-header">
         {/* <WholeScene></WholeScene> */}
         <WholeSceneAsNodes></WholeSceneAsNodes>
