@@ -1,11 +1,10 @@
-import { useLoader, Canvas } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import React, { Suspense, useRef } from 'react'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import SceneNode from './SceneNode'
 import { PerspectiveCamera, Scroll, ScrollControls } from '@react-three/drei'
 import { useBox } from '@react-three/cannon'
 import SceneMesh from './SceneMesh'
-import { DRACOLoader } from 'three-stdlib'
+import { getProsanovaScene } from 'functions'
 
 
 function Box() {
@@ -20,13 +19,7 @@ function Box() {
 
 export default function WholeSceneAsNodes() {
 
-    const gltf = useLoader(GLTFLoader, "./PN-2002 (2).glb", (loader) => {
-        console.log(12345)
-        const dracoLoader = new DRACOLoader()
-        dracoLoader.setDecoderConfig({ type: 'js' });
-        dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/');
-        loader.setDRACOLoader(dracoLoader)
-    })
+    const gltf = getProsanovaScene()
 
     console.log(Object.keys(gltf["nodes"]))
     console.log(gltf)
