@@ -1,74 +1,75 @@
-import { Canvas } from '@react-three/fiber'
-import React, { Suspense, useRef } from 'react'
-import SceneNode from './SceneNode'
-import { PerspectiveCamera, Scroll, ScrollControls } from '@react-three/drei'
-import { useBox } from '@react-three/cannon'
-import SceneMesh from './SceneMesh'
-import { getProsanovaScene } from 'functions'
-
+import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useRef } from "react";
+import SceneNode from "./SceneNode";
+import { PerspectiveCamera, Scroll, ScrollControls } from "@react-three/drei";
+import { useBox } from "@react-three/cannon";
+import SceneMesh from "./SceneMesh";
+import { useProsanovaScene } from "functions";
 
 function Box() {
-    const [ref] = useBox(() => ({ mass: 1, position: [1, 0, 0], args: [.1, .1, .1] }), useRef())
-    // const ref = useRef()
+  const [ref] = useBox(
+    () => ({ mass: 1, position: [1, 0, 0], args: [0.1, 0.1, 0.1] }),
+    useRef()
+  );
+  // const ref = useRef()
 
-    return <mesh ref={ref} position={[1, 0, 0]}>
-        <boxGeometry args={[.1, .1, .1]}></boxGeometry>
-        <meshStandardMaterial></meshStandardMaterial>
+  return (
+    <mesh ref={ref} position={[1, 0, 0]}>
+      <boxGeometry args={[0.1, 0.1, 0.1]}></boxGeometry>
+      <meshStandardMaterial></meshStandardMaterial>
     </mesh>
+  );
 }
 
 export default function WholeSceneAsNodes() {
+  const gltf = useProsanovaScene();
 
-    const gltf = getProsanovaScene()
+  console.log(Object.keys(gltf["nodes"]).filter((val) => val.startsWith("A_")));
+  console.log(Object.keys(gltf["nodes"]));
+  console.log(gltf);
 
-    console.log(Object.keys(gltf["nodes"]))
-    console.log(gltf)
-
-    return (
-        <Canvas style={{ height: "100vh", width: "100vw" }}>
-            <ScrollControls pages={2} damping={.05}>
-                <PerspectiveCamera makeDefault position={[1.3, 2, 0]} rotation={[0, Math.PI / 2, 0]} fov={25}></PerspectiveCamera>
-                <pointLight castShadow position={[-3, -3, 10]}></pointLight>
-                <pointLight castShadow position={[3, 3, 10]}></pointLight>
-                <Suspense fallback={null}>
-                    <Scroll>
-                        <SceneNode {...gltf.nodes["Kühlschrank"]} customDrag={false}></SceneNode>
-                        <SceneMesh {...gltf.nodes["P"]} customDrag={true}></SceneMesh>
-                        <SceneNode {...gltf.nodes["R"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["O"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["S"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["A001"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["N"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["O001"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["V"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["A"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["2"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["3"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["Bald"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["mehr"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["infos"]} customDrag={true}></SceneNode>
-                        <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["Schlechte_Wörter_Sticker"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["Kalender"]} customDrag={true}></SceneNode>
-                        <SceneNode url={"instagram.com"} {...gltf.nodes["Instagram_Magnet"]} customDrag={true}></SceneNode>
-                        <SceneNode url={"https://prosanova.net"} {...gltf.nodes["2020001"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["Zebra_Paper"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["Bücher_oben"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["23ster"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["25ster"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["bis001"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["bald001"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["diesen001"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["jahres"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["pfeile_runter"]} cutomDrag={false}></SceneNode>
-                        {/* <SceneNode {...gltf.nodes["Point"]} cutomDrag={false}></SceneNode> */}
-                        <SceneNode {...gltf.nodes["Save_the_Date"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["Blumenvase"]} cutomDrag={false}></SceneNode>
-                        <SceneNode {...gltf.nodes["bald001"]} customDrag={true}></SceneNode>
-                        <SceneNode {...gltf.nodes["bis001"]} customDrag={true}></SceneNode>
-                    </Scroll>
-                </Suspense>
-            </ScrollControls>
-        </Canvas>
-    )
+  return (
+    <Canvas style={{ height: "100vh", width: "100vw" }}>
+      <ScrollControls pages={2} damping={0.05}>
+        <PerspectiveCamera
+          makeDefault
+          position={[10, 1, 0]}
+          rotation={[0, Math.PI / 2, 0]}
+          fov={5}
+        ></PerspectiveCamera>
+        <pointLight castShadow position={[5, 0, 0]}></pointLight>
+        <pointLight castShadow position={[5, 5, 5]}></pointLight>
+        <Suspense fallback={null}>
+          <Scroll>
+            <SceneNode {...gltf["nodes"]["A_Handle"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_A"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_Wolke_Magnet"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_A001"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_N"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_2"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_3"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_O001"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_V"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_P"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_O"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_23ster"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_2020"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_R"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_S"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_bis"]} customDrag={false}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_25ster"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_infos"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_bald"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_pfeile_runter"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_2017"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_diesen"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_jahres"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_sechster"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_mehr"]} customDrag={true}></SceneNode>
+            <SceneNode {...gltf["nodes"]["A_Instagram_Magnet"]} customDrag={true}></SceneNode>
+          </Scroll>
+        </Suspense>
+      </ScrollControls>
+    </Canvas>
+  );
 }

@@ -3,7 +3,7 @@ import { DRACOLoader, GLTFLoader } from "three-stdlib";
 
 
 
-export function getProsanovaScene() {
+export function useProsanovaScene() {
     return useLoader(GLTFLoader, process.env.REACT_APP_GLB_FILE, (loader) => {
         console.log(12345)
         const dracoLoader = new DRACOLoader()
