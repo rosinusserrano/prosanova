@@ -3,10 +3,9 @@
 
 
 .imprint-container {
-    bottom: 0;
+    bottom: 1rem;
     right: 0;
     Position: fixed;
-    padding: 10px;
     display: inline-flex;
     justify-content: space-between;
     /* aligns items with equal space between them */
