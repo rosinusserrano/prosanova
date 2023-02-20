@@ -1,5 +1,5 @@
 import React from 'react';
-import Imprint from '../Imprint';
+import Imprint from '../components/Imprint';
 import '../imprint.css';
 import { Link, Routes } from 'react-router-dom';
 

@@ -8,8 +8,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './components/fonts.css';
 import './components/imprint.css';
-import ImprintPage from 'components/pages/imprintpage';
-import Test from 'components/pages/Test';
+import ImprintPage from 'pages/imprintpage';
+import Test from 'pages/Test';
 import { Canvas } from '@react-three/fiber';
 
 
