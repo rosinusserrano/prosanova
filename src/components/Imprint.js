@@ -2,8 +2,9 @@ import React from 'react';
 import ImprintPage from '../pages/imprintpage';
 
 
-import './imprint.css';
-import './fonts.css';
+import '../styles/imprint.css';
+import '../styles/fonts.css';
+import '../styles/pages.css';
 
 import { Link, Routes } from 'react-router-dom';
 

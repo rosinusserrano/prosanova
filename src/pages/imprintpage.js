@@ -1,13 +1,13 @@
 import React from 'react';
-import Imprint from './Imprint';
-import './imprint.css';
-import './fonts.css';
-import './pages.css';
+import Imprint from '../components/Imprint';
+import '../styles/imprint.css';
+import '../styles/fonts.css';
+import '../styles/pages.css';
 
 
 
 import { Link, Routes } from 'react-router-dom';
-import HomeButton from './HomeButton';
+import HomeButton from '../components/HomeButton';
 
 function ImprintPage() {
   return <>
