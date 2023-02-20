@@ -41,15 +41,31 @@ export default function WholeSceneAsNodes() {
 
   const makeDraggable = false
 
+  // window.addEventListener(
+  //   'resize',
+  //   throttle(
+  //     () => {
+  //       const width = window.innerWidth;
+  //       const height = window.innerHeight;
+  //       camera.aspect = width / height;
+  //       camera.updateProjectionMatrix();
+  //       renderer.setSize(width, height);
+  //       setCanvasDimensions(renderer.domElement, width, height);
+  //     },
+  //     500,
+  //     { trailing: true }
+  //   )
+  // );
+
   return (
     <Canvas style={{ height: "100vh", width: "100vw" }}>
-    <OrbitControls target={[.1, 2, 0]}></OrbitControls>
-      <ScrollControls pages={2} damping={0.05}>
+    {/* <OrbitControls target={[.1, 2, 0]}></OrbitControls> */}
+      <ScrollControls pages={1.8} damping={0.05}>
         <PerspectiveCamera
           makeDefault
-          position={[10, 1, 0]}
+          position={[10, 1.25, -.01]}
           rotation={[0, Math.PI / 2, 0]}
-          fov={5}
+          fov={1.65}
         ></PerspectiveCamera>
         <pointLight castShadow position={[5, 0, 0]}></pointLight>
         <pointLight castShadow position={[5, 5, 5]}></pointLight>
