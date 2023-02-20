@@ -5,8 +5,10 @@ import SceneMesh from "./SceneMesh";
 
 function SceneNode(props) {
 
-  if (props.isGroup) {
-    return <SceneGroup {...props}></SceneGroup>
+  const {isGroup, ...propsWithoutIsGroup} = props
+
+  if (props.isGroup || ("children" in props && props.children.length > 0)) {
+    return <SceneGroup {...propsWithoutIsGroup}></SceneGroup>
   } else {
     return <SceneMesh {...props}></SceneMesh>
   }

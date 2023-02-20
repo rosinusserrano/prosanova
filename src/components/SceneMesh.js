@@ -1,9 +1,10 @@
+import { useBox } from '@react-three/cannon';
 import { useThree } from '@react-three/fiber';
 import { useDrag } from '@use-gesture/react';
 import React, { useRef, useState } from 'react'
 
 export default function SceneMesh(props) {
-    const ref = useRef();
+    
 
     const [position, setPosition] = useState(props.position)
 
@@ -22,6 +23,10 @@ export default function SceneMesh(props) {
         bind = (() => { })
     }
 
+    // const [ref] = useBox(() => ({position: position}))
+
+    const ref = useRef()
+
     return (
         <mesh
             {...props}
@@ -29,6 +34,7 @@ export default function SceneMesh(props) {
             {...bind()}
             ref={ref}
             onClick={() => console.log(ref)}
+            castShadow
         >
         </mesh>
     )

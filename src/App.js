@@ -5,10 +5,12 @@ import Imprint from './components/Imprint';
 import WholeSceneAsNodes from './components/WholeSceneAsNodes';
 import WholeScene from './components/WholeScene';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './components/fonts.css';
 import './components/imprint.css';
-import ImprintPage from 'components/imprintpage';
+import ImprintPage from 'pages/imprintpage';
+import Test from 'pages/Test';
+import { Canvas } from '@react-three/fiber';
 
 
 
@@ -16,29 +18,8 @@ import ImprintPage from 'components/imprintpage';
 
 function App() {
 
-  const wholeScene = true
-
   return (
-    // <div className="App">
-    //   <>
-    //     <Router>
-    //       <Imprint />
-    //       <Routes>
-    //         <Route ></Route>
-    //       </Routes>
-
-    //     </Router>
-
-    //   </>
-
-
-
-    //   <header className="App-header">
-    //     {/* <WholeScene></WholeScene> */}
-    //     <WholeSceneAsNodes></WholeSceneAsNodes>
-    //   </header>
-    // </div>
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route index element={
           <div className='App'>
@@ -49,9 +30,28 @@ function App() {
           </div>
         } />
         <Route path="/imprint" element={<ImprintPage />} />
+        <Route path="/ref" element={
+          <div className='App'>
+            <Imprint />
+            <header className='App-header'>
+              <WholeScene />
+            </header>
+          </div>}>
+        </Route>
+        <Route path="/test" element={
+          <div className='App'>
+            <Imprint />
+            <header className='App-header'>
+              <Canvas style={{ height: "100vh", width: "100vw" }}>
+                <ambientLight></ambientLight>
+                <pointLight position={[-1.5, -.5, 4]}></pointLight>
+                <Test />
+              </Canvas>
+            </header>
+          </div>}>
+        </Route>
       </Routes>
-    </BrowserRouter>
-
+    </Router>
   );
 
 }

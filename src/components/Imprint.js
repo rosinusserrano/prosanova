@@ -1,4 +1,6 @@
 import React from 'react';
+import ImprintPage from '../pages/imprintpage';
+
 
 import './imprint.css';
 import './fonts.css';
