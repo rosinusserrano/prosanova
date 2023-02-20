@@ -4,20 +4,13 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { AxesHelper } from 'three'
 import { Canvas, useLoader } from '@react-three/fiber'
 import { DRACOLoader } from 'three-stdlib'
+import { getProsanovaScene } from 'functions'
 
 export default function WholeScene() {
 
-    const gltf = useLoader(GLTFLoader, "./PN-2002 (2).glb", (loader) => {
-        console.log(12345)
-        const dracoLoader = new DRACOLoader()
-        dracoLoader.setDecoderConfig({ type: 'js' });
-        dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/');
-        loader.setDRACOLoader(dracoLoader)
-    })
+    const gltf = getProsanovaScene()
 
     const ref = useRef()
-
-    const axesHelper = new AxesHelper(50)
 
     return (
         <Canvas style={{height: "100vh", width: "100vw"}}>
