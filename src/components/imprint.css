@@ -1,54 +1,51 @@
 @font-face {
     font-family: BastardoRegular;
     src: url('./fonts/BastardoGroteskRegular.woff');
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: BastardoBold;
     src: url('./fonts/BastardoGroteskBold.woff');
-  }
-  
-  
+}
 
- 
-.imprint-container{
+
+
+
+.imprint-container {
     bottom: 0;
     right: 0;
     Position: fixed;
     padding: 10px;
     display: inline-flex;
-        justify-content: space-between; /* aligns items with equal space between them */
-        align-items: center;
+    justify-content: space-between;
+    /* aligns items with equal space between them */
+    align-items: center;
     z-index: 10;
+
     width: auto;
 
 
 
 }
 
-.imprint-item{
+.imprint-item {
     flex: 2;
-    margin: 0 2px;
+    margin: 0 1rem;
     text-align: center;
     border-radius: 1em;
-    background: rgba(234, 234, 234, 0.723);
-    padding: .2em 1em;
+    background: rgba(234, 234, 234, 0.908);
+    padding: .2em 1.4em;
     color: black;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     font-size: 1rem;
-    font-family: BastardoBold;
+    font-family: BastardoRegular;
 
 
 
 }
 
-.imprint-item:hover{
+.imprint-item:hover {
     color: white;
 
-}
-
-.red{
-    z-index: 400;
-    font-size: 100;
 }

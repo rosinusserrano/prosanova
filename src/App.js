@@ -8,7 +8,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './components/fonts.css';
 import './components/imprint.css';
-import ImprintPage from 'components/pages/imprintpage';
+import ImprintPage from 'components/imprintpage';
 
 
 
