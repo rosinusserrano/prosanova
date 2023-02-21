@@ -24,11 +24,11 @@ function Box() {
 
 
 function FridgeImage() {
-    const texture = useLoader(TextureLoader, BACKGROUND_FILE)
-    return <mesh rotation={[0, Math.PI / 2, 0]} position={[.07, 1.2, 0]}>
-        <planeGeometry args={[.65, .65]}></planeGeometry>
-        <meshBasicMaterial map={texture}></meshBasicMaterial>
-    </mesh>
+  const texture = useLoader(TextureLoader, BACKGROUND_FILE)
+  return <mesh rotation={[0, Math.PI / 2, 0]} position={[.07, 1.2, 0]}>
+    <planeGeometry args={[.65, .65]}></planeGeometry>
+    <meshBasicMaterial map={texture}></meshBasicMaterial>
+  </mesh>
 }
 
 
@@ -59,7 +59,7 @@ export default function WholeSceneAsNodes() {
 
   return (
     <Canvas style={{ height: "100vh", width: "100vw" }}>
-    {/* <OrbitControls target={[.1, 2, 0]}></OrbitControls> */}
+      {/* <OrbitControls target={[.1, 2, 0]}></OrbitControls> */}
       <ScrollControls pages={1.8} damping={0.05}>
         <PerspectiveCamera
           makeDefault
@@ -67,11 +67,12 @@ export default function WholeSceneAsNodes() {
           rotation={[0, Math.PI / 2, 0]}
           fov={1.65}
         ></PerspectiveCamera>
-        <pointLight castShadow position={[5, 0, 0]}></pointLight>
-        <pointLight castShadow position={[5, 5, 5]}></pointLight>
-        <Suspense fallback={null}>
-          <Scroll>
-            {/* <FridgeImage></FridgeImage> */}
+        {/* <pointLight castShadow position={[5, 0, 0]}></pointLight>
+        <pointLight castShadow position={[5, 5, 5]}></pointLight> */}
+        <pointLight position={[10, 1.25, -.01]} intensity={.01}></pointLight>
+        <ambientLight intensity={1}></ambientLight>
+        <Scroll>
+          <Suspense fallback={null}>
             <SceneNode {...gltf["nodes"]["A_Handle"]} customDrag={makeDraggable}></SceneNode>
             <SceneNode {...gltf["nodes"]["A_A"]} customDrag={makeDraggable}></SceneNode>
             <SceneNode {...gltf["nodes"]["A_Wolke_Magnet"]} customDrag={makeDraggable}></SceneNode>
@@ -99,8 +100,9 @@ export default function WholeSceneAsNodes() {
             <SceneNode {...gltf["nodes"]["A_mehr"]} customDrag={makeDraggable}></SceneNode>
             <SceneNode {...gltf["nodes"]["A_Instagram_Magnet"]} customDrag={makeDraggable}></SceneNode>
             <SceneNode {...gltf["nodes"]["A_Hintergrund"]} customDrag={false}></SceneNode>
-          </Scroll>
-        </Suspense>
+
+          </Suspense>
+        </Scroll>
       </ScrollControls>
     </Canvas>
   );
