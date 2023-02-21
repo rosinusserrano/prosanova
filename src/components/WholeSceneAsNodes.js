@@ -28,16 +28,16 @@ function FridgeImage() {
   const texture = useLoader(TextureLoader, BACKGROUND_FILE)
   return <mesh rotation={[0, -Math.PI / 2, 0]} position={[1, 0, 0]}>
     <planeGeometry args={[3, 3]}></planeGeometry>
-    <meshBasicMaterial map={texture}></meshBasicMaterial>
-  </mesh>
+      <meshBasicMaterial map={texture}></meshBasicMaterial>
+    </mesh>
 }
 
 
-export default function WholeSceneAsNodes() {
+    export default function WholeSceneAsNodes() {
   const gltf = useProsanovaScene();
-  console.log(gltf);
+    console.log(gltf);
 
-  const makeDraggable = false
+    const makeDraggable = false
 
   // window.addEventListener(
   //   'resize',
@@ -51,12 +51,12 @@ export default function WholeSceneAsNodes() {
   //       setCanvasDimensions(renderer.domElement, width, height);
   //     },
   //     500,
-  //     { trailing: true }
+  //     {trailing: true }
   //   )
   // );
 
   const customMaterialProps = {
-    metalness: .1,
+      metalness: .1,
     roughness: 0,
     exposure: 1,
     // reflectivity: 1,
@@ -78,8 +78,8 @@ export default function WholeSceneAsNodes() {
 
 
   return (
-    <Canvas style={{ height: "100vh", width: "100vw" }} dpr={[1, 2]}>
-      {/* <OrbitControls target={[.1, 1.2, 0]}></OrbitControls> */}
+    <Canvas style={{ height: "100vh", width: "100vw" }}>
+      {/* <OrbitControls target={[.1, 2, 0]}></OrbitControls> */}
       <ScrollControls pages={1.8} damping={0.05}>
         <PerspectiveCamera
           makeDefault
@@ -88,9 +88,9 @@ export default function WholeSceneAsNodes() {
           fov={2}
         ></PerspectiveCamera>
         <pointLight castShadow position={[1, 1.2, 0]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1,1.25, .1]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1,1.25, -.15]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1,1.25, .2]} intensity={.1}></pointLight>
+        <pointLight castShadow position={[1, 1.25, .1]} intensity={.1}></pointLight>
+        <pointLight castShadow position={[1, 1.25, -.15]} intensity={.1}></pointLight>
+        <pointLight castShadow position={[1, 1.25, .2]} intensity={.1}></pointLight>
         <pointLight castShadow position={[1, 1.3, -.1]} intensity={.1}></pointLight>
         <pointLight castShadow position={[1, 1.3, .15]} intensity={.1}></pointLight>
         <pointLight castShadow position={[1, 1.3, -.2]} intensity={.1}></pointLight>
@@ -126,7 +126,8 @@ export default function WholeSceneAsNodes() {
             <SceneNode {...gltf["nodes"]["A_Hintergrund"]} customDrag={false}></SceneNode>
           </Scroll>
         </Suspense>
+
       </ScrollControls>
     </Canvas>
-  );
+    );
 }

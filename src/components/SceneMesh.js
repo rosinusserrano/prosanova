@@ -40,6 +40,8 @@ export default function SceneMesh(props) {
         { pointerEvents: true }
     );
 
+    props.material["metalness"] = 0.9
+
     if (!props.customDrag) {
         bind = (() => { })
     }
