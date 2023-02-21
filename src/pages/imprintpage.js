@@ -239,14 +239,14 @@ function ImprintPage() {
       </div>
 
       <div className='grid-row-start-mobile-1 grid-1-column-mobile grid-column-start-1-mobile grid-child grid-2-column scrollable-element font-sz-small'>
-        ANGABEN GEMÄSS § 5 TM Bella triste e.V. <br />
-        Vorsitz: Lucie Frahm <br />
+        ANGABEN GEMÄSS § 5 TM Bella triste e.V. <br /><br />
+        Vorsitz: <br />Lucie Frahm <br />Malek Halici<br/> Lina Briks<br/><br />
         Neustädter Markt 3-4<br />
         31135 Hildesheim<br />
-        Telefon: +49 (0) 5121 7 55 34 92
-        <br /> eMail: kontakt [at] bellatriste.de;<br /> Internet:
-        VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV: BELLA Triste e.V.
-        Neustädter Markt 3-4
+        Telefon: + 49 (0) 172 7213929
+        <br /> eMail: kontakt [at] bellatriste.de;<br /> <br />Internet: https://www.bellatriste.de<br />
+        VERANTWORTLICH FÜR DEN INHALT  NACH § 55 ABS. 2 RSTV: <br/>BELLA Triste e.V. <br />
+        Neustädter Markt 3-4 <br />
         31134 Hildesheim  <br /> <br />
         WEB- DESIGN & DEVELOPEMENT:<br />
         YAEL OHMER<br />
