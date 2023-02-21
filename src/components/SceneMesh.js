@@ -1,10 +1,31 @@
 import { useBox } from '@react-three/cannon';
-import { useThree } from '@react-three/fiber';
+import { useLoader, useThree } from '@react-three/fiber';
 import { useDrag } from '@use-gesture/react';
 import React, { useRef, useState } from 'react'
+import { EquirectangularReflectionMapping, PMREMGenerator, sRGBEncoding, TextureLoader } from 'three';
+
+
+
+function useEnvMapping() {
+
+    const { gl } = useThree()
+    const pmremGenerator = new PMREMGenerator(gl)
+    pmremGenerator.compileEquirectangularShader()
+
+    gl.toneMappingExposure = 1
+
+    const texture = useLoader(TextureLoader, "./equirectangular.png")
+    texture.mapping = EquirectangularReflectionMapping
+    texture.encoding = sRGBEncoding
+
+    const pngCubeRenderTarget = pmremGenerator.fromEquirectangular(texture)
+
+    return pngCubeRenderTarget
+}
+
 
 export default function SceneMesh(props) {
-    
+
 
     const [position, setPosition] = useState(props.position)
 
@@ -23,7 +44,17 @@ export default function SceneMesh(props) {
         bind = (() => { })
     }
 
-    // const [ref] = useBox(() => ({position: position}))
+    if ("customMaterialOverwrites" in props) {
+        for (const materialProp in props.customMaterialOverwrites) {
+            props.material[materialProp] = props.customMaterialOverwrites[materialProp]
+        }
+    }
+
+    const envMapping = useEnvMapping()
+    props.material.envMap = envMapping.texture
+    props.material.needsUpdate = true
+
+    if (props.name == "A_N") { console.log(props) }
 
     const ref = useRef()
 
