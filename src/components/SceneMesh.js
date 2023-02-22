@@ -1,27 +1,6 @@
-import { useBox } from '@react-three/cannon';
-import { useLoader, useThree } from '@react-three/fiber';
+import { useThree } from '@react-three/fiber';
 import { useDrag } from '@use-gesture/react';
 import React, { useRef, useState } from 'react'
-import { EquirectangularReflectionMapping, PMREMGenerator, sRGBEncoding, TextureLoader } from 'three';
-
-
-
-function useEnvMapping() {
-
-    const { gl } = useThree()
-    const pmremGenerator = new PMREMGenerator(gl)
-    pmremGenerator.compileEquirectangularShader()
-
-    gl.toneMappingExposure = 1
-
-    const texture = useLoader(TextureLoader, "./equirectangular.png")
-    texture.mapping = EquirectangularReflectionMapping
-    texture.encoding = sRGBEncoding
-
-    const pngCubeRenderTarget = pmremGenerator.fromEquirectangular(texture)
-
-    return pngCubeRenderTarget
-}
 
 
 export default function SceneMesh(props) {
@@ -40,8 +19,6 @@ export default function SceneMesh(props) {
         { pointerEvents: true }
     );
 
-    props.material["metalness"] = 0.9
-
     if (!props.customDrag) {
         bind = (() => { })
     }
@@ -51,12 +28,6 @@ export default function SceneMesh(props) {
             props.material[materialProp] = props.customMaterialOverwrites[materialProp]
         }
     }
-
-    const envMapping = useEnvMapping()
-    props.material.envMap = envMapping.texture
-    props.material.needsUpdate = true
-
-    if (props.name == "A_N") { console.log(props) }
 
     const ref = useRef()
 

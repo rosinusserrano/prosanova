@@ -9,7 +9,7 @@ export default function WholeScene() {
   const ref = useRef();
 
   return (
-    <Canvas style={{ height: "100vh", width: "100vw" }}>
+    <>
       <PerspectiveCamera
         makeDefault
         position={[3.5, 1.5, -0.043]}
@@ -23,6 +23,6 @@ export default function WholeScene() {
       </Suspense>
       <OrbitControls target={[0, 1.8, 0]}></OrbitControls>
       <axesHelper></axesHelper>
-    </Canvas>
+    </>
   );
 }
