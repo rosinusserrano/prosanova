@@ -8,7 +8,7 @@ import React, { StrictMode } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/fonts.css';
 import './styles/imprint.css';
-import ImprintPage from 'pages/imprintpage';
+import ImprintPage from 'pages/ImprintPage';
 import Test from 'pages/Test';
 import { Canvas } from '@react-three/fiber';
 
