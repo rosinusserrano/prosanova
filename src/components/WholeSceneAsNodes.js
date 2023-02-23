@@ -1,66 +1,85 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense, useMemo, useRef, useState } from "react";
 import SceneNode from "./SceneNode";
 import {
   PerspectiveCamera,
-  Scroll,
   ScrollControls,
   OrbitControls,
   Environment,
+  SoftShadows,
+  Scroll,
 } from "@react-three/drei";
 import { useProsanovaScene } from "functions";
 import { useControls } from "leva";
+import { DirectionalLightShadow } from "three";
+import { useThree } from "@react-three/fiber";
+import Loader from "./Loader";
 
 export default function WholeSceneAsNodes() {
   const gltf = useProsanovaScene();
   const makeDraggable = false;
 
-  const {metalness, roughness} = useControls({
-    metalness: {value: 0.1, min: 0, max: 1, step: .1},
-    roughness: {value: 0, min: 0, max: 1, step: .1},
-    cameraYY: {value: 1.25, min: -10, max: 20, step: .1},
-  })
+  const groupRef = useRef()
+
+  const cameraFov = 65;
+  const imageWidth = 5.45;
+  const imageHeight = 4;
+  const initialCameraYOffset = 1.5;
+  const [cameraDistance, setCameraDistance] = useState(
+    (imageWidth * window.innerHeight) /
+      (Math.tan((cameraFov * Math.PI) / 180 / 2) * 2 * window.innerWidth)
+  );
+  const [cameraYOffset, setCameraYOffset] = useState(
+    initialCameraYOffset -
+      Math.max(
+        0,
+        (2 * cameraDistance * Math.tan((cameraFov * Math.PI) / 180 / 2) -
+          imageHeight) /
+          2
+      )
+  );
+
+  window.addEventListener("resize", () => {
+    setCameraDistance(
+      (imageWidth * window.innerHeight) /
+        (Math.tan((cameraFov * Math.PI) / 180 / 2) * 2 * window.innerWidth)
+    );
+    setCameraYOffset(
+      initialCameraYOffset -
+        Math.max(
+          0,
+          (2 * cameraDistance * Math.tan((cameraFov * Math.PI) / 180 / 2) -
+            imageHeight) /
+            2
+        )
+    );
+    setPages(Math.max(1, (window.innerWidth / window.innerHeight) / 0.82))
+  });
+
+  const [metalness, roughness] = [0.1, 0.0];
 
   const customMaterialProps = {
     metalness: metalness,
     roughness: roughness,
   };
 
-  const initialYOffset = 11.3
-  const [cameraX, setCameraX] = useState(12300 / window.innerWidth);
-  const [cameraY, setCameraY] = useState(
-    Math.min(initialYOffset, initialYOffset + (window.innerWidth - 1280) / 1000)
-  );
-  window.addEventListener("resize", () => {
-    setCameraX(12300 / window.innerWidth);
-    setCameraY(Math.min(initialYOffset, initialYOffset + (window.innerWidth - 1280) / 1000));
-  });
+  const [pages, setPages] = useState(Math.max(1, (window.innerWidth / window.innerHeight) / 0.82))
 
   return (
     <>
-      {/* <OrbitControls target={[.1, cameraY, -.1]}></OrbitControls> */}
-      <ScrollControls pages={2} damping={0.05}>
+      {/* <OrbitControls
+        target={[0, cameraYOffset, -0.1]}
+      ></OrbitControls> */}
+      <ScrollControls pages={pages} damping={0.05}>
         <PerspectiveCamera
           makeDefault
-          position={[cameraX, cameraY, -.1]}
+          position={[cameraDistance, cameraYOffset, -0.1]}
           rotation={[0, Math.PI / 2, 0]}
-          fov={25}
+          fov={cameraFov}
         ></PerspectiveCamera>
-        <Environment
-          preset="apartment"
-          background
-          resolution={1}
-        ></Environment>
-        {/* <directionalLight position={[1, 1, -1]}></directionalLight> */}
-        {/* <pointLight castShadow position={[1, 1.2, 0]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.25, .1]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.25, -.15]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.25, .2]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.3, -.1]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.3, .15]} intensity={.1}></pointLight>
-        <pointLight castShadow position={[1, 1.3, -.2]} intensity={.1}></pointLight> */}
-        <Suspense fallback={null}>
+        <Environment preset="apartment" background></Environment>
+        <Suspense fallback={<Loader/>}>
           <Scroll>
-            <group scale={9} position={[0, 0, 0]}>
+            <group scale={9} position={[0, 0, 0]} ref={groupRef}>
               <SceneNode
                 {...gltf["nodes"]["A_Handle"]}
                 customDrag={makeDraggable}
@@ -125,6 +144,7 @@ export default function WholeSceneAsNodes() {
                 {...gltf["nodes"]["A_2020"]}
                 customDrag={makeDraggable}
                 customMaterialOverwrites={customMaterialProps}
+                url="https://prosanova.net"
               ></SceneNode>
               <SceneNode
                 {...gltf["nodes"]["A_R"]}
@@ -165,6 +185,7 @@ export default function WholeSceneAsNodes() {
                 {...gltf["nodes"]["A_2017"]}
                 customDrag={makeDraggable}
                 customMaterialOverwrites={customMaterialProps}
+                url="https://prosanova.net"
               ></SceneNode>
               <SceneNode
                 {...gltf["nodes"]["A_diesen"]}
@@ -190,10 +211,12 @@ export default function WholeSceneAsNodes() {
                 {...gltf["nodes"]["A_Instagram_Magnet"]}
                 customDrag={makeDraggable}
                 customMaterialOverwrites={customMaterialProps}
+                url="https://www.instagram.com/prosanovafestival/"
               ></SceneNode>
               <SceneNode
                 {...gltf["nodes"]["A_Hintergrund"]}
-                customDrag={false} receiveShadow
+                customDrag={false}
+                receiveShadow
               ></SceneNode>
             </group>
           </Scroll>

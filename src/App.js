@@ -23,7 +23,7 @@ function App() {
               <div className="App">
                 <Imprint />
                 <header className="App-header">
-                  <Canvas style={{ height: "100vh", width: "100vw" }}>
+                  <Canvas style={{ height: "100vh", width: "100vw" }} shadows>
                     <WholeSceneAsNodes />
                   </Canvas>
                 </header>

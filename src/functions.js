@@ -6,7 +6,6 @@ import { DRACOLoader, GLTFLoader } from "three-stdlib";
 
 export function useProsanovaScene() {
     return useLoader(GLTFLoader, GLB_FILE, (loader) => {
-        console.log(12345)
         const dracoLoader = new DRACOLoader()
         dracoLoader.setDecoderConfig({ type: 'js' });
         dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/');

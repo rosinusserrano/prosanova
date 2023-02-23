@@ -1,6 +1,11 @@
 import { useThree } from "@react-three/fiber";
 import { useDrag } from "@use-gesture/react";
 import React, { useRef, useState } from "react";
+import {
+  MeshBasicMaterial,
+  MeshPhysicalMaterial,
+  MeshStandardMaterial,
+} from "three";
 
 export default function SceneMesh(props) {
   const [position, setPosition] = useState(props.position);
@@ -20,6 +25,12 @@ export default function SceneMesh(props) {
     bind = () => {};
   }
 
+  function openUrl() {
+    if ("url" in props) {
+      window.open(props.url);
+    }
+  }
+
   if ("customMaterialOverwrites" in props && "material" in props) {
     for (const materialProp in props.customMaterialOverwrites) {
       props.material[materialProp] =
@@ -27,21 +38,20 @@ export default function SceneMesh(props) {
     }
   }
 
-  // if (props.name === "A_Hintergrund") {
-  //     console.log(props.material)
-  // }
+  var { material, ...propsWithoutMaterial } = props;
 
   const ref = useRef();
 
   return (
     <mesh
-      {...props}
+      {...propsWithoutMaterial}
+      material={material}
       position={position}
       {...bind()}
       ref={ref}
-      onClick={() => console.log(ref)}
-      castShadow
+      onClick={openUrl}
       receiveShadow
+      castShadow
     ></mesh>
   );
 }
