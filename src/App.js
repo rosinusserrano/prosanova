@@ -11,8 +11,10 @@ import "./styles/imprint.css";
 import ImprintPage from "./pages/ImprintPage";
 import Test from "./pages/Test";
 import { Canvas } from "@react-three/fiber";
+import { useProsanovaScene } from "functions";
 
 function App() {
+  const gltf = useProsanovaScene()
   return (
     <StrictMode>
       <Router>
@@ -24,7 +26,7 @@ function App() {
                 <Imprint />
                 <header className="App-header">
                   <Canvas style={{ height: "100vh", width: "100vw" }} shadows>
-                    <WholeSceneAsNodes />
+                    <WholeSceneAsNodes gltf={gltf}/>
                   </Canvas>
                 </header>
               </div>

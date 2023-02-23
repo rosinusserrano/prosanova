@@ -14,8 +14,7 @@ import { DirectionalLightShadow } from "three";
 import { useThree } from "@react-three/fiber";
 import Loader from "./Loader";
 
-export default function WholeSceneAsNodes() {
-  const gltf = useProsanovaScene();
+export default function WholeSceneAsNodes({gltf}) {
   const makeDraggable = false;
 
   const groupRef = useRef()
@@ -77,7 +76,7 @@ export default function WholeSceneAsNodes() {
           fov={cameraFov}
         ></PerspectiveCamera>
         <Environment preset="apartment" background></Environment>
-        <Suspense fallback={<Loader/>}>
+        <Suspense fallback={null}>
           <Scroll>
             <group scale={9} position={[0, 0, 0]} ref={groupRef}>
               <SceneNode
