@@ -1,0 +1,9 @@
+.loadingcontainer{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(236, 235, 235);
+    width: 100vw;
+    height: 100vh;
+}
