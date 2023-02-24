@@ -12,7 +12,6 @@ import { useProsanovaScene } from "functions";
 import { useControls } from "leva";
 import { DirectionalLightShadow } from "three";
 import { useThree } from "@react-three/fiber";
-import Loader from "./Loader";
 
 export default function WholeSceneAsNodes({gltf}) {
   const makeDraggable = false;

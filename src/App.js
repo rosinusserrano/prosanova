@@ -12,6 +12,7 @@ import ImprintPage from "./pages/ImprintPage";
 import Test from "./pages/Test";
 import { Canvas } from "@react-three/fiber";
 import { useProsanovaScene } from "functions";
+import LoadingScreen from "./components/LoadingScreen";
 
 function App() {
   const gltf = useProsanovaScene()
@@ -24,6 +25,7 @@ function App() {
             element={
               <div className="App">
                 <Imprint />
+                <LoadingScreen />
                 <header className="App-header">
                   <Canvas style={{ height: "100vh", width: "100vw" }} shadows>
                     <WholeSceneAsNodes gltf={gltf}/>
