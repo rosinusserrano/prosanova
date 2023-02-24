@@ -21,8 +21,8 @@ export default function WholeSceneAsNodes({gltf}) {
 
   const cameraFov = 65;
   const imageWidth = 5.45;
-  const imageHeight = 4;
-  const initialCameraYOffset = 1.5;
+  const imageHeight = 3.5;
+  const initialCameraYOffset = 1;
   const [cameraDistance, setCameraDistance] = useState(
     (imageWidth * window.innerHeight) /
       (Math.tan((cameraFov * Math.PI) / 180 / 2) * 2 * window.innerWidth)
