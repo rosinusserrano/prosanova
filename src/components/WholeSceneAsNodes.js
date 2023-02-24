@@ -64,9 +64,9 @@ export default function WholeSceneAsNodes({gltf}) {
 
   return (
     <>
-      {/* <OrbitControls
+      <OrbitControls
         target={[0, cameraYOffset, -0.1]}
-      ></OrbitControls> */}
+      ></OrbitControls>
       <ScrollControls pages={pages} damping={0.05}>
         <PerspectiveCamera
           makeDefault
@@ -75,6 +75,7 @@ export default function WholeSceneAsNodes({gltf}) {
           fov={cameraFov}
         ></PerspectiveCamera>
         <Environment preset="apartment" background></Environment>
+        <directionalLight castShadow position={[2, 5, 3]} intensity={5}></directionalLight>
         <Suspense fallback={null}>
           <Scroll>
             <group scale={9} position={[0, 0, 0]} ref={groupRef}>
@@ -148,6 +149,8 @@ export default function WholeSceneAsNodes({gltf}) {
                 {...gltf["nodes"]["A_R"]}
                 customDrag={makeDraggable}
                 customMaterialOverwrites={customMaterialProps}
+                castShadow
+                receiveShadow
               ></SceneNode>
               <SceneNode
                 {...gltf["nodes"]["A_S"]}
@@ -214,6 +217,7 @@ export default function WholeSceneAsNodes({gltf}) {
               <SceneNode
                 {...gltf["nodes"]["A_Hintergrund"]}
                 customDrag={false}
+                castShadow
                 receiveShadow
               ></SceneNode>
             </group>

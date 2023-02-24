@@ -25,9 +25,9 @@ function App() {
             element={
               <div className="App">
                 <Imprint />
-                <LoadingScreen />
+                {/* <LoadingScreen /> */}
                 <header className="App-header">
-                  <Canvas style={{ height: "100vh", width: "100vw" }} shadows>
+                  <Canvas style={{ height: "100vh", width: "100vw" }} shadows frameloop="demand">
                     <WholeSceneAsNodes gltf={gltf}/>
                   </Canvas>
                 </header>

@@ -5,6 +5,7 @@ import {
   MeshBasicMaterial,
   MeshPhysicalMaterial,
   MeshStandardMaterial,
+  ShadowMaterial,
 } from "three";
 
 export default function SceneMesh(props) {
@@ -42,6 +43,10 @@ export default function SceneMesh(props) {
 
   const ref = useRef();
 
+  if (props.name === "A_Hintergrund") {
+    material = new ShadowMaterial()
+  }
+
   return (
     <mesh
       {...propsWithoutMaterial}
@@ -50,8 +55,6 @@ export default function SceneMesh(props) {
       {...bind()}
       ref={ref}
       onClick={openUrl}
-      receiveShadow
-      castShadow
     ></mesh>
   );
 }
