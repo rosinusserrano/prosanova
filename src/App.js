@@ -4,7 +4,7 @@ import Imprint from "./components/Imprint";
 
 import WholeSceneAsNodes from "./components/WholeSceneAsNodes";
 import WholeScene from "./components/WholeScene";
-import React, { StrictMode } from "react";
+import React, { StrictMode, Suspense, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/fonts.css";
 import "./styles/imprint.css";
@@ -15,7 +15,8 @@ import { useProsanovaScene } from "functions";
 import LoadingScreen from "./components/LoadingScreen";
 
 function App() {
-  const gltf = useProsanovaScene()
+  const gltf = useProsanovaScene();
+  const [loading, setLoading] = useState(true);
   return (
     <StrictMode>
       <Router>
@@ -27,9 +28,25 @@ function App() {
                 <Imprint />
                 {/* <LoadingScreen /> */}
                 <header className="App-header">
-                  <Canvas style={{ height: "100vh", width: "100vw" }} shadows frameloop="demand">
-                    <WholeSceneAsNodes gltf={gltf}/>
-                  </Canvas>
+                  <div style={{ zIndex: 1 }}>
+                    {loading ? <LoadingScreen></LoadingScreen> : <></>}
+                  </div>
+                  <Suspense>
+                    <Canvas
+                      style={{ height: "100vh", width: "100vw" }}
+                      shadows
+                      frameloop="demand"
+                    >
+                      <WholeSceneAsNodes
+                        gltf={gltf}
+                        onFinishedLoading={() => {
+                          setTimeout(() => {
+                            setLoading(false);
+                          }, 1000);
+                        }}
+                      />
+                    </Canvas>
+                  </Suspense>
                 </header>
               </div>
             }

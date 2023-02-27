@@ -43,8 +43,10 @@ export default function SceneMesh(props) {
 
   const ref = useRef();
 
+  var castShadow = true
+
   if (props.name === "A_Hintergrund") {
-    material = new ShadowMaterial()
+    castShadow = false
   }
 
   return (
@@ -55,6 +57,7 @@ export default function SceneMesh(props) {
       {...bind()}
       ref={ref}
       onClick={openUrl}
+      castShadow={castShadow}
     ></mesh>
   );
 }
