@@ -5,6 +5,52 @@
 body {
     background: rgb(218, 218, 218);
 }
+
+.Video-wrapper-large{
+
+position: fixed;
+display: grid;
+justify-content: center;
+align-content: center;
+height: 100svh;
+background: rgb(218, 218, 218);
+
+
+}
+.Video-wrapper-small{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .Video-wrapper-large{
+        display:none;
+    }
+    .Video-wrapper-small{
+
+        position: fixed;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: 100svh;
+        background: rgb(218, 218, 218);
+
+        
+        }
+    
+}
+
+.Links{
+    text-decoration: none;
+    color: black;
+
+}
+
+.Links:hover{
+    color: rgb(103, 84, 84);
+
+
+}
+
 .homebuttonwrapper{
     top: 1rem;
     border-top-left-radius: 0;

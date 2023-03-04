@@ -13,6 +13,9 @@ import Test from "./pages/Test";
 import { Canvas } from "@react-three/fiber";
 import { useProsanovaScene } from "functions";
 import LoadingScreen from "./components/LoadingScreen";
+import VideoPlayerlarge from "./components/VideoPlayerlarge";
+import VideoPLayerSmall from "./components/VideoPlayerSmall";
+
 
 function App() {
   const gltf = useProsanovaScene();
@@ -26,12 +29,17 @@ function App() {
             element={
               <div className="App">
                 <Imprint />
+                <VideoPlayerlarge />
+                <VideoPLayerSmall />
+
                 {/* <LoadingScreen /> */}
                 <header className="App-header">
-                  <div style={{ zIndex: 1 }}>
+                {/*   <div style={{ zIndex: 1 }}>
                     {loading ? <LoadingScreen></LoadingScreen> : <></>}
-                  </div>
+                  </div> */}
+
                   <Suspense>
+                  {/*  
                     <Canvas
                       style={{ height: "100vh", width: "100vw" }}
                       shadows
@@ -45,7 +53,7 @@ function App() {
                           }, 1000);
                         }}
                       />
-                    </Canvas>
+                    </Canvas> */}
                   </Suspense>
                 </header>
               </div>

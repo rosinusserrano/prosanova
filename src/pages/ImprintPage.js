@@ -6,6 +6,7 @@ import '../styles/pages.css';
 
 
 
+
 import { Link, Routes } from 'react-router-dom';
 import HomeButton from '../components/HomeButton';
 
@@ -18,15 +19,16 @@ function ImprintPage() {
     <div className='page-grid fixed-grid'>
       <div className='grid-1-column-mobile grid-3-column scrollable-element grid-child font-sz-small grid-row-start-2 '>
 
-        Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutz- grundverordnung (DSGVO), ist:
-        BELLA triste – Zeitschrift für junge Literatur Neustädter Markt 3-4
+      Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
+<br /> <br/>
+        BELLA triste – Zeitschrift für junge Literatur <br /> Neustädter Markt 3-4 <br />
         D-31134 Hildesheim
         <br /> <br />
 
         IHRE BETROFFENENRECHTE
         <br /> <br />
 
-        Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
+        Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:<br />
         Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung,
         Berichtigung unrichtiger personenbezogener Daten,
         Löschung Ihrer bei uns gespeicherten Daten,
@@ -39,7 +41,7 @@ function ImprintPage() {
         Bundesland Ihres Wohnsitzes,
         Ihrer Arbeit oder der mutmaßlichen Verletzung. Eine Liste der Aufsichtsbehörden (für den nichtöffentli- chen Bereich)
         mit Anschrift finden Sie unter:
-        https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.        <br /> <br />
+       <Link className="Links" target="_blank" to="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html" > https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</Link>        <br /> <br />
 
         ZWECKE DER DATENVERARBEITUNG DURCH DIE VERANTWORTLICHE STELLE UND DRITTE
         <br /> <br />
@@ -127,7 +129,7 @@ function ImprintPage() {
         Für eine wirksame Registrierung benötigen wir eine valide E-Mail-Adresse. Um zu überprüfen, dass eine Anmeldung
         tatsächlich durch den Inhaber einer E-Mail-Adresse erfolgt, setzen wir das „Double-opt-in“-Verfahren ein. Hierzu
         protokollieren wir die Bestellung des Newsletters, den Versand einer Bestätigungsmail und den Eingang der hiermit
-        angeforderten Antwort. Weitere Da- ten werden nicht erhoben. Die Daten werden ausschließlich für den Newsletterversand
+        angeforderten Antwort. Weitere Daten werden nicht erhoben. Die Daten werden ausschließlich für den Newsletterversand
         verwendet und nicht an Dritte weitergegeben.
         Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer Nutzung für den Newsletter- versand können Sie
         jederzeit widerrufen. In jedem Newsletter findet sich dazu ein entsprechen- der Link. Außerdem können Sie sich jederzeit
@@ -240,7 +242,7 @@ function ImprintPage() {
 
       <div className='grid-row-start-mobile-1 grid-1-column-mobile grid-column-start-1-mobile grid-child grid-2-column scrollable-element font-sz-small'>
         ANGABEN GEMÄSS § 5 TM Bella triste e.V. <br /><br />
-        Vorsitz: <br />Lucie Frahm <br />Malek Halici<br/> Lina Briks<br/><br />
+        Vorsitz: <br />Lucie Frahm <br />Melek Halici<br/> Lina Briks<br/><br />
         Neustädter Markt 3-4<br />
         31135 Hildesheim<br />
         Telefon: + 49 (0) 172 7213929
@@ -278,7 +280,7 @@ function ImprintPage() {
         Urheberrechte Dritter beach- tet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung
         aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzun- gen werden wir derartige Inhalte umgehend entfernen.  <br /> <br />
         DATENSCHUTZ <br /> <br />
-        Um unsere Datenschutzerklärung zu lesen, klicken Sie bitte hier: Da- tenschutzerklärung im Sinne der Datenschutz-Grundverordnung der Europäischen Union
+        Um unsere Datenschutzerklärung zu lesen, klicken Sie bitte hier: Datenschutzerklärung im Sinne der Datenschutz-Grundverordnung der Europäischen Union
 
         <div className='added-padding'></div>
 
