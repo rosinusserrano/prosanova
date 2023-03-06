@@ -15,6 +15,7 @@ import { useProsanovaScene } from "functions";
 import LoadingScreen from "./components/LoadingScreen";
 import VideoPlayerlarge from "./components/VideoPlayerlarge";
 import VideoPLayerSmall from "./components/VideoPlayerSmall";
+import Navbar from "components/Navbar";
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
             index
             element={
               <div className="App">
-                <Imprint />
+              <Navbar />
+                <Imprint /> 
+
                 <VideoPlayerlarge />
                 <VideoPLayerSmall />
 

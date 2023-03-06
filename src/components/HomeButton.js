@@ -9,6 +9,8 @@ export default function HomeButton() {
   return (
     <div className='homebuttonwrapper'>
     <Link className='homebutton' to='/'>home</Link>
+
     </div>
+    
   )
 }

@@ -157,70 +157,7 @@ function ImprintPage() {
         entsprechender Bibliotheken Daten erheben. Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier:
         https://www.google. com/policies/privacy/         <br /> <br />
 
-        VERWENDUNG VON GOOGLE MAPS         <br /> <br />
-
-        Diese Webseite verwendet Google Maps API, um geographische Informationen visuell darzu- stellen. Bei der Nutzung
-        von Google Maps werden von Google auch Daten über die Nutzung der Kartenfunktionen durch Besucher erhoben, verarbeitet
-        und genutzt. Nähere Informationen über die Datenverarbeitung durch Google können Sie den Google-Datenschutzhinweisen entnehmen.
-        Dort können Sie im Datenschutzcenter auch Ihre persönlichen Datenschutz-Einstellungen ver- ändern.
-        Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit Google-Pro- dukten finden Sie hier.    <br /> <br />
-
-        EINGEBETTETE YOUTUBE-VIDEOS         <br /> <br />
-
-        Auf einigen unserer Webseiten betten wir Youtube-Videos ein. Betreiber der entsprechenden Plugins ist die YouTube,
-        LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine Sei- te mit dem YouTube-Plugin besuchen, wird eine
-        Verbindung zu Servern von Youtube hergestellt. Dabei wird Youtube mitgeteilt, welche Seiten Sie besuchen. Wenn Sie
-        in Ihrem Youtube-Account eingeloggt sind, kann Youtube Ihr Surfverhalten Ihnen persönlich zuzuordnen. Dies verhindern
-        Sie, indem Sie sich vorher aus Ihrem Youtube-Account ausloggen.
-        Wird ein Youtube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nut- zerverhalten sammeln.
-        Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird auch beim Anschauen von Youtube-Videos
-        mit keinen solchen Cookies rechnen müssen. Youtube legt aber auch in anderen Cookies nicht-personenbezogene
-        Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das Speichern von Cookies im Browser blockieren.
-        Weitere Informationen zum Datenschutz bei „Youtube“ finden Sie in der Datenschutzerklärung des Anbieters
-        unter: https://www.google.de/intl/de/policies/privacy/         <br /> <br />
-
-        WOO COMMERCE (SHOP)         <br /> <br />
-
-        Wir sammeln Informationen über Dich während des Bestellvorgangs in unserem Shop – diese Daten werden während
-        des Festivals gespeichert und solange der Festival-Besuch nur für Ti- cket-Inhaber*innen möglich ist. Nach dem
-        Ablauf der Aufbewahrungsfrist werden diese Daten vollständig gelöscht.
-        Während du unsere Website besuchst, zeichnen wir auf:
-        Angesehene Produkte: Hier zeigen wir dir Produkte, die du vor Kurzem angesehen hast. Standort, IP-Adresse und
-        Browser-Typ: Wir verwenden dies für Zwecke wie die Schätzung von Steuern und Versandkosten
-        Versandadresse: Wir werden dich auffordern, diese anzugeben, um beispielsweise die Versand- kosten bestimmen zu können,
-        bevor du eine Bestellung aufgibst, und dir die Bestellung zusenden
-        zu können.
-        Wir nutzen auch Cookies, um den Inhalt deines Warenkorbs zu verfolgen, während du unsere Website besuchst.
-        Wenn du bei uns einkaufst, werden wir dich auffordern, Informationen wie deinen Namen, deine Rechnungs- und
-        Versandadresse, deine E-Mail-Adresse und deine Telefonnummer, Kreditkar- tendaten/Zahlungsdetails sowie optionale
-        Kontoinformationen wie Benutzername und Kennwort anzugeben. Wir nutzen diese Informationen für folgende Zwecke:
-        Zusenden von Informationen über dein Konto und Bestellung
-        Antwort auf deine Anfragen, inklusive Erstattungen und Beschwerden
-        Bearbeitung von Zahlungsvorgängen und Verhinderung von Betrug
-        Richten Sie Ihr Konto für unseren Shop ein
-        Einhaltung aller rechtlichen Verpflichtungen, beispielsweise die Steuerberechnung
-        Verbesserung unsere Shop-Angebote
-        Senden von Marketing-Nachrichten, wenn du diese erhalten möchtest
-        Wenn du ein Konto bei uns erstellst, speichern wir deinen Namen, deine Adresse, deine E-Mail- Adresse und deine
-        Telefonnummer. Diese Angaben werden bei künftigen Bestellungen zum Aus- füllen der Bezahlinformationen verwendet.
-        Wir speichern Informationen über dich üblicherweise so lange, wie wir sie für den Zweck der Er- fassung und Nutzung
-        benötigen und verpflichtet sind, sie zu speichern. Beispielsweise speichern wir Bestellinformationen für XXX Jahre aus
-        Steuer- und Abrechnungsgründen. Dazu gehört dein Name, deine E-Mail-Adresse sowie deine Rechnungs- und Versandadresse.
-        Wir speichern auch Kommentare oder Bewertungen, wenn du dich dazu entscheidest diese zu hinterlassen.
-        Mitglieder unseres Teams haben Zugang zu den Informationen, die du uns zur Verfügung stellst. Zum Beispiel können
-        sowohl Administratoren als auch Shop-Manager auf Folgendes zugreifen: Bestellinformationen wie gekaufte Produkte,
-        der Zeitpunkt des Kaufs sowie die Versandadresse und Kundeninformationen wie dein Name, E-Mail-Adresse, sowie
-        Rechnungs- und Versandinformationen.
-        Unsere Teammitglieder haben Zugriff auf diese Informationen, um Bestellungen zu bearbeiten, Rückerstattungen
-        vorzunehmen und Dich zu unterstützen.
-        Wir akzeptieren Zahlungen mit PayPal. Bei der Zahlungsabwicklung werden einige deiner Daten an PayPal weitergegeben.
-        Hierbei werden ausschließlich erforderliche Informationen für die Verar- beitung oder Durchführung der Zahlung weitergegeben
-        wie beispielsweise Gesamtkaufpreis und Zahlungsinformationen.
-        Hier kannst du dir die PayPal Datenschutzerklärung ansehen.
-        When you place an order in the webstore with Klarna Checkout as the choosen payment method, information about the
-        products in the order (name, price, quantity, SKU) is sent to Klarna. When the purchase is finalized Klarna sends your
-        billing and shipping address back to the webstore. This data plus an unique identifier for the purchase is then stored
-        as billing and shipping data in the or- der in WooCommerce.         <br /> <br />
+  
 
         ÄNDERUNG UNSERER DATENSCHUTZBESTIMMUNGEN         <br /> <br />
 
