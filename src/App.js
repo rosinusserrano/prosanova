@@ -63,7 +63,7 @@ function App() {
             }
           />
           <Route path="/imprint" element={<ImprintPage />} />
-          <Route
+          {/* <Route
             path="/ref"
             element={
               <div className="App">
@@ -73,8 +73,8 @@ function App() {
                 </header>
               </div>
             }
-          ></Route>
-          <Route
+          ></Route> */}
+          {/* <Route
             path="/test"
             element={
               <div className="App">
@@ -88,7 +88,7 @@ function App() {
                 </header>
               </div>
             }
-          ></Route>
+          ></Route> */}
         </Routes>
       </Router>
     </StrictMode>
