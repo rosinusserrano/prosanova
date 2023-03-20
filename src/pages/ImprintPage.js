@@ -3,6 +3,7 @@ import Imprint from '../components/Imprint';
 import '../styles/imprint.css';
 import '../styles/fonts.css';
 import '../styles/pages.css';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -12,7 +13,10 @@ import HomeButton from '../components/HomeButton';
 
 function ImprintPage() {
   return <>
-
+    <Helmet>
+      <title>PROSANOVA 2023 | Impressum</title>
+      <meta name='description' content='Prosanova 2023, Festival für junge Literatur | Impressum' />
+    </Helmet>
     <Imprint />
     <HomeButton />
 
