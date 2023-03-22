@@ -16,6 +16,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import VideoPlayerlarge from "./components/VideoPlayerlarge";
 import VideoPLayerSmall from "./components/VideoPlayerSmall";
 import Navbar from "components/Navbar";
+import HomePage from "pages/HomePage";
 
 
 function App() {
@@ -27,42 +28,17 @@ function App() {
         <Routes>
           <Route
             index
-            element={
-              <div className="App">
-              <Navbar />
-                <Imprint /> 
-
-                <VideoPlayerlarge />
-                <VideoPLayerSmall />
-
-                {/* <LoadingScreen /> */}
-                <header className="App-header">
-                {/*   <div style={{ zIndex: 1 }}>
-                    {loading ? <LoadingScreen></LoadingScreen> : <></>}
-                  </div> */}
-
-                  <Suspense>
-                  {/*  
-                    <Canvas
-                      style={{ height: "100vh", width: "100vw" }}
-                      shadows
-                      frameloop="demand"
-                    >
-                      <WholeSceneAsNodes
-                        gltf={gltf}
-                        onFinishedLoading={() => {
-                          setTimeout(() => {
-                            setLoading(false);
-                          }, 1000);
-                        }}
-                      />
-                    </Canvas> */}
-                  </Suspense>
-                </header>
-              </div>
-            }
+            element={<HomePage></HomePage>}
           />
           <Route path="/imprint" element={<ImprintPage />} />
+          <Route path="/alsvideo" element={<div className="App">
+            <Navbar />
+            <Imprint />
+            <VideoPlayerlarge />
+            <VideoPLayerSmall />
+            <header className="App-header">
+            </header>
+          </div>} />
           {/* <Route
             path="/ref"
             element={
