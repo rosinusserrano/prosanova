@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import WigglyButton from 'components/WigglyButton'
 import Balloon from 'components/Balloon'
+import Letters3DGame from 'components/Letters3DGame'
 
 export default function HomePage() {
   const [currentColor, setCurrentColor] = useState("blue")
@@ -29,7 +30,7 @@ export default function HomePage() {
         </div>
       </header>
       <main style={{ width: "100%", backgroundColor: "#ddd", marginTop: "15px", flex: 18 }}>
-        3D content
+        <Letters3DGame></Letters3DGame>
       </main>
     </div>
   )
