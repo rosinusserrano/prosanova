@@ -3,11 +3,16 @@ import { motion } from 'framer-motion'
 import WigglyButton from 'components/WigglyButton'
 import Balloon from 'components/Balloon'
 import Letters3DGame from 'components/Letters3DGame'
+import { Helmet } from 'react-helmet'
 
 export default function HomePage() {
   const [currentColor, setCurrentColor] = useState("blue")
   return (
     <div style={{ padding: "20px", backgroundColor: currentColor, minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <Helmet>
+        <title>PROSANOVA 2023</title>
+        <meta name='description' content='Prosanova 2023. Festival für junge Literatur.' />
+      </Helmet>
       <Balloon></Balloon>
       <header style={{ display: "inline-flex", justifyContent: "space-between", width: "100%", backgroundColor: "#ddd", flex: .5 }}>
         <div style={{ width: "25%", display: "flex", flexFlow: "row wrap", justifyContent: "space-evenly" }}>

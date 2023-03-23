@@ -17,6 +17,7 @@ import VideoPlayerlarge from "./components/VideoPlayerlarge";
 import VideoPLayerSmall from "./components/VideoPlayerSmall";
 import Navbar from "components/Navbar";
 import HomePage from "pages/HomePage";
+import { Helmet } from "react-helmet";
 
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
           />
           <Route path="/imprint" element={<ImprintPage />} />
           <Route path="/alsvideo" element={<div className="App">
+            <Helmet>
+              <title>PROSANOVA 2023</title>
+              <meta name='description' content='Prosanova 2023. Festival für junge Literatur.' />
+            </Helmet>
             <Navbar />
             <Imprint />
             <VideoPlayerlarge />
