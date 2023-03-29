@@ -9,102 +9,60 @@ import * as THREE from 'three'
 import { useControls } from 'leva'
 
 
+function usePointLightProps(name, ref) {
+  return useControls(name, {
+    visible: {
+      value: false,
+      onChange: (v) => ref.current.visible = v
+    },
+    intensity: { value: 1, min: 0, max: 5, step: .1, onChange: (v) => ref.current.intensity = v },
+    x: { value: 0, min: -1, max: 1, step: 0.001, onChange: (v) => ref.current.position.x = v },
+    y: { value: 0, min: -1, max: 1, step: 0.001, onChange: (v) => ref.current.position.y = v },
+    z: { value: 0, min: -1, max: 1, step: 0.001, onChange: (v) => ref.current.position.z = v },
+    castShadow: { value: false, onChange: (v) => ref.current.castShadow = v },
+    color: "#FFFFFF"
+  })
+}
+
+
+function CustomizablePointLight({ name }) {
+  const pointLightRef = useRef()
+  const pointLight = usePointLightProps(name, pointLightRef)
+
+  return (
+    <pointLight ref={pointLightRef} {...pointLight}>
+      <mesh>
+        <meshNormalMaterial></meshNormalMaterial>
+        <sphereGeometry args={[0.01]} />
+      </mesh>
+    </pointLight>
+  )
+}
+
+
 function Lights() {
-  const ambientRef = useRef()
-  const directionalRef = useRef()
-  const pointRef = useRef()
-  const spotRef = useRef()
 
-  useControls('Ambient Light', {
-    visible: {
-      value: false,
-      onChange: (v) => {
-        ambientRef.current.visible = v
-      },
-    },
-    color: {
-      value: 'white',
-      onChange: (v) => {
-        ambientRef.current.color = new THREE.Color(v)
-      },
-    },
+  const ambientControls = useControls('Ambient Light', {
+    visible: false,
+    color: 'white',
+    intensity: 0.5
   })
 
-  useControls('Directional Light', {
-    visible: {
-      value: true,
-      onChange: (v) => {
-        directionalRef.current.visible = v
-      },
-    },
-    position: {
-      x: 1,
-      y: 1,
-      z: 1,
-      onChange: (v) => {
-        directionalRef.current.position.copy(v)
-      },
-    },
-    color: {
-      value: 'white',
-      onChange: (v) => {
-        directionalRef.current.color = new THREE.Color(v)
-      },
-    },
+
+  const initialLightControls = useControls("Initial Light", {
+    visible: true,
   })
 
-  useControls('Point Light', {
-    visible: {
-      value: false,
-      onChange: (v) => {
-        pointRef.current.visible = v
-      },
-    },
-    position: {
-      x: 2,
-      y: 0,
-      z: 0,
-      onChange: (v) => {
-        pointRef.current.position.copy(v)
-      },
-    },
-    color: {
-      value: 'white',
-      onChange: (v) => {
-        pointRef.current.color = new THREE.Color(v)
-      },
-    },
-  })
-
-  useControls('Spot Light', {
-    visible: {
-      value: false,
-      onChange: (v) => {
-        spotRef.current.visible = v
-      },
-    },
-    position: {
-      x: 3,
-      y: 2.5,
-      z: 1,
-      onChange: (v) => {
-        spotRef.current.position.copy(v)
-      },
-    },
-    color: {
-      value: 'white',
-      onChange: (v) => {
-        spotRef.current.color = new THREE.Color(v)
-      },
-    },
-  })
 
   return (
     <>
-      <ambientLight ref={ambientRef} castShadow/>
-      <directionalLight ref={directionalRef} castShadow />
-      <pointLight ref={pointRef} castShadow />
-      <spotLight ref={spotRef} castShadow />
+      <ambientLight {...ambientControls} />
+      <pointLight visible={initialLightControls.visible} position={[1, 1, 1]}></pointLight>
+      <CustomizablePointLight name="pointLight1"></CustomizablePointLight>
+      <CustomizablePointLight name="pointLight2"></CustomizablePointLight>
+      <CustomizablePointLight name="pointLight3"></CustomizablePointLight>
+      <CustomizablePointLight name="pointLight4"></CustomizablePointLight>
+      <CustomizablePointLight name="pointLight5"></CustomizablePointLight>
     </>
   )
 }
@@ -120,19 +78,19 @@ export default function Letters3DGame() {
           far: 10,
           near: 0.01
         }} >
-        <OrbitControls ></OrbitControls>
+        {/* <OrbitControls ></OrbitControls> */}
         {/* <pointLight position={[.3 * SCALE, .3 * SCALE, .3 * SCALE]} castShadow></pointLight> */}
         {/* <directionalLight position={[.1, .1, .1]} castShadow></directionalLight> */}
         <Lights></Lights>
         {/* <ambientLight></ambientLight> */}
-        <Physics gravity={[-.5, 0, 0]}
+        <Physics gravity={[-2, 0, 0]}
           defaultContactMaterial={{
             friction: 0.01,
             // restitution: -0.5,
           }}>
           {/* <Debug > */}
-            <Buchstabis></Buchstabis>
-            <Plane></Plane>
+          <Buchstabis></Buchstabis>
+          <Plane></Plane>
           {/* </Debug> */}
         </Physics>
         {/* <axesHelper></axesHelper> */}

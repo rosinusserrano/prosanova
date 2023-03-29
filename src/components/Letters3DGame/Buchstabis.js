@@ -42,7 +42,9 @@ function Letter({ gltfNode }){
     //     return <I gltfNode={gltfNode}></I>
     // } else if (gltfNode["name"] === "J" || gltfNode["name"] === "J001"){
     //     return <J gltfNode={gltfNode}></J>
+    } else if (["P001", "R001", "O002", "S001", "A001", "N001", "O001", "V001", "A002", "2", "3"].includes(gltfNode["name"])) {
+        return <FallbackLetter gltfNode={gltfNode} offset={0}></FallbackLetter>
     } else {
-        return <FallbackLetter gltfNode={gltfNode}></FallbackLetter>
+        return <FallbackLetter gltfNode={gltfNode} offset={4}></FallbackLetter>
     }
 }

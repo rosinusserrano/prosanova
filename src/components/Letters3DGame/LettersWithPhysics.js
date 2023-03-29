@@ -7,21 +7,22 @@ import React, { useRef, useState } from "react";
 
 
 function randomLittleRotation() {
-    return ((Math.random() - .5) * 2) * Math.PI * 0
-    // return 0
+    // return ((Math.random() - .5) * 2) * Math.PI * 0
+    return 0
 }
 
 
-function randomHeightOffset() {
-    return Math.random() * 0
+function randomHeightOffset(offset) {
+    return 1* (offset/2) + Math.random() * (offset/2)
+    // return offset
 }
 
 
-export function FallbackLetter({ gltfNode }) {
+export function FallbackLetter({ gltfNode, offset }) {
     const { size, viewport } = useThree();
 
     const [position, setPosition] = useState([
-        gltfNode["position"]["x"] * SCALE + LETTERS_OFFSET + randomHeightOffset(),
+        gltfNode["position"]["x"] * SCALE + LETTERS_OFFSET + randomHeightOffset(offset),
         gltfNode["position"]["y"] * SCALE,
         gltfNode["position"]["z"] * SCALE]);
 
