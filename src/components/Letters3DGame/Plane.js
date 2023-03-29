@@ -1,11 +1,18 @@
 import { usePlane } from '@react-three/cannon'
-import React from 'react'
+import { SCALE } from 'constants'
+import React, { useRef } from 'react'
 
 export default function Plane() {
-    const [ref, api] = usePlane(() => ({ mass: 0, position: [0, -10, 0], rotation: [-Math.PI / 2, 0, 0] , args: [30, 30]}))
+    const [ref, api] = usePlane(() => ({
+        mass: 0,
+        position: [0, 0, 0],
+        rotation: [0, Math.PI / 2, 0],
+        args: [5* SCALE, 5* SCALE]
+    }), useRef())
+
     return (
-        <mesh ref={ref}>
-            <planeGeometry args={[30, 30]}></planeGeometry>
+        <mesh ref={ref} receiveShadow>
+            <planeGeometry args={[5 * SCALE, 5 * SCALE]}></planeGeometry>
             <meshStandardMaterial></meshStandardMaterial>
         </mesh>
     )

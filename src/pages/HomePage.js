@@ -13,7 +13,6 @@ export default function HomePage() {
         <title>PROSANOVA 2023</title>
         <meta name='description' content='Prosanova 2023. Festival für junge Literatur.' />
       </Helmet>
-      <Balloon></Balloon>
       <header style={{ display: "inline-flex", justifyContent: "space-between", width: "100%", backgroundColor: "#ddd", flex: .5 }}>
         <div style={{ width: "25%", display: "flex", flexFlow: "row wrap", justifyContent: "space-evenly" }}>
           <WigglyButton>Info</WigglyButton>
@@ -34,9 +33,10 @@ export default function HomePage() {
           </div>
         </div>
       </header>
-      <main style={{ width: "100%", backgroundColor: "#ddd", marginTop: "15px", flex: 18 }}>
+      <main style={{ width: "100%", backgroundColor: "#ddd", marginTop: "15px", flex: 130 }}>
         <Letters3DGame></Letters3DGame>
       </main>
+      <Balloon></Balloon>
     </div>
   )
 }

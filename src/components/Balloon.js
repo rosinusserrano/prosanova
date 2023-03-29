@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Balloon() {
     return (
-        <motion.div style={{ width: "120px", height: "460px", position: "absolute", backgroundColor: "red", x: "80vw" }}
+        <motion.div style={{ width: "120px", height: "460px", position: "absolute", backgroundColor: "red", x: "80vw", z: "-10px"}}
             animate={
                 { 
                     y: ["100vh", "-100vh"],

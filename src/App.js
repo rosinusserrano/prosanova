@@ -18,6 +18,7 @@ import VideoPLayerSmall from "./components/VideoPlayerSmall";
 import Navbar from "components/Navbar";
 import HomePage from "pages/HomePage";
 import { Helmet } from "react-helmet";
+import Letters3DGame from "components/Letters3DGame";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route
             index
             element={<HomePage></HomePage>}
+            // element={<Letters3DGame></Letters3DGame>}
           />
           <Route path="/imprint" element={<ImprintPage />} />
           <Route path="/alsvideo" element={<div className="App">
