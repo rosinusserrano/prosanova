@@ -38,7 +38,7 @@ export function FallbackLetter({ gltfNode, offset }) {
             gltfNode["rotation"]["_y"] + randomLittleRotation(),
             gltfNode["rotation"]["_z"] + randomLittleRotation()],
         scale: [SCALE * gltfNode["scale"]["x"], SCALE * gltfNode["scale"]["y"] * 3, SCALE * gltfNode["scale"]["z"]],
-        args: [0.027 * SCALE, 0.01 * SCALE, 0.04 * SCALE],
+        args: [0.035 * SCALE, 0.01 * SCALE, 0.04 * SCALE],
 
     }))
 
