@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/imprint.css";
 import "../styles/fonts.css";
 import "../styles/pages.css";
@@ -6,7 +6,6 @@ import { Helmet } from "react-helmet";
 import WigglyButton from "components/WigglyButton";
 import {
   Link,
-  DirectLink,
   Element,
   Events,
   animateScroll,
@@ -33,15 +32,45 @@ import Team16 from "../roya-schaper.png";
 import Team17 from "../tilman-busch.png";
 
 import { Routes } from "react-router-dom";
+import { motion } from "framer-motion";
+
+function TeamMemberButton({ children, onClick }) {
+  const buttonStyle = {
+
+    rotate: 0
+  }
+
+  return (
+    <motion.div style={buttonStyle} whileHover={{
+      rotate: [-7, 7],
+      transition: { duration: .2, repeat: Infinity, repeatType: "reverse" }
+    }} onClick={() => {
+      onClick()
+    }}>
+      {children}
+    </motion.div>
+  )
+}
+
+function scrollToPos(section_id) {
+  const div = document.getElementById("div-with-bios")
+  const section = document.getElementById(section_id)
+  div.scrollTo({top: section.offsetTop - (div.getBoundingClientRect().height * .1), behavior: "smooth"})
+  const allSections = div.getElementsByTagName("section")
+  for (let i = 0; i< allSections.length; i++) {
+    allSections[i].style.backgroundColor = "transparent"
+  }
+  section.style.backgroundColor = "#33123456"
+}
 
 function Team() {
   return (
     <>
       <Helmet>
-        <title>PROSANOVA 2023 | Impressum</title>
+        <title>PROSANOVA 2023 | Team</title>
         <meta
           name="description"
-          content="Prosanova 2023, Festival für junge Literatur | Impressum"
+          content="Prosanova 2023, Festival für junge Literatur | Team"
         />
       </Helmet>
 
@@ -52,7 +81,7 @@ function Team() {
               <span className="font-script font-size-3">K</span>ünstlerische{" "}
               <span className="font-script font-size-3">L</span>eitung{" "}
             </div>
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("leni-bio")}>
               <div className="team-image">
                 <img
                   src={Team1}
@@ -60,9 +89,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("melek-bio")}>
               <div className="team-image">
                 <img
                   src={Team2}
@@ -70,9 +99,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("hiyam-bio")}>
               <div className="team-image">
                 <img
                   src={Team3}
@@ -80,9 +109,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("lucie-bio")}>
               <div className="team-image">
                 <img
                   src={Team4}
@@ -90,9 +119,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("lina-bio")}>
               <div className="team-image">
                 <img
                   src={Team5}
@@ -100,9 +129,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("clara-bio")}>
               <div className="team-image">
                 <img
                   src={Team6}
@@ -110,13 +139,13 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
             <div className="grid-3-column txt-align-center">
               <span className="font-script font-size-3">P</span>raktikant*innen{" "}
             </div>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("anna-lena-bio")}>
               <div className="team-image">
                 <img
                   src={Team7}
@@ -124,9 +153,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("bela-bio")}>
               <div className="team-image">
                 <img
                   src={Team8}
@@ -134,9 +163,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("dilara-bio")}>
               <div className="team-image">
                 <img
                   src={Team9}
@@ -144,9 +173,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("leon-bio")}>
               <div className="team-image">
                 <img
                   src={Team10}
@@ -154,9 +183,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("linda-bio")}>
               <div className="team-image">
                 <img
                   src={Team11}
@@ -164,9 +193,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("lynnve-bio")}>
               <div className="team-image">
                 <img
                   src={Team12}
@@ -174,9 +203,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("marlene-h-bio")}>
               <div className="team-image">
                 <img
                   src={Team13}
@@ -184,9 +213,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("marlene-r-bio")}>
               <div className="team-image">
                 <img
                   src={Team14}
@@ -194,9 +223,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("nima-bio")}>
               <div className="team-image">
                 <img
                   src={Team15}
@@ -204,9 +233,9 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("roya-bio")}>
               <div className="team-image">
                 <img
                   src={Team16}
@@ -214,26 +243,24 @@ function Team() {
                   className="border-radius grid-1-column"
                 />
               </div>
-            </WigglyButton>
+            </TeamMemberButton>
 
-            <WigglyButton>
-              <Link to="team17" smooth={true} duration={500}>
-                <div className="team-image">
-                  <img
-                    src={Team17}
-                    alt="Tilman Busch"
-                    className="border-radius grid-1-column"
-                  />
-                </div>
-              </Link>
-            </WigglyButton>
+            <TeamMemberButton onClick={() => scrollToPos("tilman-bio")}>
+              <div className="team-image">
+                <img
+                  src={Team17}
+                  alt="Tilman Busch"
+                  className="border-radius grid-1-column"
+                />
+              </div>
+            </TeamMemberButton>
           </div>
 
           <div className="added-padding"></div>
         </div>
 
-        <div className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element ">
-          <section className="team-txt">
+        <div id="div-with-bios" className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element ">
+          <section id="leni-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span> eni von der{" "}
             <span className="font-script font-size-3">W</span>aydbrink, geboren
             in Berlin, studiert seit 2020 Literarisches Schreiben, Theater und
@@ -246,7 +273,7 @@ function Team() {
             Mitherausgeberin der Zeitschrift BELLA triste. Beim PROSANOVA ist
             sie für die Ressorts Produktion und Infrastruktur verantwortlich.
           </section>
-          <section className="team-txt">
+          <section id="melek-bio" className="team-txt">
             <span className=" font-script font-size-3">M</span>
             elek <span className="font-script font-size-3">H</span>alici
             studiert Literarisches Schreiben, Philosophie und Theater in
@@ -256,7 +283,7 @@ function Team() {
             Leitung beim PROSANOVA 2023. Ist dort zuständig für die Ressorts
             Kommunikation und Öffentlichkeitsarbeit.
           </section>
-          <section className="team-txt">
+          <section id="hiyam-bio" className="team-txt">
             <span className=" font-script font-size-3">H</span>iyam{" "}
             <span className=" font-script font-size-3">B</span>iary ist in
             Berlin-Kreuzberg geboren und aufgewachsen. Nach dem Abitur
@@ -280,7 +307,7 @@ function Team() {
             zur Aufarbeitung des NSU-Komplex. Beim PROSANOVA ist sie für Social
             Media, Infrastruktur und Presse verantwortlich.
           </section>
-          <section className="team-txt">
+          <section id="lucie-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span>ucie{" "}
             <span className=" font-script font-size-3">F</span>rahm, geboren in
             Berlin, nach dem Abitur absolvierte sie ein FSJ bei der
@@ -290,7 +317,7 @@ function Team() {
             seit 2022 Mitherausgeberin der BELLA triste. Beim PROSANOVA 2023 ist
             sie zuständig für die Ressorts Finanzen und Produktion.
           </section>
-          <section className="team-txt">
+          <section id="lina-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span>ina{" "}
             <span className=" font-script font-size-3">B</span>riks ist in
             Hamburg geboren und aufgewachsen und studierte zunächst Klassische
@@ -302,7 +329,7 @@ function Team() {
             triste und Teil der künstlerischen Leitung für das PROSANOVA
             Festival 2023.
           </section>
-          <section className="team-txt">
+          <section id="clara-bio" className="team-txt">
             <span className=" font-script font-size-3">C</span>lara{" "}
             <span className=" font-script font-size-3">D</span>önicke ist in
             Hamburg geboren und studiert Literarisches Schreiben, Musik und
@@ -312,7 +339,7 @@ function Team() {
             Teil der künstlerischen Leitung für Finanzen und Kommunikation
             zuständig.
           </section>
-          <section className="team-txt">
+          <section id="anna-lena-bio" className="team-txt">
             <span className=" font-script font-size-3">A</span>nna-Lena{" "}
             <span className=" font-script font-size-3">M</span>aatz,
             aufgewachsen im Allgäu, studiert seit 2020 Vergleichende
@@ -321,17 +348,17 @@ function Team() {
             des AStA an der Universität Augsburg. Bei PROSANOVA 23 ist sie
             Praktikantin im Bereich Presse und Social Media.
           </section>
-          <section className="team-txt">
+          <section id="bela-bio" className="team-txt">
             <span className=" font-script font-size-3">B</span>éla{" "}
             <span className=" font-script font-size-3">N</span>eumann, geboren
-            in Berlin, war 5 Jahre Teil der Statisterie der Deutschen Oper 
+            in Berlin, war 5 Jahre Teil der Statisterie der Deutschen Oper
             Berlin und hat an zwei interdisziplinären Projekten der
             Bühnenkunstschule ACADEMY  mitgewirkt. Seit 2022 studiert er
             Literarisches Schreiben und Kulturjournalismus in  Hildesheim und
             ist Bassist in einer Indie-Band. Für das PROSANOVA 2023 ist er
             Praktikant  im Bereich Produktion.
           </section>
-          <section className="team-txt">
+          <section id="dilara-bio" className="team-txt">
             <span className=" font-script font-size-3">D</span>ilara{" "}
             <span className=" font-script font-size-3">B</span>uzoğlu ist 1999
             in Niedersachsen geboren. Studierte an der Freien Universität Berlin
@@ -340,7 +367,7 @@ function Team() {
             viel mit herrschaftskritischen Fragen und forscht gerade im Rahmen
             ihrer BA zu Feminismen in der SWANA-Region.
           </section>
-          <section className="team-txt">
+          <section id="leon-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span>eon{" "}
             <span className=" font-script font-size-3">A</span>hlborn,
             aufgewachsen in Göttingen. Studierte zunächst Humanmedizin und
@@ -348,14 +375,14 @@ function Team() {
             Halle. Mittlerweile Masterstudium der Philosophie an der Universität
             Jena.
           </section>
-          <section className="team-txt">
+          <section id="linda-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span>inda{" "}
             <span className=" font-script font-size-3">R</span>abe, aufgewachsen
             in Mönchengladbach, studiert derzeit Philosophie-Künste-Medien an
             der Universität Hildesheim. Bei PROSANOVA 2023 ist sie Praktikantin
             im Bereich Infrastruktur.
           </section>
-          <section className="team-txt">
+          <section id="lynnve-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span>ynnVe{" "}
             <span className=" font-script font-size-3">S</span>ophia Ltechert,
             geboren 1998 in Braunschweig, studiert derzeit Kunstwissenschaften
@@ -363,7 +390,7 @@ function Team() {
             Contemporary Arts Practice am Y Institut für Transdisziplinarität
             der Hochschule der Künste Bern, Schweiz.
           </section>
-          <section className="team-txt">
+          <section id="marlene-h-bio" className="team-txt">
             <span className=" font-script font-size-3">M</span>arlene{" "}
             <span className=" font-script font-size-3">H</span>orn kommt aus
             Bonn und hat Philosophie, Kunst und Gesellschaftswissenschaften
@@ -372,17 +399,17 @@ function Team() {
             begleitet sie Workshops zur Selbsterfahrung und Berufsorientierung
             oder beschäftigt sich mit Lyrik und Illustration.
           </section>
-          <section className="team-txt">
+          <section id="marlene-r-bio" className="team-txt">
             <span className=" font-script font-size-3">M</span>arlene{" "}
             <span className=" font-script font-size-3">R</span>egenfuß ist in
-            Göttingen aufgewachsen. Nach Sprüngen durch die süddeutsche 
+            Göttingen aufgewachsen. Nach Sprüngen durch die süddeutsche
             Unilandschaft und Praktika an kleinen Theatern, ist sie nach
             Hildesheim gezogen. Hier studiert sie  seit ein paar Jahren
             Kulturwissenschaften und ästhetische Praxis und erweitert ihr
             kulturelles  Kapital. Sie schreibt Kurzprosa und Lyrik, spielt mit
             literarischen Ideen und dramatischen Situationen.
           </section>
-          <section className="team-txt">
+          <section id="nima-bio" className="team-txt">
             <span className=" font-script font-size-3">N</span>ima{" "}
             <span className=" font-script font-size-3">S</span>chaper geboren
             und groß geworden  in Köln. Nach dem Abitur an Kölner Gesamtschule
@@ -391,13 +418,13 @@ function Team() {
             Universität Hildesheim.  Außerdem als DJ, Music Producer und
             Sound/Video  Künstler tätig.
           </section>
-          <section className="team-txt">
+          <section id="roya-bio" className="team-txt">
             <span className=" font-script font-size-3">R</span>oya{" "}
             <span className=" font-script font-size-3">S</span>chaper ist 19
             Jahre alt und in Köln aufgewachsen. Momentan lebt sie zwischen Köln,
             London und Berlin. Roya liest viel, macht Musik, Filme und schreibt.
           </section>
-          <section className="team-txt">
+          <section id="tilman-bio" className="team-txt">
             <span className=" font-script font-size-3">T</span>ilman{" "}
             <span className=" font-script font-size-3">B</span>usch, geboren und
             aufgewachsen in Göttingen. Studierte in Halle (Saale) Soziologie und
