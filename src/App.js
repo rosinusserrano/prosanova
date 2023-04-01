@@ -8,7 +8,7 @@ import React, { StrictMode, Suspense, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/fonts.css";
 import "./styles/imprint.css";
-import ImprintPage from "./pages/ImprintPage";
+import ImprintPage from "./components/ImprintPage";
 import Test from "./pages/Test";
 import { Canvas } from "@react-three/fiber";
 import { useProsanovaScene } from "functions";

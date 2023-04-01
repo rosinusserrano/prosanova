@@ -1,57 +1,203 @@
-
-
-
-
 body {
-    background: rgb(218, 218, 218);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    margin: 0;
 }
-
-.Video-wrapper-large{
-
-position: fixed;
-display: grid;
-justify-content: center;
-align-content: center;
-height: 100svh;
-background: rgb(218, 218, 218);
+.background-color-grey{
+    background-color: #E8E3DD;
 
 
 }
-.Video-wrapper-small{
-    display: none;
+.background-color-1 {
+    background-color:  #BFA9ED ;
 }
 
-@media only screen and (max-width: 800px) {
-    .Video-wrapper-large{
-        display:none;
-    }
-    .Video-wrapper-small{
+.background-color-2 {
+    background-color: #C18167;
+}
 
-        position: fixed;
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        height: 100svh;
-        background: rgb(218, 218, 218);
+.background-color-3 {
+    background-color: #C8BF9B;
+}
 
-        
-        }
+.background-color-4 {
+    background-color: #E3CC4E;
+}
+
+.background-color-5 {
+    background-color: #F97DD0;
+}
+
+.switch-color-button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ballon{
+   
     
+    width: 420px;
+ 
+
+}
+/* Farben */
+.button-color-1, .button-color-2, .button-color-3, .button-color-4, .button-color-5 {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+/* purple */
+.button-color-1:hover {
+    background-color: #BFA9ED;
+    color: white;
 }
 
-.Links{
+/* brown */
+.button-color-2:hover {
+    background-color: #C18167;
+    color: white;
+
+}
+
+/* beige */
+.button-color-3:hover {
+    background-color: #C8BF9B;
+    color: white;
+}
+
+/* yellow */
+.button-color-4:hover {
+    background-color: #E3CC4E;
+    color: white;
+}
+
+/* gelb */
+.button-color-5:hover {
+    background-color: #F97DD0;
+    color: white;
+}
+
+.main-content-wrapper {
+
+    z-index: 100;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+
+header {
+    padding: 0.5rem;
+    background-color: #E8E3DD;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    height: 5rem;
+}
+.menu-mobile{
+    display:none;
+}
+
+.bm-burger-button {
+display:none;
+  }
+.Menu-Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    width: 300px;
+    gap: 0.3rem;
+    margin-left: 1rem;
+    height: 100%;
+}
+
+.color-button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.3rem;
+
+}
+
+.font-size-1 {
+    font-size: 1.5rem;
+}
+
+.font-size-2 {
+    font-size: 1rem;
+}
+.font-size-3{
+    font-size: 3rem;
+}
+.txt-align-center{
+    text-align: center;
+}
+.team-txt{
+    line-height: 100%;
+    margin: 3rem 0;
+}
+.menu-button {
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Truncate long text with an ellipsis */
+    padding: 2px 10px;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+    background-color: white;
+}
+
+
+
+
+.border-radius {
+
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
+}
+
+.inside-page-padding{
+    padding: 1.5rem;
+
+}
+
+.Logo-Header-Wrapper{
+    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 0.5rem; */
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+
+}
+.logo-large{
+    width: 250px;
+}
+
+.logo-small{
+    display:none;
+}
+.Links {
     text-decoration: none;
     color: black;
 
 }
 
-.Links:hover{
+.Links:hover {
     color: rgb(103, 84, 84);
 
 
 }
 
-.navbar{
+.navbar {
 
     top: 1rem;
     left: 1rem;
@@ -67,7 +213,12 @@ background: rgb(218, 218, 218);
 
 }
 
-.button{
+.main-content-wrapper .inside-main-content-wrapper {
+    height: calc(100vh - 9rem);
+
+}
+
+.button {
     margin: 0 0.2rem;
     text-align: center;
     border-radius: 1em;
@@ -80,12 +231,12 @@ background: rgb(218, 218, 218);
     font-family: BastardoRegular;
 }
 
-.button:hover{
+.button:hover {
     color: rgb(103, 84, 84);
 
 }
 
-.homebuttonwrapper{
+.homebuttonwrapper {
     top: 1rem;
     border-top-left-radius: 0;
     Position: fixed;
@@ -98,8 +249,9 @@ background: rgb(218, 218, 218);
     width: auto;
 
 }
-.homebutton{
- 
+
+.homebutton {
+
     margin: 0 1rem;
     text-align: center;
     border-radius: 1em;
@@ -116,20 +268,64 @@ background: rgb(218, 218, 218);
     color: rgb(103, 84, 84);
 
 }
+
 .page-grid {
-    margin: 0 1rem;
+    margin: 1rem;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
     overflow: auto;
 
     font-family: BastardoRegular;
 
+
+}
+.page-grid-inside{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: auto;
+    font-family: BastardoRegular;
+
+
+}
+ .page-grid-inside-5-cl{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: auto;
+    font-family: BastardoRegular;
 }
 
+.termine-Datum, .termine-titel{
+    margin: 0.5rem 0;
+    text-align: center;
+    color: white;
+
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+    max-width: 100%;
+    grid-auto-rows: minmax(0, max-content);
+
+}
+
+.team-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
 .grid-child {
-    margin: 3.5rem 0;
+    margin:  0;
 
 }
 
@@ -161,6 +357,12 @@ background: rgb(218, 218, 218);
 .grid-5-column {
     grid-column: span 5;
 
+
+}
+.grid-6-column {
+    grid-column: span 6;
+
+
 }
 
 .grid-column-start-1 {
@@ -185,8 +387,9 @@ background: rgb(218, 218, 218);
 
 .scrollable-element {
     overflow-y: auto;
-    height: 100svh;
     position: relative;
+    overflow-wrap: break-word;
+
 }
 
 .added-padding {
@@ -208,15 +411,11 @@ background: rgb(218, 218, 218);
 
 }
 
-.font-sz-large {
-    font-size: 3rem;
-
+.font-script{
+    font-family: Script;
 }
 
-.font-sz-medium {
 
-    font-size: 2rem;
-}
 
 .font-sz-small {
 
@@ -228,79 +427,31 @@ background: rgb(218, 218, 218);
 
 /* Set the width of the scrollbar in the element */
 .scrollable-element::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Set the background color of the scrollbar track */
-  .scrollable-element::-webkit-scrollbar-track {
-    
+    width: 10px;
+    margin-right: 5px;
+}
+
+/* Set the background color of the scrollbar track */
+.scrollable-element::-webkit-scrollbar-track {
+
     transition: background-color 0.2s ease-out;
 }
-  
-  /* Set the color of the scrollbar thumb */
-  .scrollable-element::-webkit-scrollbar-thumb {
+
+/* Set the color of the scrollbar thumb */
+.scrollable-element::-webkit-scrollbar-thumb {
     background-color: rgba(158, 158, 158, 0);
     transition: background-color 0.2s ease-out;
 
-  }
-  
-  /* Set the opacity of the scrollbar thumb when hovering over the element */
-  .scrollable-element:hover::-webkit-scrollbar-thumb {
-    background-color: rgba(146, 146, 146, 0.544);
+}
+
+/* Set the opacity of the scrollbar thumb when hovering over the element */
+.scrollable-element:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(146, 146, 146, 0.844);
     transition: background-color 0.2s ease-out;
 
-  }
-  
-
-  
-/* Mobile Queries */
-
-
-@media only screen and (max-width: 700px) {
-
-    .page-grid {
-        margin: 0 1rem;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 3.5rem 1rem;
-        display: grid;
-    }
-
-    .grid-1-column-mobile {
-        grid-column: span 1;
-        overflow: visible;
-
-    }
-
-    .grid-column-start-1-mobile {
-        grid-column-start: 1
-    }
-
-    .fixed-grid {
-        position: static;
-
-    }
-
-    .scrollable-element {
-       overflow-y: visible;
-        height: auto;
-        overflow-x: hidden;
-
-        /* position: relative; */
-    }
-
-    .added-padding {
-        display: none;
-    }
-    .grid-child {
-        margin: 1rem 0;
-    
-    }
-
-    .grid-row-start-mobile-1{
-        grid-row-start: 1;
-    }
-    .grid-row-start-mobile-2{
-        grid-row-start: 2;
-    }
-
 }
+
+
+
+
+
