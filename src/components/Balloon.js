@@ -1,15 +1,20 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import BallonImage from '../ballon.png'
+import "../styles/responsive.css"
+import "../styles/pages.css"
 
 export default function Balloon() {
     return (
-        <motion.div style={{ width: "120px", height: "460px", position: "absolute", backgroundColor: "red", x: "80vw", z: "-10px"}}
+        <motion.div  style={{ zIndex: "300", width: "auto", height: "auto", position: "absolute",  x: "40vw", }}
+
             animate={
                 { 
-                    y: ["100vh", "-100vh"],
+                    y: ["140vh", "-140vh"],
                     transition: {duration: 10, repeat: Infinity},
                 }}>
-            Ballon
+                    <img className='ballon'  src={BallonImage} alt="Ballon" />
+
         </motion.div>
     )
 }

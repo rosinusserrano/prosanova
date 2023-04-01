@@ -1,0 +1,223 @@
+/* Mobile Queries */
+
+
+@media only screen and (max-width: 767px) {
+
+.Menu-Wrapper{
+    display: none;
+}
+.mobile-menu{
+    margin: 1.25rem 0.5rem;
+
+
+
+}
+
+.page-grid-inside .page-grid-inside-5-cl{
+    height: calc(100vh - 9rem);
+
+}
+.bm-burger-button {
+    position: fixed;
+    width: 3.5rem;
+    height: 2.5rem;
+
+    z-index: 1000;
+    display: block;
+  }
+
+  /* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #FFFFFF;
+    border-radius: 40px;  
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #FFFFFF;
+    opacity: 1;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    
+
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #E8E3DD;
+    font-size: 1.15em;
+    border-radius: 20px;
+
+    box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
+    height: calc(100% - 9rem) !important;
+
+    margin-top: 5.2rem;
+    position: fixed;
+    left: 1rem;
+    width: 60vw;
+    overflow: hidden !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+color: black;
+margin: 2rem 1rem ;
+
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block !important;
+    margin: 0.3rem;
+    
+
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+display: none;  }
+
+
+    .page-grid {
+        margin: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+
+    .grid-1-column-mobile {
+        grid-column: span 1;
+        overflow: visible;
+
+    }
+    .grid-5-column-mobile {
+        grid-column: span 5;
+        overflow: visible;
+
+    }
+
+    .grid-6-column-mobile{
+        grid-column: span 6;
+        overflow: visible;
+
+    }
+
+    .grid-column-start-1-mobile {
+        grid-column-start: 1;
+    }
+
+    .fixed-grid {
+        position: static;
+
+    }
+
+    .scrollable-element {
+        overflow-y: visible;
+        height: auto;
+        overflow-x: hidden;
+        
+
+        /* position: relative; */
+    }
+
+    .added-padding {
+        display: none;
+    }
+
+    .grid-child {
+        margin: 0;
+
+    }
+
+    .grid-row-start-mobile-1 {
+        grid-row-start: 1;
+    }
+
+    .grid-row-start-mobile-2 {
+        grid-row-start: 2;
+    }
+    
+    .logo-large{
+        display:none;
+    }
+
+    .logo-small{
+        display:block;
+        width: 45px;
+        display: block;
+        margin-right: 0.3rem;
+    }
+
+.color-button-wrapper {
+    display: flex;
+    gap: 0.3rem;
+    /* display: none; */
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    /* width: 10vw; */
+    z-index: 200;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logo-Header-Wrapper {
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0.5rem; */
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: space-around;
+
+
+} 
+
+.ballon{
+   
+    
+        z-index: 300;
+        width: 250px;
+        height: auto;
+        position: absolute;
+    
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    .logo-small{
+        display:none;
+    }
+    /* Styles for tablets go here */
+  }
+  

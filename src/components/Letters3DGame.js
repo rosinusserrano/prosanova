@@ -104,7 +104,7 @@ function Lights() {
 export default function Letters3DGame() {
   return (
     <Suspense>
-      <Canvas shadows style={{ height: "90vh", backgroundColor: "whitesmoke", cursor: "crosshair"}}
+      <Canvas className="border-radius" shadows style={{ height: "calc(100vh - 9rem)", backgroundColor: "#E8E3DD",  }}
         camera={{
           fov: 25,
           rotation: [0, Math.PI / 2, 0],

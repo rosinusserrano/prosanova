@@ -1,5 +1,5 @@
 import React from 'react';
-import ImprintPage from '../pages/ImprintPage';
+import ImprintPage from './ImprintPage';
 
 
 import '../styles/imprint.css';

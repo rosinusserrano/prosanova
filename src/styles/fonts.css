@@ -14,3 +14,9 @@
 
   }
 
+  @font-face {
+    font-family: Script;
+    src: url('../fonts/MonsieurLaDoulaise-Regular.ttf') format('truetype');
+  }
+  
+

@@ -1,5 +1,4 @@
 import React from 'react';
-import Imprint from '../components/Imprint';
 import '../styles/imprint.css';
 import '../styles/fonts.css';
 import '../styles/pages.css';
@@ -9,7 +8,6 @@ import { Helmet } from 'react-helmet';
 
 
 import { Link, Routes } from 'react-router-dom';
-import HomeButton from '../components/HomeButton';
 
 function ImprintPage() {
   return <>
@@ -17,11 +15,10 @@ function ImprintPage() {
       <title>PROSANOVA 2023 | Impressum</title>
       <meta name='description' content='Prosanova 2023, Festival für junge Literatur | Impressum' />
     </Helmet>
-    <Imprint />
-    <HomeButton />
 
-    <div className='page-grid fixed-grid'>
-      <div className='grid-1-column-mobile grid-3-column scrollable-element grid-child font-sz-small grid-row-start-2 '>
+    <div className=' page-grid-inside inside-main-content-wrapper '>
+   
+      <div className=' background-color-grey inside-page-padding border-radius grid-6-column-mobile grid-4-column scrollable-element grid-child font-sz-small grid-row-start-2 '>
 
       Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 <br /> <br/>
@@ -179,9 +176,9 @@ function ImprintPage() {
 
         <div className='added-padding'></div>
 
-      </div>
+      </div> 
 
-      <div className='grid-row-start-mobile-1 grid-1-column-mobile grid-column-start-1-mobile grid-child grid-2-column scrollable-element font-sz-small'>
+      <div className='background-color-grey inside-page-padding border-radius grid-row-start-mobile-1 grid-6-column-mobile  grid-child grid-2-column scrollable-element font-sz-small'>
         ANGABEN GEMÄSS § 5 TM Bella triste e.V. <br /><br />
         Vorsitz: <br />Lucie Frahm <br />Melek Halici<br/> Lina Briks<br/><br />
         Neustädter Markt 3-4<br />
