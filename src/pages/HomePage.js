@@ -63,9 +63,6 @@ export default function HomePage() {
           <header className="border-radius">
 
             <div className="Menu-Wrapper ">
-              <WigglyButton onClick={() => setActivePage("game")}>
-                <div className="menu-button font-size-1 button-color-1">Start</div>
-              </WigglyButton>
               <WigglyButton onClick={() => setActivePage("info")}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
@@ -87,25 +84,25 @@ export default function HomePage() {
             </div>
 
             <div className="mobile-menu">
-              <Menu  >
-                <div className="menu-button font-size-1 button-color-1">Info</div>
+              <Menu>
+                <div className="menu-button font-size-1 button-color-1" onClick={() => setActivePage("info")}>Info</div>
 
-                <div className="menu-button font-size-1 button-color-3">Programm</div>
+                <div className="menu-button font-size-1 button-color-3" onClick={() => setActivePage("programm")}>Programm</div>
 
-                <div className="menu-button font-size-1 button-color-5">Termine</div>
+                <div className="menu-button font-size-1 button-color-5" onClick={() => setActivePage("termine")}>Termine</div>
 
-                <div className="menu-button font-size-1 button-color-4">Line-Up</div>
+                <div className="menu-button font-size-1 button-color-4" onClick={() => setActivePage("line-up")}>Line-Up</div>
 
-                <div className="menu-button font-size-1 button-color-2">Team</div>
+                <div className="menu-button font-size-1 button-color-2" onClick={() => setActivePage("team")}>Team</div>
 
-                <div className="menu-button font-size-2 button-color-1">imprint</div>
+                <div className="menu-button font-size-2 button-color-1" onClick={() => window.location = "/imprint"}>imprint</div>
 
               </Menu>
             </div>
             <div className="Logo-Header-Wrapper grid-column-start-5">
 
-              <div>  <img className="logo-large" src={LogoLarge} alt="Logo Large" /></div>
-              <div>  <img className="logo-small" src={LogoSmall} alt="Logo Small" /></div>
+              <div>  <img className="logo-large" src={LogoLarge} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
+              <div>  <img className="logo-small" src={LogoSmall} alt="Logo Small" onClick={() => setActivePage("game")} /></div>
 
               <div className="color-button-wrapper">
                 <div className="switch-color-button background-color-1"
