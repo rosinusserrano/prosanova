@@ -13,16 +13,16 @@ function randomLittleRotation() {
 
 
 function randomHeightOffset(offset) {
-    return 1* (offset/2) + Math.random() * (offset/2)
+    return 1 * (offset / 2) + Math.random() * (offset / 2)
     // return offset
 }
 
 
-export function FallbackLetter({ gltfNode, offset }) {
+export function FallbackLetter({ gltfNode, lettersOffset }) {
     const { size, viewport } = useThree();
 
     const [position, setPosition] = useState([
-        gltfNode["position"]["x"] * SCALE + LETTERS_OFFSET + randomHeightOffset(offset),
+        gltfNode["position"]["x"] * SCALE + LETTERS_OFFSET + randomHeightOffset(lettersOffset),
         gltfNode["position"]["y"] * SCALE,
         gltfNode["position"]["z"] * SCALE]);
 
@@ -38,19 +38,25 @@ export function FallbackLetter({ gltfNode, offset }) {
             gltfNode["rotation"]["_y"] + randomLittleRotation(),
             gltfNode["rotation"]["_z"] + randomLittleRotation()],
         scale: [SCALE * gltfNode["scale"]["x"], SCALE * gltfNode["scale"]["y"] * 3, SCALE * gltfNode["scale"]["z"]],
-        args: [0.035 * SCALE, 0.01 * SCALE, 0.04 * SCALE],
+        args: [0.027 * SCALE, 0.01 * SCALE, 0.04 * SCALE],
 
     }))
 
-    const X_OFFSET_HARDCODED = 0
-    const Y_OFFSET_HARDCODED = 0
+    const mainContent = document.getElementsByClassName("header-wrapper")[0]
+    const offsetTop = mainContent.clientHeight + 25
+    const offsetLeft = 18
+
+    console.log(offsetTop, offsetLeft)
+
+    const X_OFFSET_HARDCODED = offsetLeft
+    const Y_OFFSET_HARDCODED = offsetTop
     const bind = useDrag(({ offset: [,], xy: [x, y], first, last }) => {
         if (first) {
-            api.mass.set(0);
+            // api.mass.set(0);
         } else if (last) {
             api.mass.set(LETTERS_MASS)
         }
-        api.position.set(0.0035 * SCALE, -((y - Y_OFFSET_HARDCODED) - size.height / 2) / aspect, -((x - X_OFFSET_HARDCODED) - size.width / 2) / aspect);
+        api.position.set(0.004 * SCALE, -((y - Y_OFFSET_HARDCODED) - size.height / 2) / aspect, -((x - X_OFFSET_HARDCODED) - size.width / 2) / aspect);
     }, { pointerEvents: true });
 
     useFrame(() => {
@@ -79,7 +85,7 @@ export function FallbackLetter({ gltfNode, offset }) {
         {...bind()}
         onClick={(e) => e.stopPropagation()}
         castShadow
-        // receiveShadow
+    // receiveShadow
     />
 }
 
@@ -125,9 +131,9 @@ export function A({ gltfNode }) {
             material={gltfNode["material"]}
             scale={[SCALE * gltfNode["scale"]["x"], SCALE * gltfNode["scale"]["y"], SCALE * gltfNode["scale"]["z"]]}
             ref={ref} >
-            <mesh scale={[SCALE * (1/gltfNode["scale"]["x"]), SCALE * (1/gltfNode["scale"]["y"]), SCALE * (1/gltfNode["scale"]["z"])]}
-                    position={[newBox.xPos / 100, newBox.yPos / 100, newBox.zPos / 100]}
-                    rotation={[newBox.xRot / 100, newBox.yRot / 100, newBox.zRot / 100]}>
+            <mesh scale={[SCALE * (1 / gltfNode["scale"]["x"]), SCALE * (1 / gltfNode["scale"]["y"]), SCALE * (1 / gltfNode["scale"]["z"])]}
+                position={[newBox.xPos / 100, newBox.yPos / 100, newBox.zPos / 100]}
+                rotation={[newBox.xRot / 100, newBox.yRot / 100, newBox.zRot / 100]}>
                 <meshNormalMaterial></meshNormalMaterial>
                 <boxGeometry args={[newBox.xSize / 100, newBox.ySize / 100, newBox.zSize / 100]}></boxGeometry>
             </mesh>

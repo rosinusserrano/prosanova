@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
-export default function WigglyButton(props) {
+export default function WigglyButton({children, onClick}) {
     const buttonStyle = {
      
         rotate: 0
@@ -10,8 +10,8 @@ export default function WigglyButton(props) {
         <motion.div style={buttonStyle} whileHover={{
             rotate: [-7, 7],
             transition: { duration: .2, repeat: Infinity, repeatType: "reverse" }
-        }}>
-            {props.children}
+        }} onClick={onClick}>
+            {children}
         </motion.div>
     )
 }

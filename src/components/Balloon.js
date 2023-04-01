@@ -10,8 +10,8 @@ export default function Balloon() {
 
             animate={
                 { 
-                    y: ["140vh", "-140vh"],
-                    transition: {duration: 10, repeat: Infinity},
+                    y: ["140vh", "-400vh"],
+                    transition: {delay: 3, duration: 19, repeat: Infinity},
                 }}>
                     <img className='ballon'  src={BallonImage} alt="Ballon" />
 

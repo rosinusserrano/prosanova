@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import WigglyButton from "components/WigglyButton";
 import Balloon from "components/Balloon";
@@ -23,14 +23,31 @@ import Termine from "components/Termine";
 
 
 
+function PageSwitch({ page }) {
+  switch (page) {
+    case "info":
+      return <Info></Info>
+    case "termine":
+      return <Termine></Termine>
+    case "team":
+      return <Team></Team>
+    case "game":
+      return <Letters3DGame></Letters3DGame>
+    default:
+      return <Letters3DGame></Letters3DGame>
+  }
+}
+
 
 export default function HomePage() {
   const [currentColor, setCurrentColor] = useState("#BFA9ED");
 
 
+  const [activePage, setActivePage] = useState("game")
+
   return (
-    <body style={{ backgroundColor: currentColor }}>
-      {/* <Balloon></Balloon> */}
+    <body style={{ background: currentColor }}>
+      <Balloon></Balloon>
 
       <div className="page-grid">
         <Helmet>
@@ -46,23 +63,25 @@ export default function HomePage() {
           <header className="border-radius">
 
             <div className="Menu-Wrapper ">
-
-              <WigglyButton>
+              <WigglyButton onClick={() => setActivePage("game")}>
+                <div className="menu-button font-size-1 button-color-1">Start</div>
+              </WigglyButton>
+              <WigglyButton onClick={() => setActivePage("info")}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
-              <WigglyButton>
+              <WigglyButton onClick={() => setActivePage("programm")}>
                 <div className="menu-button font-size-1 button-color-3">Programm</div>
               </WigglyButton>
-              <WigglyButton>
+              <WigglyButton onClick={() => setActivePage("termine")}>
                 <div className="menu-button font-size-1 button-color-5">Termine</div>
               </WigglyButton>
-              <WigglyButton>
+              <WigglyButton onClick={() => setActivePage("line-up")}>
                 <div className="menu-button font-size-1 button-color-4">Line-Up</div>
               </WigglyButton>
-              <WigglyButton>
+              <WigglyButton onClick={() => setActivePage("team")}>
                 <div className="menu-button font-size-1 button-color-2">Team</div>
               </WigglyButton>
-              <WigglyButton>
+              <WigglyButton onClick={() => window.location = "/imprint"}>
                 <div className="menu-button font-size-2 button-color-1">imprint</div>
               </WigglyButton>
             </div>
@@ -113,7 +132,7 @@ export default function HomePage() {
                 </div>
                 <div
                   className="switch-color-button background-color-"
-                  onClick={() => setCurrentColor("green")}
+                  onClick={() => setCurrentColor("url('blue-sky.jpg')")}
                 >
                 </div>
               </div>
@@ -121,9 +140,9 @@ export default function HomePage() {
           </header>
         </div>
 
-        <div className="grid-5-column  main-content-wrapper ">
+        <div className="grid-5-column  main-content-wrapper main-content-div">
           <main className=" main-content-wrapper">
-            <Team></Team>
+            <PageSwitch page={activePage}></PageSwitch>
 
           </main>
         </div>
