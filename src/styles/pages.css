@@ -132,6 +132,10 @@ display:none;
 .font-size-3{
     font-size: 3rem;
 }
+.font-size-4{
+    font-size: 2.5rem;
+}
+
 .txt-align-center{
     text-align: center;
 }
@@ -187,12 +191,12 @@ display:none;
 }
 .Links {
     text-decoration: none;
-    color: black;
+    color:  #BFA9ED ;
 
 }
 
 .Links:hover {
-    color: rgb(103, 84, 84);
+    color: #C18167;
 
 
 }
@@ -301,13 +305,28 @@ display:none;
     overflow: auto;
     height: auto;
     font-family: BastardoRegular;
+    height: calc(100vh - 9rem);
+
 }
 
 .termine-Datum, .termine-titel{
-    margin: 0.5rem 0;
+    margin-top: 0.5rem;
     text-align: center;
     color: white;
 
+}
+.termine-Datum{
+    font-family: Montiac;
+
+}
+
+.termine-text{
+    font-family: Montiac;
+
+}
+.termine-titel{
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    line-height: 90%;
 }
 .team-grid{
     display: grid;

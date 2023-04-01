@@ -18,5 +18,13 @@
     font-family: Script;
     src: url('../fonts/MonsieurLaDoulaise-Regular.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: Montiac;
+    src: url('../fonts/Montiac-Regular.otf') ;
+  }
+  
+
+
   
 
