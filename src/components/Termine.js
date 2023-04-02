@@ -71,7 +71,7 @@ function Termine() {
           </div>
         </div>
 
-        <div className="grid-6-column-mobile mobile-grid-row-start-2 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="no-scroll-bar grid-6-column-mobile mobile-grid-row-start-2 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
           OPEN CALL: Bekenntnisse an das Misstrauen Zu welchem Misstrauen
           bekennt ihr euch? <br></br><br></br>Zu dieser Frage suchen wir eure szenischen,
           experimentellen und gattungsbrechenden Texte, die thematisch aus
@@ -92,7 +92,7 @@ function Termine() {
           Wohnsitz in Deutschland. Fragen an besagte E-Mail-Adresse oder per
           Instagram.
         </div>
-        <div className="grid-6-column-mobile mobile-grid-row-start-4 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="no-scroll-bar grid-6-column-mobile mobile-grid-row-start-4 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
           Auftaktlesung im Literaturhaus St. Jakobi <br></br><br></br>Literaturhaus St. Jakobi,
           12345 Hildesheim, 19:30 <br></br><br></br> Über einen Monat vor dem Festivalwochenende
           starten wir mit einer ersten Lesung. Heike Geißler, Bezhad Karim Khani
@@ -106,7 +106,7 @@ function Termine() {
           </Link>
         </div>
 
-        <div className="grid-6-column-mobile mobile-grid-row-start-6 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="no-scroll-bar grid-6-column-mobile mobile-grid-row-start-6 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
           Und dazwischen Zwischenräume. Abend der Kollektive Literaturhaus <br></br><br></br>
           St.Jakobi, 12345 Hildesheim, 18:30  <br></br><br></br>In einer Kooperation mit dem
           Literaturinstitut der Universität Hildesheim und dem Literaturhaus St.
@@ -124,13 +124,13 @@ function Termine() {
           selbst kollektive Erfahrungen machen. Mehr Informationen und Tickets
           hier:
         </div>
-        <div className="grid-6-column-mobile mobile-grid-row-start-8 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="no-scroll-bar grid-6-column-mobile mobile-grid-row-start-8 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
           Festivalwochenende  23.–25.06.  <br></br><br></br>Hildesheim  <br></br><br></br>Seid dabei, wenn das
           Prosanova-Festival in die siebte Runde geht und macht Hildesheim mit
           uns unsicher. Literatur, Performance, Musik, Workshops und das
           Get-Together des Literaturbetriebs wartet in Hildesheim auf euch!
         </div>
-        <div className="grid-6-column-mobile mobile-grid-row-start-10 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="no-scroll-bar grid-6-column-mobile mobile-grid-row-start-10 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
           Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur <br></br><br></br>
           15.08.  <br></br><br></br>Hildesheim In der Sondersausgabe der BELLA triste widmen wir
           uns dem Archivieren als künstlerischer Praxis. Wie können wir

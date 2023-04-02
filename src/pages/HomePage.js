@@ -60,39 +60,39 @@ export default function HomePage() {
           <header className="border-radius">
 
             <div className="Menu-Wrapper ">
-              <WigglyButton onClick={() => setActivePage("info")}>
+              <WigglyButton onClick={() => {setActivePage("info"); setCurrentColor("#BFA9ED")}}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
-              <WigglyButton onClick={() => setActivePage("programm")}>
+              {/* <WigglyButton onClick={() => setActivePage("programm")}>
                 <div className="menu-button font-size-1 button-color-3">Programm</div>
-              </WigglyButton>
-              <WigglyButton onClick={() => setActivePage("termine")}>
+              </WigglyButton> */}
+              <WigglyButton onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>
                 <div className="menu-button font-size-1 button-color-5">Termine</div>
               </WigglyButton>
-              <WigglyButton onClick={() => setActivePage("line-up")}>
+              {/* <WigglyButton onClick={() => setActivePage("line-up")}>
                 <div className="menu-button font-size-1 button-color-4">Line-Up</div>
-              </WigglyButton>
-              <WigglyButton onClick={() => setActivePage("team")}>
+              </WigglyButton> */}
+              <WigglyButton onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>
                 <div className="menu-button font-size-1 button-color-2">Team</div>
               </WigglyButton>
-              <WigglyButton onClick={() => window.location = "/imprint"}>
-                <div className="menu-button font-size-2 button-color-1">imprint</div>
+              <WigglyButton onClick={() => {window.location = "/imprint"; setCurrentColor("#E3CC4E")}}>
+                <div className="menu-button font-size-2 button-color-4">imprint</div>
               </WigglyButton>
             </div>
 
             <div className="mobile-menu">
               <Menu>
-                <div className="menu-button font-size-1 button-color-1" onClick={() => setActivePage("info")}>Info</div>
+                <div className="menu-button font-size-1 button-color-1" onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED")}}>Info</div>
 
-                <div className="menu-button font-size-1 button-color-3" onClick={() => setActivePage("programm")}>Programm</div>
+                {/* <div className="menu-button font-size-1 button-color-3" onClick={() => setActivePage("programm")}>Programm</div> */}
 
-                <div className="menu-button font-size-1 button-color-5" onClick={() => setActivePage("termine")}>Termine</div>
+                <div className="menu-button font-size-1 button-color-5" onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>Termine</div>
 
-                <div className="menu-button font-size-1 button-color-4" onClick={() => setActivePage("line-up")}>Line-Up</div>
+                {/* <div className="menu-button font-size-1 button-color-4" onClick={() => setActivePage("line-up")}>Line-Up</div> */}
 
-                <div className="menu-button font-size-1 button-color-2" onClick={() => setActivePage("team")}>Team</div>
+                <div className="menu-button font-size-1 button-color-2" onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>Team</div>
 
-                <div className="menu-button font-size-2 button-color-1" onClick={() => window.location = "/imprint"}>imprint</div>
+                <div className="menu-button font-size-2 button-color-4" onClick={() => {window.location = "/imprint"; setCurrentColor("#E3CC4E")}}>imprint</div>
 
               </Menu>
             </div>

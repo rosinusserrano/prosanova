@@ -86,7 +86,7 @@ function Team({color}) {
       </Helmet>
 
       <div className=" page-grid-inside inside-main-content-wrapper ">
-        <div className="  inside-page-padding border-radius font-size-1 grid-6-column-mobile grid-3-column scrollable-element grid-child grid-row-start-2 ">
+        <div className="  inside-page-padding background-color-grey border-radius font-size-1 grid-6-column-mobile grid-3-column scrollable-element grid-child grid-row-start-2 no-scroll-bar">
           <div className="team-grid ">
             <div className="grid-3-column txt-align-center">
               <span className="font-script font-size-3">K</span>ünstlerische{" "}
@@ -270,7 +270,7 @@ function Team({color}) {
           <div className="added-padding"></div>
         </div>
 
-        <div id="div-with-bios" className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element ">
+        <div id="div-with-bios" className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element no-scroll-bar">
           <section id="leni-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span> eni von der{" "}
             <span className="font-script font-size-3">W</span>aydbrink, geboren

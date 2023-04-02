@@ -109,7 +109,7 @@ display:none;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-end;
-    width: 400px;
+    width: 300px;
     gap: 0.3rem;
     margin-left: 1rem;
     height: 100%;
@@ -469,6 +469,10 @@ display:none;
     background-color: rgba(146, 146, 146, 0.844);
     transition: background-color 0.2s ease-out;
 
+}
+
+.no-scroll-bar {
+    scrollbar-width: none;
 }
 
 

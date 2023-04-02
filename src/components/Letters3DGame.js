@@ -92,7 +92,7 @@ function Lights() {
 
   return (
     <>
-      <pointLight  castShadow {...pointLight1Props}/>
+      <pointLight {...pointLight1Props}/>
       <pointLight {...pointLight2Props}/>
       <pointLight {...pointLight3Props}/>
       <pointLight {...pointLight4Props}/>
