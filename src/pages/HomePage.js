@@ -21,16 +21,14 @@ import ImprintPage from "components/ImprintPage";
 import Termine from "components/Termine";
 
 
-
-
-function PageSwitch({ page }) {
+function PageSwitch({ page, color }) {
   switch (page) {
     case "info":
       return <Info></Info>
     case "termine":
       return <Termine></Termine>
     case "team":
-      return <Team></Team>
+      return <Team color={color}></Team>
     case "game":
       return <Letters3DGame></Letters3DGame>
     default:
@@ -40,13 +38,12 @@ function PageSwitch({ page }) {
 
 
 export default function HomePage() {
-  const [currentColor, setCurrentColor] = useState("#BFA9ED");
-
+  const [currentColor, setCurrentColor] = useState("teal");
 
   const [activePage, setActivePage] = useState("game")
 
   return (
-    <body style={{ background: currentColor }}>
+    <body style={{ background: currentColor === "teal" ? "url('blue-sky.jpg')" : currentColor, backgroundSize: currentColor === "teal" ? "cover" : "auto auto" }}>
       <Balloon></Balloon>
 
       <div className="page-grid">
@@ -129,7 +126,8 @@ export default function HomePage() {
                 </div>
                 <div
                   className="switch-color-button background-color-"
-                  onClick={() => setCurrentColor("url('blue-sky.jpg')")}
+                  style={{ background: "url('blue-sky.jpg')" }}
+                  onClick={() => setCurrentColor("teal")}
                 >
                 </div>
               </div>
@@ -139,7 +137,7 @@ export default function HomePage() {
 
         <div className="grid-5-column  main-content-wrapper main-content-div">
           <main className=" main-content-wrapper">
-            <PageSwitch page={activePage}></PageSwitch>
+            <PageSwitch page={activePage} color={currentColor}></PageSwitch>
 
           </main>
         </div>

@@ -13,7 +13,7 @@ export default function Plane() {
     return (
         <mesh ref={ref} receiveShadow>
             <planeGeometry args={[5 * SCALE, 5 * SCALE]}></planeGeometry>
-            <meshStandardMaterial></meshStandardMaterial>
+            <meshStandardMaterial color={"#C6C0BA"}></meshStandardMaterial>
         </mesh>
     )
 }

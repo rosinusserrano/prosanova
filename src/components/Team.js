@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/imprint.css";
 import "../styles/fonts.css";
 import "../styles/pages.css";
@@ -33,6 +33,7 @@ import Team17 from "../tilman-busch.png";
 
 import { Routes } from "react-router-dom";
 import { motion } from "framer-motion";
+import { COLORS } from "constants";
 
 function TeamMemberButton({ children, onClick }) {
   const buttonStyle = {
@@ -52,18 +53,28 @@ function TeamMemberButton({ children, onClick }) {
   )
 }
 
-function scrollToPos(section_id) {
-  const div = document.getElementById("div-with-bios")
-  const section = document.getElementById(section_id)
-  div.scrollTo({top: section.offsetTop - (div.getBoundingClientRect().height * .1), behavior: "smooth"})
-  const allSections = div.getElementsByTagName("section")
-  for (let i = 0; i< allSections.length; i++) {
-    allSections[i].style.backgroundColor = "transparent"
-  }
-  section.style.backgroundColor = "#33123456"
-}
 
-function Team() {
+function Team({color}) {
+
+  function scrollToPos(section_id) {
+    const div = document.getElementById("div-with-bios")
+    const section = document.getElementById(section_id)
+    div.scrollTo({top: section.offsetTop - (div.getBoundingClientRect().height * .1), behavior: "smooth"})
+    const allSections = div.getElementsByTagName("section")
+    for (let i = 0; i< allSections.length; i++) {
+      allSections[i].style.color = "black"
+    }
+    section.style.color = color
+  }
+
+  useEffect(() => {
+    const div = document.getElementById("div-with-bios")
+    const allSections = div.getElementsByTagName("section")
+    for (let i = 0; i< allSections.length; i++) {
+      allSections[i].style.color = "black"
+    }
+  }, [color])
+
   return (
     <>
       <Helmet>

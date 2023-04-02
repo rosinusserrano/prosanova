@@ -92,7 +92,7 @@ function Lights() {
 
   return (
     <>
-      <pointLight {...pointLight1Props}/>
+      <pointLight  castShadow {...pointLight1Props}/>
       <pointLight {...pointLight2Props}/>
       <pointLight {...pointLight3Props}/>
       <pointLight {...pointLight4Props}/>
@@ -104,31 +104,33 @@ function Lights() {
 export default function Letters3DGame() {
   return (
     <Suspense>
-      <Canvas className="border-radius" shadows style={{ height: "calc(100vh - 9rem)", backgroundColor: "#E8E3DD",  }}
-        camera={{
-          fov: 25,
-          rotation: [0, Math.PI / 2, 0],
-          position: [SCALE, 0, 0],
-          far: 10,
-          near: 0.01
-        }} >
-        {/* <OrbitControls ></OrbitControls> */}
-        {/* <pointLight position={[.3 * SCALE, .3 * SCALE, .3 * SCALE]} castShadow></pointLight> */}
-        {/* <directionalLight position={[.1, .1, .1]} castShadow></directionalLight> */}
-        <Lights></Lights>
-        {/* <ambientLight></ambientLight> */}
-        <Physics gravity={[-2, 0, 0]}
-          defaultContactMaterial={{
-            friction: 0.01,
-            // restitution: -0.5,
-          }}>
-          {/* <Debug > */}
-          <Buchstabis></Buchstabis>
-          <Plane></Plane>
-          {/* </Debug> */}
-        </Physics>
-        {/* <axesHelper></axesHelper> */}
-      </Canvas>
+      <div className='border-radius'>
+        <Canvas className="border-radius" shadows style={{ height: "calc(100vh - 9rem)", backgroundColor: "#E8E3DD",  }}
+          camera={{
+            fov: 25,
+            rotation: [0, Math.PI / 2, 0],
+            position: [SCALE, 0, 0],
+            far: 10,
+            near: 0.01
+          }} >
+          {/* <OrbitControls ></OrbitControls> */}
+          {/* <pointLight position={[.3 * SCALE, .3 * SCALE, .3 * SCALE]} castShadow></pointLight> */}
+          {/* <directionalLight position={[.1, .1, .1]} castShadow></directionalLight> */}
+          <Lights></Lights>
+          {/* <ambientLight></ambientLight> */}
+          <Physics gravity={[-1, 0, 0]}
+            defaultContactMaterial={{
+              friction: 0.01,
+              // restitution: -0.5,
+            }}>
+            {/* <Debug > */}
+            <Buchstabis></Buchstabis>
+            <Plane></Plane>
+            {/* </Debug> */}
+          </Physics>
+          {/* <axesHelper></axesHelper> */}
+        </Canvas>
+      </div>
     </Suspense>
   )
 }
