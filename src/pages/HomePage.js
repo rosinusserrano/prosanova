@@ -25,6 +25,8 @@ function PageSwitch({ page, color }) {
   switch (page) {
     case "info":
       return <Info></Info>
+      case "imprint":
+        return <ImprintPage></ImprintPage>
     case "termine":
       return <Termine></Termine>
     case "team":
@@ -75,7 +77,7 @@ export default function HomePage() {
               <WigglyButton onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>
                 <div className="menu-button font-size-1 button-color-2">Team</div>
               </WigglyButton>
-              <WigglyButton onClick={() => {window.location = "/imprint"; setCurrentColor("#E3CC4E")}}>
+              <WigglyButton onClick={() => {setActivePage("imprint"); setCurrentColor("#E3CC4E")}}>
                 <div className="menu-button font-size-2 button-color-4">imprint</div>
               </WigglyButton>
             </div>

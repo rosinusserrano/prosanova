@@ -30,6 +30,9 @@ import Team14 from "../marlene-regenfuß.png";
 import Team15 from "../nima-schaper.png";
 import Team16 from "../roya-schaper.png";
 import Team17 from "../tilman-busch.png";
+import Team18 from "../RombachLeah.jpg";
+import Team19 from "../SchelerJohanna.jpg";
+import Team20 from "../WolterLuise.jpg";
 
 import { Routes } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -37,43 +40,47 @@ import { COLORS } from "constants";
 
 function TeamMemberButton({ children, onClick }) {
   const buttonStyle = {
-
-    rotate: 0
-  }
+    rotate: 0,
+  };
 
   return (
-    <motion.div style={buttonStyle} whileHover={{
-      rotate: [-7, 7],
-      transition: { duration: .2, repeat: Infinity, repeatType: "reverse" }
-    }} onClick={() => {
-      onClick()
-    }}>
+    <motion.div
+      style={buttonStyle}
+      whileHover={{
+        rotate: [-7, 7],
+        transition: { duration: 0.2, repeat: Infinity, repeatType: "reverse" },
+      }}
+      onClick={() => {
+        onClick();
+      }}
+    >
       {children}
     </motion.div>
-  )
+  );
 }
 
-
-function Team({color}) {
-
+function Team({ color }) {
   function scrollToPos(section_id) {
-    const div = document.getElementById("div-with-bios")
-    const section = document.getElementById(section_id)
-    div.scrollTo({top: section.offsetTop - (div.getBoundingClientRect().height * .1), behavior: "smooth"})
-    const allSections = div.getElementsByTagName("section")
-    for (let i = 0; i< allSections.length; i++) {
-      allSections[i].style.color = "black"
+    const div = document.getElementById("div-with-bios");
+    const section = document.getElementById(section_id);
+    div.scrollTo({
+      top: section.offsetTop - div.getBoundingClientRect().height * 0.1,
+      behavior: "smooth",
+    });
+    const allSections = div.getElementsByTagName("section");
+    for (let i = 0; i < allSections.length; i++) {
+      allSections[i].style.color = "black";
     }
-    section.style.color = color
+    section.style.color = color;
   }
 
   useEffect(() => {
-    const div = document.getElementById("div-with-bios")
-    const allSections = div.getElementsByTagName("section")
-    for (let i = 0; i< allSections.length; i++) {
-      allSections[i].style.color = "black"
+    const div = document.getElementById("div-with-bios");
+    const allSections = div.getElementsByTagName("section");
+    for (let i = 0; i < allSections.length; i++) {
+      allSections[i].style.color = "black";
     }
-  }, [color])
+  }, [color]);
 
   return (
     <>
@@ -265,12 +272,45 @@ function Team({color}) {
                 />
               </div>
             </TeamMemberButton>
+
+            <TeamMemberButton onClick={() => scrollToPos("RombachLeah-bio")}>
+              <div className="team-image">
+                <img
+                  src={Team18}
+                  alt="Rombach Leah"
+                  className="border-radius grid-1-column"
+                />
+              </div>
+            </TeamMemberButton>
+
+            <TeamMemberButton onClick={() => scrollToPos("SchelerJohanna-bio")}>
+              <div className="team-image">
+                <img
+                  src={Team19}
+                  alt="Scheler Johanna"
+                  className="border-radius grid-1-column"
+                />
+              </div>
+            </TeamMemberButton>
+
+            <TeamMemberButton onClick={() => scrollToPos("WolterLuise-bio")}>
+              <div className="team-image">
+                <img
+                  src={Team20}
+                  alt="Wolter Luise"
+                  className="border-radius grid-1-column"
+                />
+              </div>
+            </TeamMemberButton>
           </div>
 
           <div className="added-padding"></div>
         </div>
 
-        <div id="div-with-bios" className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element no-scroll-bar">
+        <div
+          id="div-with-bios"
+          className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element no-scroll-bar"
+        >
           <section id="leni-bio" className="team-txt">
             <span className=" font-script font-size-3">L</span> eni von der{" "}
             <span className="font-script font-size-3">W</span>aydbrink, geboren
@@ -352,12 +392,12 @@ function Team({color}) {
           </section>
           <section id="anna-lena-bio" className="team-txt">
             <span className=" font-script font-size-3">A</span>nna-Lena{" "}
-            <span className=" font-script font-size-3">M</span>aatz,
-            aufgewachsen im Allgäu, studiert seit 2020 Vergleichende
-            Literaturwissenschaft an der Universität Augsburg. Neben dem Studium
-            Teil des Online-Magazins "Schauinsblau" und Referentin für Kultur
-            des AStA an der Universität Augsburg. Bei PROSANOVA 23 ist sie
-            Praktikantin im Bereich Presse und Social Media.
+            <span className=" font-script font-size-3">M</span>aatz, studiert
+            seit 2020 Vergleichende Literaturwissenschaft an der Universität
+            Augsburg. Neben dem Studium Teil des Online-Magazins "Schauinsblau"
+            und Referentin für Kultur des AStA an der Universität Augsburg. Bei
+            PROSANOVA 23 ist sie Praktikantin im Bereich Presse und Social
+            Media.
           </section>
           <section id="bela-bio" className="team-txt">
             <span className=" font-script font-size-3">B</span>éla{" "}
@@ -441,6 +481,31 @@ function Team({color}) {
             aufgewachsen in Göttingen. Studierte in Halle (Saale) Soziologie und
             Wirtschaftswissenschaften. Seit 2021 Kreatives Schreiben und
             Kulturjournalismus an der Universität Hildesheim.
+          </section>
+          <section id="RombachLeah-bio" className="team-txt">
+            <span className=" font-script font-size-3">L</span>eah{" "}
+            <span className=" font-script font-size-3">R</span>ombach studiert
+            Literarisches Schreiben und Kulturjournalismus in Hildesheim. Davor
+            lebte sie während eines kulturellen Freiwilligendienstes in Krakau
+            und hospitierte bei verschiedenen Theaterproduktionen. Bei PROSANOVA
+            2023 ist sie Praktikantin im Bereich Produktion.
+          </section>
+          <section id="SchelerJohanna-bio" className="team-txt">
+            <span className=" font-script font-size-3">J</span>ohanna{" "}
+            <span className=" font-script font-size-3">S</span>cheler in Hamburg
+            aufgewachsen, studiert seit 2021 „Szenische Künste“ in Hildesheim
+            mit den Schwerpunkten in Film und Literatur. Neben dem Studium hat
+            sie im letzten Jahr ihren ersten Kurzspielfilm frei produziert.
+          </section>
+          <section id="WolterLuise-bio" className="team-txt">
+            <span className=" font-script font-size-3">L</span>uise{" "}
+            <span className=" font-script font-size-3">W</span>olter ist in
+            Lissabon und Erfurt aufgewachsen. Ihren Abschluss erlangte sie in
+            der Visuellen Kommunikation an der Bauhaus-Universität Weimar mit
+            den Schwerpunkten Grafikdesign und Fotografie. Zuzüglich der
+            gestalterischen Ausbildung richtet sich ihr Interesse dem Bereich
+            des Kulturmanagements. Derzeit studiert sie im Master
+            Kulturvermittlung an der Stiftung Universität Hildesheim.
           </section>
           <div className="added-padding"></div>
         </div>

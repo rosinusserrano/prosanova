@@ -5,12 +5,12 @@
   }
   @font-face {
     font-family: BastardoBold;
-    src: url('../fonts/BastardoGroteskBold.woff'),
+    src: url('../fonts/BastardoGroteskBold.woff')
 
   }
   @font-face {
     font-family: BastardoThin;
-    src: url('../fonts/BastardoGroteskThin.woff'),
+    src: url('../fonts/BastardoGroteskThin.woff')
 
   }
 
@@ -21,9 +21,65 @@
 
   @font-face {
     font-family: Montiac;
-    src: url('../fonts/Montiac-Regular.otf') ;
+    src: url('../fonts/Montiac-Regular.woff') ;
+  }
+
+  @font-face {
+    font-family: Montiac-Italic;
+    src: url('../fonts/Montiac-Italic.woff') ;
+  }
+
+  @font-face {
+    font-family: Montiac-Mono;
+    src: url('../fonts/Montiac-Mono.woff') ;
   }
   
+
+  .font-regular {
+
+    font-family: BastardoRegular;
+
+
+}
+
+.font-b-bold {
+    font-family: BastardoBold;
+
+}
+
+.font-script{
+    font-family: Script;
+}
+
+.font-montiac-mono{
+  font-family: Montiac-Mono;
+}
+.font-montiac-italic{
+  font-family: Montiac-Italic;
+}
+
+.font-sz-small {
+
+    font-size: 1rem;
+
+}
+
+.font-size-1 {
+  font-size: 1.5rem;
+}
+
+.font-size-2 {
+  font-size: 1rem;
+}
+.font-size-3{
+  font-size: 3rem;
+}
+.font-size-4{
+  font-size: 2.5rem;
+}
+.font-size-5{
+  font-size: 2rem;
+}
 
 
   

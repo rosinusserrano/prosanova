@@ -5,6 +5,16 @@ body {
     z-index: 0;
     margin: 0;
 }
+
+::selection {
+    background-color: #E3CC4E;
+  }
+  
+  /* For Internet Explorer */
+  ::-ms-selection {
+    background-color: #E3CC4E;
+  }
+  
 .background-color-grey{
     background-color: #E8E3DD;
 
@@ -122,19 +132,6 @@ display:none;
 
 }
 
-.font-size-1 {
-    font-size: 1.5rem;
-}
-
-.font-size-2 {
-    font-size: 1rem;
-}
-.font-size-3{
-    font-size: 3rem;
-}
-.font-size-4{
-    font-size: 2.5rem;
-}
 
 .txt-align-center{
     text-align: center;
@@ -191,8 +188,7 @@ display:none;
     display:none;
 }
 .Links {
-    text-decoration: none;
-    color:  #BFA9ED ;
+    text-decoration: underline;    color:  black ;
 
 }
 
@@ -316,15 +312,7 @@ display:none;
     color: white;
 
 }
-.termine-Datum{
-    font-family: Montiac;
 
-}
-
-.termine-text{
-    font-family: Montiac;
-
-}
 .termine-titel{
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
     line-height: 90%;
@@ -419,29 +407,6 @@ display:none;
 
 /* Font Hierachie */
 
-.font-regular {
-
-    font-family: BastardoRegular;
-
-
-}
-
-.font-bold {
-    font-family: BastardoBold;
-
-}
-
-.font-script{
-    font-family: Script;
-}
-
-
-
-.font-sz-small {
-
-    font-size: 1rem;
-
-}
 
 /* custom scrollbar */
 

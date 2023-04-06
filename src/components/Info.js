@@ -17,8 +17,8 @@ function Info() {
         />
       </Helmet>
 
-      <div className=" page-grid-inside  ">
-        <div className="  inside-page-padding background-color-grey border-radius font-size-1 grid-6-column-mobile grid-6-column scrollable-element grid-child grid-row-start-2 ">
+      <div className=" page-grid-inside inside-main-content-wrapper ">
+        <div className="  inside-page-padding background-color-grey border-radius font-size-5 grid-6-column-mobile grid-6-column scrollable-element grid-child grid-row-start-2 ">
           <div>
             PROSANOVA 2023 ist ein Festival für junge Literatur, das vom 23. -
             25. Juni 2023 in Hildesheim stattfindet. <br></br> <br></br>Seit 2005 findet
@@ -34,9 +34,9 @@ function Info() {
 
         </div>
 
-        <div className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-6-column scrollable-element ">
+        <div className=" inside-page-padding border-radius font-size-5 grid-6-column-mobile  grid-child grid-6-column scrollable-element ">
           <div>
-            <span className="">Schlechte Wörter</span><br></br> <br></br> Die diesjährige Ausgabe des Prosanovas findet unter
+            <span className="font-b-bold">Schlechte Wörter</span><br></br> <br></br> Die diesjährige Ausgabe des Prosanovas findet unter
             dem Motto Schlechte Wörter statt. Der titelgebende Kurzprosatext von
             Ilse Aichinger gibt uns den Anlass für eine Suche nach den Wörtern -
             überall. Wir hinterfragen Eindeutigkeit und suchen nach

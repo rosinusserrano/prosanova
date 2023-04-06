@@ -4,12 +4,11 @@
 @media only screen and (max-width: 767px) {
 
 .Menu-Wrapper{
-    display: none;
 }
 .mobile-menu{
     margin: 1.25rem 0.5rem;
 
-
+    display: none;
 
 }
 
