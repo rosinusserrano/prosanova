@@ -1,22 +1,19 @@
 /* Mobile Queries */
 
-
 @media only screen and (max-width: 767px) {
-
-.Menu-Wrapper{
-}
-.mobile-menu{
+  .Menu-Wrapper {
+  }
+  .mobile-menu {
     margin: 1.25rem 0.5rem;
 
     display: none;
+  }
 
-}
-
-.page-grid-inside, .page-grid-inside-5-cl{
+  .page-grid-inside,
+  .page-grid-inside-5-cl {
     height: calc(100vh - 9rem);
-
-}
-.bm-burger-button {
+  }
+  .bm-burger-button {
     position: fixed;
     width: 3.5rem;
     height: 2.5rem;
@@ -26,43 +23,41 @@
   }
 
   /* Color/shape of burger icon bars */
-.bm-burger-bars {
-    background: #FFFFFF;
-    border-radius: 40px;  
+  .bm-burger-bars {
+    background: #ffffff;
+    border-radius: 40px;
     box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
-}
-  
+  }
+
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #FFFFFF;
+    background: #ffffff;
     opacity: 1;
     box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.25);
   }
-  
+
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
     width: 24px;
   }
-  
+
   /* Color/shape of close button cross */
   .bm-cross {
     background: #bdc3c7;
   }
-  
+
   /*
   Sidebar wrapper styles
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
   .bm-menu-wrap {
     position: fixed;
-    
-
   }
-  
+
   /* General sidebar styles */
   .bm-menu {
-    background: #E8E3DD;
+    background: #e8e3dd;
     font-size: 1.15em;
     border-radius: 20px;
 
@@ -79,101 +74,89 @@
     align-content: space-between;
     justify-content: center;
     align-items: center;
-
   }
 
-
-  
   /* Wrapper for item list */
   .bm-item-list {
-color: black;
-margin: 2rem 1rem ;
-
+    color: black;
+    margin: 2rem 1rem;
   }
-  
+
   /* Individual item */
   .bm-item {
     display: inline-block !important;
     margin: 0.3rem;
-    
-
   }
-  
+
   /* Styling of overlay */
   .bm-overlay {
-display: none;  }
+    display: none;
+  }
 
+  /* .page-grid {
+    margin: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+  } */
 
-    .page-grid {
-        margin: 1rem;
-        grid-template-columns: repeat(1, 1fr);
-        display: grid;
-    }
+  .grid-1-column-mobile {
+    grid-column: span 1;
+    overflow: visible;
+  }
+  .grid-5-column-mobile {
+    grid-column: span 5;
+    overflow: visible;
+  }
 
-    .grid-1-column-mobile {
-        grid-column: span 1;
-        overflow: visible;
+  .grid-6-column-mobile {
+    grid-column: span 6;
+    overflow: visible;
+  }
 
-    }
-    .grid-5-column-mobile {
-        grid-column: span 5;
-        overflow: visible;
+  .grid-column-start-1-mobile {
+    grid-column-start: 1;
+  }
 
-    }
+  .fixed-grid {
+    position: static;
+  }
 
-    .grid-6-column-mobile{
-        grid-column: span 6;
-        overflow: visible;
+  .scrollable-element {
+    overflow-y: visible;
+    height: auto;
+    overflow-x: hidden;
 
-    }
+    /* position: relative; */
+  }
 
-    .grid-column-start-1-mobile {
-        grid-column-start: 1;
-    }
+  .added-padding {
+    display: none;
+  }
 
-    .fixed-grid {
-        position: static;
+  .grid-child {
+    margin: 0;
+  }
 
-    }
+  .grid-row-start-mobile-1 {
+    grid-row-start: 1;
+  }
 
-    .scrollable-element {
-        overflow-y: visible;
-        height: auto;
-        overflow-x: hidden;
-        
+  .grid-row-start-mobile-2 {
+    grid-row-start: 2;
+  }
 
-        /* position: relative; */
-    }
+  .logo-large {
+    display: none;
+  }
 
-    .added-padding {
-        display: none;
-    }
+  .logo-small {
+    display: block;
+    width: 45px;
+    display: block;
+    margin-right: 0.3rem;
+  }
 
-    .grid-child {
-        margin: 0;
-
-    }
-
-    .grid-row-start-mobile-1 {
-        grid-row-start: 1;
-    }
-
-    .grid-row-start-mobile-2 {
-        grid-row-start: 2;
-    }
-    
-    .logo-large{
-        display:none;
-    }
-
-    .logo-small{
-        display:block;
-        width: 45px;
-        display: block;
-        margin-right: 0.3rem;
-    }
-
-.color-button-wrapper {
+  .color-button-wrapper {
     display: none;
     gap: 0.3rem;
     /* display: none; */
@@ -184,9 +167,9 @@ display: none;  }
     z-index: 200;
     flex-direction: row;
     align-items: center;
-}
+  }
 
-.Logo-Header-Wrapper {
+  .Logo-Header-Wrapper {
     justify-self: end;
     display: flex;
     justify-content: space-between;
@@ -195,89 +178,67 @@ display: none;  }
     align-items: flex-end;
     flex-direction: row;
     align-content: space-around;
-
-
-} 
-
-.ballon{
-   
-    
-        z-index: 300;
-        width: 250px;
-        height: auto;
-        position: absolute;
-    
   }
 
-  .mobile-grid-row-start-2{
+  .ballon {
+    z-index: 300;
+    width: 250px;
+    height: auto;
+    position: absolute;
+  }
+
+  .mobile-grid-row-start-2 {
     grid-row-start: 2;
     min-height: 25svh;
-}
-.mobile-grid-row-start-4{
+  }
+  .mobile-grid-row-start-4 {
     grid-row-start: 4;
     min-height: 25svh;
-
-}
-.mobile-grid-row-start-6{
+  }
+  .mobile-grid-row-start-6 {
     grid-row-start: 6;
     min-height: 25svh;
-    
-}
-.mobile-grid-row-start-8{
+  }
+  .mobile-grid-row-start-8 {
     grid-row-start: 8;
     min-height: 25svh;
-    
-}
-.mobile-grid-row-start-10{
+  }
+  .mobile-grid-row-start-10 {
     grid-row-start: 10;
     min-height: 25svh;
-    
-}
-
-
+  }
 }
 
 @media (min-width: 768px) and (max-width: 980px) {
-  
-
-
-    .logo-small{
-        display:none;
-    }
-    /* Styles for tablets go here */
+  .logo-small {
+    display: none;
   }
-  
+  /* Styles for tablets go here */
+}
 
-  @media (min-width: 768px) and (max-width: 1100px) {
-    .grid-tab-column-1 {
-        grid-column: span 5;
-
-
-    }
-
-    .mobile-grid-row-start-2{
-        grid-row-start: 2;
-        min-height: 25svh;
-    }
-    .mobile-grid-row-start-4{
-        grid-row-start: 4;
-        min-height: 25svh;
-
-    }
-    .mobile-grid-row-start-6{
-        grid-row-start: 6;
-        min-height: 25svh;
-        
-    }
-    .mobile-grid-row-start-8{
-        grid-row-start: 8;
-        min-height: 25svh;
-        
-    }
-    .mobile-grid-row-start-10{
-        grid-row-start: 10;
-        min-height: 25svh;
-        
-    }
-
+@media (min-width: 768px) and (max-width: 1100px) {
+  .grid-tab-column-1 {
+    grid-column: span 5;
   }
+
+  .mobile-grid-row-start-2 {
+    grid-row-start: 2;
+    min-height: 25svh;
+  }
+  .mobile-grid-row-start-4 {
+    grid-row-start: 4;
+    min-height: 25svh;
+  }
+  .mobile-grid-row-start-6 {
+    grid-row-start: 6;
+    min-height: 25svh;
+  }
+  .mobile-grid-row-start-8 {
+    grid-row-start: 8;
+    min-height: 25svh;
+  }
+  .mobile-grid-row-start-10 {
+    grid-row-start: 10;
+    min-height: 25svh;
+  }
+}

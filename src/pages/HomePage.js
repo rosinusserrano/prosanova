@@ -21,16 +21,16 @@ function PageSwitch({ page, color }) {
   switch (page) {
     case "info":
       return <Info></Info>
-      case "imprint":
-        return <Imprint></Imprint>
+    case "imprint":
+      return <Imprint></Imprint>
     case "termine":
       return <Termine></Termine>
     case "team":
       return <Team color={color}></Team>
     case "game":
       return <Letters3DGame></Letters3DGame>
-      case "lineup":
-        return <LineUp></LineUp>
+    case "lineup":
+      return <LineUp></LineUp>
     default:
       return <Letters3DGame></Letters3DGame>
   }
@@ -44,9 +44,17 @@ export default function HomePage() {
 
   return (
     <body style={{ background: currentColor === "teal" ? "url('blue-sky.jpg')" : currentColor, backgroundSize: currentColor === "teal" ? "cover" : "auto auto" }}>
-      <Balloon></Balloon>
+      {/* <Balloon></Balloon> */}
 
-      <div className="page-grid">
+      <div style={{
+        margin: "1rem",
+        display: "grid",
+        gridTemplateColumns: "repeat(5, 1fr)",
+        columnGap: "2rem",
+        rowGap: "1rem",
+        overflow: "auto",
+        fontFamily: "BastardoRegular"
+      }}>
         <Helmet>
           <title>PROSANOVA 2023</title>
           <meta
@@ -60,32 +68,32 @@ export default function HomePage() {
           <header className="border-radius">
 
             <div className="Menu-Wrapper ">
-              <WigglyButton onClick={() => {setActivePage("info"); setCurrentColor("#BFA9ED")}}>
+              <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
-              <WigglyButton onClick={() => {setActivePage("lineup"); setCurrentColor("#BFA9ED")}}>
+              <WigglyButton onClick={() => { setActivePage("lineup"); setCurrentColor("#BFA9ED") }}>
                 <div className="menu-button font-size-1 button-color-1">Line-Up</div>
               </WigglyButton>
-              <WigglyButton onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>
+              <WigglyButton onClick={() => { setActivePage("termine"); setCurrentColor("#F97DD0") }}>
                 <div className="menu-button font-size-1 button-color-5">Termine</div>
               </WigglyButton>
-              <WigglyButton onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>
+              <WigglyButton onClick={() => { setActivePage("team"); setCurrentColor("#C18167") }}>
                 <div className="menu-button font-size-1 button-color-2">Team</div>
               </WigglyButton>
-              <WigglyButton onClick={() => {setActivePage("imprint"); setCurrentColor("#E3CC4E")}}>
+              <WigglyButton onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E") }}>
                 <div className="menu-button font-size-2 button-color-4">imprint</div>
               </WigglyButton>
             </div>
 
             <div className="mobile-menu">
               <Menu>
-                <div className="menu-button font-size-1 button-color-1" onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED")}}>Info</div>
+                <div className="menu-button font-size-1 button-color-1" onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>Info</div>
 
-                <div className="menu-button font-size-1 button-color-5" onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>Termine</div>
+                <div className="menu-button font-size-1 button-color-5" onClick={() => { setActivePage("termine"); setCurrentColor("#F97DD0") }}>Termine</div>
 
-                <div className="menu-button font-size-1 button-color-2" onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>Team</div>
+                <div className="menu-button font-size-1 button-color-2" onClick={() => { setActivePage("team"); setCurrentColor("#C18167") }}>Team</div>
 
-                <div className="menu-button font-size-2 button-color-4" onClick={() => {setActivePage("imprint"); setCurrentColor("#E3CC4E")}}>imprint</div>
+                <div className="menu-button font-size-2 button-color-4" onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E") }}>imprint</div>
 
               </Menu>
             </div>
@@ -118,7 +126,7 @@ export default function HomePage() {
                 >
                 </div>
                 <div
-                  className="switch-color-button background-color-"
+                  className="switch-color-button"
                   style={{ background: "url('blue-sky.jpg')" }}
                   onClick={() => setCurrentColor("teal")}
                 >

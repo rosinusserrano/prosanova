@@ -20,11 +20,16 @@ export function TeamMemberImage({ altText, imgSrc, sectionId, color }) {
 
     return (
         <WigglyButton onClick={() => scrollToPos(sectionId)}>
-            <div className="team-image">
+            <div>
                 <img
+                    style={{
+                        width: "100%",
+                        maxWidth: "100%",
+                        height: "auto"
+                    }}
                     src={imgSrc}
                     alt={altText}
-                    className="border-radius grid-1-column"
+                    className="border-radius"
                 />
             </div>
         </WigglyButton>
@@ -32,17 +37,17 @@ export function TeamMemberImage({ altText, imgSrc, sectionId, color }) {
 }
 
 
-export function TeamMemberSection({sectionId, sectionContent, name1, name2}){
-    const firstLetterName1 = name1.slice(0,1)
+export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
+    const firstLetterName1 = name1.slice(0, 1)
     const remainderName1 = name1.slice(1)
-    const firstLetterName2 = name2.slice(0,1)
+    const firstLetterName2 = name2.slice(0, 1)
     const remainderName2 = name2.slice(1)
     return (
-        <section id={sectionId} className="team-txt">
-            <span className=" font-script font-size-3">{firstLetterName1}</span>{remainderName1}
+        <section id={sectionId} style={{ lineHeight: "100%", margin: "3rem 0", borderRadius: "10px" }}>
+            <span className=" font-script font-size-3">{firstLetterName1}</span>{remainderName1}{" "}
             <span className="font-script font-size-3">{firstLetterName2}</span>{remainderName2}
             {sectionContent}
-          </section>
+        </section>
     );
 }
 

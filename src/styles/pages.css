@@ -136,11 +136,6 @@ display:none;
 .txt-align-center{
     text-align: center;
 }
-.team-txt{
-    line-height: 100%;
-    margin: 3rem 0;
-    border-radius: 10px;
-}
 .menu-button {
     box-sizing: border-box;
     text-align: center;
@@ -270,19 +265,6 @@ display:none;
 
 }
 
-.page-grid {
-    margin: 1rem;
-
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 2rem;
-    grid-row-gap: 1rem;
-    overflow: auto;
-
-    font-family: BastardoRegular;
-
-
-}
 .page-grid-inside{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -325,12 +307,6 @@ display:none;
     grid-auto-rows: minmax(0, max-content);
 
 }
-
-.team-image img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
 
 .grid-child {
     margin:  0;
