@@ -11,12 +11,10 @@ import "../styles/fonts.css";
 import "../styles/pages.css";
 import "../styles/responsive.css";
 
-
-import LogoLarge from '../images/PROSANOVA-Logo1-groß.png';
-import LogoSmall from '../images/PROSANOVA-Logo-Klein.png';
 import { slide as Menu } from 'react-burger-menu';
 import Imprint from "contents/Imprint";
 import Termine from "contents/Termine";
+import LineUp from "contents/LineUp";
 
 
 function PageSwitch({ page, color }) {
@@ -31,6 +29,8 @@ function PageSwitch({ page, color }) {
       return <Team color={color}></Team>
     case "game":
       return <Letters3DGame></Letters3DGame>
+      case "lineup":
+        return <LineUp></LineUp>
     default:
       return <Letters3DGame></Letters3DGame>
   }
@@ -63,6 +63,9 @@ export default function HomePage() {
               <WigglyButton onClick={() => {setActivePage("info"); setCurrentColor("#BFA9ED")}}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
+              <WigglyButton onClick={() => {setActivePage("lineup"); setCurrentColor("#BFA9ED")}}>
+                <div className="menu-button font-size-1 button-color-1">Line-Up</div>
+              </WigglyButton>
               <WigglyButton onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>
                 <div className="menu-button font-size-1 button-color-5">Termine</div>
               </WigglyButton>
@@ -88,8 +91,8 @@ export default function HomePage() {
             </div>
             <div className="Logo-Header-Wrapper grid-column-start-5">
 
-              <div>  <img className="logo-large" src={LogoLarge} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
-              <div>  <img className="logo-small" src={LogoSmall} alt="Logo Small" onClick={() => setActivePage("game")} /></div>
+              <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
+              <div>  <img className="logo-small" src={'images/PROSANOVA-Logo-Klein.png'} alt="Logo Small" onClick={() => setActivePage("game")} /></div>
 
               <div className="color-button-wrapper">
                 <div className="switch-color-button background-color-1"

@@ -8,7 +8,7 @@ function Info() {
   return (
     <>
       <Helmet>
-        <title>PROSANOVA 2023 | Impressum</title>
+        <title>PROSANOVA 2023 | Info</title>
         <meta
           name="description"
           content="Prosanova 2023, Festival für junge Literatur | Impressum"
