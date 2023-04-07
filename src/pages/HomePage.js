@@ -3,7 +3,7 @@ import WigglyButton from "components/WigglyButton";
 import Balloon from "components/Balloon";
 import Letters3DGame from "contents/Letters3DGame/Letters3DGame";
 import Info from "contents/Info";
-import Team from "contents/Team";
+import Team from "contents/Team/Team";
 
 import { Helmet } from "react-helmet";
 import "../styles/imprint.css";

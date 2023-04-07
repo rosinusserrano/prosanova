@@ -5,26 +5,26 @@ import "../styles/pages.css";
 import { Helmet } from "react-helmet";
 import WigglyButton from "components/WigglyButton";
 
-import Team1 from "../images/Leni.png";
-import Team2 from "../images/Melek.png";
-import Team3 from "../images/Hiyam.png";
-import Team4 from "../images/Lucie.png";
-import Team5 from "../images/Lina.png";
-import Team6 from "../images/Clara.png";
-import Team7 from "../images/anna-lena-maatz.png";
-import Team8 from "../images/bela-neumann.png";
-import Team9 from "../images/dilara-buzoglu.png";
-import Team10 from "../images/leon-ahlhorn.png";
-import Team11 from "../images/linda-rabe.png";
-import Team12 from "../images/lynn-stechert.png";
-import Team13 from "../images/marlene-horn.png";
-import Team14 from "../images/marlene-regenfuß.png";
-import Team15 from "../images/nima-schaper.png";
-import Team16 from "../images/roya-schaper.png";
-import Team17 from "../images/tilman-busch.png";
-import Team18 from "../images/RombachLeah.jpg";
-import Team19 from "../images/SchelerJohanna.jpg";
-import Team20 from "../images/WolterLuise.jpg";
+import Team1 from "images/Leni.png";
+import Team2 from "images/Melek.png";
+import Team3 from "images/Hiyam.png";
+import Team4 from "images/Lucie.png";
+import Team5 from "images/Lina.png";
+import Team6 from "images/Clara.png";
+import Team7 from "images/anna-lena-maatz.png";
+import Team8 from "images/bela-neumann.png";
+import Team9 from "images/dilara-buzoglu.png";
+import Team10 from "images/leon-ahlhorn.png";
+import Team11 from "images/linda-rabe.png";
+import Team12 from "images/lynn-stechert.png";
+import Team13 from "images/marlene-horn.png";
+import Team14 from "images/marlene-regenfuß.png";
+import Team15 from "images/nima-schaper.png";
+import Team16 from "images/roya-schaper.png";
+import Team17 from "images/tilman-busch.png";
+import Team18 from "images/RombachLeah.jpg";
+import Team19 from "images/SchelerJohanna.jpg";
+import Team20 from "images/WolterLuise.jpg";
 
 function Team({ color }) {
   function scrollToPos(section_id) {
