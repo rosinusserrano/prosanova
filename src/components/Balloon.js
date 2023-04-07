@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import BallonImage from '../ballon.png'
+import BallonImage from '../images/ballon.png'
 import "../styles/responsive.css"
 import "../styles/pages.css"
 

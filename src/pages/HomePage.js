@@ -1,11 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
 import WigglyButton from "components/WigglyButton";
 import Balloon from "components/Balloon";
-import Letters3DGame from "components/Letters3DGame";
-import Imprint from "components/ImprintPage";
-import Info from "components/Info";
-import Team from "components/Team";
+import Letters3DGame from "contents/Letters3DGame/Letters3DGame";
+import Info from "contents/Info";
+import Team from "contents/Team";
 
 import { Helmet } from "react-helmet";
 import "../styles/imprint.css";
@@ -14,11 +12,11 @@ import "../styles/pages.css";
 import "../styles/responsive.css";
 
 
-import LogoLarge from '../PROSANOVA-Logo1-groß.png';
-import LogoSmall from '../PROSANOVA-Logo-Klein.png';
+import LogoLarge from '../images/PROSANOVA-Logo1-groß.png';
+import LogoSmall from '../images/PROSANOVA-Logo-Klein.png';
 import { slide as Menu } from 'react-burger-menu';
-import ImprintPage from "components/ImprintPage";
-import Termine from "components/Termine";
+import Imprint from "contents/Imprint";
+import Termine from "contents/Termine";
 
 
 function PageSwitch({ page, color }) {
@@ -26,7 +24,7 @@ function PageSwitch({ page, color }) {
     case "info":
       return <Info></Info>
       case "imprint":
-        return <ImprintPage></ImprintPage>
+        return <Imprint></Imprint>
     case "termine":
       return <Termine></Termine>
     case "team":
@@ -65,15 +63,9 @@ export default function HomePage() {
               <WigglyButton onClick={() => {setActivePage("info"); setCurrentColor("#BFA9ED")}}>
                 <div className="menu-button font-size-1 button-color-1">Info</div>
               </WigglyButton>
-              {/* <WigglyButton onClick={() => setActivePage("programm")}>
-                <div className="menu-button font-size-1 button-color-3">Programm</div>
-              </WigglyButton> */}
               <WigglyButton onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>
                 <div className="menu-button font-size-1 button-color-5">Termine</div>
               </WigglyButton>
-              {/* <WigglyButton onClick={() => setActivePage("line-up")}>
-                <div className="menu-button font-size-1 button-color-4">Line-Up</div>
-              </WigglyButton> */}
               <WigglyButton onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>
                 <div className="menu-button font-size-1 button-color-2">Team</div>
               </WigglyButton>
@@ -86,15 +78,11 @@ export default function HomePage() {
               <Menu>
                 <div className="menu-button font-size-1 button-color-1" onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED")}}>Info</div>
 
-                {/* <div className="menu-button font-size-1 button-color-3" onClick={() => setActivePage("programm")}>Programm</div> */}
-
                 <div className="menu-button font-size-1 button-color-5" onClick={() => {setActivePage("termine"); setCurrentColor("#F97DD0")}}>Termine</div>
-
-                {/* <div className="menu-button font-size-1 button-color-4" onClick={() => setActivePage("line-up")}>Line-Up</div> */}
 
                 <div className="menu-button font-size-1 button-color-2" onClick={() => {setActivePage("team"); setCurrentColor("#C18167")}}>Team</div>
 
-                <div className="menu-button font-size-2 button-color-4" onClick={() => {window.location = "/imprint"; setCurrentColor("#E3CC4E")}}>imprint</div>
+                <div className="menu-button font-size-2 button-color-4" onClick={() => {setActivePage("imprint"); setCurrentColor("#E3CC4E")}}>imprint</div>
 
               </Menu>
             </div>
