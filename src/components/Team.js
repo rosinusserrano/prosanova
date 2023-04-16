@@ -434,8 +434,8 @@ function Team({ color }) {
             im Bereich Infrastruktur.
           </section>
           <section id="lynnve-bio" className="team-txt">
-            <span className=" font-script font-size-3">L</span>ynnVe{" "}
-            <span className=" font-script font-size-3">S</span>ophia Ltechert,
+            <span className=" font-script font-size-3">L</span>ynn <span className=" font-script font-size-3">V</span>e{" "}
+            <span className=" font-script font-size-3">S</span>ophia <span className=" font-script font-size-3">S</span>techert,
             geboren 1998 in Braunschweig, studiert derzeit Kunstwissenschaften
             an der Universität Bremen. Im Wintersemester 2022/2023 studierte sie
             Contemporary Arts Practice am Y Institut für Transdisziplinarität
