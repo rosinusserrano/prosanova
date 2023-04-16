@@ -44,7 +44,7 @@ export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
         <section id={sectionId} style={{ lineHeight: "100%", margin: "3rem 0", borderRadius: "10px" }}>
             {name1Names.map((n) => <PrettyName name={n}/>)}
             {name2Names.slice(0, name2Names.length-1).map((n) => <PrettyName name={n}/>)}
-            {name2Names.slice(name2Names.length-1).map((n) => <PrettyName name={n}/>)}
+            {name2Names.slice(name2Names.length-1).map((n) => <PrettyName name={n} appendWhiteSpace={false}/>)}
             {sectionContent}
         </section>
     );
@@ -54,8 +54,8 @@ export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
 function PrettyName({name, appendWhiteSpace = true}){
     const firstLetterName = name.slice(0, 1)
     const remainderName = name.slice(1)
-    return (<>
+    return (firstLetterName == firstLetterName.toUpperCase() ? <>
         <span className=" font-script font-size-3">{firstLetterName}</span>{remainderName}{appendWhiteSpace ? " " : ""}
-    </>)
+    </> : <>{name}{appendWhiteSpace ? " " : ""}</>)
 }
 
