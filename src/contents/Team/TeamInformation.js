@@ -93,7 +93,7 @@ export const Praktikant_innen = [
         "imgSrc": "images/lynn-stechert.png",
         "sectionId": "lynnve-bio",
         "altText": "Lynn Stechert",
-        "name1": "Lynn",
+        "name1": "Lynn Ve Sophia",
         "name2": "Stechert",
         "sectionContent": ", geboren 1998 in Braunschweig, studiert derzeit Kunstwissenschaften an der Universität Bremen. Im Wintersemester 2022/2023 studierte sie Contemporary Arts Practice am Y Institut für Transdisziplinarität der Hochschule der Künste Bern, Schweiz."
     },

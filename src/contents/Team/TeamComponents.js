@@ -38,16 +38,24 @@ export function TeamMemberImage({ altText, imgSrc, sectionId, color }) {
 
 
 export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
-    const firstLetterName1 = name1.slice(0, 1)
-    const remainderName1 = name1.slice(1)
-    const firstLetterName2 = name2.slice(0, 1)
-    const remainderName2 = name2.slice(1)
+    const name1Names = name1.split(" ")
+    const name2Names = name2.split(" ")
     return (
         <section id={sectionId} style={{ lineHeight: "100%", margin: "3rem 0", borderRadius: "10px" }}>
-            <span className=" font-script font-size-3">{firstLetterName1}</span>{remainderName1}{" "}
-            <span className="font-script font-size-3">{firstLetterName2}</span>{remainderName2}
+            {name1Names.map((n) => <PrettyName name={n}/>)}
+            {name2Names.slice(0, name2Names.length-1).map((n) => <PrettyName name={n}/>)}
+            {name2Names.slice(name2Names.length-1).map((n) => <PrettyName name={n}/>)}
             {sectionContent}
         </section>
     );
+}
+
+
+function PrettyName({name, appendWhiteSpace = true}){
+    const firstLetterName = name.slice(0, 1)
+    const remainderName = name.slice(1)
+    return (<>
+        <span className=" font-script font-size-3">{firstLetterName}</span>{remainderName}{appendWhiteSpace ? " " : ""}
+    </>)
 }
 
