@@ -1,91 +1,67 @@
-import React from "react";
-import "../styles/imprint.css";
-import "../styles/fonts.css";
-import "../styles/pages.css";
+import React, { useState } from "react";
+import "../../styles/imprint.css";
+import "../../styles/fonts.css";
+import "../../styles/pages.css";
 import { Helmet } from "react-helmet";
-import WigglyButton from "../components/WigglyButton";
 
-import { Link, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { TerminAccordionButton, TerminAccordionSection } from "./TerminAccordionComponents";
 
 function Termine() {
+
+  const [expandedSection, setExpandedSection] = useState(0);
+  
   return (
     <>
       <Helmet>
-        <title>PROSANOVA 2023 | Impressum</title>
+        <title>PROSANOVA 2023 | Termine</title>
         <meta
           name="description"
-          content="Prosanova 2023, Festival für junge Literatur | Impressum"
+          content="Prosanova 2023, Festival für junge Literatur | Termine"
         />
       </Helmet>
       <div className=" page-grid-inside-5-cl  ">
 
-        <div className="  grid-tab-column-1  font-size-1 grid-6-column-mobile grid-1-column  grid-child  ">
-        <WigglyButton>
-          <div className="font-montiac-mono inside-page-padding termine-Datum border-radius font-size-3">
-            30/03
-          </div>
-          <div className="inside-page-padding border-radius termine-titel font-size-1 font-montiac-italic">
+        <TerminAccordionButton date={<>30/03</>}
+          title={<>
             <span className="font-script">B</span>ekenntnisse an das{" "}
             <span className="font-script">M</span>isstrauen
-          </div>
-          </WigglyButton>
-        </div>
+          </>} 
+          onClick={() => setExpandedSection(1)}
+          />
 
-
-        <div className="  grid-tab-column-1    font-size-1 grid-6-column-mobile grid-1-column  grid-child  ">
-          <WigglyButton>
-          <div className="font-montiac-mono inside-page-padding termine-Datum border-radius font-size-3">
-            11/05
-          </div>
-
-          <div className="inside-page-padding border-radius termine-titel font-size-1 font-montiac-italic">
+        <TerminAccordionButton date={<>11/05</>}
+          title={<>
             <span className="font-script">A</span>uftakt
             <br></br> <span className="font-script">L</span>esung
-          </div>
-          </WigglyButton>
-        </div>
+          </>}
+            onClick={() => setExpandedSection(2)}
+          />
 
-        <div className="   grid-tab-column-1   font-size-1 grid-6-column-mobile grid-1-column  grid-child  ">
-        <WigglyButton>
-          <div className="font-montiac-mono inside-page-padding termine-Datum border-radius font-size-3">
-            23/05
-          </div>
-
-          <div className="inside-page-padding border-radius termine-titel font-size-1 font-montiac-italic">
+        <TerminAccordionButton date={<>23/05</>}
+          title={<>
             <span className="font-script">A</span>bend der <br></br>
             <span className="font-script">K</span>ollektive
-          </div>
-          </WigglyButton>
-        </div>
+          </>}
+          onClick={() => setExpandedSection(3)} />
 
-        <div className="   grid-tab-column-1   font-size-1 grid-6-column-mobile grid-1-column  grid-child  ">
-        <WigglyButton>
-          <div className="font-montiac-mono inside-page-padding termine-Datum border-radius font-size-3">
-            23–25/06
-          </div>
-
-          <div className="inside-page-padding border-radius termine-titel font-size-1 font-montiac-italic">
+        <TerminAccordionButton date={<>23–25/06</>}
+          title={<>
             <span className="font-script">F</span>estival<br></br>
             <span className="font-script">W</span>ochenende
-          </div></WigglyButton>
-        </div>
+          </>}
+          onClick={() => setExpandedSection(4)} />
 
-        <div className="   grid-tab-column-1   font-size-1 grid-6-column-mobile grid-1-column  grid-child  ">
-        <WigglyButton>
-          <div className="font-montiac-mono inside-page-padding termine-Datum border-radius font-size-3">
-            15/08
-          </div>
+        <TerminAccordionButton date={<>15/08</>} title={<>
+          <span className="font-script">S</span> onderaugabe der <br></br>{" "}
+          <span className="font-script">B</span>ella{" "}
+          <span className="font-script">T</span> riste
+        </>}
+        onClick={() => setExpandedSection(5)} />
 
-          <div className="inside-page-padding border-radius termine-titel font-size-1 font-montiac-italic">
-            <span className="font-script">S</span> onderaugabe der <br></br>{" "}
-            <span className="font-script">B</span>ella{" "}
-            <span className="font-script">T</span> riste
-          </div></WigglyButton>
-        </div>
-
-        <div className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-2 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <TerminAccordionSection expandedSection={expandedSection} thisSection={1}>
           <span className="font-montiac-italic">OPEN CALL: Bekenntnisse an das Misstrauen Zu welchem Misstrauen
-          bekennt ihr euch?</span> <br></br>
+            bekennt ihr euch?</span> <br></br>
           <br></br>Zu dieser Frage suchen wir eure szenischen, experimentellen
           und gattungsbrechenden Texte, die thematisch aus unterschiedlichen
           Kontexten stammen können. Drei Texte werden mit einem Preisgeld
@@ -103,9 +79,10 @@ function Termine() {
           wie ihr euch eure Inszenierung/Umsetzung beim Festival vorstellen
           könnt. Der Open Call richtet sich an Menschen mit Wohnsitz in
           Deutschland. Fragen an besagte E-Mail-Adresse oder per Instagram.
-        </div>
-        <div className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-4 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
-        <span className="font-montiac-italic"> Auftaktlesung im Literaturhaus St. Jakobi </span> <br></br>
+        </TerminAccordionSection>
+
+        <TerminAccordionSection expandedSection={expandedSection} thisSection={2}>
+          <span className="font-montiac-italic"> Auftaktlesung im Literaturhaus St. Jakobi </span> <br></br>
           <br></br>Literaturhaus St. Jakobi, 12345 Hildesheim, 19:30 <br></br>
           <br></br> Über einen Monat vor dem Festivalwochenende starten wir mit
           einer ersten Lesung. Heike Geißler, Bezhad Karim Khani und Karosh Taha
@@ -119,10 +96,10 @@ function Termine() {
             {" "}
             https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler
           </Link>
-        </div>
+        </TerminAccordionSection>
 
-        <div className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-6 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
-        <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive Literaturhaus{" "} </span>
+        <TerminAccordionSection expandedSection={expandedSection} thisSection={3}>
+          <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive Literaturhaus{" "} </span>
           <br></br>
           <br></br>
           St.Jakobi, 12345 Hildesheim, 18:30 <br></br>
@@ -140,17 +117,26 @@ function Termine() {
           Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen -
           wir wollen diskutieren und so selbst kollektive Erfahrungen machen.
           Mehr Informationen und Tickets hier:
-        </div>
-        <div className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-8 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
-        <span className="font-montiac-italic"> Festivalwochenende 23.–25.06. </span><br></br>
+          <Link target="blank"
+            className="Links"
+            to=" https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler"
+          >
+            {" "}
+            https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler
+          </Link>
+        </TerminAccordionSection>
+
+        <TerminAccordionSection expandedSection={expandedSection} thisSection={4}>
+          <span className="font-montiac-italic"> Festivalwochenende 23.–25.06. </span><br></br>
           <br></br>Hildesheim <br></br>
           <br></br>Seid dabei, wenn das Prosanova-Festival in die siebte Runde
           geht und macht Hildesheim mit uns unsicher. Literatur, Performance,
           Musik, Workshops und das Get-Together des Literaturbetriebs wartet in
           Hildesheim auf euch!
-        </div>
-        <div className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-10 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
-        <span className="font-montiac-italic"> Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur{" "}</span>
+        </TerminAccordionSection>
+
+        <TerminAccordionSection expandedSection={expandedSection} thisSection={5}>
+          <span className="font-montiac-italic"> Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur{" "}</span>
           <br></br>
           <br></br>
           15.08. <br></br>
@@ -165,7 +151,8 @@ function Termine() {
           Fotos sowie alles dazwischen veröffentlicht, die in irgendeiner Art
           und Weise Teil des Festivals waren. Dazu arbeiten wir eng mit der
           Redaktion der BELLA triste zusammen.
-        </div>
+        </TerminAccordionSection>
+
       </div>
     </>
   );

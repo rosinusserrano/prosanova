@@ -13,7 +13,7 @@ import "../styles/responsive.css";
 
 import { slide as Menu } from 'react-burger-menu';
 import Imprint from "contents/Imprint";
-import Termine from "contents/Termine";
+import Termine from "contents/Termine/Termine";
 import LineUp from "contents/LineUp";
 
 
