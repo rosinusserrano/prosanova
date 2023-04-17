@@ -43,7 +43,12 @@ export default function HomePage() {
   const [activePage, setActivePage] = useState("game")
 
   return (
-    <body style={{ background: currentColor === "teal" ? "url('blue-sky.jpg')" : currentColor, backgroundSize: currentColor === "teal" ? "cover" : "auto auto" }}>
+    <body style={
+      {
+        background: currentColor === "teal" ? "url('blue-sky.jpg')" : currentColor,
+        backgroundSize: currentColor === "teal" ? "cover" : "auto auto",
+        cursor: "url(MouseHand-Klick_small.png) 32 0, auto"
+      }}>
       {/* <Balloon></Balloon> */}
 
       <div style={{
