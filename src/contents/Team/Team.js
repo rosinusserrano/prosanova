@@ -41,13 +41,16 @@ function Team({ color }) {
         />
       </Helmet>
 
-      <div className="inside-main-content-wrapper">
-        <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
+      <div className="inside-main-content-wrapper"
         style={{
           display: "flex",
           maxWidth: "100%",
-          flexDirection: "row"
+          maxHeight: "100%",
+          flexDirection: "row",
+          gap: "1rem"
         }}>
+        <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
+          style={{ flexGrow: 1, flexBasis: 0 }}>
           <div className="team-grid">
             <div className="grid-3-column txt-align-center">
               <span className="font-script font-size-3">K</span>ünstlerische{" "}
@@ -85,8 +88,8 @@ function Team({ color }) {
 
         <div
           id="div-with-bios"
-          className="background-color-grey inside-page-padding border-radius font-size-1 grid-6-column-mobile  grid-child grid-3-column scrollable-element no-scroll-bar"
-        >
+          className="background-color-grey inside-page-padding border-radius font-size-1 scrollable-element no-scroll-bar"
+          style={{ flexGrow: 1, flexBasis: 0 }}>
           {Leitung.map(({ sectionId, sectionContent, name1, name2 }) => {
             return (
               <TeamMemberSection sectionId={sectionId}
@@ -106,7 +109,7 @@ function Team({ color }) {
                 key={`${sectionId}_memberimage`}
               />)
           })}
-          
+
           <div className="added-padding"></div>
         </div>
       </div>
