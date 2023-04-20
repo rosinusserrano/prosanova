@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import React, { StrictMode } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/fonts.css";

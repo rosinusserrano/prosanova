@@ -41,9 +41,14 @@ function Team({ color }) {
         />
       </Helmet>
 
-      <div className=" page-grid-inside inside-main-content-wrapper ">
-        <div className="  inside-page-padding background-color-grey border-radius font-size-1 grid-6-column-mobile grid-3-column scrollable-element grid-child grid-row-start-2 no-scroll-bar">
-          <div className="team-grid ">
+      <div className="inside-main-content-wrapper">
+        <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
+        style={{
+          display: "flex",
+          maxWidth: "100%",
+          flexDirection: "row"
+        }}>
+          <div className="team-grid">
             <div className="grid-3-column txt-align-center">
               <span className="font-script font-size-3">K</span>ünstlerische{" "}
               <span className="font-script font-size-3">L</span>eitung{" "}

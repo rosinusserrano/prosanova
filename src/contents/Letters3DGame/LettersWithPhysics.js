@@ -46,8 +46,6 @@ export function FallbackLetter({ gltfNode, lettersOffset }) {
     const offsetTop = mainContent.clientHeight + 25
     const offsetLeft = 18
 
-    console.log(offsetTop, offsetLeft)
-
     const X_OFFSET_HARDCODED = offsetLeft
     const Y_OFFSET_HARDCODED = offsetTop
     const bind = useDrag(({ offset: [,], xy: [x, y], first, last }) => {
