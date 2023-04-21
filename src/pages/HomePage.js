@@ -15,6 +15,7 @@ import Termine from "contents/Termine/Termine";
 import LineUp from "contents/LineUp";
 import Header from "components/Header/Header";
 import { motion } from "framer-motion";
+import { useMobile } from "hooks/useMediaQuery";
 
 
 function PageSwitch({ page, color }) {
@@ -42,6 +43,8 @@ export default function HomePage() {
   const [currentColor, setCurrentColor] = useState("teal");
 
   const [activePage, setActivePage] = useState("game")
+
+  const isMobile = useMobile();
 
   return (
     <div style={
@@ -81,6 +84,19 @@ export default function HomePage() {
           <PageSwitch page={activePage} color={currentColor}></PageSwitch>
         </main>
       </div>
+
+      <footer className="background-color-grey border-radius"
+      style={{
+        minHeight: "4rem",
+        maxHeight: "4rem",
+        height: "4rem",
+        display: "flex",
+        justifyItems: "center",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+          Hier ist der footer &lt;3 sorry fürs layout verkacken
+      </footer>
       
     </div>
   );

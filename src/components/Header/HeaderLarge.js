@@ -42,7 +42,8 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     display: "flex",
                     justifyContent: "center",
                     flexDirection: "column",
-                    gap: "0.2rem"
+                    gap: "0.2rem",
+                    marginRight: "1.1rem",
                 }}>
                 <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
                 <div className="color-button-wrapper"
@@ -77,7 +78,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     </div>
                 </div>
             </div>
-        </header >
+        </header>
     )
 }
 

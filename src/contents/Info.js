@@ -38,7 +38,7 @@ function Info() {
 
         </div>
 
-        <div className="inside-page-padding border-radius font-size-5 scrollable-element "
+        <div className="inside-page-padding border-radius font-size-5 scrollable-element background-color-grey"
           style={{
             flexGrow: "revert",
           }}>
