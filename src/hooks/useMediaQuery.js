@@ -17,4 +17,8 @@ const useMediaQuery = (query) => {
   return matches;
 }
 
+export const useMobile = () => {
+  return useMediaQuery("only screen and (max-width: 767px)");
+}
+
 export default useMediaQuery;

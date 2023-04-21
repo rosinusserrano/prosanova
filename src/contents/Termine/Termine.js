@@ -20,7 +20,7 @@ function Termine() {
           content="Prosanova 2023, Festival für junge Literatur | Termine"
         />
       </Helmet>
-      <div className=" page-grid-inside-5-cl  ">
+      <div className="page-grid-inside-5-cl  ">
 
         <TerminAccordionButton date={<>30/03</>}
           title={<>

@@ -6,22 +6,11 @@ import { Helmet } from "react-helmet";
 import WigglyButton from "components/WigglyButton";
 import { TeamMemberImage, TeamMemberSection } from "./TeamComponents";
 import { Leitung, Praktikant_innen } from "./TeamInformation"
+import { useMobile } from "hooks/useMediaQuery";
 
 function Team({ color }) {
 
-  function scrollToPos(section_id) {
-    const div = document.getElementById("div-with-bios");
-    const section = document.getElementById(section_id);
-    div.scrollTo({
-      top: section.offsetTop - div.getBoundingClientRect().height * 0.1,
-      behavior: "smooth",
-    });
-    const allSections = div.getElementsByTagName("section");
-    for (let i = 0; i < allSections.length; i++) {
-      allSections[i].style.color = "black";
-    }
-    section.style.color = color;
-  }
+  const isMobile = useMobile()
 
   useEffect(() => {
     const div = document.getElementById("div-with-bios");
@@ -50,7 +39,7 @@ function Team({ color }) {
           gap: "1rem"
         }}>
         <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
-          style={{ flexGrow: 1, flexBasis: 0 }}>
+          style={{ flexGrow: 2, flexBasis: 0 }}>
           <div className="team-grid">
             <div className="grid-3-column txt-align-center">
               <span className="font-script font-size-3">K</span>ünstlerische{" "}
@@ -89,14 +78,14 @@ function Team({ color }) {
         <div
           id="div-with-bios"
           className="background-color-grey inside-page-padding border-radius font-size-1 scrollable-element no-scroll-bar"
-          style={{ flexGrow: 1, flexBasis: 0 }}>
+          style={{ flexGrow: 3, flexBasis: 0 }}>
           {Leitung.map(({ sectionId, sectionContent, name1, name2 }) => {
             return (
               <TeamMemberSection sectionId={sectionId}
                 sectionContent={sectionContent}
                 name1={name1}
                 name2={name2}
-                key={`${sectionId}_memberimage`}
+                key={`${sectionId}_membersection`}
               />)
           })}
 
@@ -106,7 +95,7 @@ function Team({ color }) {
                 sectionContent={sectionContent}
                 name1={name1}
                 name2={name2}
-                key={`${sectionId}_memberimage`}
+                key={`${sectionId}_membersection`}
               />)
           })}
 
