@@ -85,7 +85,7 @@ function Team({ color }) {
                 sectionContent={sectionContent}
                 name1={name1}
                 name2={name2}
-                key={`${sectionId}_memberimage`}
+                key={`${sectionId}_membersection`}
               />)
           })}
 
@@ -95,7 +95,7 @@ function Team({ color }) {
                 sectionContent={sectionContent}
                 name1={name1}
                 name2={name2}
-                key={`${sectionId}_memberimage`}
+                key={`${sectionId}_membersection`}
               />)
           })}
 
