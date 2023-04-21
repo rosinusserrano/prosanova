@@ -71,7 +71,7 @@ export default function HomePage() {
         <Header setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
       </div>
 
-      <motion.div style={{
+      <div style={{
         flexGrow: 1,
         zIndex: 100,
         borderRadius: "25px",
@@ -80,7 +80,7 @@ export default function HomePage() {
         <main style={{height: "100%"}}>
           <PageSwitch page={activePage} color={currentColor}></PageSwitch>
         </main>
-      </motion.div>
+      </div>
     </div>
   );
 }

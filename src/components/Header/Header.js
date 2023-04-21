@@ -6,10 +6,13 @@ import HeaderLarge from './HeaderLarge';
 
 function Header({ setActivePage, setCurrentColor }) {
     const isMobile = useMediaQuery("only screen and (max-width: 767px)")
-    return isMobile ? <HeaderSmall setActivePage={setActivePage}/> : <HeaderLarge setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
-            
+    return (
+        isMobile ?
+            <HeaderSmall setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
+            : <HeaderLarge setActivePage={setActivePage} setCurrentColor={setCurrentColor} />)
 
-            {/* <div className="mobile-menu">
+
+    {/* <div className="mobile-menu">
                 <Menu>
                     <div className="menu-button font-size-1 button-color-1" onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>Info</div>
 
@@ -21,43 +24,43 @@ function Header({ setActivePage, setCurrentColor }) {
 
                 </Menu>
             </div> */}
-        //     <div className="Logo-Header-Wrapper grid-column-start-5">
+    //     <div className="Logo-Header-Wrapper grid-column-start-5">
 
-        //         <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
-                
+    //         <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
 
-        //         <div className="color-button-wrapper">
-        //             <div className="switch-color-button background-color-1"
 
-        //                 onClick={() => setCurrentColor("#BFA9ED")}
-        //             ></div>
-        //             <div className="switch-color-button background-color-2"
+    //         <div className="color-button-wrapper">
+    //             <div className="switch-color-button background-color-1"
 
-        //                 onClick={() => setCurrentColor("#C18167")}
-        //             ></div>
-        //             <div className="switch-color-button background-color-3"
+    //                 onClick={() => setCurrentColor("#BFA9ED")}
+    //             ></div>
+    //             <div className="switch-color-button background-color-2"
 
-        //                 onClick={() => setCurrentColor("#C8BF9B")}
-        //             ></div>
-        //             <div className="switch-color-button background-color-4"
+    //                 onClick={() => setCurrentColor("#C18167")}
+    //             ></div>
+    //             <div className="switch-color-button background-color-3"
 
-        //                 onClick={() => setCurrentColor("#E3CC4E")}
-        //             >
-        //             </div>
-        //             <div className="switch-color-button background-color-5"
+    //                 onClick={() => setCurrentColor("#C8BF9B")}
+    //             ></div>
+    //             <div className="switch-color-button background-color-4"
 
-        //                 onClick={() => setCurrentColor("#F97DD0")}
-        //             >
-        //             </div>
-        //             <div
-        //                 className="switch-color-button"
-        //                 style={{ background: "url('blue-sky.jpg')" }}
-        //                 onClick={() => setCurrentColor("teal")}
-        //             >
-        //             </div>
-        //         </div>
-        //     </div>
-        // </header>
+    //                 onClick={() => setCurrentColor("#E3CC4E")}
+    //             >
+    //             </div>
+    //             <div className="switch-color-button background-color-5"
+
+    //                 onClick={() => setCurrentColor("#F97DD0")}
+    //             >
+    //             </div>
+    //             <div
+    //                 className="switch-color-button"
+    //                 style={{ background: "url('blue-sky.jpg')" }}
+    //                 onClick={() => setCurrentColor("teal")}
+    //             >
+    //             </div>
+    //         </div>
+    //     </div>
+    // </header>
     // )
 }
 

@@ -1,119 +1,75 @@
+import WigglyButton from 'components/WigglyButton';
 import { motion } from 'framer-motion'
 import { useWindowSize } from 'hooks/useWindowSize';
 import React, { useState } from 'react'
+import BurgerMenuIcon from './BurgerMenuIcon';
 
-function HeaderSmall({ setActivePage }) {
+function HeaderSmall({ setActivePage, setCurrentColor }) {
     const [expanded, setExpanded] = useState(false);
 
     return (
         <header>
-            <div className="collapsed-header-grid">
-                <div style={{ gridArea: "overlay" }}>
-                    <div className='background-color-grey'
+            <div
+                style={{
+                    zIndex: 10,
+                    display: "grid",
+                    gridTemplateColumns: "repeat(1, 1fr)",
+                    gridTemplateAreas: '"overlay"',
+                    minHeight: "5rem",
+                }}>
+                <div style={{
+                    gridArea: "overlay",
+                    display: "flex",
+                    justifyItems: "center",
+                    alignItems: "center",
+                    justifyContent: "space-between"
+                }}
+                >
+                    <div
                         style={{
-                            height: "30px",
-                            width: "30px",
+                            height: "3rem",
+                            width: "60px",
                         }}
-                        onClick={() => setExpanded(!expanded)}></div>
+                        onClick={() => setExpanded(!expanded)}>
+                        <BurgerMenuIcon />
+                    </div>
                     <div className="Logo-Header-Wrapper">
                         <div>
                             <img src={'images/PROSANOVA-Logo-Klein.png'} alt="Logo Small" onClick={() => setActivePage("game")} />
                         </div>
                     </div>
                 </div>
-                <motion.div layout variants={{
-                    collapsed: {
-                        width: "100%",
-                        height: 0
-                    },
-                    expanded: {
-                        width: "100%",
-                        height: "100%"
+                <div style={
+                    {
+                        gridArea: "overlay",
+                        zIndex: 20,
+                        overflow: "clip",
+                        textOverflow: "clip",
+                        display: expanded ? "flex" : "none",
+                        flexWrap: "wrap",
+                        gap: "0.4rem",
+                        padding: "0.5rem"
                     }
-                }}
-                    initial={"collapsed"}
-                    animate={expanded ? "expanded" : "collapsed"}
-                    style={
-                        {
-                            // gridColumnStart: 1,
-                            // gridRow: 1,
-                            // gridColumnEnd: 5,
-                            gridArea: "overlay",
-                            pointerEvents: "none",
-                            zIndex: 20,
-                            overflow: "clip",
-                            textOverflow: "clip"
-                        }
-                    }
-                    className='background-color-grey grid-5-column'>
-                    <p>
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                        thh
-                        ddwd
-                        dasd
-                        asdsadas
-                        sadasdasd
-                        asdsadasdsasdasd
-                        sadasdasdsadas
-                        asdsadasdsasdasd
-                        asdsadas
-                    </p>
-                </motion.div>
+                }
+                    className='background-color-grey border-radius'>
+                    <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>
+                        <div className="menu-button font-size-1 button-color-1">Info</div>
+                    </WigglyButton>
+                    <WigglyButton onClick={() => { setActivePage("lineup"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>
+                        <div className="menu-button font-size-1 button-color-1">Line-Up</div>
+                    </WigglyButton>
+                    <WigglyButton onClick={() => { setActivePage("termine"); setCurrentColor("#F97DD0"); setExpanded(false) }}>
+                        <div className="menu-button font-size-1 button-color-5">Termine</div>
+                    </WigglyButton>
+                    <WigglyButton onClick={() => { setActivePage("team"); setCurrentColor("#C18167"); setExpanded(false) }}>
+                        <div className="menu-button font-size-1 button-color-2">Team</div>
+                    </WigglyButton>
+                    <WigglyButton onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E"); setExpanded(false) }}>
+                        <div className="menu-button font-size-2 button-color-4">imprint</div>
+                    </WigglyButton>
+                </div>
             </div>
-        </header>
+        </header >
     )
 }
 
