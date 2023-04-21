@@ -1,10 +1,25 @@
 import WigglyButton from 'components/WigglyButton';
 import React from 'react'
 
-function HeaderLarge({setActivePage, setCurrentColor}) {
+function HeaderLarge({ setActivePage, setCurrentColor }) {
     return (
-        <header className="border-radius background-color-grey">
-            <div className="Menu-Wrapper ">
+        <header className="border-radius background-color-grey"
+            style={{
+                display: "flex",
+                justifyContent: "space-between"
+            }}>
+            <div className="Menu-Wrapper"
+                style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-start",
+                    alignContent: "flex-end",
+                    width: "300px",
+                    gap: "0.3rem",
+                    marginLeft: "1rem",
+                    height: "100%",
+                    padding: "0.5rem"
+                }}>
                 <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>
                     <div className="menu-button font-size-1 button-color-1">Info</div>
                 </WigglyButton>
@@ -21,35 +36,48 @@ function HeaderLarge({setActivePage, setCurrentColor}) {
                     <div className="menu-button font-size-2 button-color-4">imprint</div>
                 </WigglyButton>
             </div>
-            <div className="Logo-Header-Wrapper grid-column-start-5">
-                    <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
-                    <div className="color-button-wrapper">
-                        <div className="switch-color-button background-color-1"
-                            onClick={() => setCurrentColor("#BFA9ED")}
-                        ></div>
-                        <div className="switch-color-button background-color-2"
-                            onClick={() => setCurrentColor("#C18167")}
-                        ></div>
-                        <div className="switch-color-button background-color-3"
-                            onClick={() => setCurrentColor("#C8BF9B")}
-                        ></div>
-                        <div className="switch-color-button background-color-4"
-                            onClick={() => setCurrentColor("#E3CC4E")}
-                        >
-                        </div>
-                        <div className="switch-color-button background-color-5"
-                            onClick={() => setCurrentColor("#F97DD0")}
-                        >
-                        </div>
-                        <div
-                            className="switch-color-button"
-                            style={{ background: "url('blue-sky.jpg')" }}
-                            onClick={() => setCurrentColor("teal")}
-                        >
-                        </div>
+            <div className="Logo-Header-Wrapper grid-column-start-5"
+                style={{
+                    justifySelf: "end",
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                    gap: "0.2rem"
+                }}>
+                <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
+                <div className="color-button-wrapper"
+                    style={{
+                        display: "flex",
+                        justifyContent: "flex-end",
+                        gap: "0.3rem",
+                        marginRight: "0.3rem"
+                    }}>
+                    <div className="switch-color-button background-color-1"
+                        onClick={() => setCurrentColor("#BFA9ED")}
+                    ></div>
+                    <div className="switch-color-button background-color-2"
+                        onClick={() => setCurrentColor("#C18167")}
+                    ></div>
+                    <div className="switch-color-button background-color-3"
+                        onClick={() => setCurrentColor("#C8BF9B")}
+                    ></div>
+                    <div className="switch-color-button background-color-4"
+                        onClick={() => setCurrentColor("#E3CC4E")}
+                    >
+                    </div>
+                    <div className="switch-color-button background-color-5"
+                        onClick={() => setCurrentColor("#F97DD0")}
+                    >
+                    </div>
+                    <div
+                        className="switch-color-button"
+                        style={{ background: "url('blue-sky.jpg')" }}
+                        onClick={() => setCurrentColor("teal")}
+                    >
                     </div>
                 </div>
-        </header>
+            </div>
+        </header >
     )
 }
 
