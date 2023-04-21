@@ -51,7 +51,7 @@ export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
 }
 
 
-function PrettyName({name, appendWhiteSpace = true}){
+export function PrettyName({name, appendWhiteSpace = true}){
     const firstLetterName = name.slice(0, 1)
     const remainderName = name.slice(1)
     return (firstLetterName == firstLetterName.toUpperCase() ? <>

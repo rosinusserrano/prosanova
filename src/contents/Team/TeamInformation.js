@@ -1,3 +1,6 @@
+export const TextOnTop = "Festivalarbeit funktioniert"
+
+
 export const Leitung = [
     {
         "imgSrc": "images/Leni.png",
