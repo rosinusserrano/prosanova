@@ -81,6 +81,7 @@ export default function HomePage() {
           <PageSwitch page={activePage} color={currentColor}></PageSwitch>
         </main>
       </div>
+      
     </div>
   );
 }
