@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/imprint.css';
 import '../styles/fonts.css';
 import '../styles/pages.css';
+import '../styles/responsive.css'
 import { Helmet } from 'react-helmet';
 
 
