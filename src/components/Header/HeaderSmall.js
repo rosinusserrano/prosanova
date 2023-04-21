@@ -69,7 +69,7 @@ function HeaderSmall({ setActivePage, setCurrentColor }) {
                     </WigglyButton>
                 </div>
             </div>
-        </header >
+        </header>
     )
 }
 
