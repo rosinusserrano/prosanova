@@ -16,12 +16,14 @@ function Imprint() {
       <meta name='description' content='Prosanova 2023, Festival für junge Literatur | Impressum' />
     </Helmet>
 
-    <div className=' page-grid-inside inside-main-content-wrapper '>
-   
-      <div className=' background-color-grey inside-page-padding border-radius grid-6-column-mobile grid-4-column scrollable-element grid-child font-sz-small grid-row-start-2 '>
+    <div className=' page-grid-inside inside-main-content-wrapper '
+    style={{height: "100%"}}>
 
-      Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
-<br /> <br/>
+      <div className=' background-color-grey inside-page-padding border-radius grid-6-column-mobile grid-4-column scrollable-element grid-child font-sz-small grid-row-start-2 '
+      style={{height: "100%"}}>
+
+        Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
+        <br /> <br />
         BELLA triste – Zeitschrift für junge Literatur <br /> Neustädter Markt 3-4 <br />
         D-31134 Hildesheim
         <br /> <br />
@@ -42,7 +44,7 @@ function Imprint() {
         Bundesland Ihres Wohnsitzes,
         Ihrer Arbeit oder der mutmaßlichen Verletzung. Eine Liste der Aufsichtsbehörden (für den nichtöffentli- chen Bereich)
         mit Anschrift finden Sie unter:
-       <Link className="Links" target="_blank" to="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html" > https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</Link>        <br /> <br />
+        <Link className="Links" target="_blank" to="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html" > https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</Link>        <br /> <br />
 
         ZWECKE DER DATENVERARBEITUNG DURCH DIE VERANTWORTLICHE STELLE UND DRITTE
         <br /> <br />
@@ -158,7 +160,7 @@ function Imprint() {
         entsprechender Bibliotheken Daten erheben. Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier:
         https://www.google. com/policies/privacy/         <br /> <br />
 
-  
+
 
         ÄNDERUNG UNSERER DATENSCHUTZBESTIMMUNGEN         <br /> <br />
 
@@ -168,7 +170,7 @@ function Imprint() {
         FRAGEN AN DEN DATENSCHUTZBEAUFTRAGTEN
         Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für
         den Datenschutz verantwortliche Person in unserer Organisation:
-    
+
 
         Melek Halici
         melek.halici@bellatriste.de
@@ -176,23 +178,23 @@ function Imprint() {
 
         <div className='added-padding'></div>
 
-      </div> 
+      </div>
 
       <div className='background-color-grey inside-page-padding border-radius grid-row-start-mobile-1 grid-6-column-mobile  grid-child grid-2-column scrollable-element font-sz-small'>
         ANGABEN GEMÄSS § 5 TM Bella triste e.V. <br /><br />
-        Vorsitz: <br />Lucie Frahm <br />Melek Halici<br/> Lina Briks<br/><br />
+        Vorsitz: <br />Lucie Frahm <br />Melek Halici<br /> Lina Briks<br /><br />
         Neustädter Markt 3-4<br />
         31135 Hildesheim<br />
         Telefon: + 49 (0) 172 7213929
         <br /> eMail: kontakt [at] bellatriste.de;<br /> <br />Internet: https://www.bellatriste.de<br />
-        VERANTWORTLICH FÜR DEN INHALT  NACH § 55 ABS. 2 RSTV: <br/>BELLA Triste e.V. <br />
+        VERANTWORTLICH FÜR DEN INHALT  NACH § 55 ABS. 2 RSTV: <br />BELLA Triste e.V. <br />
         Neustädter Markt 3-4 <br />
         31134 Hildesheim  <br /> <br />
         WEB- DESIGN & DEVELOPEMENT:<br />
         YAEL OHMER<br />
         MARCO ROSINUS SERRANO <br /> <br />
 
-        GRAFIKDESIGN: <br /> 
+        GRAFIKDESIGN: <br />
         VIVIEN SORRENTINO <br />ELFI HANDINA MURANDU <br /> <br />
         HAFTUNGSAUSSCHLUSS:  <br /> <br />
         HAFTUNG FÜR INHALTE <br /> <br />
