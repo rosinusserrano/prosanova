@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import WigglyButton from "components/WigglyButton";
-import Balloon from "components/Balloon";
 import Letters3DGame from "contents/Letters3DGame/Letters3DGame";
 import Info from "contents/Info";
 import Team from "contents/Team/Team";
@@ -16,6 +14,7 @@ import Imprint from "contents/Imprint";
 import Termine from "contents/Termine/Termine";
 import LineUp from "contents/LineUp";
 import Header from "components/Header/Header";
+import { motion } from "framer-motion";
 
 
 function PageSwitch({ page, color }) {
@@ -29,7 +28,8 @@ function PageSwitch({ page, color }) {
     case "team":
       return <Team color={color}></Team>
     case "game":
-      return <Letters3DGame></Letters3DGame>
+      // return <Letters3DGame></Letters3DGame>
+      return <LineUp />
     case "lineup":
       return <LineUp></LineUp>
     default:
@@ -71,7 +71,7 @@ export default function HomePage() {
         <Header setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
       </div>
 
-      <div style={{
+      <motion.div style={{
         flexGrow: 1,
         zIndex: 100,
         borderRadius: "25px",
@@ -80,7 +80,7 @@ export default function HomePage() {
         <main style={{height: "100%"}}>
           <PageSwitch page={activePage} color={currentColor}></PageSwitch>
         </main>
-      </div>
+      </motion.div>
     </div>
   );
 }
