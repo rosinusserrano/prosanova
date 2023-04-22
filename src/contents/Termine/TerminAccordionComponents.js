@@ -1,60 +1,58 @@
 import React from "react"
 import "../../styles/pages.css"
 import { motion } from "framer-motion";
+import { BACKGROUNDCOLOR } from "constants";
 
-export function TerminAccordionButton({ date, title, onClick }) {
+export function TerminAccordionButton({ date, title, onClick, expandedSection }) {
+
+    const gapPercent = 1
+
+    const isExpanded = expandedSection == date
 
     return (
-        <div className="grid-tab-column-1  font-size-1 grid-6-column-mobile grid-1-column  grid-child"
-            onClick={onClick}>
-            <motion.div
-                className="font-montiac-mono inside-page-padding border-radius font-size-3"
+        <div className="font-size-1"
+            onClick={onClick}
+            style={{
+                display: "flex",
+                gap: `${gapPercent}%`
+            }}>
+            <div
+                className="font-montiac-mono border-radius"
                 style={{
-                    marginTop: "0.5rem",
                     textAlign: "center",
-                    color: "white"
+                    color: isExpanded ? "white" : "black",
+                    verticalAlign: "middle",
+                    // flex: "1 0 0",
+                    width: `${50 - (gapPercent / 2)}%`,
+                    padding: "0.3rem",
+                    fontSize: "min(4vw, 3rem)",
+                    backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
-                {date}
-            </motion.div>
-            <motion.div className="inside-page-padding border-radius font-size-1 font-montiac-italic"
+                <p style={{margin: "auto"}}>{date}</p>
+            </div>
+            <div className="border-radius font-size-1 font-montiac-italic"
                 style={{
-                    marginTop: "0.5rem",
                     textAlign: "center",
-                    color: "white"
+                    color: isExpanded ? "white" : "black",
+                    // flex: "1 0 0",
+                    width: `${50 - (gapPercent / 2)}%`,
+                    padding: "0.3rem",
+                    backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
                 {title}
-            </motion.div>
+            </div>
         </div>
     )
 }
 
 export function TerminAccordionSection({ children, expandedSection, thisSection }) {
-    const variants = {
-        collapsed: {
-            // opacity: 0,
-            // y: 1000,
-            transition: {
-                duration: 0.5
-            },
-            rotateX: 90,
-            // rotateY: 0,
-            // rotateZ: 0,
-        },
-        expanded: {
-            // y: 0,
-            // opacity: 1,
-            transition: {
-                duration: 0.5
-            },
-            rotateX: 0,
-            // rotateY: 0,
-            // rotateZ: 10,
-        }
-    }
     return (
-        <motion.div variants={variants} animate={expandedSection == thisSection ? 'expanded' : "collapsed"}
-            className="font-montiac-mono no-scroll-bar grid-6-column-mobile mobile-grid-row-start-2 termine-text background-color-grey inside-page-padding border-radius scrollable-element grid-tab-column-1 grid-1-column">
+        <div className="font-montiac-mono termine-text background-color-grey inside-page-padding border-radius scrollable-element"
+        style={{
+            gridArea: "overlay",
+            display: expandedSection == thisSection ? "block" : "none",
+        }}>
             {children}
-        </motion.div>
+        </div>
     );
 }

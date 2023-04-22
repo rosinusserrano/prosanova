@@ -6,11 +6,12 @@ import { Helmet } from "react-helmet";
 
 import { Link } from "react-router-dom";
 import { TerminAccordionButton, TerminAccordionSection } from "./TerminAccordionComponents";
+import { TermineInformation } from "./TermineInformation";
 
 function Termine() {
 
-  const [expandedSection, setExpandedSection] = useState(0);
-  
+  const [expandedSection, setExpandedSection] = useState("");
+
   return (
     <>
       <Helmet>
@@ -20,9 +21,46 @@ function Termine() {
           content="Prosanova 2023, Festival für junge Literatur | Termine"
         />
       </Helmet>
-      <div className="page-grid-inside-5-cl  ">
+      <div className="inside-main-content-wrapper"
+        style={{
+          display: "flex",
+          gap: "1rem",
+          height: "100%"
+        }}>
 
-        <TerminAccordionButton date={<>30/03</>}
+        <div style={{
+          flex: "2 2 0",
+          display: "flex",
+          flexDirection: "column",
+          gap: "0.4rem"
+        }}>
+          {TermineInformation.map(({ date, title }) => {
+            return <TerminAccordionButton 
+              date={date}
+              title={title}
+              onClick={() => {setExpandedSection(expandedSection == date ? "" : date)}}
+              key={`${date}_${title}`}
+              expandedSection={expandedSection}
+              />
+          }
+          )}
+        </div>
+
+        <div style={{
+          flex: "3 3 0",
+          width: "100%",
+          height: "100%",
+          display: "grid",
+          gridTemplateAreas: "'overlay'"
+        }}>
+          {TermineInformation.map(({ contentJSX, date }) => {
+            return <TerminAccordionSection thisSection={date} expandedSection={expandedSection}>
+              {contentJSX}
+            </TerminAccordionSection>
+          })}
+        </div>
+
+        {/* <TerminAccordionButton date={<>30/03</>}
           title={<>
             <span className="font-script">B</span>ekenntnisse an das{" "}
             <span className="font-script">M</span>isstrauen
@@ -151,7 +189,7 @@ function Termine() {
           Fotos sowie alles dazwischen veröffentlicht, die in irgendeiner Art
           und Weise Teil des Festivals waren. Dazu arbeiten wir eng mit der
           Redaktion der BELLA triste zusammen.
-        </TerminAccordionSection>
+        </TerminAccordionSection> */}
 
       </div>
     </>
