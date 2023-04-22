@@ -110,7 +110,7 @@ export default function Letters3DGame() {
 
   return (
     <Suspense>
-      <div className='border-radius' style={{cursor: cursor, height: "100%"}}
+      <div className='border-radius' style={{cursor: cursor, height: "100%" }}
         onPointerDown={() => setCursor("url(MouseHand-Grab_small.png) 20 20, auto")}
         onPointerUp={() => setCursor("url(MouseHand-Normal_small.png) 20 20, auto")}>
         <Canvas className="border-radius" shadows

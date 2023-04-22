@@ -29,8 +29,8 @@ function PageSwitch({ page, color }) {
     case "team":
       return <Team color={color}></Team>
     case "game":
-      // return <Letters3DGame></Letters3DGame>
-      return <LineUp />
+      return <Letters3DGame></Letters3DGame>
+      // return <LineUp />
     case "lineup":
       return <LineUp></LineUp>
     default:
