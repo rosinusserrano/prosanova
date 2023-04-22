@@ -16,9 +16,8 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     alignContent: "flex-end",
                     width: "300px",
                     gap: "0.3rem",
-                    marginLeft: "1rem",
+                    margin: "1rem",
                     height: "100%",
-                    padding: "0.5rem"
                 }}>
                 <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>
                     <div className="menu-button font-size-1 button-color-1">Info</div>
