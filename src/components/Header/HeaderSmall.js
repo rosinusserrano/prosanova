@@ -3,9 +3,12 @@ import { motion } from 'framer-motion'
 import { useWindowSize } from 'hooks/useWindowSize';
 import React, { useState } from 'react'
 import BurgerMenuIcon from './BurgerMenuIcon';
+import BackButton from './BackButton';
 
-function HeaderSmall({ setActivePage, setCurrentColor }) {
+function HeaderSmall({ setActivePage, setCurrentColor, color, backFunction, setBackFunction }) {
     const [expanded, setExpanded] = useState(false);
+
+    const backButtonVisible = backFunction != null
 
     return (
         <header>
@@ -22,17 +25,24 @@ function HeaderSmall({ setActivePage, setCurrentColor }) {
                     display: "flex",
                     justifyItems: "center",
                     alignItems: "center",
-                    justifyContent: "space-between"
+                    gap: "1rem"
                 }}
                 >
                     <div
                         style={{
                             height: "3rem",
-                            width: "60px",
+                            width: "50px",
                         }}
                         onClick={() => setExpanded(!expanded)}>
                         <BurgerMenuIcon />
                     </div>
+                    <div style={{
+                        height: "3rem",
+                        width: "50px"
+                    }}>
+                        {backButtonVisible ? <BackButton onClick={backFunction} color={color}/> : <></>}
+                    </div>
+                    <div style={{flexGrow: 1}}/>
                     <div className="Logo-Header-Wrapper">
                         <div>
                             <img src={'images/PROSANOVA-Logo-Klein.png'} alt="Logo Small" onClick={() => setActivePage("game")} />
@@ -52,7 +62,11 @@ function HeaderSmall({ setActivePage, setCurrentColor }) {
                     }
                 }
                     className='background-color-grey border-radius'>
-                    <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>
+                    <WigglyButton onClick={() => {
+                        setActivePage("info");
+                        setCurrentColor("#BFA9ED");
+                        setExpanded(false)
+                    }}>
                         <div className="menu-button font-size-1 button-color-1">Info</div>
                     </WigglyButton>
                     <WigglyButton onClick={() => { setActivePage("lineup"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>

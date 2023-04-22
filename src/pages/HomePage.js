@@ -18,16 +18,16 @@ import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
 
 
-function PageSwitch({ page, color }) {
+function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {
     case "info":
       return <Info></Info>
     case "imprint":
       return <Imprint></Imprint>
     case "termine":
-      return <Termine></Termine>
+      return <Termine setBackFunction={setBackFunction}></Termine>
     case "team":
-      return <Team color={color}></Team>
+      return <Team setBackFunction={setBackFunction} color={color}></Team>
     case "game":
       // return <Letters3DGame></Letters3DGame>
       return <LineUp />
@@ -40,17 +40,19 @@ function PageSwitch({ page, color }) {
 
 
 export default function HomePage() {
-  const [currentColor, setCurrentColor] = useState("teal");
+  const [currentColor, setCurrentColor] = useState("skyblue");
 
   const [activePage, setActivePage] = useState("game")
 
   const isMobile = useMobile();
 
+  const [backFunction, setBackFunction] = useState(null)
+
   return (
     <div style={
       {
-        background: currentColor === "teal" ? "url('blue-sky.jpg')" : currentColor,
-        backgroundSize: currentColor === "teal" ? "cover" : "auto auto",
+        background: currentColor === "skyblue" ? "url('blue-sky.jpg')" : currentColor,
+        backgroundSize: currentColor === "skyblue" ? "cover" : "auto auto",
         cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
         width: "100vw",
         height: "100vh",
@@ -71,7 +73,7 @@ export default function HomePage() {
       </Helmet>
 
       <div className="header-wrapper">
-        <Header setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
+        <Header setBackFunction={setBackFunction} backFunction={backFunction} color={currentColor} setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
       </div>
 
       <div style={{
@@ -80,24 +82,24 @@ export default function HomePage() {
         borderRadius: "25px",
         overflow: "hidden",
       }}>
-        <main style={{height: "100%"}}>
-          <PageSwitch page={activePage} color={currentColor}></PageSwitch>
+        <main style={{ height: "100%" }}>
+          <PageSwitch setBackFunction={setBackFunction} page={activePage} color={currentColor}></PageSwitch>
         </main>
       </div>
 
       <footer className="background-color-grey border-radius"
-      style={{
-        minHeight: "4rem",
-        maxHeight: "4rem",
-        height: "4rem",
-        display: isMobile ? "none": "flex",
-        justifyItems: "center",
-        justifyContent: "center",
-        alignItems: "center"
-      }}>
-          Hier ist der footer &lt;3 sorry fürs layout verkacken
+        style={{
+          minHeight: "4rem",
+          maxHeight: "4rem",
+          height: "4rem",
+          display: isMobile ? "none" : "flex",
+          justifyItems: "center",
+          justifyContent: "center",
+          alignItems: "center"
+        }}>
+        Hier ist der footer &lt;3 sorry fürs layout verkacken
       </footer>
-      
+
     </div>
   );
 }

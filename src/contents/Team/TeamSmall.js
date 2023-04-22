@@ -3,8 +3,10 @@ import React, { useState } from 'react'
 import { TextOnTop, Leitung, Praktikant_innen } from './TeamInformation'
 import { PrettyName, TeamMemberImage, TeamMemberSection } from './TeamComponents'
 
-function TeamSmall({ color }) {
+function TeamSmall({ color, setBackFunction }) {
     const [openSection, setOpenSection] = useState(null)
+
+    console.log(setBackFunction)
 
     return (
         <div style={{
@@ -29,12 +31,12 @@ function TeamSmall({ color }) {
                 </div>
                 <div style={{ height: "3rem" }}
                     className='border-radius background-color-grey'
-                    onClick={() => setOpenSection("leitung")}>
+                    onClick={() => {setOpenSection("leitung"); setBackFunction(() => () => {setOpenSection(null); setBackFunction(null)})}}>
                     Künstlerische Leitung
                 </div>
                 <div style={{ height: "3rem" }}
                     className='border-radius background-color-grey'
-                    onClick={() => setOpenSection("praktikant_innen")}>
+                    onClick={() => {setOpenSection("praktikant_innen"); setBackFunction(() => () => {setOpenSection(null); setBackFunction(null)})}}>
                     Praktikant*innen
                 </div>
             </div>

@@ -72,7 +72,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     <div
                         className="switch-color-button"
                         style={{ background: "url('blue-sky.jpg')" }}
-                        onClick={() => setCurrentColor("teal")}
+                        onClick={() => setCurrentColor("skyblue")}
                     >
                     </div>
                 </div>

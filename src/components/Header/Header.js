@@ -4,11 +4,11 @@ import React from 'react'
 import HeaderSmall from './HeaderSmall';
 import HeaderLarge from './HeaderLarge';
 
-function Header({ setActivePage, setCurrentColor }) {
+function Header({ setActivePage, setCurrentColor, color, backFunction, setBackFunction }) {
     const isMobile = useMediaQuery("only screen and (max-width: 767px)")
     return (
         isMobile ?
-            <HeaderSmall setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
+            <HeaderSmall setBackFunction={setBackFunction} backFunction={backFunction} color={color} setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
             : <HeaderLarge setActivePage={setActivePage} setCurrentColor={setCurrentColor} />)
 
 

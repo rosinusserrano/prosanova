@@ -11,14 +11,14 @@ import { useMobile } from "hooks/useMediaQuery";
 import TermineLarge from "./TermineLarge";
 import TermineSmall from "./TermineSmall";
 
-function Termine() {
+function Termine({ setBackFunction }) {
 
   const [expandedSection, setExpandedSection] = useState("");
 
   const isMobile = useMobile()
 
   const termineLarge = <TermineLarge setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
-  const termineSmall = <TermineSmall setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
+  const termineSmall = <TermineSmall setBackFunction={setBackFunction} setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
 
   return (
     <>
