@@ -10,7 +10,7 @@ import { useMobile } from "hooks/useMediaQuery";
 import TeamSmall from "./TeamSmall";
 import TeamLarge from "./TeamLarge";
 
-function Team({ color }) {
+function Team({ color, setBackFunction }) {
 
   const isMobile = useMobile()
 
@@ -24,7 +24,7 @@ function Team({ color }) {
         />
       </Helmet>
 
-      {isMobile ? <TeamSmall color={color} /> : <TeamLarge color={color} />}
+      {isMobile ? <TeamSmall setBackFunction={setBackFunction} color={color} /> : <TeamLarge color={color} />}
 
     </>
   );

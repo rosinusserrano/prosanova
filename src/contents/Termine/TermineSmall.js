@@ -3,7 +3,7 @@ import { TermineInformation } from './TermineInformation'
 import { TermineSmallButton } from './TermineSmallComponents'
 import { TermineLargeSection } from './TermineLargeComponents'
 
-function TermineSmall({ expandedSection, setExpandedSection }) {
+function TermineSmall({ expandedSection, setExpandedSection, setBackFunction }) {
     return (
         <div style={{
             display: "grid",
@@ -22,7 +22,9 @@ function TermineSmall({ expandedSection, setExpandedSection }) {
                         date={date}
                         title={title}
                         expandedSection={expandedSection}
-                        setExpandedSection={setExpandedSection} />
+                        setExpandedSection={setExpandedSection}
+                        setBackFunction={setBackFunction}
+                        />
                 })}
             </div>
             

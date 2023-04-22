@@ -18,16 +18,16 @@ import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
 
 
-function PageSwitch({ page, color }) {
+function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {
     case "info":
       return <Info></Info>
     case "imprint":
       return <Imprint></Imprint>
     case "termine":
-      return <Termine></Termine>
+      return <Termine setBackFunction={setBackFunction}></Termine>
     case "team":
-      return <Team color={color}></Team>
+      return <Team setBackFunction={setBackFunction} color={color}></Team>
     case "game":
       // return <Letters3DGame></Letters3DGame>
       return <LineUp />
@@ -45,6 +45,8 @@ export default function HomePage() {
   const [activePage, setActivePage] = useState("game")
 
   const isMobile = useMobile();
+
+  const [backFunction, setBackFunction] = useState(null)
 
   return (
     <div style={
@@ -71,7 +73,7 @@ export default function HomePage() {
       </Helmet>
 
       <div className="header-wrapper">
-        <Header color={currentColor} setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
+        <Header backFunction={backFunction} color={currentColor} setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
       </div>
 
       <div style={{
@@ -81,7 +83,7 @@ export default function HomePage() {
         overflow: "hidden",
       }}>
         <main style={{height: "100%"}}>
-          <PageSwitch page={activePage} color={currentColor}></PageSwitch>
+          <PageSwitch setBackFunction={setBackFunction} page={activePage} color={currentColor}></PageSwitch>
         </main>
       </div>
 

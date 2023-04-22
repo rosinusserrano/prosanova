@@ -1,21 +1,19 @@
 import { useControls } from 'leva'
 import React from 'react'
 
-function BackButton({color}) {
+function BackButton({color, onClick}) {
 
     const baseStyle = {
         height: "100%",
         width: "100%",
         gridArea: "overlay",
         transformOrigin: "2px 50%",
+        borderRadius: "10px",
     }
 
-    const { borderRadius, degree, width, translateX} = useControls({
-        borderRadius: "10px",
-        degree: {value: 45, step: 1},
-        width: "50%",
-        translateX: {value: 0, step: 1},
-    })
+    const degree = 45
+
+
     return (
         <div style={{
             height: "100%",
@@ -26,24 +24,23 @@ function BackButton({color}) {
             alignContent: "center",
             display: "flex"
         }}
-            className='background-color-grey'>
+            className='background-color-grey'
+            onClick={onClick}>
             <div style={{
                 height: "5px",
                 display: "grid",
                 margin: "auto",
-                width: width,
+                width: "40%",
                 gridTemplateAreas: "'overlay'",
-                transform: `translateX(${translateX}px)`
+                transform: `translateX(${2}px)`
             }}>
                 <div style={{
                     ...baseStyle,
                     backgroundColor: color,
-                    borderRadius: borderRadius,
                     transform: `rotate(${degree}deg)`}}></div>
                 <div style={{
                     ...baseStyle,
                     backgroundColor: color,
-                    borderRadius: borderRadius,
                     transform: `rotate(${-degree}deg)`}}></div>
             </div>
         </div>

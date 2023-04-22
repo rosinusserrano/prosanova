@@ -5,8 +5,10 @@ import React, { useState } from 'react'
 import BurgerMenuIcon from './BurgerMenuIcon';
 import BackButton from './BackButton';
 
-function HeaderSmall({ setActivePage, setCurrentColor, color }) {
+function HeaderSmall({ setActivePage, setCurrentColor, color, backFunction, setBackFunction }) {
     const [expanded, setExpanded] = useState(false);
+
+    const backButtonVisible = backFunction != null
 
     return (
         <header>
@@ -38,7 +40,7 @@ function HeaderSmall({ setActivePage, setCurrentColor, color }) {
                         height: "3rem",
                         width: "50px"
                     }}>
-                        <BackButton color={color}/>
+                        {backButtonVisible ? <BackButton onClick={backFunction} color={color}/> : <></>}
                     </div>
                     <div style={{flexGrow: 1}}/>
                     <div className="Logo-Header-Wrapper">
@@ -60,7 +62,11 @@ function HeaderSmall({ setActivePage, setCurrentColor, color }) {
                     }
                 }
                     className='background-color-grey border-radius'>
-                    <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>
+                    <WigglyButton onClick={() => {
+                        setActivePage("info");
+                        setCurrentColor("#BFA9ED");
+                        setExpanded(false)
+                    }}>
                         <div className="menu-button font-size-1 button-color-1">Info</div>
                     </WigglyButton>
                     <WigglyButton onClick={() => { setActivePage("lineup"); setCurrentColor("#BFA9ED"); setExpanded(false) }}>
