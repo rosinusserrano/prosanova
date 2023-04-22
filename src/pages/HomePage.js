@@ -90,7 +90,7 @@ export default function HomePage() {
         minHeight: "4rem",
         maxHeight: "4rem",
         height: "4rem",
-        display: "flex",
+        display: isMobile ? "none": "flex",
         justifyItems: "center",
         justifyContent: "center",
         alignItems: "center"

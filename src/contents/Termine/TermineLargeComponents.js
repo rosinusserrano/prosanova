@@ -3,7 +3,7 @@ import "../../styles/pages.css"
 import { motion } from "framer-motion";
 import { BACKGROUNDCOLOR } from "constants";
 
-export function TerminAccordionButton({ date, title, onClick, expandedSection }) {
+export function TermineLargeButton({ date, title, onClick, expandedSection }) {
 
     const gapPercent = 1
 
@@ -45,7 +45,7 @@ export function TerminAccordionButton({ date, title, onClick, expandedSection })
     )
 }
 
-export function TerminAccordionSection({ children, expandedSection, thisSection }) {
+export function TermineLargeSection({ children, expandedSection, thisSection }) {
     return (
         <div className="font-montiac-mono termine-text background-color-grey inside-page-padding border-radius scrollable-element"
         style={{
