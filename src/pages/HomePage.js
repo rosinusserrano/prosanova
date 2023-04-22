@@ -95,7 +95,7 @@ export default function HomePage() {
         justifyContent: "center",
         alignItems: "center"
       }}>
-          Hier ist der footer &lt;3 sorry fürs layout verkacken
+          Hier ist der footer
       </footer>
       
     </div>
