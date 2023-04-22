@@ -71,7 +71,7 @@ export default function HomePage() {
       </Helmet>
 
       <div className="header-wrapper">
-        <Header setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
+        <Header color={currentColor} setActivePage={setActivePage} setCurrentColor={setCurrentColor} />
       </div>
 
       <div style={{

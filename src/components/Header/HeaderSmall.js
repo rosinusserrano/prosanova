@@ -3,8 +3,9 @@ import { motion } from 'framer-motion'
 import { useWindowSize } from 'hooks/useWindowSize';
 import React, { useState } from 'react'
 import BurgerMenuIcon from './BurgerMenuIcon';
+import BackButton from './BackButton';
 
-function HeaderSmall({ setActivePage, setCurrentColor }) {
+function HeaderSmall({ setActivePage, setCurrentColor, color }) {
     const [expanded, setExpanded] = useState(false);
 
     return (
@@ -22,17 +23,24 @@ function HeaderSmall({ setActivePage, setCurrentColor }) {
                     display: "flex",
                     justifyItems: "center",
                     alignItems: "center",
-                    justifyContent: "space-between"
+                    gap: "1rem"
                 }}
                 >
                     <div
                         style={{
                             height: "3rem",
-                            width: "60px",
+                            width: "50px",
                         }}
                         onClick={() => setExpanded(!expanded)}>
                         <BurgerMenuIcon />
                     </div>
+                    <div style={{
+                        height: "3rem",
+                        width: "50px"
+                    }}>
+                        <BackButton color={color}/>
+                    </div>
+                    <div style={{flexGrow: 1}}/>
                     <div className="Logo-Header-Wrapper">
                         <div>
                             <img src={'images/PROSANOVA-Logo-Klein.png'} alt="Logo Small" onClick={() => setActivePage("game")} />
