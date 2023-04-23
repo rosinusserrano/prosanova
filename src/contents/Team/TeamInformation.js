@@ -1,4 +1,4 @@
-export const TextOnTop = "Festivalarbeit funktioniert"
+export const TextOnTop = "Festivalarbeit funktioniert nicht ohne die vielen Menschen, die die unterschiedlichen Aufgaben übernehmen und meist im Hintergrund stehen. Für das PROSANOVA findet sich alle drei Jahre ein komplett neues Team zusammen, dass sich diesem annimmt. Auch wenn sich hier nur das Team der diesjährigen Ausgabe findet, sind wir dankbar für alle die vor uns waren und uns den Weg zum PROSANOVA 2023 geebnet haben."
 
 
 export const Leitung = [
