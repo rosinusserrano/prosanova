@@ -51,11 +51,11 @@ export function TeamMemberSection({ sectionId, sectionContent, name1, name2 }) {
 }
 
 
-export function PrettyName({name, appendWhiteSpace = true}){
+export function PrettyName({name, appendWhiteSpace = true, fontSizeClass = "font-size-4"}){
     const firstLetterName = name.slice(0, 1)
     const remainderName = name.slice(1)
     return (firstLetterName == firstLetterName.toUpperCase() ? <>
-        <span className=" font-script font-size-3">{firstLetterName}</span>{remainderName}{appendWhiteSpace ? " " : ""}
+        <span className={`font-script ${fontSizeClass}`}>{firstLetterName}</span>{remainderName}{appendWhiteSpace ? " " : ""}
     </> : <>{name}{appendWhiteSpace ? " " : ""}</>)
 }
 

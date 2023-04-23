@@ -2,7 +2,7 @@ import React from 'react'
 import { TermineLargeButton, TermineLargeSection } from './TermineLargeComponents'
 import { TermineInformation } from './TermineInformation'
 
-function TermineLarge({expandedSection, setExpandedSection}) {
+function TermineLarge({expandedSection, setExpandedSection, color}) {
   return (
     <div className="inside-main-content-wrapper"
         style={{
@@ -24,6 +24,7 @@ function TermineLarge({expandedSection, setExpandedSection}) {
               onClick={() => {setExpandedSection(expandedSection == date ? "" : date)}}
               key={`${date}_${title}`}
               expandedSection={expandedSection}
+              color={color}
               />
           }
           )}
