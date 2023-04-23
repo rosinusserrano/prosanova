@@ -25,9 +25,17 @@ function TeamLarge( {color}) {
             <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
                 style={{ flexGrow: 2, flexBasis: 0 }}>
                 <div className="team-grid">
+                    
                     <div className="grid-3-column txt-align-center">
                         <span className="font-script font-size-3">K</span>ünstlerische{" "}
                         <span className="font-script font-size-3">L</span>eitung{" "}
+                    </div>
+
+                    <div style={{
+                        gridColumn: "span 3",
+                        gridRow: "span 2"
+                    }}>
+                        <img src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
                     </div>
 
                     {Leitung.map(({ imgSrc, sectionId, altText }) => {
