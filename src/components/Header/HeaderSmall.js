@@ -40,7 +40,10 @@ function HeaderSmall({ setActivePage, setCurrentColor, color, backFunction, setB
                         height: "3rem",
                         width: "50px"
                     }}>
-                        {backButtonVisible ? <BackButton onClick={backFunction} color={color} /> : <></>}
+                        {backButtonVisible ? <BackButton onClick={() => {
+                            backFunction()
+                            setBackFunction(null)
+                        }} color={color} /> : <></>}
                     </div>
                     <div style={{ flexGrow: 1 }} />
                     <div className="Logo-Header-Wrapper">
@@ -78,7 +81,7 @@ function HeaderSmall({ setActivePage, setCurrentColor, color, backFunction, setB
                     <WigglyButton onClick={() => { setActivePage("team"); setCurrentColor("#C18167"); setExpanded(false) }}>
                         <div className="menu-button font-size-1 button-color-2">Team</div>
                     </WigglyButton>
-                    <WigglyButton onClick={() => { setActivePage("blog"); setCurrentColor("#E3CC4E") }}>
+                    <WigglyButton onClick={() => { setActivePage("blog"); setCurrentColor("#E3CC4E"); setExpanded(false) }}>
                         <div className="menu-button font-size-1 button-color-3">Blog</div>
                     </WigglyButton>
                     <WigglyButton onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E"); setExpanded(false) }}>

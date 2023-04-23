@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import BlogSmall from './BlogSmall'
 import BlogLarge from './BlogLarge'
 
-function Blog() {
+function Blog({setBackFunction}) {
 
     const [expandedPostTitle, setExpandedPostTitle] = useState(null);
 
@@ -21,8 +21,8 @@ function Blog() {
             </Helmet>
 
             {isMobile ?
-                <BlogSmall expandedPostTitle={expandedPostTitle} setExpandedPostTitle={setExpandedPostTitle} />
-                : <BlogLarge expandedPostTitle={expandedPostTitle} setExpandedPostTitle={setExpandedPostTitle}/>}
+                <BlogSmall expandedPostTitle={expandedPostTitle} setExpandedPostTitle={setExpandedPostTitle} setBackFunction={setBackFunction} />
+                : <BlogLarge expandedPostTitle={expandedPostTitle} setExpandedPostTitle={setExpandedPostTitle} />}
         </>
     )
 }

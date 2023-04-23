@@ -35,7 +35,7 @@ function PageSwitch({ page, color, setBackFunction }) {
     case "lineup":
       return <LineUp></LineUp>
     case "blog":
-      return <Blog />
+      return <Blog setBackFunction={setBackFunction} />
     default:
       return <Letters3DGame></Letters3DGame>
   }

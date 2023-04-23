@@ -15,8 +15,23 @@ export function BlogLargeButton({author, title, setExpandedPostTitle, expandedPo
     )
 }
 
+export function BlogSmallButton({author, title, setExpandedPostTitle, expandedPostTitle, setBackFunction }){
+    return (
+        <div className="border-radius"
+        style={{
+            textAlign: "center",
+            backgroundColor: expandedPostTitle == title ? "transparent": BACKGROUNDCOLOR
+        }}
+        onClick={() => {
+            setExpandedPostTitle(title)
+            setBackFunction(() => () => {setExpandedPostTitle(null)})}}>
+        {title}<br/>{author}
+        </div>
+    )
+}
 
-export function BlogLargeSection({title, contentJSX, expandedPostTitle}){
+
+export function BlogSection({title, contentJSX, expandedPostTitle}){
     return (
         <div style={{
             gridArea: "overlay",

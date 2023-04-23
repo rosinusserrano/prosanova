@@ -1,6 +1,6 @@
 import React from 'react'
 import { Posts } from './BlogPosts'
-import { BlogLargeButton, BlogLargeSection } from './BlogLargeComponents'
+import { BlogLargeButton, BlogSection } from './BlogComponents'
 
 function BlogLarge({ expandedPostTitle, setExpandedPostTitle }) {
     return (
@@ -27,7 +27,7 @@ function BlogLarge({ expandedPostTitle, setExpandedPostTitle }) {
                 height: "100%"
             }}>
                 {Posts.map(({ title, contentJSX }) =>
-                    <BlogLargeSection title={title} contentJSX={contentJSX} expandedPostTitle={expandedPostTitle} />)}
+                    <BlogSection title={title} contentJSX={contentJSX} expandedPostTitle={expandedPostTitle} />)}
             </div>
         </div>
     )
