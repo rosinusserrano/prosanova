@@ -23,13 +23,16 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     <div className="menu-button font-size-1 button-color-1">Info</div>
                 </WigglyButton>
                 <WigglyButton onClick={() => { setActivePage("lineup"); setCurrentColor("#BFA9ED") }}>
-                    <div className="menu-button font-size-1 button-color-1">Line-Up</div>
+                    <div className="menu-button font-size-1 button-color-4">Line-Up</div>
                 </WigglyButton>
                 <WigglyButton onClick={() => { setActivePage("termine"); setCurrentColor("#F97DD0") }}>
                     <div className="menu-button font-size-1 button-color-5">Termine</div>
                 </WigglyButton>
                 <WigglyButton onClick={() => { setActivePage("team"); setCurrentColor("#C18167") }}>
                     <div className="menu-button font-size-1 button-color-2">Team</div>
+                </WigglyButton>
+                <WigglyButton onClick={() => { setActivePage("blog"); setCurrentColor("#E3CC4E") }}>
+                    <div className="menu-button font-size-1 button-color-3">Blog</div>
                 </WigglyButton>
                 <WigglyButton onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E") }}>
                     <div className="menu-button font-size-2 button-color-4">imprint</div>

@@ -16,6 +16,7 @@ import LineUp from "contents/LineUp";
 import Header from "components/Header/Header";
 import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
+import Blog from "contents/Blog/Blog";
 
 
 function PageSwitch({ page, color, setBackFunction }) {
@@ -33,6 +34,8 @@ function PageSwitch({ page, color, setBackFunction }) {
       return <LineUp />
     case "lineup":
       return <LineUp></LineUp>
+    case "blog":
+      return <Blog />
     default:
       return <Letters3DGame></Letters3DGame>
   }
