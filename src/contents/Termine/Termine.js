@@ -18,7 +18,7 @@ function Termine({ setBackFunction, color }) {
   const isMobile = useMobile()
 
   const termineLarge = <TermineLarge color={color} setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
-  const termineSmall = <TermineSmall setBackFunction={setBackFunction} setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
+  const termineSmall = <TermineSmall color={color} setBackFunction={setBackFunction} setExpandedSection={setExpandedSection} expandedSection={expandedSection} />
 
   return (
     <>

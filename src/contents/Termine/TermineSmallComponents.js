@@ -1,9 +1,10 @@
 import React from "react";
 
 
-export function TermineSmallButton({ expandedSection, setExpandedSection, date, title, setBackFunction }) {
+export function TermineSmallButton({ expandedSection, setExpandedSection, date, title, setBackFunction, color }) {
     return <div style={{
         textAlign: "center",
+        color: color,
     }}
     className="border-radius background-color-grey"
     onClick={() => {
