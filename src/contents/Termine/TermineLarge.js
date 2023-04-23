@@ -15,6 +15,11 @@ function TermineLarge({expandedSection, setExpandedSection, color}) {
           flex: "2 2 0",
           display: "flex",
           flexDirection: "column",
+          width: "100%",
+          height: "100%",
+          maxWidth: "100%",
+          overflowX: "hidden",
+          overflowY: "scroll",
           gap: "0.4rem"
         }}>
           {TermineInformation.map(({ date, title }) => {

@@ -39,7 +39,9 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
                     padding: "0.3rem",
                     backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
-                <p style={{margin: "auto"}}>{title.map((val) => <PrettyName name={val} fontSizeClass="font-size-1"/>)}</p>
+                <p style={{margin: "auto",
+                    wordWrap: "break-word",
+                    width: "100%"}}>{title.map((val) => <PrettyName name={val} fontSizeClass="font-size-1"/>)}</p>
             </div>
         </div>
     )
