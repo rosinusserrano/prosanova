@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Letters3DGame from "contents/Letters3DGame/Letters3DGame";
 import Info from "contents/Info";
 import Team from "contents/Team/Team";
 
@@ -16,6 +15,7 @@ import LineUp from "contents/LineUp";
 import Header from "components/Header/Header";
 import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
+import Landing from "contents/Landing/Landing";
 import Blog from "contents/Blog/Blog";
 
 
@@ -30,14 +30,14 @@ function PageSwitch({ page, color, setBackFunction }) {
     case "team":
       return <Team setBackFunction={setBackFunction} color={color}></Team>
     case "game":
-      // return <Letters3DGame></Letters3DGame>
-      return <LineUp />
+      return <Landing></Landing>
+      // return <LineUp />
     case "lineup":
       return <LineUp></LineUp>
     case "blog":
       return <Blog setBackFunction={setBackFunction} />
     default:
-      return <Letters3DGame></Letters3DGame>
+      return <Landing></Landing>
   }
 }
 
