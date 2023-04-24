@@ -72,15 +72,6 @@ export const TermineInformation = [
                 width: "100%",
             }}>
                 <div>
-                    <img title="Foto: Manuel Gehrke" className="border-radius" src="images/Alexander_Solloch_Fotograf_Manuel_Gehrke.jpg" style={{
-                        aspectRatio: "5/4",
-                        objectPosition: "50% 0%",
-                        objectFit: "cover",
-                        width: "100%",
-                    }} />
-                    <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
-                </div>
-                <div>
                     <img title="Foto: Havin Al-Sindy" className="border-radius" src="images/KaroshTaha.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
@@ -106,6 +97,23 @@ export const TermineInformation = [
                         width: "100%",
                     }} />
                     <p>Heike Geißler, 1977 in Riesa geboren, ist Autorin, Übersetzerin und Mitherausgeberin der Heftreihe Lücken kann man lesen. Zuletzt erschienen der Reportage-Roman Saisonarbeit (Spector Books, 2014), das Fragenheft und Hörspiel Fragen für alle sowie das gemeinschaftliche Literaturprojekt Check your habitus, kuratiert von Daniela Dröscher. Mit der Schauspielerin Charlotte Puder arbeitet sie als Kollektiv George Bele. Heike Geißler wurde mit zahlreichen Stipendien und Preisen ausgezeichnet und lebt heute in Leipzig.</p>
+                </div>
+            </div>
+            <p className="font-size-4" style={{ textAlign: "center" }}>MODERATION</p>
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
+            }}>
+                <div>
+                    <img title="Foto: Manuel Gehrke" className="border-radius" src="images/Alexander_Solloch_Fotograf_Manuel_Gehrke.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 0%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
                 </div>
             </div>
 
