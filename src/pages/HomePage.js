@@ -31,7 +31,7 @@ function PageSwitch({ page, color, setBackFunction }) {
     case "team":
       return <Team setBackFunction={setBackFunction} color={color}></Team>;
     case "game":
-      return <Landing></Landing>;
+      return <Landing color={color}></Landing>;
     // return <LineUp />
     case "lineup":
       return <LineUp></LineUp>;
@@ -41,7 +41,7 @@ function PageSwitch({ page, color, setBackFunction }) {
     case "blog":
       return <Blog setBackFunction={setBackFunction} />;
     default:
-      return <Landing></Landing>;
+      return <Landing color={color}></Landing>;
   }
 }
 
@@ -53,6 +53,10 @@ export default function HomePage() {
   const isMobile = useMobile();
 
   const [backFunction, setBackFunction] = useState(null);
+
+  const today = new Date()
+  const festivalDate = new Date("2023-06-23")
+  const daysDiff = Math.round((festivalDate - today) / 1000 / 60 / 60 / 24)
 
   return (
     <div
@@ -139,7 +143,7 @@ export default function HomePage() {
             }}
           >
             <FridgePoetry color="white">noch</FridgePoetry>
-            <FridgePoetry color="skyblue">76</FridgePoetry>
+            <FridgePoetry color={currentColor}>{daysDiff}</FridgePoetry>
             <FridgePoetry color="white">Tage</FridgePoetry>
             <FridgePoetry color="white">bis</FridgePoetry>
             <FridgePoetry color="white">zum</FridgePoetry>

@@ -1,7 +1,7 @@
 import FridgePoetry from 'components/FridgePoetry'
 import React from 'react'
 
-function LandingSmall() {
+function LandingSmall({color}) {
 
     const today = new Date()
     const festivalDate = new Date("2023-06-23")
@@ -21,7 +21,7 @@ function LandingSmall() {
                 width: "100%"
             }}>
                 <FridgePoetry color="white">noch</FridgePoetry>
-                <FridgePoetry color="skyblue">{daysDiff}</FridgePoetry>
+                <FridgePoetry color={color}>{daysDiff}</FridgePoetry>
                 <FridgePoetry color="white">Tage</FridgePoetry>
                 <FridgePoetry color="white">bis</FridgePoetry>
                 <FridgePoetry color="white">zum</FridgePoetry>
