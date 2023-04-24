@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../../styles/imprint.css";
 import "../../styles/fonts.css";
 import "../../styles/pages.css";
+import "../../styles/termine.css";
 import { Helmet } from "react-helmet";
 
 import { Link } from "react-router-dom";

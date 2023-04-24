@@ -6,63 +6,53 @@ import { Link } from "react-router-dom";
 export const TermineInformation = [
     {
         date: "30/03",
-        title: ["Bekenntnisse an das ", "Misstrauen"],
+        title: ["Be<wbr>kennt<wbr>nisse an das ", "Miss<wbr>trauen"],
         contentJSX: <>
             <p><span className="font-size-3">OPEN CALL</span><br />
                 <span className="font-montiac-italic">Bekenntnisse an das Misstrauen.</span></p>
             <p>Zu welchem Misstrauen bekennt ihr euch?</p>
             <p>Zu dieser Frage haben wir eure szenischen, experimentellen und gattungsbrechenden Texte gesucht. Unsere Jury – bestehend aus Olufemi Atibioke, Deniz Bolat und Laura Shirin – musste sich schwern Herzens für drei Texte entscheiden, die in einem gemeinsamen Inszenierungprozess erarbeitet und auf dem Festival gezeigt werden. Wie die Texte umgesetzt werden, bleibt den Autor:innen in Absprache mit den Mentor:innen freigestellt – ob klassisch, experimentell, visuell, interaktiv, medial oder etwas anderes. Wir können uns also alle auf unterschiedliche Formen der Inszenierung freuen, die am Festivalwochenende gezeigt werden.</p>
             <p>Und am Ende bleibt nur noch die Frage, wem wir trauen wollen und wo das Misstrauen bleiben wird.</p>
-            <p>
-                <p className="font-size-4" style={{ textAlign: "center" }}>JURY</p>
-                <div style={{
-                    display: "flex",
-                    gap: "1rem",
-                    flexWrap: "wrap"
-                }}>
-                    <div style={{
-                        flex: "1 1 0",
-                        minWidth: "200px"
-                    }}>
-                        <img className="border-radius" src="images/AtibiokePrivat.jpg" style={{
-                            aspectRatio: "5/4",
-                            objectPosition: "50% 45%",
-                            objectFit: "cover",
-                            width: "100%",
-                        }} />
-                        <p>Olufemi-Just Atibioke ist studierter Kulturwissenschaftler. Arbeitet in der Kulturellen Bildung. Schreibt Text. Letzte Veröffentlichungen: Story des Jares in BELLA triste Nr. 63.</p>
-                    </div>
-                    <div style={{
-                        flex: "1 1 0",
-                        minWidth: "200px"
-                    }}>
-                        <img className="border-radius" src="images/LauraShirinPrivat.jpg" style={{
-                            aspectRatio: "5/4",
-                            objectPosition: "50% 0%",
-                            objectFit: "cover",
-                            width: "100%",
-                        }} />
-                        <p>Laura Shirin ist politische Performerin. In ihren Arbeiten setzt sie sich einerseits akademisch, andererseits künstlerisch zu Themen um Rassismus, (Queer-)Feminismus und Intersektionalität auseinander. Dabei befinden sich drängende Fragen nach Zugehörigkeit und Identität, Momente des Empowerment und Verlusts sowie der Suche nach Haymat und Community. Ihre erste Buchpublikation fand dazu im Gedichtband „Haymatlos“ statt, während weitere Texte in „Texte nach Hanau“ zu finden sind. Sie publizierte darüber hinaus beim Young Migrants Blog und beim Mo:No Magazin für Text und Bild.</p>
-                    </div>
-                    <div style={{
-                        flex: "1 1 0",
-                        minWidth: "200px"
-                    }}>
-                        <img className="border-radius" src="images/DenizBolatPrivat.jpg" style={{
-                            aspectRatio: "5/4",
-                            objectPosition: "50% 7%",
-                            objectFit: "cover",
-                            width: "100%",
-                        }} />
-                        <p>Deniz Bolat studiert in Hildesheim und lebt in Berlin. Früher war Deniz ein Teil der BELLA triste und arbeitet jetzt in der künstlerischen Programmgestaltung des Fuchsbau Festivals und in der Redaktion für das KONTENT Online Magazin. Deniz schreibt Lyrik und war Teil der open poems am Haus für Poesie für das Poesiefestival Berlin 2022 und veröffentlichte einen Lyrikbeitrag für das Narr #32. Er beschäftigt sich mit Narrativen von Gewalt und ihrer Übersetzung in verschiedene Gewerke. Deniz schreibt gerade seine Bachelorarbeit über ethnischen Nationalismus, forscht zur Gründung einer Spielstätte am Haus der Statistik in Berlin und arbeitet in der Dramaturgie.</p>
-                    </div>
+            <p className="font-size-4" style={{ textAlign: "center" }}>JURY</p>
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
+            }}>
+                <div>
+                    <img className="border-radius" src="images/AtibiokePrivat.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 45%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Olufemi-Just Atibioke ist studierter Kulturwissenschaftler. Arbeitet in der Kulturellen Bildung. Schreibt Text. Letzte Veröffentlichungen: Story des Jares in BELLA triste Nr. 63.</p>
                 </div>
-            </p>
+                <div>
+                    <img className="border-radius" src="images/LauraShirinPrivat.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 0%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Laura Shirin ist politische Performerin. In ihren Arbeiten setzt sie sich einerseits akademisch, andererseits künstlerisch zu Themen um Rassismus, (Queer-)Feminismus und Intersektionalität auseinander. Dabei befinden sich drängende Fragen nach Zugehörigkeit und Identität, Momente des Empowerment und Verlusts sowie der Suche nach Haymat und Community. Ihre erste Buchpublikation fand dazu im Gedichtband „Haymatlos“ statt, während weitere Texte in „Texte nach Hanau“ zu finden sind. Sie publizierte darüber hinaus beim Young Migrants Blog und beim Mo:No Magazin für Text und Bild.</p>
+                </div>
+                <div>
+                    <img className="border-radius" src="images/DenizBolatPrivat.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 7%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Deniz Bolat studiert in Hildesheim und lebt in Berlin. Früher war Deniz ein Teil der BELLA triste und arbeitet jetzt in der künstlerischen Programmgestaltung des Fuchsbau Festivals und in der Redaktion für das KONTENT Online Magazin. Deniz schreibt Lyrik und war Teil der open poems am Haus für Poesie für das Poesiefestival Berlin 2022 und veröffentlichte einen Lyrikbeitrag für das Narr #32. Er beschäftigt sich mit Narrativen von Gewalt und ihrer Übersetzung in verschiedene Gewerke. Deniz schreibt gerade seine Bachelorarbeit über ethnischen Nationalismus, forscht zur Gründung einer Spielstätte am Haus der Statistik in Berlin und arbeitet in der Dramaturgie.</p>
+                </div>
+            </div>
         </>
     },
     {
         date: "11/05",
-        title: ["Auftaktlesung"],
+        title: ["Auftakt<wbr>lesung"],
         contentJSX: <>
             <p><span className="font-montiac-italic font-size-1">Auftaktlesung</span></p>
             <p>
@@ -75,15 +65,13 @@ export const TermineInformation = [
             <p>Alle drei vereint das Erzählen der Brüche. Behzad Karim Khani erzählt in seinem neuen Roman "Hund Wolf Schakal" die Geschichte zweier Brüder, ihrer Distanz und der gleichzeitigen unbedingten Liebe. Gleichzeitig nähert sich Karosh Taha in ihrem letzten Roman "Im Bauch der Königin" zwei Jugendlichen, die auf der Suche nach Halt immer wieder sowohl auf Zurückweisung als auch auf unerwartete Unterstützung treffen. Nun kommt sie mit neuen Texten nach Hildesheim und liest für das PROSANOVA exklusiv und vorab bisher Unbekanntes. Die Brüche bei Heike Geißler sind benannt: In ihrem Roman "Die Woche" versuchen zwei Personen mit einer Woche zurechtzukommen, in der Montag auf Montag folgt und politische Auseinandersetzungen unabdingbar und allgegenwärtig werden. </p>
             <p>Wir wollen uns auf das Festival einstimmen und ersten Worten lauschen. Begleitet wird das Ganze vom NDR. Nach der Lesung wird es ein spannendes und aufschlussreiches Gespräch geben, moderiert von Alexander Solloch. Mehr Informationen und Tickets <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler "} >hier</Link></p>
             <p className="font-size-4" style={{ textAlign: "center" }}>LESENDE</p>
-            <div style={{
-                display: "flex",
-                gap: "1rem",
-                flexWrap: "wrap"
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
             }}>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="Foto: Manuel Gehrke" className="border-radius" src="images/Alexander_Solloch_Fotograf_Manuel_Gehrke.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
@@ -92,10 +80,7 @@ export const TermineInformation = [
                     }} />
                     <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="Foto: Havin Al-Sindy" className="border-radius" src="images/KaroshTaha.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
@@ -104,10 +89,7 @@ export const TermineInformation = [
                     }} />
                     <p>Karosh Taha, 1987 geboren und aufgewachsen in der kurdischen Stadt Zaxo, hat Anglistik und Geschichtswissenschaften an der Universität Duisburg-Essen studiert. Ihr Debütroman erschien unter dem Titel Beschreibung einer Krabbenwanderung im März 2018 beim DuMont Buchverlag. Im April 2020 erschien ihr zweiter Roman Im Bauch der Königin als Wendebuch ebenfalls bei DuMont. Beide Romane erhielten zahlreiche Stipendien und Preise, zuletzt die Alfred-Döblin Medaille. Sie lebt und arbeitet in Köln und Paris.</p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img className="border-radius" src="images/BehzadKarimKani.jpeg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 40%",
@@ -116,10 +98,7 @@ export const TermineInformation = [
                     }} />
                     <p>Behzad Karim Khani, 1977 geboren in Teheran exilierte 1986 nach Deutschland, studierte Kunstgeschichte und Medienwissenschaft an der Ruhruniversität Bochum. Er lebt in Berlin-Kreuzberg und arbeitet als Autor und freier Journalist. 2022 war er für den Ingeborg Bachmann Preis nominiert. Sein preisgekrönter Roman 'Hund, Wolf, Schakal' erschien bei Hanser Berlin.</p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="© Heike Steinweg/Suhrkamp Verlag" className="border-radius" src="images/HeikeGeissler.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
@@ -134,7 +113,7 @@ export const TermineInformation = [
     },
     {
         date: "23/05",
-        title: ["Abend der ", "Kollektive"],
+        title: ["Abend der ", "Kollek<wbr>tive"],
         contentJSX: <>
             <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive.</span>
             <p>
@@ -147,15 +126,13 @@ export const TermineInformation = [
                 In einer Kooperation mit dem Literaturinstitut der Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale Praxis neben der künstlerischen ein und wie viele Kompromisse müssen eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt (Wiese), Tristan Marquardt (Q13), Alexnder Rupflin (Hermes Baby) und Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen - wir wollen diskutieren und so selbst kollektive Erfahrungen machen. Mehr Informationen und Tickets <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/abend-der-kollektive"}>hier</Link>.
             </p>
             <p className="font-size-4" style={{ textAlign: "center" }}>KÜNSTLER*INNEN</p>
-            <div style={{
-                display: "flex",
-                gap: "1rem",
-                flexWrap: "wrap"
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
             }}>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="Foto: Jana Kaziulia" className="border-radius" src="images/Dyke_Dogs_FotoYanaKaziulia.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 36%",
@@ -170,22 +147,16 @@ export const TermineInformation = [
                         Gemeinsam betreiben Musiol/Tepest das Performance- und Schreibkollektiv DYKE DOGS, mit dem sie u. a. die gleichnamige lesbisch-queere Kulturpartie in der Berliner Schaubühne organisieren. Mit ihrem gemeinsamen Schreiben waren Musiol & Tepest Finalist*innen des Open Mikes 2020. Ihre Maxime: Dyke is a riot. Dyke ist tragisch. Dyke ist immer unzureichend.
                     </p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
-                    <img alt="Foto: Paula Winkler" className="border-radius" src="images/Maren_Wurster(c)PaulaWinkler.jpg" style={{
+                <div>
+                    <img alt="Foto: Paula Winkler" className="border-radius" src="images/MarenWurster_c_FranziskaHauser.jpg" style={{
                         aspectRatio: "5/4",
-                        objectPosition: "50% 10%",
+                        objectPosition: "50% 55%",
                         objectFit: "cover",
                         width: "100%",
                     }} />
                     <p>Maren Wurster studierte Philosophie in Köln und Literarisches Schreiben in Leipzig. Ihr Romandebüt „Das Fell“ wurde 2017 bei Hanser Berlin veröffentlicht. Ihr aktueller Roman „Eine beiläufige Entscheidung“ erzählt von einer Mutter, die ihr Kind verlässt, und einem Kind, das mutterlos aufwächst. In dem Memoir „Papa stirbt, Mama auch“ und dem erzählenden Sachbuch „Totenwache“ hat sie sich mit dem Abschied von den eigenen Eltern auseinandergesetzt. Maren Wurster war Mitglied des Autorinnen-Kollektivs „Writing with Care/Rage“, das sich in Texten und Veranstaltungen kritisch mit Kreativ- und Care-Arbeit auseinandersetzte. Zuletzt lud sie andere Schriftsteller:innen zu einer „Archäologie des Verlusts“ ein. Die Texte wurden in der Volksbühne Berlin präsentiert und in der Literaturzeitschrift Akzente veröffentlicht.</p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="biwikefempom" className="border-radius" src="images/BiwiKefempom.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
@@ -273,7 +244,7 @@ export const TermineInformation = [
     },
     {
         date: "01-02/06",
-        title: ["ZUSAMMENKOMMEN"],
+        title: ["ZU<wbr>SAMMEN<wbr>KOMMEN"],
         contentJSX: <>
             <span className="font-montiac-italic">ZUSAMMENKOMMEN</span>
             <p>
@@ -307,15 +278,13 @@ export const TermineInformation = [
             <p>
                 Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Die im gemeinsamen Prozess entstandenen Texte werden am 2.6. um 19 Uhr auf einer öffentlichen Lesung im Puls (Angoulêmeplatz 2) in Hildesheim vorgelesen. Geleitet werden die Workshops von Franziska Bothe und Limo.
             </p>
-            <div style={{
-                display: "flex",
-                gap: "1rem",
-                flexWrap: "wrap"
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
             }}>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="Foto: Katharina Bußmann" className="border-radius" src="images/Franzi.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 10%",
@@ -324,10 +293,7 @@ export const TermineInformation = [
                     }} />
                     <p>Franziska Bothe (*1992) arbeitete in der offenen Kinder- und Jugendarbeit in Berlin. Seit 2021 studiert sie Literarisches Schreiben in Hildesheim, tüftelt an ihrem autobiografischen Romanprojekt und leitet Schreibworkshops in verschiedenen Kontexten.</p>
                 </div>
-                <div style={{
-                    flex: "1 1 0",
-                    minWidth: "200px"
-                }}>
+                <div>
                     <img alt="biwikefempom" className="border-radius" src="images/Limo.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 60%",
@@ -349,7 +315,7 @@ export const TermineInformation = [
     },
     {
         date: "23-25/06",
-        title: ["Festivalwochenende"],
+        title: ["Festival<wbr>wochen<wbr>ende"],
         contentJSX: <>
             <span className="font-montiac-italic"> Festivalwochenende 23.–25.06. </span><br></br>
             <p>
@@ -364,7 +330,7 @@ export const TermineInformation = [
     },
     {
         date: "Sommer 2023",
-        title: ["Sonderausgabe der ", "BELLA ", "Triste"],
+        title: ["Sonder<wbr>aus<wbr>gabe der ", "BELLA ", "Triste"],
         contentJSX: <>
             <span className="font-montiac-italic"> Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur{" "}</span>
             <p>
