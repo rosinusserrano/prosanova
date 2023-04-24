@@ -30,7 +30,7 @@ export const TermineInformation = [
                     <p>Olufemi-Just Atibioke ist studierter Kulturwissenschaftler. Arbeitet in der Kulturellen Bildung. Schreibt Text. Letzte Veröffentlichungen: Story des Jares in BELLA triste Nr. 63.</p>
                 </div>
                 <div>
-                    <img className="border-radius" src="images/LauraShirinPrivat.jpg" style={{
+                    <img className="border-radius" src="images/LauraShirinPrivat.JPG" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
                         objectFit: "cover",
