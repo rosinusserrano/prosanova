@@ -4,13 +4,13 @@ import { BlogLargeButton, BlogSection } from './BlogComponents'
 
 function BlogLarge({ expandedPostTitle, setExpandedPostTitle }) {
     return (
-        <div className='inside-main-content-wrapper'
+        <div className='inside-main-content-wrapper '
             style={{
                 display: "flex",
                 height: "100%",
                 gap: "1rem"
             }}>
-            <div style={{
+            <div className='scrollable-element' style={{
                 flex: "1 1 0",
                 display: "flex",
                 flexDirection: "column",

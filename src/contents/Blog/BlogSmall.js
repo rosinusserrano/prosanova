@@ -14,6 +14,7 @@ function BlogSmall({ expandedPostTitle, setExpandedPostTitle, setBackFunction })
         gridArea: "overlay",
         display: "flex",
         gap: "0.3rem",
+        fontSize: "1.5rem",
         flexDirection: "column",
       }}>
         {Posts.map(({ author, title }) =>

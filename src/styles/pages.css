@@ -137,7 +137,14 @@
   border-radius: 20px;
   box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
 }
-
+.shopButtons{
+  padding: 20px 50px;
+  border-radius: 50px;
+  box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
+}
+.shopButtons:hover{
+  background-color: #e3cc4e;
+}
 .inside-page-padding {
   padding: 1.5rem;
 }
@@ -339,7 +346,7 @@
 
 /* Set the width of the scrollbar in the element */
 .scrollable-element::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   margin-right: 5px;
 }
 
@@ -361,9 +368,9 @@
 }
 
 .no-scroll-bar {
-  scrollbar-width: none;
+  scrollbar-width: 5px;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  display: block;
 }

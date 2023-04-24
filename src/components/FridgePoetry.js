@@ -13,6 +13,8 @@ function FridgePoetry({ children, color }) {
             display: "inline-block",
             width: "auto",
             borderRadius: "5px",
+            marginBottom: "0",
+            paddingBottom:"0",
             backgroundColor: color,
         }}>
             {children}
