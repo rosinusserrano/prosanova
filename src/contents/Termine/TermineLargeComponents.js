@@ -31,7 +31,7 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
                 }}>
                 <p style={{margin: "auto"}}>{date}</p>
             </div>
-            <div className="border-radius font-size-1 font-montiac-italic"
+            <div className="border-radius font-size-1 font-regular"
                 style={{
                     textAlign: "center",
                     color: isExpanded ? "white" : color,
