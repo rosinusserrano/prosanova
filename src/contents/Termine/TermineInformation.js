@@ -156,6 +156,24 @@ export const TermineInformation = [
                     flex: "1 1 0",
                     minWidth: "200px"
                 }}>
+                    <img alt="Foto: Jana Kaziulia" className="border-radius" src="images/Dyke_Dogs_FotoYanaKaziulia.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 36%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Lynn Takeo Musiol arbeitet als Autor*in, Regisseur*in und Performer*in mit dem Fokus auf Klima, Klasse und Queerness. Lynn Takeo ist Mitgründer*in des Theater-Kollektivs les dramaturx, das aktuell am Theater Magdeburg die Inszenierung »Meister Röckle« auf die Bühne bringt.</p>
+                    <p>
+                        Eva Tepest ist Autor*in und Journalist*in. Evas Schreibpraxis konzentriert sich auf autofiktionale und essayistische Textformen. Wie können marginalisiert Autor*innen ihre Erfahrungen erzählen? Kann ein Text submissive sein? Evas Essayband »Power Bottom« erschien im März im MÄRZ Verlag. Dey schreibt eine Sex-Kolumne für das Missy Magazine.
+                    </p>
+                    <p>
+                        Gemeinsam betreiben Musiol/Tepest das Performance- und Schreibkollektiv DYKE DOGS, mit dem sie u. a. die gleichnamige lesbisch-queere Kulturpartie in der Berliner Schaubühne organisieren. Mit ihrem gemeinsamen Schreiben waren Musiol & Tepest Finalist*innen des Open Mikes 2020. Ihre Maxime: Dyke is a riot. Dyke ist tragisch. Dyke ist immer unzureichend.
+                    </p>
+                </div>
+                <div style={{
+                    flex: "1 1 0",
+                    minWidth: "200px"
+                }}>
                     <img alt="Foto: Paula Winkler" className="border-radius" src="images/Maren_Wurster(c)PaulaWinkler.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 10%",
@@ -200,28 +218,32 @@ export const TermineInformation = [
                         overflow: "hidden"
                     }} className="border-radius">
                         <img className="" src="images/SandraBurkhardt_Foto_MirkoLux.jpg" style={{
-                            objectPosition: "80% 40%",
+                            objectPosition: "100% 40%",
                             objectFit: "cover",
                             height: "100%",
-                            width: "50%"
-                        }} />
-                        <img className="" src="images/KollektivWiese.jpg" style={{
-                            objectPosition: "50% 40%",
-                            objectFit: "cover",
-                            height: "100%",
-                            width: "50%"
+                            width: "100%"
                         }} />
                     </div>
                     <p>Sandra Burkhardt, 1992 geboren, studierte Kunstgeschichte und Literarisches Schreiben in Karlsruhe, Leipzig und Berlin. 2018 erschien im gutleut verlag ihr Debütband „Wer a sagt“, mit dem sie 2019 bei den Lyrikempfehlungen der Leipziger Buchmesse vertreten war. Im Sommer diesen Jahres erscheint „Fragmente einer echten Ikone. Petrarca-Variationen“ bei kookbooks. Mit auf der Wiese (Wie es ist) مرج ist Sandra seit Sommer 2020.</p>
+                </div>
+                <div style={{
+                    flex: "1 1 0",
+                    minWidth: "200px",
+                }}>
+                    <img className="border-radius" src="images/KollektivWiese.jpg" style={{
+                        objectPosition: "50% 40%",
+                        objectFit: "cover",
+                        aspectRatio: "5/4",
+                        width: "100%"
+                    }} />
                     <p>
-                        <i>Beschreibung Wiese (Wie es ist) مرج</i>
-                    </p>
-                    <p>
-                        Das 2017 gegründete Kollektiv Wiese (Wie es ist) Maist eine mehrsprachige Schreibwerkstatt, in
-                        der Literatur und Poesie übersetzt, besprochen und weitergeschrieben wird. Auf der Wiese werden verschiedene Sprachen gesprochen, vorrangig übersetzt wird momentan zwischen syrischem Arabisch und Deutsch. Die Gruppe setzt sich zusammen aus Schriftersteller*innen, Übersetzer*innen und Literaturwissenschaftler*innen verschiedenster Herkunft und ist offen für alle. Von 2021 bis 2022 widmete sich das Kollektiv mit den Projekten „Der unsichtbare Prozess“ und „Al-Khatib-Glossar“ einer Übersetzungskritik des Al-Khatib-Verfahrens in Koblenz, das unter dem „Weltrechtsprinzip“ zwei Geheimdienstler des syrischen Assad-Regimes vor Gericht stellte. Es entstanden Leseperformances und eine Ausstellung. Außerdem soll das „Al-Khatib-Glossar“ mit Texten, Bildern und Audiomitschnitten noch dieses Jahr als Website erscheinen.
-                    </p>
-                    <p>
-                        Die Wiese trifft sich mittwochabends im Theater X, Berlin-Moabit und lädt unregelmäßig zu öffentlichen Veranstaltungen. Sie ist immer offen für neue Mitglieder, die mitarbeiten, eigene Texte mitbringen oder Übersetzungen anregen möchten.
+                        Das 2017 gegründete Kollektiv Wiese (Wie es ist) مرج†ist eine mehrsprachige Schreibwerkstatt, in der Literatur und Poesie übersetzt, besprochen und weitergeschrieben wird. Auf der Wiese
+                        werden verschiedene Sprachen gesprochen, vorrangig übersetzt wird momentan zwischen syrischem Arabisch und Deutsch. Die Gruppe setzt sich zusammen aus Schriftersteller*innen,Übersetzer*innen und Literaturwissenschaftler*innen verschiedenster Herkunft und ist offen für alle. Von 2021 bis 2022 widmete sich das Kollektiv mit den Projekten „Der unsichtbare Prozess“ und „Al-Khatib-Glossar“ einer Übersetzungskritik des Al-Khatib-Verfahrens in Koblenz, das unter
+                        dem „Weltrechtsprinzip“ zwei Geheimdienstler des syrischen Assad-Regimes vor Gericht stellte.
+                        Es entstanden Leseperformances und eine Ausstellung. Außerdem soll das „Al-Khatib-Glossar“ mit Texten, Bildern und Audiomitschnitten noch dieses Jahr als Website erscheinen.
+                        Die Wiese trifft sich mittwochabends im Theater X, Berlin-Moabit und lädt unregelmäßig zu öffentlichen Veranstaltungen. Sie ist immer offen für neue Mitglieder, die mitarbeiten, eigene Texte
+                        mitbringen oder Übersetzungen anregen möchten.
+
                     </p>
                     <p>
                         Email: <Link target="_blank" to="mailto:wiesewieesist@gmx.de">wiesewieesist@gmx.de</Link><br />
@@ -231,21 +253,20 @@ export const TermineInformation = [
             </div>
             <div style={{
                 display: "flex",
-                padding: "3rem",
-                gap: "3rem",
-                alignItems: "center"
+                padding: "2rem",
+                alignItems: "center",
+                flexWrap: "wrap"
             }}>
                 <img className="" src="images/LStJ_Logo_Digital_RGB_klein.png" style={{
-                    objectPosition: "50% 40%",
-                    objectFit: "cover",
                     height: "100%",
-                    width: "50%"
+                    maxWidth: "50%",
+                    minWidth: "170px",
+                    marginBottom: "2rem"
                 }} />
                 <img className="" src="images/LitInst_quer.png" style={{
-                    objectPosition: "50% 40%",
-                    objectFit: "cover",
                     height: "100%",
-                    width: "50%"
+                    maxWidth: "50%",
+                    minWidth: "170px"
                 }} />
             </div>
         </>
@@ -254,62 +275,76 @@ export const TermineInformation = [
         date: "01-02/06",
         title: ["ZUSAMMENKOMMEN"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive Literaturhaus{" "} </span>
-            <br></br>
-            <br></br>
-            St.Jakobi, 12345 Hildesheim, 18:30 <br></br>
-            <br></br>In einer Kooperation mit dem Literaturinstitut der
-            Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns
-            dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können
-            wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale
-            Praxis neben der künstlerischen ein und wie viele Kompromisse müssen
-            eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf
-            ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir
-            uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen
-            Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo
-            Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt
-            (Wiese), Tristan Marquardt (Q13), Alexnder Rupflin (Hermes Baby) und
-            Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen -
-            wir wollen diskutieren und so selbst kollektive Erfahrungen machen.
-            Mehr Informationen und Tickets hier:
-            <Link target="blank"
-                className="Links"
-                to=" https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler"
-            >
-                {" "}
-                https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler
-            </Link>
+            <span className="font-montiac-italic">ZUSAMMENKOMMEN</span>
+            <p>
+                1.-2.6. (jeweils 13-20 Uhr)<br />
+                Puls<br />
+                Angoulêmeplatz 2<br />
+                31134 Hildesheim
+            </p>
+            <p>
+                Wir laden euch zum Vorbeischauen und Verweilen ein und freuen uns, zwischen Tabellen aktualisieren, Recherche und Finanzplanung mit euch ins Gespräch zu kommen. Egal, ob ihr euch ausruhen oder socialisen wollt, ob ihr zum Schreiben und Nachdenken gekommen seid oder ob ihr einfach nur mit uns Collagen basteln wollt - wir freuen uns! Denn das PROSANOVA 23 startet in weniger als einem Monat und wir wollen uns kennenlernen. Für Getränke, Snacks und genügend (Bastel- Streit- / Nachdenk-) Material sorgen wir!
+            </p>
+            <img className="" src="images/Puls_rot@3x.png" style={{
+                width: "60%",
+            }} />
         </>
     },
     {
         date: "02/06",
         title: ["Dort, wo wir waren"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive Literaturhaus{" "} </span>
-            <br></br>
-            <br></br>
-            St.Jakobi, 12345 Hildesheim, 18:30 <br></br>
-            <br></br>In einer Kooperation mit dem Literaturinstitut der
-            Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns
-            dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können
-            wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale
-            Praxis neben der künstlerischen ein und wie viele Kompromisse müssen
-            eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf
-            ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir
-            uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen
-            Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo
-            Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt
-            (Wiese), Tristan Marquardt (Q13), Alexnder Rupflin (Hermes Baby) und
-            Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen -
-            wir wollen diskutieren und so selbst kollektive Erfahrungen machen.
-            Mehr Informationen und Tickets hier:
-            <Link target="blank"
-                className="Links"
-                to=" https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler"
-            >
-                {" "}
-                https://stjakobi.de/veranstaltungen/prosanova-auftakt-mit-behzad-karim-khani-karosh-taha-und-heike-geissler
-            </Link>
+            <span className="font-montiac-italic"> Dort, wo wir waren</span>
+            <p>
+                2.6. - 18 Uhr<br />
+                Puls<br />
+                Angoulêmeplatz 2<br />
+                31134 Hildesheim
+            </p>
+            <p>
+                Wo fängt das Schreiben an und wo hört es auf? Wer kann schreiben? Und welchen Anteil hat die Fantasie, welchen die Wirklichkeit für das Erzählen von Geschichten?
+            </p>
+            <p>
+                Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Die im gemeinsamen Prozess entstandenen Texte werden am 2.6. um 19 Uhr auf einer öffentlichen Lesung im Puls (Angoulêmeplatz 2) in Hildesheim vorgelesen. Geleitet werden die Workshops von Franziska Bothe und Limo.
+            </p>
+            <div style={{
+                display: "flex",
+                gap: "1rem",
+                flexWrap: "wrap"
+            }}>
+                <div style={{
+                    flex: "1 1 0",
+                    minWidth: "200px"
+                }}>
+                    <img alt="Foto: Katharina Bußmann" className="border-radius" src="images/Franzi.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 10%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Franziska Bothe (*1992) arbeitete in der offenen Kinder- und Jugendarbeit in Berlin. Seit 2021 studiert sie Literarisches Schreiben in Hildesheim, tüftelt an ihrem autobiografischen Romanprojekt und leitet Schreibworkshops in verschiedenen Kontexten.</p>
+                </div>
+                <div style={{
+                    flex: "1 1 0",
+                    minWidth: "200px"
+                }}>
+                    <img alt="biwikefempom" className="border-radius" src="images/Limo.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 60%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>
+                        Limo ist 24 Jahre alt und kommt aus Hamburg. Seit zwei Jahren arbeitet sie
+                        als Schreibbegleiterin für kreativ-heilsames Schreiben und als
+                        Diversitätstrainerin. Im März diesen Jahres schloss sie ihre Weiterbildung
+                        zur Schreibtherapeutin ab. Neben dem Schreiben ist sie Diversitätstrainerin
+                        mit dem Fokus auf rassismuskritische und feministische Arbeit.
+
+                    </p>
+                </div>
+
+            </div>
         </>
     },
     {
@@ -317,7 +352,10 @@ export const TermineInformation = [
         title: ["Festivalwochenende"],
         contentJSX: <>
             <span className="font-montiac-italic"> Festivalwochenende 23.–25.06. </span><br></br>
-            <br></br>Hildesheim <br></br>
+            <p>
+                Keßlerstraße 51<br />
+                31134 Hildesheim
+            </p>
             <br></br>Seid dabei, wenn das Prosanova-Festival in die siebte Runde
             geht und macht Hildesheim mit uns unsicher. Literatur, Performance,
             Musik, Workshops und das Get-Together des Literaturbetriebs wartet in
@@ -326,23 +364,15 @@ export const TermineInformation = [
     },
     {
         date: "Sommer 2023",
-        title: ["Sonderausgabe der ", "Bella ", "Triste"],
+        title: ["Sonderausgabe der ", "BELLA ", "Triste"],
         contentJSX: <>
             <span className="font-montiac-italic"> Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur{" "}</span>
-            <br></br>
-            <br></br>
-            15.08. <br></br>
-            <br></br>Hildesheim In der Sondersausgabe der BELLA triste widmen wir
-            uns dem Archivieren als künstlerischer Praxis. Wie können wir
-            festhalten, was wir an drei Tagen Festival erlebt haben? Was bleibt
-            vom Rausch? Wir wollen die BELLA als Ort der Versammlung sehen, als
-            Begegnungsstätte und weniger als bloße Dokumentation des PROSANOVAs.
-            Wir fragen uns, wie wir Strukuren weiterführen können, die wir auf dem
-            Festival erprobt haben. Ist es möglich, das PROSANOVA zwischen zwei
-            Buchdeckel zu klemmen? In der "Schlechte Wörter"-BELLA werden Texte,
-            Fotos sowie alles dazwischen veröffentlicht, die in irgendeiner Art
-            und Weise Teil des Festivals waren. Dazu arbeiten wir eng mit der
-            Redaktion der BELLA triste zusammen.
+            <p>
+                Sommer 2023
+            </p>
+            <p>
+                In der Sonderausgabe der BELLA triste widmen wir uns dem Archivieren als künstlerischer Praxis. Wie können wir festhalten, was wir an drei Tagen Festival erlebt haben? Was bleibt vom Rausch? Um diese Fragen zu beantworten, wollen wir die BELLA als Ort der Versammlung sehen, als Begegnungsstätte und weniger als bloße Dokumentation des PROSANOVAs. Wir fragen uns, wie wir Strukuren weiterführen können, die wir auf dem Festival erprobt haben. Ist es möglich, das PROSANOVA zwischen zwei Buchdeckel zu klemmen? In der Schlechte Wörter-BELLA werden Texte, Fotos, Musik sowie alles, was sich Genrebezeichnungen entzieht, veröffentlicht, die in irgendeiner Art und Weise Teil des Festivals waren. Dazu arbeiten wir eng mit der Redaktion der BELLA triste zusammen.
+            </p>
         </>
     }
 ]
