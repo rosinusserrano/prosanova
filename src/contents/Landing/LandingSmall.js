@@ -12,11 +12,13 @@ function LandingSmall() {
             style={{
                 height: "100%",
                 width: "100%",
+                overflow: "scroll"
             }}>
             <div style={{
                 display: "flex",
                 flexWrap: "wrap",
                 gap: "0.5rem",
+                width: "100%"
             }}>
                 <FridgePoetry color="white">noch</FridgePoetry>
                 <FridgePoetry color="skyblue">{daysDiff}</FridgePoetry>
@@ -31,6 +33,13 @@ function LandingSmall() {
                 <FridgePoetry color="white">23.-25. Juni</FridgePoetry>
                 <FridgePoetry color="white">in</FridgePoetry>
                 <FridgePoetry color="white">Hildesheim</FridgePoetry>
+                <div style={{
+                    width: "100%"
+                }}>
+                    <img style={{
+                        width: "100%"
+                    }} src='images/Schlechte_Woerter_Sticker.gif' />
+                </div>
             </div>
         </div>
     )
