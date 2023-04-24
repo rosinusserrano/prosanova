@@ -1,9 +1,9 @@
 import React from "react"
 import "../../styles/pages.css"
-import { motion } from "framer-motion";
 import { BACKGROUNDCOLOR } from "constants";
+import { PrettyName } from "contents/Team/TeamComponents";
 
-export function TermineLargeButton({ date, title, onClick, expandedSection }) {
+export function TermineLargeButton({ date, title, onClick, expandedSection, color }) {
 
     const gapPercent = 1
 
@@ -20,9 +20,9 @@ export function TermineLargeButton({ date, title, onClick, expandedSection }) {
                 className="font-montiac-mono border-radius"
                 style={{
                     textAlign: "center",
-                    color: isExpanded ? "white" : "black",
+                    color: isExpanded ? "white" : color,
                     verticalAlign: "middle",
-                    // flex: "1 0 0",
+                    display: "flex",
                     width: `${50 - (gapPercent / 2)}%`,
                     padding: "0.3rem",
                     fontSize: "min(4vw, 3rem)",
@@ -33,13 +33,15 @@ export function TermineLargeButton({ date, title, onClick, expandedSection }) {
             <div className="border-radius font-size-1 font-montiac-italic"
                 style={{
                     textAlign: "center",
-                    color: isExpanded ? "white" : "black",
-                    // flex: "1 0 0",
+                    color: isExpanded ? "white" : color,
+                    display: "flex",
                     width: `${50 - (gapPercent / 2)}%`,
                     padding: "0.3rem",
                     backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
-                {title}
+                <p style={{margin: "auto",
+                    wordWrap: "break-word",
+                    width: "100%"}}>{title.map((val) => <PrettyName name={val} fontSizeClass="font-size-1"/>)}</p>
             </div>
         </div>
     )

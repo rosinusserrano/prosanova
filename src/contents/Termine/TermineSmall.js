@@ -3,7 +3,7 @@ import { TermineInformation } from './TermineInformation'
 import { TermineSmallButton } from './TermineSmallComponents'
 import { TermineLargeSection } from './TermineLargeComponents'
 
-function TermineSmall({ expandedSection, setExpandedSection, setBackFunction }) {
+function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, color }) {
     return (
         <div style={{
             display: "grid",
@@ -15,7 +15,8 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction }) 
                 gridArea: "overlay",
                 display: "flex",
                 gap: "0.5rem",
-                flexDirection: "column"
+                flexDirection: "column",
+                overflow: "scroll"
             }}>
                 {TermineInformation.map(({ date, title }) => {
                     return <TermineSmallButton
@@ -24,6 +25,7 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction }) 
                         expandedSection={expandedSection}
                         setExpandedSection={setExpandedSection}
                         setBackFunction={setBackFunction}
+                        color={color}
                         />
                 })}
             </div>
