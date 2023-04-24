@@ -22,7 +22,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                 <WigglyButton onClick={() => { setActivePage("info"); setCurrentColor("#BFA9ED") }}>
                     <div className="menu-button font-size-1 button-color-1">Info</div>
                 </WigglyButton>
-               
+
                 <WigglyButton onClick={() => { setActivePage("termine"); setCurrentColor("#F97DD0") }}>
                     <div className="menu-button font-size-1 button-color-5">Termine</div>
                 </WigglyButton>
@@ -48,13 +48,16 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     gap: "0.2rem",
                     marginRight: "1.1rem",
                 }}>
-                <div>  <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} /></div>
+                <div style={{cursor: "url(MouseHand-Klick_small.png) 32 0, auto",}}>
+                    <img className="logo-large" src={'images/PROSANOVA-Logo1-groß.png'} alt="Logo Large" onClick={() => setActivePage("game")} />
+                </div>
                 <div className="color-button-wrapper"
                     style={{
                         display: "flex",
                         justifyContent: "flex-end",
                         gap: "0.3rem",
-                        marginRight: "0.3rem"
+                        marginRight: "0.3rem",
+                        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
                     }}>
                     <div className="switch-color-button background-color-1"
                         onClick={() => setCurrentColor("#BFA9ED")}

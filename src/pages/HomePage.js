@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
 import Landing from "contents/Landing/Landing";
 import Blog from "contents/Blog/Blog";
-import Shop from "contents/shop";
+import Shop from "contents/Shop";
 import FridgePoetry from "components/FridgePoetry";
 
 function PageSwitch({ page, color, setBackFunction }) {
@@ -60,7 +60,7 @@ export default function HomePage() {
         background:
           currentColor === "skyblue" ? "url('blue-sky.jpg')" : currentColor,
         backgroundSize: currentColor === "skyblue" ? "cover" : "auto auto",
-        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
+        cursor: "url(MouseHand-Normal_small.png) 32 0, auto",
         width: "100vw",
         height: "100vh",
         padding: "1rem",
