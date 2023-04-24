@@ -19,6 +19,7 @@ export const TermineInformation = [
                 columnGap: "1rem",
                 rowGap: "1rem",
                 width: "100%",
+
             }}>
                 <div>
                     <img className="border-radius" src="images/AtibiokePrivat.jpg" style={{
@@ -54,7 +55,7 @@ export const TermineInformation = [
         date: "11/05",
         title: ["Auftakt<wbr>lesung"],
         contentJSX: <>
-            <p><span className="font-montiac-italic font-size-1">Auftaktlesung</span></p>
+            <p><span className="font-montiac font-size-3">Auftaktlesung</span></p>
             <p>
                 11.5. - 19.30 Uhr<br />
                 Literaturhaus St. Jakobi<br />
@@ -123,7 +124,7 @@ export const TermineInformation = [
         date: "23/05",
         title: ["Abend der ", "Kollektive"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive.</span>
+           <span className="font-size-3"> Und dazwischen Zwischenräume.</span><br></br>  <span className="font-montiac-italic">Abend der Kollektive.</span>
             <p>
                 23.5. - 18.30 Uhr<br />
                 Literaturhaus St. Jakobi <br />
@@ -254,7 +255,7 @@ export const TermineInformation = [
         date: "01-02/06",
         title: ["ZU<wbr>SAMMEN<wbr>KOMMEN"],
         contentJSX: <>
-            <span className="font-montiac-italic">ZUSAMMENKOMMEN</span>
+            <span className="font-montiac font-size-3">ZUSAMMENKOMMEN</span>
             <p>
                 1.-2.6. (jeweils 13-20 Uhr)<br />
                 Puls<br />
@@ -273,7 +274,7 @@ export const TermineInformation = [
         date: "02/06",
         title: ["Dort, wo wir waren"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Dort, wo wir waren</span>
+            <span className="font-montiac font-size-3"> Dort, wo wir waren</span>
             <p>
                 2.6. - 18 Uhr<br />
                 Puls<br />
@@ -325,7 +326,7 @@ export const TermineInformation = [
         date: "23-25/06",
         title: ["Festival<wbr>wochen<wbr>ende"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Festivalwochenende 23.–25.06. </span><br></br>
+            <span className="font-size-3">Festivalwochenende</span> <br></br> <span className="font-montiac-italic">23.–25.06. </span><br></br>
             <p>
                 Keßlerstraße 51<br />
                 31134 Hildesheim
@@ -340,7 +341,7 @@ export const TermineInformation = [
         date: "Sommer 2023",
         title: ["Sonder<wbr>aus<wbr>gabe der ", "BELLA ", "Triste"],
         contentJSX: <>
-            <span className="font-montiac-italic"> Sonderausgabe der BELLA triste – Zeitschrift für junge Literatur{" "}</span>
+            <span className="font-size-3">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic">Zeitschrift für junge Literatur{" "}</span>
             <p>
                 Sommer 2023
             </p>

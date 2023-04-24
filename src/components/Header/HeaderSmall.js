@@ -4,6 +4,9 @@ import { useWindowSize } from "hooks/useWindowSize";
 import React, { useState } from "react";
 import BurgerMenuIcon from "./BurgerMenuIcon";
 import BackButton from "./BackButton";
+const handleButtonClick = () => {
+  window.open("https://www.google.com", "_blank");
+};
 
 function HeaderSmall({
   setActivePage,
@@ -143,6 +146,11 @@ function HeaderSmall({
           >
             <div className="menu-button font-size-1 button-color-4">Shop</div>
           </WigglyButton>
+          <WigglyButton onClick={handleButtonClick}>
+          <div className="menu-button font-size-1 button-color-1">
+            Leichte Sprache
+          </div>
+        </WigglyButton>
           <WigglyButton
             onClick={() => {
               setActivePage("imprint");

@@ -81,6 +81,11 @@
   color: white;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer-text {
+    font-size: 1rem !important;
+  }
+}
 .collapsed-header-grid {
   /* padding: 0.5rem; */
   /* background-color: #e8e3dd; */

@@ -27,6 +27,7 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
                     width: `${50 - (gapPercent / 2)}%`,
                     padding: "0.3rem",
                     fontSize: "min(4vw, 3rem)",
+
                     backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
                 <p style={{margin: "auto"}}>{date}</p>
@@ -38,6 +39,7 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
                     display: "flex",
                     width: `${50 - (gapPercent / 2)}%`,
                     padding: "0.3rem",
+                    lineHeight: "100%",
                     backgroundColor: isExpanded ? "transparent" : BACKGROUNDCOLOR
                 }}>
                 <p style={{margin: "auto",

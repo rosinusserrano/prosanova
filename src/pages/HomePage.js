@@ -123,7 +123,7 @@ export default function HomePage() {
           fontFamily: "BastardoRegular",
         }}
       >
-        <div
+        <div 
           style={{
             display: isMobile ? "none" : "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
@@ -132,7 +132,7 @@ export default function HomePage() {
             alignItems: "center",
           }}
         >
-          <div
+          <div className="footer-text"
             style={{
               fontSize: "1.5rem",
               display: "flex",
@@ -149,7 +149,7 @@ export default function HomePage() {
             <FridgePoetry color="white">zum</FridgePoetry>
           </div>
 
-          <div
+          <div className="footer-text"
             style={{
               fontSize: "1.5rem",
               display: "flex",
@@ -159,11 +159,13 @@ export default function HomePage() {
               margin: "1rem",
               justifyContent: "center",
             }}>
-            <FridgePoetry color="white">Festival für junge</FridgePoetry>
+            <FridgePoetry color="white">Festival </FridgePoetry>
+            <FridgePoetry color="white"> für </FridgePoetry>
+            <FridgePoetry color="white"> junge</FridgePoetry>
 
             <FridgePoetry color="white">Literatur</FridgePoetry>
           </div>
-          <div
+          <div className="footer-text"
             style={{
               fontSize: "1.5rem",
               display: "flex",

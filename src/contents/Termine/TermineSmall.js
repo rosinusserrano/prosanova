@@ -8,15 +8,18 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, co
         <div style={{
             display: "grid",
             gridTemplateAreas: "'overlay'",
-            height: "100%",
-            width: "100%"
+            width: "100%",
+
+
         }}>
             <div style={{
                 gridArea: "overlay",
                 display: "flex",
                 gap: "0.5rem",
                 flexDirection: "column",
-                overflow: "scroll"
+                overflow: "scroll",
+
+
             }}>
                 {TermineInformation.map(({ date, title }) => {
                     return <TermineSmallButton
