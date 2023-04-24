@@ -151,7 +151,7 @@ function HeaderSmall({
             }}
           >
             <div className="menu-button font-size-2 button-color-4">
-              imprint
+              Imprint
             </div>
           </WigglyButton>
         </div>

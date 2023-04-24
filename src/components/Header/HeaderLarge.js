@@ -36,7 +36,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
                     <div className="menu-button font-size-1 button-color-4">Shop</div>
                 </WigglyButton>
                 <WigglyButton onClick={() => { setActivePage("imprint"); setCurrentColor("#E3CC4E") }}>
-                    <div className="menu-button font-size-2 button-color-4">imprint</div>
+                    <div className="menu-button font-size-2 button-color-4">Imprint</div>
                 </WigglyButton>
             </div>
             <div className="Logo-Header-Wrapper grid-column-start-5"
