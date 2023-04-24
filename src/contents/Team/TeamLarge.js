@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Leitung, Praktikant_innen } from "./TeamInformation"
+import { Leitung, Praktikant_innen, TextOnTop } from "./TeamInformation"
 import { TeamMemberImage, TeamMemberSection } from './TeamComponents';
 
 function TeamLarge( {color}) {
@@ -72,6 +72,7 @@ function TeamLarge( {color}) {
                 id="div-with-bios"
                 className="background-color-grey inside-page-padding border-radius font-size-1 scrollable-element no-scroll-bar"
                 style={{ flexGrow: 3, flexBasis: 0 }}>
+                <p>{TextOnTop}</p>
                 {Leitung.map(({ sectionId, sectionContent, name1, name2 }) => {
                     return (
                         <TeamMemberSection sectionId={sectionId}
