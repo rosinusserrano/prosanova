@@ -1,7 +1,7 @@
 import FridgePoetry from 'components/FridgePoetry'
 import React from 'react'
 
-function LandingSmall() {
+function LandingSmall({color}) {
 
     const today = new Date()
     const festivalDate = new Date("2023-06-23")
@@ -12,14 +12,16 @@ function LandingSmall() {
             style={{
                 height: "100%",
                 width: "100%",
+                overflow: "scroll"
             }}>
             <div style={{
                 display: "flex",
                 flexWrap: "wrap",
                 gap: "0.5rem",
+                width: "100%"
             }}>
                 <FridgePoetry color="white">noch</FridgePoetry>
-                <FridgePoetry color="skyblue">{daysDiff}</FridgePoetry>
+                <FridgePoetry color={color}>{daysDiff}</FridgePoetry>
                 <FridgePoetry color="white">Tage</FridgePoetry>
                 <FridgePoetry color="white">bis</FridgePoetry>
                 <FridgePoetry color="white">zum</FridgePoetry>
@@ -31,6 +33,13 @@ function LandingSmall() {
                 <FridgePoetry color="white">23.-25. Juni</FridgePoetry>
                 <FridgePoetry color="white">in</FridgePoetry>
                 <FridgePoetry color="white">Hildesheim</FridgePoetry>
+                <div style={{
+                    width: "100%"
+                }}>
+                    <img style={{
+                        width: "100%"
+                    }} src='images/Schlechte_Woerter_Sticker.gif' />
+                </div>
             </div>
         </div>
     )

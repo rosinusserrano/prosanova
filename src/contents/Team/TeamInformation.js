@@ -6,6 +6,7 @@ export const TextOnTop = "Festivalarbeit funktioniert nicht ohne die vielen Mens
 export const Leitung = [
     {
         "imgSrc": "images/Leni.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "leni-bio",
         "altText": "Leni",
@@ -17,17 +18,19 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Melek.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 10%",
         "sectionId": "melek-bio",
         "altText": "Melek",
         "name1": "Melek",
         "name2": "Halici",
         "sectionContent": <>
-            studiert Literarisches Schreiben, Philosophie und Theater in Hildesheim. Schreibt Texte. Zuletzt eingeladen zum Festival <i>4+1 ein treffen junger autorInnen</i> in Leipzig. Sie arbeitet in der Geschäftsstelle des <i>wortbau e.V.</i>, an der Schnittstelle von Literatur und der Arbeit mit Kindern und Jugendlichen. Sie war Mitherausgeberin der Literaturzeitschrift <i>BELLA triste</i>. Sie ist Teil der Künstlerischen Leitung beim <i>PROSANOVA 2023</i> und zuständig für die Ressorts Kommunikation, Presse und Vermittlung.
+            {" "}studiert Literarisches Schreiben, Philosophie und Theater in Hildesheim. Schreibt Texte. Zuletzt eingeladen zum Festival <i>4+1 ein treffen junger autorInnen</i> in Leipzig. Sie arbeitet in der Geschäftsstelle des <i>wortbau e.V.</i>, an der Schnittstelle von Literatur und der Arbeit mit Kindern und Jugendlichen. Sie war Mitherausgeberin der Literaturzeitschrift <i>BELLA triste</i>. Sie ist Teil der Künstlerischen Leitung beim <i>PROSANOVA 2023</i> und zuständig für die Ressorts Kommunikation, Presse und Vermittlung.
         </>
     },
     {
         "imgSrc": "images/Hiyam.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "hiyam-bio",
         "altText": "Hiyam",
@@ -39,6 +42,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lucie.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 20%",
         "sectionId": "lucie-bio",
         "altText": "Lucie",
@@ -50,6 +54,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lina.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "lina-bio",
         "altText": "Lina",
@@ -61,6 +66,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Clara.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "clara-bio",
         "altText": "Clara",
@@ -154,7 +160,7 @@ export const Praktikant_innen = [
         "name1": "Marlene",
         "name2": "Horn",
         "sectionContent": <>
-            {" "} kommt aus Bonn und hat Philosophie, Kunst und Gesellschaftswissenschaften studiert. Das Studium der Kulturvermittlung mit Schwerpunkt Literatur hat sie nach Hildesheim gezogen. Neben dem Studium begleitet sie Workshops zur Selbsterfahrung und Berufsorientierung oder beschäftigt sich mit Lyrik und Illustration.
+            {" "}kommt aus Bonn und hat Philosophie, Kunst und Gesellschaftswissenschaften studiert. Das Studium der Kulturvermittlung mit Schwerpunkt Literatur hat sie nach Hildesheim gezogen. Neben dem Studium begleitet sie Workshops zur Selbsterfahrung und Berufsorientierung oder beschäftigt sich mit Lyrik und Illustration.
         </>
     },
     {

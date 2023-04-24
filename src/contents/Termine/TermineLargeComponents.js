@@ -14,7 +14,8 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
             onClick={onClick}
             style={{
                 display: "flex",
-                gap: `${gapPercent}%`
+                gap: `${gapPercent}%`,
+                cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
             }}>
             <div
                 className="font-montiac-mono border-radius"
@@ -30,7 +31,7 @@ export function TermineLargeButton({ date, title, onClick, expandedSection, colo
                 }}>
                 <p style={{margin: "auto"}}>{date}</p>
             </div>
-            <div className="border-radius font-size-1 font-montiac-italic"
+            <div className="border-radius font-size-1 font-regular"
                 style={{
                     textAlign: "center",
                     color: isExpanded ? "white" : color,

@@ -30,7 +30,7 @@ export const TermineInformation = [
                     <p>Olufemi-Just Atibioke ist studierter Kulturwissenschaftler. Arbeitet in der Kulturellen Bildung. Schreibt Text. Letzte Veröffentlichungen: Story des Jares in BELLA triste Nr. 63.</p>
                 </div>
                 <div>
-                    <img className="border-radius" src="images/LauraShirinPrivat.jpg" style={{
+                    <img className="border-radius" src="images/LauraShirinPrivat.JPG" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
                         objectFit: "cover",
@@ -72,16 +72,7 @@ export const TermineInformation = [
                 width: "100%",
             }}>
                 <div>
-                    <img alt="Foto: Manuel Gehrke" className="border-radius" src="images/Alexander_Solloch_Fotograf_Manuel_Gehrke.jpg" style={{
-                        aspectRatio: "5/4",
-                        objectPosition: "50% 0%",
-                        objectFit: "cover",
-                        width: "100%",
-                    }} />
-                    <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
-                </div>
-                <div>
-                    <img alt="Foto: Havin Al-Sindy" className="border-radius" src="images/KaroshTaha.jpg" style={{
+                    <img title="Foto: Havin Al-Sindy" className="border-radius" src="images/KaroshTaha.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
                         objectFit: "cover",
@@ -99,7 +90,7 @@ export const TermineInformation = [
                     <p>Behzad Karim Khani, 1977 geboren in Teheran exilierte 1986 nach Deutschland, studierte Kunstgeschichte und Medienwissenschaft an der Ruhruniversität Bochum. Er lebt in Berlin-Kreuzberg und arbeitet als Autor und freier Journalist. 2022 war er für den Ingeborg Bachmann Preis nominiert. Sein preisgekrönter Roman 'Hund, Wolf, Schakal' erschien bei Hanser Berlin.</p>
                 </div>
                 <div>
-                    <img alt="© Heike Steinweg/Suhrkamp Verlag" className="border-radius" src="images/HeikeGeissler.jpg" style={{
+                    <img title="© Heike Steinweg/Suhrkamp Verlag" className="border-radius" src="images/HeikeGeissler.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
                         objectFit: "cover",
@@ -108,12 +99,29 @@ export const TermineInformation = [
                     <p>Heike Geißler, 1977 in Riesa geboren, ist Autorin, Übersetzerin und Mitherausgeberin der Heftreihe Lücken kann man lesen. Zuletzt erschienen der Reportage-Roman Saisonarbeit (Spector Books, 2014), das Fragenheft und Hörspiel Fragen für alle sowie das gemeinschaftliche Literaturprojekt Check your habitus, kuratiert von Daniela Dröscher. Mit der Schauspielerin Charlotte Puder arbeitet sie als Kollektiv George Bele. Heike Geißler wurde mit zahlreichen Stipendien und Preisen ausgezeichnet und lebt heute in Leipzig.</p>
                 </div>
             </div>
+            <p className="font-size-4" style={{ textAlign: "center" }}>MODERATION</p>
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
+            }}>
+                <div>
+                    <img title="Foto: Manuel Gehrke" className="border-radius" src="images/Alexander_Solloch_Fotograf_Manuel_Gehrke.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 0%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
+                </div>
+            </div>
 
         </>
     },
     {
         date: "23/05",
-        title: ["Abend der ", "Kollek<wbr>tive"],
+        title: ["Abend der ", "Kollektive"],
         contentJSX: <>
             <span className="font-montiac-italic"> Und dazwischen Zwischenräume. Abend der Kollektive.</span>
             <p>
@@ -133,7 +141,7 @@ export const TermineInformation = [
                 width: "100%",
             }}>
                 <div>
-                    <img alt="Foto: Jana Kaziulia" className="border-radius" src="images/Dyke_Dogs_FotoYanaKaziulia.jpg" style={{
+                    <img title="Foto: Yana Kaziulia" className="border-radius" src="images/Dyke_Dogs_FotoYanaKaziulia.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 36%",
                         objectFit: "cover",
@@ -148,7 +156,7 @@ export const TermineInformation = [
                     </p>
                 </div>
                 <div>
-                    <img alt="Foto: Paula Winkler" className="border-radius" src="images/MarenWurster_c_FranziskaHauser.jpg" style={{
+                    <img title="Foto: Franziska Hauser" className="border-radius" src="images/MarenWurster_c_FranziskaHauser.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 55%",
                         objectFit: "cover",
@@ -157,7 +165,7 @@ export const TermineInformation = [
                     <p>Maren Wurster studierte Philosophie in Köln und Literarisches Schreiben in Leipzig. Ihr Romandebüt „Das Fell“ wurde 2017 bei Hanser Berlin veröffentlicht. Ihr aktueller Roman „Eine beiläufige Entscheidung“ erzählt von einer Mutter, die ihr Kind verlässt, und einem Kind, das mutterlos aufwächst. In dem Memoir „Papa stirbt, Mama auch“ und dem erzählenden Sachbuch „Totenwache“ hat sie sich mit dem Abschied von den eigenen Eltern auseinandergesetzt. Maren Wurster war Mitglied des Autorinnen-Kollektivs „Writing with Care/Rage“, das sich in Texten und Veranstaltungen kritisch mit Kreativ- und Care-Arbeit auseinandersetzte. Zuletzt lud sie andere Schriftsteller:innen zu einer „Archäologie des Verlusts“ ein. Die Texte wurden in der Volksbühne Berlin präsentiert und in der Literaturzeitschrift Akzente veröffentlicht.</p>
                 </div>
                 <div>
-                    <img alt="biwikefempom" className="border-radius" src="images/BiwiKefempom.jpg" style={{
+                    <img title="biwikefempom" className="border-radius" src="images/BiwiKefempom.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 0%",
                         objectFit: "cover",
@@ -188,7 +196,7 @@ export const TermineInformation = [
                         aspectRatio: "5/4",
                         overflow: "hidden"
                     }} className="border-radius">
-                        <img className="" src="images/SandraBurkhardt_Foto_MirkoLux.jpg" style={{
+                        <img title="Foto: Mirko Lux" className="" src="images/SandraBurkhardt_Foto_MirkoLux.jpg" style={{
                             objectPosition: "100% 40%",
                             objectFit: "cover",
                             height: "100%",
@@ -201,7 +209,7 @@ export const TermineInformation = [
                     flex: "1 1 0",
                     minWidth: "200px",
                 }}>
-                    <img className="border-radius" src="images/KollektivWiese.jpg" style={{
+                    <img title="Kollektiv Wiese (Wie es ist)" className="border-radius" src="images/KollektivWiese.jpg" style={{
                         objectPosition: "50% 40%",
                         objectFit: "cover",
                         aspectRatio: "5/4",
@@ -285,7 +293,7 @@ export const TermineInformation = [
                 width: "100%",
             }}>
                 <div>
-                    <img alt="Foto: Katharina Bußmann" className="border-radius" src="images/Franzi.jpg" style={{
+                    <img title="Foto: Katharina Bußmann" className="border-radius" src="images/Franzi.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 10%",
                         objectFit: "cover",
@@ -294,7 +302,7 @@ export const TermineInformation = [
                     <p>Franziska Bothe (*1992) arbeitete in der offenen Kinder- und Jugendarbeit in Berlin. Seit 2021 studiert sie Literarisches Schreiben in Hildesheim, tüftelt an ihrem autobiografischen Romanprojekt und leitet Schreibworkshops in verschiedenen Kontexten.</p>
                 </div>
                 <div>
-                    <img alt="biwikefempom" className="border-radius" src="images/Limo.jpg" style={{
+                    <img className="border-radius" src="images/Limo.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 60%",
                         objectFit: "cover",

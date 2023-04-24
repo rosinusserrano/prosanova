@@ -14,6 +14,7 @@ export function BlogLargeButton({
         padding: "1rem",
         textAlign: "center",
         marginBottom: "0.5rem",
+        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
         backgroundColor:
           expandedPostTitle == title ? "transparent" : BACKGROUNDCOLOR,
       }}

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Leitung, Praktikant_innen } from "./TeamInformation"
+import { Leitung, Praktikant_innen, TextOnTop } from "./TeamInformation"
 import { TeamMemberImage, TeamMemberSection } from './TeamComponents';
 
 function TeamLarge( {color}) {
@@ -35,16 +35,17 @@ function TeamLarge( {color}) {
                         gridColumn: "span 3",
                         gridRow: "span 2"
                     }}>
-                        <img src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
+                        <img title="Foto: Anja König" src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
                     </div>
 
-                    {Leitung.map(({ imgSrc, sectionId, altText }) => {
+                    {Leitung.map(({ imgSrc, sectionId, altText, imgTitle }) => {
                         return (
                             <TeamMemberImage imgSrc={imgSrc}
                                 altText={altText}
                                 sectionId={sectionId}
                                 color={color}
                                 key={`${sectionId}_memberimage`}
+                                imgTitle={imgTitle}
                             />)
                     })}
 
@@ -71,6 +72,7 @@ function TeamLarge( {color}) {
                 id="div-with-bios"
                 className="background-color-grey inside-page-padding border-radius font-size-1 scrollable-element no-scroll-bar"
                 style={{ flexGrow: 3, flexBasis: 0 }}>
+                <p>{TextOnTop}</p>
                 {Leitung.map(({ sectionId, sectionContent, name1, name2 }) => {
                     return (
                         <TeamMemberSection sectionId={sectionId}
