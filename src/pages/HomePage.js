@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Info from "contents/Info";
+import Info from "contents/Info/Info";
 import Team from "contents/Team/Team";
 
 import { Helmet } from "react-helmet";

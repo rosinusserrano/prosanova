@@ -1,10 +1,14 @@
 import React from "react";
-import "../styles/imprint.css";
-import "../styles/fonts.css";
-import "../styles/pages.css";
+import "../../styles/imprint.css";
+import "../../styles/fonts.css";
+import "../../styles/pages.css";
 import { Helmet } from "react-helmet";
+import { useMobile } from "hooks/useMediaQuery";
+import InfoSmall from "./InfoSmall";
+import InfoLarge from "./InfoLarge";
 
 function Info() {
+  const isMobile = useMobile()
   return (
     <>
       <Helmet>
@@ -15,7 +19,9 @@ function Info() {
         />
       </Helmet>
 
-      <div className="inside-main-content-wrapper" style={{
+      {isMobile ? <InfoSmall /> : <InfoLarge />}
+
+      {/* <div className="inside-main-content-wrapper" style={{
         display: "flex",
         flexDirection: "column",
         gap: "1rem",
@@ -50,7 +56,7 @@ function Info() {
           Text erproben. Was passiert, wenn wir Texte als Räume begreifen, die
           wir begehen und von allen Seiten betrachten können?
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
