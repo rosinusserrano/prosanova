@@ -2,6 +2,11 @@ import FridgePoetry from 'components/FridgePoetry'
 import React from 'react'
 
 function LandingSmall() {
+
+    const today = new Date()
+    const festivalDate = new Date("2023-06-23")
+    const daysDiff = Math.round((festivalDate - today) / 1000 / 60 / 60 / 24)
+
     return (
         <div className='inside-main-content-wrapper border-radius background-color-grey inside-page-padding font-size-1'
             style={{
@@ -14,7 +19,7 @@ function LandingSmall() {
                 gap: "0.5rem",
             }}>
                 <FridgePoetry color="white">noch</FridgePoetry>
-                <FridgePoetry color="skyblue">76</FridgePoetry>
+                <FridgePoetry color="skyblue">{daysDiff}</FridgePoetry>
                 <FridgePoetry color="white">Tage</FridgePoetry>
                 <FridgePoetry color="white">bis</FridgePoetry>
                 <FridgePoetry color="white">zum</FridgePoetry>
