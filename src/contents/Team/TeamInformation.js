@@ -6,6 +6,7 @@ export const TextOnTop = "Festivalarbeit funktioniert nicht ohne die vielen Mens
 export const Leitung = [
     {
         "imgSrc": "images/Leni.png",
+        "imgObjectPosition": "50% 15%",
         "sectionId": "leni-bio",
         "altText": "Leni",
         "name1": "Leni von der",
@@ -16,6 +17,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Melek.png",
+        "imgObjectPosition": "50% 10%",
         "sectionId": "melek-bio",
         "altText": "Melek",
         "name1": "Melek",
@@ -26,6 +28,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Hiyam.png",
+        "imgObjectPosition": "50% 15%",
         "sectionId": "hiyam-bio",
         "altText": "Hiyam",
         "name1": "Hiyam",
@@ -36,6 +39,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lucie.png",
+        "imgObjectPosition": "50% 20%",
         "sectionId": "lucie-bio",
         "altText": "Lucie",
         "name1": "Lucie",
@@ -46,6 +50,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lina.png",
+        "imgObjectPosition": "50% 15%",
         "sectionId": "lina-bio",
         "altText": "Lina",
         "name1": "Lina",
@@ -56,6 +61,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Clara.png",
+        "imgObjectPosition": "50% 15%",
         "sectionId": "clara-bio",
         "altText": "Clara",
         "name1": "Clara",
@@ -69,6 +75,7 @@ export const Leitung = [
 export const Praktikant_innen = [
     {
         "imgSrc": "images/anna-lena-maatz.png",
+        "imgObjectPosition": "50% 45%",
         "sectionId": "anna-lena-bio",
         "altText": "Anna-Lena Maatz",
         "name1": "Anna-Lena",
@@ -83,6 +90,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/bela-neumann.png",
+        "imgObjectPosition": "50% 35%",
         "sectionId": "bela-bio",
         "altText": "Bela Neumann",
         "name1": "Béla",
@@ -93,6 +101,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/dilara-buzoglu.png",
+        "imgObjectPosition": "50% 35%",
         "sectionId": "dilara-bio",
         "altText": "Dilara Buzoğlu",
         "name1": "Dilara",
@@ -103,6 +112,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/leon-ahlhorn.png",
+        "imgObjectPosition": "50% 40%",
         "sectionId": "leon-bio",
         "altText": "Leon Ahlborn",
         "name1": "Leon",
@@ -116,6 +126,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/linda-rabe.png",
+        "imgObjectPosition": "50% 45%",
         "sectionId": "linda-bio",
         "altText": "Linda Rabe",
         "name1": "Linda",
@@ -126,6 +137,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/lynn-stechert.png",
+        "imgObjectPosition": "50% 25%",
         "sectionId": "lynnve-bio",
         "altText": "Lynn Stechert",
         "name1": "Lynn Ve Sophia",
@@ -136,6 +148,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/marlene-horn.png",
+        "imgObjectPosition": "50% 60%",
         "sectionId": "marlene-h-bio",
         "altText": "Marlene Horn",
         "name1": "Marlene",
@@ -146,6 +159,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/marlene-regenfuß.png",
+        "imgObjectPosition": "50% 27%",
         "sectionId": "marlene-r-bio",
         "altText": "Marlene Regenfuß",
         "name1": "Marlene",
@@ -156,6 +170,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/nima-schaper.png",
+        "imgObjectPosition": "50% 35%",
         "sectionId": "nima-bio",
         "altText": "Nima Schaper",
         "name1": "Nima",
@@ -166,16 +181,18 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/roya-schaper.png",
+        "imgObjectPosition": "50% 85%",
         "sectionId": "roya-bio",
         "altText": "Roya Schaper",
         "name1": "Roya",
         "name2": "Schaper",
         "sectionContent": <>
-            ist 19 Jahre alt und in Köln aufgewachsen. Momentan lebt sie zwischen Köln, London und Berlin. Roya liest viel, macht Musik, Filme und schreibt.
+            {" "}ist 19 Jahre alt und in Köln aufgewachsen. Momentan lebt sie zwischen Köln, London und Berlin. Roya liest viel, macht Musik, Filme und schreibt.
         </>
     },
     {
         "imgSrc": "images/tilman-busch.png",
+        "imgObjectPosition": "50% 10%",
         "sectionId": "tilman-bio",
         "altText": "Tilman Busch",
         "name1": "Tilman",
@@ -186,6 +203,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/RombachLeah.jpg",
+        "imgObjectPosition": "50% 7%",
         "sectionId": "RombachLeah-bio",
         "altText": "Rombach Leah",
         "name1": "Leah",
@@ -196,6 +214,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/SchelerJohanna.jpg",
+        "imgObjectPosition": "50% 7%",
         "sectionId": "SchelerJohanna-bio",
         "altText": "Johanna Scheler",
         "name1": "Johanna",
@@ -206,6 +225,7 @@ export const Praktikant_innen = [
     },
     {
         "imgSrc": "images/WolterLuise.jpg",
+        "imgObjectPosition": "50% 40%",
         "sectionId": "WolterLuise-bio",
         "altText": "Luise Wolter",
         "name1": "Luise",

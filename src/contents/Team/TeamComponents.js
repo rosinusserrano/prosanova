@@ -35,7 +35,7 @@ export function TeamMemberImage({ altText, imgSrc, sectionId, color }) {
 }
 
 
-export function TeamMemberImageSmall({ altText, imgSrc, sectionId, color }) {
+export function TeamMemberImageSmall({ altText, imgSrc, imgObjectPosition, sectionId, color }) {
 
     function scrollToPos(sectionId) {
         const div = document.getElementById("div-with-bios");
@@ -57,9 +57,9 @@ export function TeamMemberImageSmall({ altText, imgSrc, sectionId, color }) {
                 style={{
                     width: "100%",
                     maxWidth: "100%",
-                    aspectRatio: "3 / 2",
+                    aspectRatio: "7 / 4",
                     objectFit: "cover",
-                    objectPosition: "50% 7%"
+                    objectPosition: imgObjectPosition
                 }}
                 src={imgSrc}
                 alt={altText}

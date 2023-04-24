@@ -29,18 +29,18 @@ function TeamSmall({ color, setBackFunction }) {
                     overflow: "scroll"
                 }}
                     className='border-radius background-color-grey font-size-1'>
-                    <div style={{padding: "2rem"}}>{TextOnTop}</div>
+                    <div style={{ padding: "2rem" }}>{TextOnTop}</div>
                 </div>
                 <div className='border-radius background-color-grey'
                     onClick={() => { setOpenSection("leitung"); setBackFunction(() => () => { setOpenSection(null); setBackFunction(null) }) }}>
-                    <div style={{textAlign: "center"}}>
-                        <PrettyName name="Künstlerische"  appendWhiteSpace={true} /> <PrettyName name="Leitung" />
+                    <div style={{ textAlign: "center" }}>
+                        <PrettyName name="Künstlerische" appendWhiteSpace={true} /> <PrettyName name="Leitung" />
                     </div>
                 </div>
                 <div style={{ height: "" }}
                     className='border-radius background-color-grey'
                     onClick={() => { setOpenSection("praktikant_innen"); setBackFunction(() => () => { setOpenSection(null); setBackFunction(null) }) }}>
-                    <div style={{textAlign: "center"}}>
+                    <div style={{ textAlign: "center" }}>
                         <PrettyName name="Praktikant*innen" />
                     </div>
                 </div>
@@ -61,16 +61,18 @@ function TeamSmall({ color, setBackFunction }) {
                     <img src='images/KL_Team.jpg' style={{ height: "100%", width: "100%" }} className='border-radius' />
                 </div>
 
-                <div style={{ textAlign: "center", margin: "1rem 0"}}>
+                <div style={{ textAlign: "center", margin: "1rem 0" }}>
                     <PrettyName name={"Künstlerische"} /> <PrettyName name={"Leitung"} />
                 </div>
 
-                {Leitung.map(({ sectionId, sectionContent, name1, name2, altText, imgSrc }) => (<>
+                {Leitung.map(({ sectionId, sectionContent, name1, name2, altText, imgSrc, imgObjectPosition }) => (<>
                     <TeamMemberImageSmall
-                            altText={altText}
-                            imgSrc={imgSrc}
-                            sectionId={sectionId}
-                            color={color} />
+                        altText={altText}
+                        imgSrc={imgSrc}
+                        sectionId={sectionId}
+                        color={color}
+                        imgObjectPosition={imgObjectPosition}
+                    />
                     <TeamMemberSection sectionId={sectionId}
                         sectionContent={sectionContent}
                         name1={name1}
@@ -92,12 +94,14 @@ function TeamSmall({ color, setBackFunction }) {
                 }}>
                     <PrettyName name={"Praktikant*innen"} />
                 </div>
-                {Praktikant_innen.map(({ sectionId, sectionContent, name1, name2, altText, imgSrc }) => (<>
+                {Praktikant_innen.map(({ sectionId, sectionContent, name1, name2, altText, imgSrc, imgObjectPosition }) => (<>
                     <TeamMemberImageSmall
-                            altText={altText}
-                            imgSrc={imgSrc}
-                            sectionId={sectionId}
-                            color={color} />
+                        altText={altText}
+                        imgSrc={imgSrc}
+                        sectionId={sectionId}
+                        color={color}
+                        imgObjectPosition={imgObjectPosition}
+                    />
                     <TeamMemberSection sectionId={sectionId}
                         sectionContent={sectionContent}
                         name1={name1}
