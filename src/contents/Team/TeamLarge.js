@@ -35,16 +35,17 @@ function TeamLarge( {color}) {
                         gridColumn: "span 3",
                         gridRow: "span 2"
                     }}>
-                        <img src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
+                        <img title="Foto: Anja König" src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
                     </div>
 
-                    {Leitung.map(({ imgSrc, sectionId, altText }) => {
+                    {Leitung.map(({ imgSrc, sectionId, altText, imgTitle }) => {
                         return (
                             <TeamMemberImage imgSrc={imgSrc}
                                 altText={altText}
                                 sectionId={sectionId}
                                 color={color}
                                 key={`${sectionId}_memberimage`}
+                                imgTitle={imgTitle}
                             />)
                     })}
 

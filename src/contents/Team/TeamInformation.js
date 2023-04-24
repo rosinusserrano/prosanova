@@ -6,6 +6,7 @@ export const TextOnTop = "Festivalarbeit funktioniert nicht ohne die vielen Mens
 export const Leitung = [
     {
         "imgSrc": "images/Leni.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "leni-bio",
         "altText": "Leni",
@@ -17,6 +18,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Melek.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 10%",
         "sectionId": "melek-bio",
         "altText": "Melek",
@@ -28,6 +30,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Hiyam.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "hiyam-bio",
         "altText": "Hiyam",
@@ -39,6 +42,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lucie.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 20%",
         "sectionId": "lucie-bio",
         "altText": "Lucie",
@@ -50,6 +54,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Lina.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "lina-bio",
         "altText": "Lina",
@@ -61,6 +66,7 @@ export const Leitung = [
     },
     {
         "imgSrc": "images/Clara.png",
+        "imgTitle": "Foto: Anja König",
         "imgObjectPosition": "50% 15%",
         "sectionId": "clara-bio",
         "altText": "Clara",
