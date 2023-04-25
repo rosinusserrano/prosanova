@@ -120,7 +120,7 @@ export default function Letters3DGame() {
           camera={{
             fov: 25,
             rotation: [0, Math.PI / 2, 0],
-            position: [SCALE, 0, 0],
+            position: [SCALE * 1.1, 0, 0],
             far: 10,
             near: 0.01
           }} >
