@@ -24,9 +24,9 @@ function InfoLarge() {
                     <div style={{
                     }}>
                         <img style={{
-                            width: "15%",
+                            width: "23%",
                             rotate: "20deg",
-                            marginLeft: "75%"
+                            marginLeft: "60%"
                         }} src='images/Schlechte_Woerter_Sticker.gif' />
                     </div>
                 </div>

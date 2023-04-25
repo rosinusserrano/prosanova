@@ -1,4 +1,4 @@
-import { Physics } from '@react-three/cannon'
+import { Debug, Physics } from '@react-three/cannon'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense, useEffect, useRef, useState } from 'react'
 import Buchstabis from './Buchstabis'
@@ -90,10 +90,10 @@ function Lights() {
 
   return (
     <>
-      <pointLight {...pointLight1Props}/>
-      <pointLight {...pointLight2Props}/>
-      <pointLight {...pointLight3Props}/>
-      <pointLight {...pointLight4Props}/>
+      <pointLight {...pointLight1Props} />
+      <pointLight {...pointLight2Props} />
+      <pointLight {...pointLight3Props} />
+      <pointLight {...pointLight4Props} />
     </>
   )
 }
@@ -104,19 +104,20 @@ export default function Letters3DGame() {
   const [cursor, setCursor] = useState("url(MouseHand-Normal_small.png) 20 20, auto")
 
   useEffect(() => {
-    const img  = new Image()
+    const img = new Image()
     img.src = "MouseHand-Grab_small.png"
   }, [])
 
   return (
     <Suspense>
-      <div className='border-radius' style={{cursor: cursor, height: "100%"}}
+      <div className='border-radius' style={{ cursor: cursor, height: "100%" }}
         onPointerDown={() => setCursor("url(MouseHand-Grab_small.png) 20 20, auto")}
         onPointerUp={() => setCursor("url(MouseHand-Normal_small.png) 20 20, auto")}>
         <Canvas className="border-radius" shadows
           style={{
             // height: "calc(100vh - 9rem)",
-            backgroundColor: "#E8E3DD"}}
+            backgroundColor: "#E8E3DD"
+          }}
           camera={{
             fov: 25,
             rotation: [0, Math.PI / 2, 0],

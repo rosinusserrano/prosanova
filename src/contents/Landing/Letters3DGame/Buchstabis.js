@@ -1,10 +1,11 @@
 import { useGLTF } from '@react-three/drei'
 import React, { Suspense } from 'react'
 import { A, FallbackLetter } from './LettersWithPhysics'
+import Henkel from './Henkel'
 
 export default function Buchstabis() {
 
-    const { scene } = useGLTF("Buchstabis-GAME-2503-ohneLichter.glb")
+    const { scene } = useGLTF("Prosanova-GAME-Web--mitHenkel.glb")
     const children = scene.children
     console.log(children)
 
@@ -41,6 +42,8 @@ function Letter({ gltfNode }){
     //     return <J gltfNode={gltfNode}></J>
     } else if (["P001", "R001", "O002", "S001", "A001", "N001", "O001", "V001", "A002", "2", "3"].includes(gltfNode["name"])) {
         return <FallbackLetter gltfNode={gltfNode} lettersOffset={0}></FallbackLetter>
+    } else if (gltfNode["name"] == "Henkel"){
+        return <Henkel gltfNode={gltfNode} />
     } else {
         return <FallbackLetter gltfNode={gltfNode} lettersOffset={4}></FallbackLetter>
     }
