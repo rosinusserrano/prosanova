@@ -48,7 +48,8 @@
 .button-color-2,
 .button-color-3,
 .button-color-4,
-.button-color-5 {
+.button-color-5,
+.button-color-sky {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 /* purple */
@@ -78,6 +79,12 @@
 /* gelb */
 .button-color-5:hover {
   background-color: #f97dd0;
+  color: white;
+}
+
+/* himmel */
+.button-color-sky:hover {
+  background-color: skyblue;
   color: white;
 }
 
