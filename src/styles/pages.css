@@ -379,3 +379,19 @@
 ::-webkit-scrollbar {
   display: block;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+  .termine-titel-font{
+    font-size: 2rem !important;
+  }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+}

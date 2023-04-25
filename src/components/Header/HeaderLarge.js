@@ -78,6 +78,20 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         >
           <div className="menu-button font-size-2 button-color-4">Imprint</div>
         </WigglyButton>
+
+        <WigglyButton
+        onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
+        >
+          <div style={{  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  /* Truncate long text with an ellipsis */
+  padding: '3px 3px',
+  display: 'inline-block',
+  width: 'auto',
+  borderRadius: '5px',
+  backgroundColor: 'white',}}  className=" button-color-4"><img src="images/instagramlogo.svg"/></div>
+        </WigglyButton>
       </div>
       <div
         className="Logo-Header-Wrapper grid-column-start-5"
