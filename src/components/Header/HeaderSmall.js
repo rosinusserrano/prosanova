@@ -97,6 +97,15 @@ function HeaderSmall({
 
 
         }}>
+        <WigglyButton
+            onClick={() => {
+              setActivePage("game");
+              setCurrentColor("skyblue");
+              setExpanded(false);
+            }}
+          >
+            <div className="menu-button font-size-1 button-color-sky">Home</div>
+          </WigglyButton>
           <WigglyButton
             onClick={() => {
               setActivePage("info");

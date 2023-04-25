@@ -18,12 +18,20 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
           flexWrap: "wrap",
           justifyContent: "flex-start",
           alignContent: "flex-end",
-          width: "380px",
+          width: "420px",
           gap: "0.3rem",
           margin: "1rem",
           height: "100%",
         }}
       >
+      <WigglyButton
+          onClick={() => {
+            setActivePage("game");
+            setCurrentColor("skyblue");
+          }}
+        >
+          <div className="menu-button font-size-1 button-color-sky">Home</div>
+        </WigglyButton>
         <WigglyButton
           onClick={() => {
             setActivePage("info");
