@@ -180,6 +180,7 @@ function HeaderSmall({
   padding: '3px 3px',
   display: 'inline-block',
   width: 'auto',
+  height: '75%',
   borderRadius: '5px',
   backgroundColor: 'white',}}  className=" button-color-4"><img src="images/instagramlogo.svg"/></div>
         </WigglyButton>
