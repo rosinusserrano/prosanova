@@ -9,7 +9,7 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, co
             display: "grid",
             gridTemplateAreas: "'overlay'",
             width: "100%",
-
+            
 
         }}>
             <div style={{
@@ -17,7 +17,6 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, co
                 display: "flex",
                 gap: "0.5rem",
                 flexDirection: "column",
-                overflow: "scroll",
 
 
             }}>

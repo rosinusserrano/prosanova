@@ -92,7 +92,7 @@ function HeaderSmall({
 
             display: 'flex',
             gap: "0.4rem",
-            margin: '1rem',
+            margin: '1.5rem',
             alignItems: 'center',
             width: '70%',
             flexWrap: 'wrap',

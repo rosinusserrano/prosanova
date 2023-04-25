@@ -3,11 +3,11 @@ import { InfoBubble1Text, InfoBubble2Text } from './InfoInfo'
 
 function InfoSmall() {
     return (
-        <div className="inside-main-content-wrapper" style={{
+        <div className="inside-main-content-wrapper scrollable-element" style={{
             display: "flex",
             flexDirection: "column",
             gap: "1rem",
-            height: "100%"
+            height: "100%",
         }}>
             <div className="inside-page-padding background-color-grey border-radius font-size-1 scrollable-element"
                 style={{

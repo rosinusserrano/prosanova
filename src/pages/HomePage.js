@@ -71,8 +71,8 @@ export default function HomePage() {
         display: "flex",
         flexDirection: "column",
         gap: "1rem",
-        overflow: "auto",
-        fontFamily: "BastardoRegular",
+        overflowY: "auto", 
+         fontFamily: "BastardoRegular",
       }}
     >
       {/* <Balloon></Balloon> */}
@@ -99,10 +99,10 @@ export default function HomePage() {
           flexGrow: 1,
           zIndex: 100,
           borderRadius: "25px",
-          overflow: "hidden",
+          overflowY:"auto",
         }}
       >
-        <main style={{ height: "100%" }}>
+        <main style={{ height: "100%", overflowY: "auto",}}>
           <PageSwitch
             setBackFunction={setBackFunction}
             page={activePage}
@@ -127,7 +127,7 @@ export default function HomePage() {
           style={{
             display: isMobile ? "none" : "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
-            overflow: "auto",
+            overflowY: "auto",             
             justifyContent: "center",
             alignItems: "center",
           }}

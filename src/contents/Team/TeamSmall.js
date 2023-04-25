@@ -22,12 +22,11 @@ function TeamSmall({ color, setBackFunction }) {
                 flexDirection: "column",
                 gap: "1rem",
                 height: "100%",
-                overflow: "scroll"
+                overflowY: "auto",
             }}>
                 <div style={{
                     flex: "1 1 auto",
-                    overflow: "scroll"
-                }}
+                    overflowY: "auto",                }}
                     className='border-radius background-color-grey font-size-1'>
                     <div style={{ padding: "2rem" }}>{TextOnTop}</div>
                 </div>
@@ -49,8 +48,8 @@ function TeamSmall({ color, setBackFunction }) {
             <div className='border-radius background-color-grey'
                 style={{
                     gridArea: "overlay",
-                    padding: "2rem",
-                    overflow: "scroll",
+                    padding: "1.5rem",
+                    overflowY: "auto",  
                     display: openSection == "leitung" ? "block" : "none",
                 }}>
 
@@ -85,8 +84,8 @@ function TeamSmall({ color, setBackFunction }) {
             <div className='border-radius background-color-grey'
                 style={{
                     gridArea: "overlay",
-                    padding: "2rem",
-                    overflow: "scroll",
+                    padding: "1.5rem",
+                    overflowY: "auto", 
                     display: openSection == "praktikant_innen" ? "block" : "none"
                 }}>
                 <div style={{
