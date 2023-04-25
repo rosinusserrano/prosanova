@@ -1,8 +1,7 @@
 import WigglyButton from "components/WigglyButton";
 import React from "react";
-const handleButtonClick = () => {
-  window.open("https://www.google.com", "_blank");
-};
+
+
 function HeaderLarge({ setActivePage, setCurrentColor }) {
   return (
     <header
@@ -66,7 +65,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         >
           <div className="menu-button font-size-1 button-color-4">Shop</div>
         </WigglyButton>
-        <WigglyButton onClick={handleButtonClick}>
+        <WigglyButton onClick={() => window.open("/LeichteSprache.pdf", "_blank")}>
           <div className="menu-button font-size-1 button-color-1">
             Leichte Sprache
           </div>
