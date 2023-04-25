@@ -11,9 +11,10 @@ export function TermineSmallButton({ expandedSection, setExpandedSection, date, 
     onClick={() => {
         setExpandedSection(date)
         setBackFunction(() => () => {setExpandedSection(""); setBackFunction(null)})}}>
-        <span className="font-montiac-mono font-size-3">{date}</span>
+        <span className="font-montiac-mono font-size-4">{date}</span>
         <br />
         {/* <span className="font-size-1 font-montiac-italic">{title}</span> */}
-        {title.map((titleSegment) => <PrettyName name={titleSegment}/>)}
+        {title.map((titleSegment) => <PrettyName name={titleSegment} fontSizeClass="font-size-5"
+        />)}
     </div>
 }

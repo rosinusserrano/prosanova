@@ -8,7 +8,7 @@ export const TermineInformation = [
         date: "30/03",
         title: ["Be<wbr>kennt<wbr>nisse an das ", "Miss<wbr>trauen"],
         contentJSX: <>
-            <p><span className="font-size-3">OPEN CALL</span><br />
+            <p><span className="font-size-3 termine-titel-font">OPEN CALL</span><br />
                 <span className="font-montiac-italic">Bekenntnisse an das Misstrauen.</span></p>
             <p>Zu welchem Misstrauen bekennt ihr euch?</p>
             <p>Zu dieser Frage haben wir eure szenischen, experimentellen und gattungsbrechenden Texte gesucht. Unsere Jury – bestehend aus Olufemi Atibioke, Deniz Bolat und Laura Shirin – musste sich schwern Herzens für drei Texte entscheiden, die in einem gemeinsamen Inszenierungprozess erarbeitet und auf dem Festival gezeigt werden. Wie die Texte umgesetzt werden, bleibt den Autor:innen in Absprache mit den Mentor:innen freigestellt – ob klassisch, experimentell, visuell, interaktiv, medial oder etwas anderes. Wir können uns also alle auf unterschiedliche Formen der Inszenierung freuen, die am Festivalwochenende gezeigt werden.</p>
@@ -94,7 +94,7 @@ export const TermineInformation = [
         date: "11/05",
         title: ["Auftakt<wbr>lesung"],
         contentJSX: <>
-            <p><span className="font-montiac font-size-3">Auftaktlesung</span></p>
+            <p><span className="font-montiac font-size-3 termine-titel-font">Auftaktlesung</span></p>
             <p>
                 11.5. - 19.30 Uhr<br />
                 Literaturhaus St. Jakobi<br />
@@ -163,7 +163,7 @@ export const TermineInformation = [
         date: "23/05",
         title: ["Abend der ", "Kollektive"],
         contentJSX: <>
-            <span className="font-size-3"> Und dazwischen Zwischenräume.</span><br></br>  <span className="font-montiac-italic">Abend der Kollektive.</span>
+            <span className="font-size-3 termine-titel-font"> Und dazwischen Zwischenräume.</span><br></br>  <span className="font-montiac-italic">Abend der Kollektive.</span>
             <p>
                 23.5. - 18.30 Uhr<br />
                 Literaturhaus St. Jakobi <br />
@@ -294,7 +294,7 @@ export const TermineInformation = [
         date: "01-02/06",
         title: ["ZU<wbr>SAMMEN<wbr>KOMMEN"],
         contentJSX: <>
-            <span className="font-montiac font-size-3">ZUSAMMENKOMMEN</span>
+            <span className="font-montiac font-size-3 termine-titel-font">ZUSAMMENKOMMEN</span>
             <p>
                 1.-2.6. (jeweils 13-20 Uhr)<br />
                 Puls<br />
@@ -313,7 +313,7 @@ export const TermineInformation = [
         date: "02/06",
         title: ["Dort, wo wir waren"],
         contentJSX: <>
-            <span className="font-montiac font-size-3"> Dort, wo wir waren</span>
+            <span className="font-montiac font-size-3 termine-titel-font"> Dort, wo wir waren</span>
             <p>
                 2.6. - 18 Uhr<br />
                 Puls<br />
@@ -365,7 +365,7 @@ export const TermineInformation = [
         date: "23-25/06",
         title: ["Festival<wbr>wochen<wbr>ende"],
         contentJSX: <>
-            <span className="font-size-3">Festivalwochenende</span> <br></br> <span className="font-montiac-italic">23.–25.06. </span><br></br>
+            <span className="font-size-3 termine-titel-font">Festivalwochenende</span> <br></br> <span className="font-montiac-italic">23.–25.06. </span><br></br>
             <p>
                 Keßlerstraße 51<br />
                 31134 Hildesheim
@@ -380,7 +380,7 @@ export const TermineInformation = [
         date: "Sommer 2023",
         title: ["Sonder<wbr>aus<wbr>gabe der ", "BELLA ", "Triste"],
         contentJSX: <>
-            <span className="font-size-3">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic"><br />Zeitschrift für junge Literatur{" "}</span>
+            <span className="font-size-3 termine-titel-font">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic"><br />Zeitschrift für junge Literatur{" "}</span>
             <p>
                 Sommer 2023
             </p>
