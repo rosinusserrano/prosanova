@@ -13,6 +13,45 @@ export const TermineInformation = [
             <p>Zu welchem Misstrauen bekennt ihr euch?</p>
             <p>Zu dieser Frage haben wir eure szenischen, experimentellen und gattungsbrechenden Texte gesucht. Unsere Jury – bestehend aus Olufemi Atibioke, Deniz Bolat und Laura Shirin – musste sich schwern Herzens für drei Texte entscheiden, die in einem gemeinsamen Inszenierungprozess erarbeitet und auf dem Festival gezeigt werden. Wie die Texte umgesetzt werden, bleibt den Autor:innen in Absprache mit den Mentor:innen freigestellt – ob klassisch, experimentell, visuell, interaktiv, medial oder etwas anderes. Wir können uns also alle auf unterschiedliche Formen der Inszenierung freuen, die am Festivalwochenende gezeigt werden.</p>
             <p>Und am Ende bleibt nur noch die Frage, wem wir trauen wollen und wo das Misstrauen bleiben wird.</p>
+            <p className="font-size-4" style={{ textAlign: "center" }}>AUTOR*INNEN</p>
+            <div className="termine-artist-grid" style={{
+                display: "grid",
+                columnGap: "1rem",
+                rowGap: "1rem",
+                width: "100%",
+
+            }}>
+                <div>
+                    <img className="border-radius" src="images/KatharinaAngus.JPG" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 45%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Katharina Angus studierte Drehbuchschreiben, Literaturwissenschaft und Osteuropawissenschaften mit Aufenthalten in Krakau und Prag. Sie veröffentlichte unter anderem in den Literaturzeitschriften Mosaik und BELLA triste. Im Jahr 2021 war sie Stipendiatin des Klagenfurter Literaturkurses und Teilnehmerin beim Stuttgarter Lit.Fest.
+                        Vom Hessischen Literaturrat e.V. und dem Prager Literaturhaus deutschsprachiger Autoren erhielt sie im November 2022 ein Aufenthaltsstipendium in Prag, um an ihrem Debütroman zu arbeiten.<br />
+                        Sie lebt als freie Journalistin in Berlin.
+                    </p>
+                </div>
+                <div>
+                    <img title="Foto: Jonas Erler" className="border-radius" src="images/PhilippLaue.jpeg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 0%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Philipp Laue (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach Beschäftigungen als Universitätsdozent und in der Jugendhilfe, arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in Beziehungen. Seine Gedichte und Prosa werden seit 2021 in verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA, apostrophe u. a.) gedruckt.<br />twitter/instagram: @imbluescreen.</p>
+                </div>
+                <div>
+                    <img className="border-radius" src="images/ViciDewinski.JPG" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 7%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>Vici Dewinski wurde 1998 in Chemnitz geboren. Sie studiert Bühnen- und Kostümbild an der  Hochschule für Bildende Künste in Dresden und ist Stipendiatin der Studienstiftung des  deutschen Volkes. Seit 2021 arbeitet Vici als Installationskünstlerin, Regisseurin und Autorin.  Dabei erschafft sie performative Installationen, die an der Schnittstelle zwischen Bildender Kunst,  Theater und Animation operieren. Ihre Arbeit zeichnet sich durch gewaltige Atmosphären,  grotesken Humor und bis ins Detail abgestimmte Räume aus. Ihre Texte entführen uns in eine Welt  voller unausgesprochener Gedanken und Emotionen.</p>
+                </div>
+            </div>
             <p className="font-size-4" style={{ textAlign: "center" }}>JURY</p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
@@ -124,7 +163,7 @@ export const TermineInformation = [
         date: "23/05",
         title: ["Abend der ", "Kollektive"],
         contentJSX: <>
-           <span className="font-size-3"> Und dazwischen Zwischenräume.</span><br></br>  <span className="font-montiac-italic">Abend der Kollektive.</span>
+            <span className="font-size-3"> Und dazwischen Zwischenräume.</span><br></br>  <span className="font-montiac-italic">Abend der Kollektive.</span>
             <p>
                 23.5. - 18.30 Uhr<br />
                 Literaturhaus St. Jakobi <br />
@@ -132,7 +171,7 @@ export const TermineInformation = [
                 31134 Hildesheim
             </p>
             <p>
-            In einer Kooperation mit dem Literaturinstitut der Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale Praxis neben der künstlerischen ein und wie viele Kompromisse müssen eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt (Wiese), Irina Nekrasov (Postmigrantische Störung), Alexander Rupflin (Hermes Baby) und Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen - wir wollen diskutieren und so selbst kollektive Erfahrungen machen. Mehr Informationen und Tickets <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/abend-der-kollektive"}>hier</Link>.
+                In einer Kooperation mit dem Literaturinstitut der Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale Praxis neben der künstlerischen ein und wie viele Kompromisse müssen eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt (Wiese), Irina Nekrasov (Postmigrantische Störung), Alexander Rupflin (Hermes Baby) und Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen - wir wollen diskutieren und so selbst kollektive Erfahrungen machen. Mehr Informationen und Tickets <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/abend-der-kollektive"}>hier</Link>.
             </p>
             <p className="font-size-4" style={{ textAlign: "center" }}>KÜNSTLER*INNEN</p>
             <div className="termine-artist-grid" style={{
@@ -341,7 +380,7 @@ export const TermineInformation = [
         date: "Sommer 2023",
         title: ["Sonder<wbr>aus<wbr>gabe der ", "BELLA ", "Triste"],
         contentJSX: <>
-            <span className="font-size-3">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic">Zeitschrift für junge Literatur{" "}</span>
+            <span className="font-size-3">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic"><br />Zeitschrift für junge Literatur{" "}</span>
             <p>
                 Sommer 2023
             </p>
