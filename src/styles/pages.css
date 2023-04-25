@@ -54,25 +54,25 @@
 }
 /* purple */
 .button-color-1:hover {
-  background-color: #bfa9ed;
+  background-color: #bfa9ed !important;
   color: white;
 }
 
 /* brown */
 .button-color-2:hover {
-  background-color: #c18167;
+  background-color: #c18167 !important;
   color: white;
 }
 
 /* beige */
 .button-color-3:hover {
-  background-color: #c8bf9b;
+  background-color: #c8bf9b !important;
   color: white;
 }
 
 /* yellow */
 .button-color-4:hover {
-  background-color: #e3cc4e;
+  background-color: #e3cc4e !important;
   color: white;
 }
 
@@ -84,7 +84,7 @@
 
 /* himmel */
 .button-color-sky:hover {
-  background-color: skyblue;
+  background-color: skyblue !important;
   color: white;
 }
 
