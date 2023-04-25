@@ -103,7 +103,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
             className="logo-large"
             src={"images/PROSANOVA-Logo1-groß.png"}
             alt="Logo Large"
-            onClick={() => setActivePage("game")}
+            onClick={() => {setActivePage("game"); setCurrentColor("skyblue")}}
           />
         </div>
         <div
