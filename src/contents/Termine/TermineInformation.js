@@ -215,29 +215,6 @@ export const TermineInformation = [
                     }} />
                     <p>Maren Wurster studierte Philosophie in Köln und Literarisches Schreiben in Leipzig. Ihr Romandebüt „Das Fell“ wurde 2017 bei Hanser Berlin veröffentlicht. Ihr aktueller Roman „Eine beiläufige Entscheidung“ erzählt von einer Mutter, die ihr Kind verlässt, und einem Kind, das mutterlos aufwächst. In dem Memoir „Papa stirbt, Mama auch“ und dem erzählenden Sachbuch „Totenwache“ hat sie sich mit dem Abschied von den eigenen Eltern auseinandergesetzt. Maren Wurster war Mitglied des Autorinnen-Kollektivs „Writing with Care/Rage“, das sich in Texten und Veranstaltungen kritisch mit Kreativ- und Care-Arbeit auseinandersetzte. Zuletzt lud sie andere Schriftsteller:innen zu einer „Archäologie des Verlusts“ ein. Die Texte wurden in der Volksbühne Berlin präsentiert und in der Literaturzeitschrift Akzente veröffentlicht.</p>
                 </div>
-                <div>
-                    <img title="biwikefempom" className="border-radius" src="images/BiwiKefempom.jpg" style={{
-                        aspectRatio: "5/4",
-                        objectPosition: "50% 0%",
-                        objectFit: "cover",
-                        width: "100%",
-                    }} />
-                    <p>
-                        Das Autor*innen-Kollektiv BIWI KEFEMPOM (bis wir keinen einzigen Femi(ni)zid mehr politisieren müssen) besteht aus Judith Goetz, Cari Maier, Kyra Schmied und Marcela Torres Heredia.
-                    </p>
-                    <p>
-                        Judith Goetz ist Literatur- und Politikwissenschaftlerin, Gender-Forscherin, Rechtsextremismus-Expertin und Lehrbeauftragte an unterschiedlichen Universitäten, Mitglied der Forschungsgruppe Ideologien und Politiken der Ungleichheit (FIPU), der Europäischen feministischen Plattform und dem Autor*innenkollektiv Feministische Intervention (Ak. Fe.In). Ihre Interessensschwerpunkte liegen bei Frauen*/ Gender und Rechtsextremismus sowie Antifeminismus. Zuletzt erschienen die von ihr mitherausgegebenen Sammelbände »Rechtsextremismus: Herausforderung für den Journalismus« (2021) und »Handlungsstrategien gegen Rechtsextremismus« (2022).
-                    </p>
-                    <p>
-                        Cari Maier ist Politikwissenschaftler*in und Sozioökonom*in und beschäftigt sich mit feministischer Gesellschaftstheorie, insbesondere Sorge- und Carearbeit. Cari promoviert zu theoretischen Konzeptionen von Sorge und solidarischen Beziehungsweisen an der Goethe Universität Frankfurt am Main und lehrt aktuell am Fachbereich für Politische Theorie an der Universität Wien sowie im Fachbereich Soziale Arbeit an der FH Campus Wien. Cari ist Mitglied der Forschungsgruppe Ideologien und Politiken der Ungleichheit (FIPU), des Arbeitskreises Gender, Kinship, Sexuality am Institut für Sozialforschung in Frankfurt am Main und des feministischen Theoriekollektivs fe.ory in Wien.
-                    </p>
-                    <p>
-                        Kyra Schmied lehrt an der Universität Wien am Fachbereich Politische Theorie und studiert Gender Studies. Neben Auseinandersetzungen mit Fragen zu Raum, Körper und Öffentlichkeit beschäftigt sich Kyra mit einer feministischen Relektüre der Pariser Commune (1871) und damit zusammenhängend mit der Transgression vergeschlechtlichter gesellschaftlicher Strukturen und der Relevanz solidarischer Praxen.
-                    </p>
-                    <p>
-                        Marcela Torres Heredia, MA MA (Bogotá, Kolumbien) ist Doktorandin und Stipendiatin der Österreichischen Akademie der Wissenschaften (DOC-team) am Institut Sozial- und Kulturanthropologie an der Universität Wien mit dem Projekt: The Socio-Ecological Crisis Up Close: Conflicts, Experiences and Alternatives in the Andean-Amazon Region. Marcela ist Mitherausgeberin der Sonderausgabe des Journals »Europa verrücken – Kämpfe zwischen Kolonialität und Dekolonisierung«.
-                    </p>
-                </div>
                 <div style={{
                     flex: "1 1 0",
                     minWidth: "200px",
@@ -278,6 +255,29 @@ export const TermineInformation = [
                     <p>
                         Email: <Link target="_blank" to="mailto:wiesewieesist@gmx.de">wiesewieesist@gmx.de</Link><br />
                         Instagram: <Link target="_blank" to={"https://www.instagram.com/wiesewieesist/"}>@wiesewieesist</Link>
+                    </p>
+                </div>
+                <div>
+                    <img title="biwikefempom" className="border-radius" src="images/BiwiKefempom.jpg" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 0%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>
+                        Das Autor*innen-Kollektiv BIWI KEFEMPOM (bis wir keinen einzigen Femi(ni)zid mehr politisieren müssen) besteht aus Judith Goetz, Cari Maier, Kyra Schmied und Marcela Torres Heredia.
+                    </p>
+                    <p>
+                        Judith Goetz ist Literatur- und Politikwissenschaftlerin, Gender-Forscherin, Rechtsextremismus-Expertin und Lehrbeauftragte an unterschiedlichen Universitäten, Mitglied der Forschungsgruppe Ideologien und Politiken der Ungleichheit (FIPU), der Europäischen feministischen Plattform und dem Autor*innenkollektiv Feministische Intervention (Ak. Fe.In). Ihre Interessensschwerpunkte liegen bei Frauen*/ Gender und Rechtsextremismus sowie Antifeminismus. Zuletzt erschienen die von ihr mitherausgegebenen Sammelbände »Rechtsextremismus: Herausforderung für den Journalismus« (2021) und »Handlungsstrategien gegen Rechtsextremismus« (2022).
+                    </p>
+                    <p>
+                        Cari Maier ist Politikwissenschaftler*in und Sozioökonom*in und beschäftigt sich mit feministischer Gesellschaftstheorie, insbesondere Sorge- und Carearbeit. Cari promoviert zu theoretischen Konzeptionen von Sorge und solidarischen Beziehungsweisen an der Goethe Universität Frankfurt am Main und lehrt aktuell am Fachbereich für Politische Theorie an der Universität Wien sowie im Fachbereich Soziale Arbeit an der FH Campus Wien. Cari ist Mitglied der Forschungsgruppe Ideologien und Politiken der Ungleichheit (FIPU), des Arbeitskreises Gender, Kinship, Sexuality am Institut für Sozialforschung in Frankfurt am Main und des feministischen Theoriekollektivs fe.ory in Wien.
+                    </p>
+                    <p>
+                        Kyra Schmied lehrt an der Universität Wien am Fachbereich Politische Theorie und studiert Gender Studies. Neben Auseinandersetzungen mit Fragen zu Raum, Körper und Öffentlichkeit beschäftigt sich Kyra mit einer feministischen Relektüre der Pariser Commune (1871) und damit zusammenhängend mit der Transgression vergeschlechtlichter gesellschaftlicher Strukturen und der Relevanz solidarischer Praxen.
+                    </p>
+                    <p>
+                        Marcela Torres Heredia, MA MA (Bogotá, Kolumbien) ist Doktorandin und Stipendiatin der Österreichischen Akademie der Wissenschaften (DOC-team) am Institut Sozial- und Kulturanthropologie an der Universität Wien mit dem Projekt: The Socio-Ecological Crisis Up Close: Conflicts, Experiences and Alternatives in the Andean-Amazon Region. Marcela ist Mitherausgeberin der Sonderausgabe des Journals »Europa verrücken – Kämpfe zwischen Kolonialität und Dekolonisierung«.
                     </p>
                 </div>
             </div>
@@ -322,7 +322,7 @@ export const TermineInformation = [
     },
     {
         date: "02/06",
-        title: ["Dort, wo wir waren"],
+        title: ["Dort, wo wir hingehören"],
         contentJSX: <>
             <span className="font-montiac font-size-3 termine-titel-font"> Dort, wo wir waren</span>
             <p>
