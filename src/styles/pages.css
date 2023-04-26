@@ -149,12 +149,12 @@
   border-radius: 20px;
   box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
 }
-.shopButtons{
+.shopButtons {
   padding: 20px 50px;
   border-radius: 50px;
   box-shadow: inset 10px 10px 22px rgba(0, 0, 0, 0.25);
 }
-.shopButtons:hover{
+.shopButtons:hover {
   background-color: #e3cc4e;
 }
 .inside-page-padding {
@@ -389,16 +389,11 @@
 
 
 @media only screen and (max-width: 767px) {
-
-  .termine-titel-font{
+  .termine-titel-font {
     font-size: 2rem !important;
   }
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-
-
-
+  }
 }
