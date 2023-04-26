@@ -149,7 +149,7 @@ function HeaderSmall({
             <div className="menu-button font-size-1 button-color-4">Shop</div>
           </WigglyButton>
           <WigglyButton onClick={() => window.open("/LeichteSprache.pdf")}>
-          <div className="menu-button font-size-1 button-color-1">
+          <div className="menu-button font-size-2 button-color-1">
             Leichte Sprache
           </div>
         </WigglyButton>
