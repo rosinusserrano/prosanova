@@ -6,7 +6,7 @@ function InfoLarge() {
         <>
             <div className="inside-main-content-wrapper" style={{
                 display: "flex",
-                flexDirection: "column",
+                flexDirection: "row",
                 gap: "1rem",
                 height: "100%"
             }}>
