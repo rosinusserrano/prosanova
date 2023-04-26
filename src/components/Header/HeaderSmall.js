@@ -71,7 +71,7 @@ function HeaderSmall({
               <img style={{ marginRight: '0.5rem', filter: 'drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))', }}
                 src={"images/PROSANOVA-Logo-Klein.png"}
                 alt="Logo Small"
-                onClick={() => setActivePage("game")}
+                onClick={() => {setActivePage("game"); setCurrentColor("skyblue");}}
               />
             </div>
           </div>
