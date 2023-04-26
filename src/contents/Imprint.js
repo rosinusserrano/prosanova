@@ -5,12 +5,44 @@ import '../styles/pages.css';
 import '../styles/responsive.css'
 import { Helmet } from 'react-helmet';
 
-
-
-
 import { Link, Routes } from 'react-router-dom';
 
+
+function importAll(r) {
+  return r.keys().map(r);
+}
+
 function Imprint() {
+  const foerderer = [
+    "images/partner/FördererAutorenstiftungLogo.jpg",
+    "images/partner/FördererBürgerstiftung.jpg",
+    "images/partner/FördererDeutscherLiteraturfonds.png",
+    "images/partner/FördererFachbereich2.png",
+    "images/partner/FördererFriedrichWeinhagenStiftung.jpg",
+    "images/partner/FördererHildesheim.png",
+    "images/partner/FördererNMWK.jpg",
+    "images/partner/FördererProHelvetia.png",
+    "images/partner/FördererSparkasse.png",
+    "images/partner/FördererStiftungNiedersachsen.png",
+    "images/partner/FördererStudierendenwerk.png",
+    "images/partner/FördererUnipräsidium.tif",
+    "images/partner/FördererUniversitätsgesellschaft.jpg",
+    "images/partner/FördererVGHS.png",
+  ]
+
+  const koops = [
+    "images/partner/KoopFachbereich2.png",
+    "images/partner/KoopHoeme.png",
+    "images/partner/KoopKET.png",
+    "images/partner/KoopLitInst.png",
+    "images/partner/KoopLitradio.jpeg",
+    "images/partner/KoopLStJ.png",
+    "images/partner/KoopNDR.jpg",
+    "images/partner/KoopPuls.png",
+    "images/partner/KoopUniHildesheim.jpg",
+    "images/partner/KoopWallungen.png"
+  ]
+
   return <>
     <Helmet>
       <title>PROSANOVA 2023 | Impressum</title>
@@ -176,6 +208,30 @@ function Imprint() {
         Melek Halici
         melek.halici@bellatriste.de
         Die Datenschutzerklärung wurde mit dem Datenschutzerklärungs-Generator der activeMind AG erstellt.
+
+        <p>KOOPERATIONSPARTNER</p>
+
+        <div className='imprint-logo-grid'>
+          {koops.map((filename) => {
+            return <div style={{
+              display: "flex",
+              justifyItems: "center"
+            }}>
+              <img src={filename} style={{width: "100%", alignSelf: "center"}}/>
+            </div>
+          })}
+        </div>
+          <br/><br/><br/><br/>
+        <div className='imprint-logo-grid'>
+          {foerderer.map((filename) => {
+            return <div style={{
+              display: "flex",
+              justifyContent: "center"
+            }}>
+              <img src={filename} style={{width: "100%", alignSelf: "center"}}/>
+            </div>
+          })}
+        </div>
 
         <div className='added-padding'></div>
 

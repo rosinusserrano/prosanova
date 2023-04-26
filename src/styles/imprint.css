@@ -1,38 +1,78 @@
-
-
 .imprint-container {
-    bottom: 1rem;
-    right: 0;
-    Position: fixed;
-    display: inline-flex;
-    justify-content: space-between;
-    /* aligns items with equal space between them */
-    align-items: center;
-    z-index: 10;
+  bottom: 1rem;
+  right: 0;
+  position: fixed;
+  display: inline-flex;
+  justify-content: space-between;
+  /* aligns items with equal space between them */
+  align-items: center;
+  z-index: 10;
 
-    width: auto;
-
-
-
+  width: auto;
 }
 
 .imprint-item {
-    flex: 2;
-    margin: 0 1rem;
-    text-align: center;
-    background: rgba(234, 234, 234, 0.908);
-    padding: .2em 1.4em;
-    color: black;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-    font-size: 1rem;
-    font-family: BastardoRegular;
-
-
-
+  flex: 2;
+  margin: 0 1rem;
+  text-align: center;
+  background: rgba(234, 234, 234, 0.908);
+  padding: 0.2em 1.4em;
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-size: 1rem;
+  font-family: BastardoRegular;
 }
 
 .imprint-item:hover {
-    color: rgb(103, 84, 84);
+  color: rgb(103, 84, 84);
+}
 
+.imprint-logo-grid {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 500px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 501px) and (max-width: 650px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 651px) and (max-width: 767px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1200px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1800px){
+    .imprint-logo-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1801px) {
+    .imprint-logo-grid{
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
 }

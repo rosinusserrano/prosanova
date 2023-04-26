@@ -335,7 +335,7 @@ export const TermineInformation = [
                 Wo fängt das Schreiben an und wo hört es auf? Wer kann schreiben? Und welchen Anteil hat die Fantasie, welchen die Wirklichkeit für das Erzählen von Geschichten?
             </p>
             <p>
-                Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Die im gemeinsamen Prozess entstandenen Texte werden am 2.6. um 19 Uhr auf einer öffentlichen Lesung im Puls (Angoulêmeplatz 2) in Hildesheim vorgelesen. Geleitet werden die Workshops von Franziska Bothe und Limo.
+                Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Die im gemeinsamen Prozess entstandenen Texte werden am 2.6. um 18 Uhr auf einer öffentlichen Lesung im Puls (Angoulêmeplatz 2) in Hildesheim vorgelesen. Geleitet werden die Workshops von Franziska Bothe und Limo.
             </p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
