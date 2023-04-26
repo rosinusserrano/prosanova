@@ -1,5 +1,5 @@
 import { BACKGROUNDCOLOR } from "constants";
-import React from "react";
+import React, { useState } from "react";
 
 export function BlogLargeButton({
   author,
@@ -7,18 +7,27 @@ export function BlogLargeButton({
   setExpandedPostTitle,
   expandedPostTitle,
 }) {
+
+  const [hovered, setHovered] = useState(false)
+   
   return (
    <div
-      className="border-radius font-size-1 "
+      className="border-radius font-size-1"
       style={{
         padding: "1rem",
         textAlign: "center",
         marginBottom: "0.5rem",
         cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
         backgroundColor:
-          expandedPostTitle == title ? "transparent" : BACKGROUNDCOLOR,
+          expandedPostTitle == title || hovered ? "transparent" : BACKGROUNDCOLOR,
       }}
       onClick={() => setExpandedPostTitle(title)}
+      onPointerOver={() => {
+        setHovered(true)
+      }}
+      onPointerLeave={() => {
+        setHovered(false)
+      }}
     >
       <span style={{ fontFamily: "Montiac-Italic" }}>{title}</span>
       <br />
