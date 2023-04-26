@@ -22,10 +22,29 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
           gap: "0.3rem",
           margin: "1rem",
           height: "100%",
-          
+
         }}
       >
+        <WigglyButton
+          onClick={() => {
+            setActivePage("game");
+            setCurrentColor("skyblue");
+          }}
+        >
+          <div style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            /* Truncate long text with an ellipsis */
+            padding: '3px 3px',
+            display: 'inline-block',
+            width: 'auto',
+            borderRadius: '5px',
+            height: '75%',
 
+            backgroundColor: 'white',
+          }} className=" button-color-sky"><img src="images/homebutton.svg" /></div>
+        </WigglyButton>
         <WigglyButton
           onClick={() => {
             setActivePage("info");
@@ -82,40 +101,23 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         </WigglyButton>
 
         <WigglyButton
-        onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
+          onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
         >
-          <div  className="button-color-1" style={{  whiteSpace: 'nowrap',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  /* Truncate long text with an ellipsis */
-  padding: '3px 3px',
-  display: 'inline-block',
-  width: 'auto',
-  height: '75%',
-   borderRadius: '5px',
-  backgroundColor: 'white',}} ><img src="images/instagramlogo.svg"/></div>
+          <div className="button-color-1" style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            /* Truncate long text with an ellipsis */
+            padding: '3px 3px',
+            display: 'inline-block',
+            width: 'auto',
+            height: '75%',
+            borderRadius: '5px',
+            backgroundColor: 'white',
+          }} ><img src="images/instagramlogo.svg" /></div>
         </WigglyButton>
 
-        <WigglyButton
-            onClick={() => {
-              setActivePage("game");
-              setCurrentColor("skyblue");
-            }}
-          >
-            <div style={{  whiteSpace: 'nowrap',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  /* Truncate long text with an ellipsis */
-  padding: '3px 3px',
-  display: 'inline-block',
-  width: 'auto',
-  borderRadius: '5px',
-  height: '75%',
 
-  backgroundColor: 'white',}}  className=" button-color-sky"><img src="images/homebutton.svg"/></div>
-          </WigglyButton>
-
-        
       </div>
       <div
         className="Logo-Header-Wrapper grid-column-start-5"
@@ -133,7 +135,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
             className="logo-large"
             src={"images/PROSANOVA-Logo1-groß.png"}
             alt="Logo Large"
-            onClick={() => {setActivePage("game"); setCurrentColor("skyblue")}}
+            onClick={() => { setActivePage("game"); setCurrentColor("skyblue") }}
           />
         </div>
         <div
