@@ -19,12 +19,11 @@ export const TermineInformation = [
                 columnGap: "1rem",
                 rowGap: "1rem",
                 width: "100%",
-
             }}>
                 <div>
                     <img className="border-radius" src="images/KatharinaAngus.JPG" style={{
                         aspectRatio: "5/4",
-                        objectPosition: "50% 45%",
+                        objectPosition: "50% 0%",
                         objectFit: "cover",
                         width: "100%",
                     }} />
@@ -36,7 +35,7 @@ export const TermineInformation = [
                 <div>
                     <img title="Foto: Jonas Erler" className="border-radius" src="images/PhilippLaue.jpeg" style={{
                         aspectRatio: "5/4",
-                        objectPosition: "50% 0%",
+                        objectPosition: "50% 65%",
                         objectFit: "cover",
                         width: "100%",
                     }} />
@@ -45,7 +44,7 @@ export const TermineInformation = [
                 <div>
                     <img className="border-radius" src="images/ViciDewinski.JPG" style={{
                         aspectRatio: "5/4",
-                        objectPosition: "50% 7%",
+                        objectPosition: "50% 53%",
                         objectFit: "cover",
                         width: "100%",
                     }} />
@@ -155,6 +154,18 @@ export const TermineInformation = [
                     }} />
                     <p>Alexander Solloch, geb. 1978 in Wesel/Niederrhein, studierte in Leipzig und Aix-en-Provence Geschichte, Französisch und Journalistik; Volontariat beim Norddeutschen Rundfunk; seit 2014 Literaturredakteur bei NDR Kultur.</p>
                 </div>
+            </div>
+            <div style={{
+                display: "flex",
+                padding: "2rem",
+                alignItems: "center"
+            }}>
+                <img className="" src="images/LStJ_Logo_Digital_RGB_klein.png" style={{
+                    height: "100%",
+                    maxWidth: "50%",
+                    minWidth: "170px",
+                    marginBottom: "2rem",
+                }} />
             </div>
 
         </>
