@@ -4,6 +4,7 @@ import { useWindowSize } from "hooks/useWindowSize";
 import React, { useState } from "react";
 import BurgerMenuIcon from "./BurgerMenuIcon";
 import BackButton from "./BackButton";
+import { Link } from "react-router-dom";
 
 
 function HeaderSmall({
@@ -157,6 +158,13 @@ function HeaderSmall({
             >
               <div className="menu-button font-size-2 button-color-4">
                 Imprint
+              </div>
+            </WigglyButton>
+            <WigglyButton
+              onClick={() => {}}
+            >
+              <div className="menu-button font-size-2 button-color-4">
+                <Link to={"https://prosanova-festival.net"} target="_blank">PN20</Link>
               </div>
             </WigglyButton>
             <WigglyButton
