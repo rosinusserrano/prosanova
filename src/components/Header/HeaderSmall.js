@@ -95,27 +95,7 @@ function HeaderSmall({
             flexWrap: 'wrap',
             alignItems: 'stretch',
           }}>
-            <WigglyButton
-              onClick={() => {
-                setActivePage("game");
-                setCurrentColor("skyblue");
-                setExpanded(false);
-              }}
-            >
-              <div style={{
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                /* Truncate long text with an ellipsis */
-                padding: '3px 3px',
-                display: 'inline-block',
-                width: 'auto',
-                borderRadius: '5px',
-                height: '75%',
-
-                backgroundColor: 'white',
-              }} className=" button-color-sky"><img src="images/homebutton.svg" /></div>
-            </WigglyButton>
+      
             <WigglyButton
               onClick={() => {
                 setActivePage("info");
@@ -180,22 +160,43 @@ function HeaderSmall({
               </div>
             </WigglyButton>
             <WigglyButton
-              onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
-            >
-              <div style={{
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                /* Truncate long text with an ellipsis */
-                padding: '3px 3px',
-                display: 'inline-block',
-                width: 'auto',
-                borderRadius: '5px',
-                height: '75%',
+          onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
+        >
+          <div  ><img src="images/instagramlogo.svg" style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            /* Truncate long text with an ellipsis */
+            display: 'inline-block',
+            width: 'auto',
+            height: '21px',
 
-                backgroundColor: 'white',
-              }} className="button-color-1"><img src="images/instagramlogo.svg" /></div>
-            </WigglyButton>
+            borderRadius: '5px',
+            backgroundColor: 'white',
+          }} className="button-color-1"/></div>
+        </WigglyButton> 
+         <WigglyButton
+          onClick={() => {
+            setActivePage("game");
+            setCurrentColor("skyblue");
+          }}
+        >
+          <div style={{
+      
+
+          }} ><img style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            /* Truncate long text with an ellipsis */
+            display: 'inline-block',
+            width: 'auto',
+            height: '21px',
+            
+            borderRadius: '5px ',
+            backgroundColor: 'white',
+          }} src="images/homebutton.svg" className=" button-color-sky"/></div>
+        </WigglyButton>
           </div>
 
 

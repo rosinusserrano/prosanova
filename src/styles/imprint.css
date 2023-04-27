@@ -35,6 +35,11 @@
   width: 100%;
 }
 
+.imprint-logo-grid img{
+    mix-blend-mode: multiply;
+
+}
+
 @media (max-width: 500px){
     .imprint-logo-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -67,12 +72,12 @@
 
 @media (min-width: 1201px) and (max-width: 1800px){
     .imprint-logo-grid {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
 @media (min-width: 1801px) {
     .imprint-logo-grid{
-        grid-template-columns: repeat(6, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }

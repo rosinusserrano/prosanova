@@ -1,5 +1,35 @@
 import React from "react";
 
+const foerderer = [
+    "images/partner/FördererAutorenstiftungLogo.jpg",
+    "images/partner/FördererBürgerstiftung.jpg",
+    "images/partner/FördererDeutscherLiteraturfonds.png",
+    "images/partner/FördererFachbereich2.png",
+    "images/partner/FördererFriedrichWeinhagenStiftung.jpg",
+    "images/partner/FördererHildesheim.png",
+    "images/partner/FördererNMWK.jpg",
+    "images/partner/FördererProHelvetia.png",
+    "images/partner/FördererSparkasse.png",
+    "images/partner/FördererStiftungNiedersachsen.png",
+    "images/partner/FördererStudierendenwerk.png",
+    "images/partner/FördererUnipräsidium.tif",
+    "images/partner/FördererUniversitätsgesellschaft.jpg",
+    "images/partner/FördererVGHS.png",
+  ]
+
+  const koops = [
+    "images/partner/KoopFachbereich2.png",
+    "images/partner/KoopHoeme.png",
+    "images/partner/KoopKET.png",
+    "images/partner/KoopLitInst.png",
+    "images/partner/KoopLitradio.jpeg",
+    "images/partner/KoopLStJ.png",
+    "images/partner/KoopNDR.jpg",
+    "images/partner/KoopPuls.png",
+    "images/partner/KoopUniHildesheim.jpg",
+    "images/partner/KoopWallungen.png"
+  ]
+
 
 export const InfoBubble1Text = <>
     {/* PROSANOVA 2023 ist ein Festival für junge Literatur, das vom 23. -
@@ -18,9 +48,7 @@ export const InfoBubble1Text = <>
     <p>
         Das PROSANOVA wird voraussichtlich in der ehemaligen Grundschule Hohnsen (Keßlerstr. 51, 31134 Hildesheim) stattfinden. Vom Hauptbahnhof Hildesheim kann man entweder ungefähr 25 Minuten laufen oder man fährt mit dem Bus. Dazu muss man entweder die Linie 1 (in Richtung Südfriedhof/Scharfe Ecke) oder die Linie 2 (in Richtung Im MIttelfeld) nehmen und am HAWK-Campus aussteigen. Alternativ kann man auch mit der Regionalbahn bis zum Ostbahnhof fahren und von dort ungefähr fünf Minuten laufen.
     </p>
-</>
 
-export const InfoBubble2Text = <>
     <span className="font-b-bold">Schlechte Wörter</span><br></br> <br></br>
     <p>
         Die diesjährige Ausgabe des PROSANOVAs findet unter dem Motto „Schlechte Wörter“ statt. Der titelgebende Kurzprosatext von Ilse Aichinger bildet für uns den Anlass, den Raum hinter den Worten und den Texten zu erforschen. Wir begeben uns auf die Suche nach einer zweiten Ebene der Worte, nach der Ambivalenz des Geschriebenen und nach dem, was wir überhaupt meinen, wenn wir Text sagen.
@@ -31,6 +59,33 @@ export const InfoBubble2Text = <>
     <p>
         Letztlich müssen wir uns damit anfreunden, dass auch das PROSANOVA nur eine von vielen möglichen Bestandsaufnahmen des deutschsprachigen Literaturbetriebs ist. Doch genau dieser Tatsache wollen wir uns stellen. Wenn wir anerkennen, dass auch wir nur ein Teil des Ganzen sind und letztlich jede*r seine eigene Wahrheit hat, müssen wir uns mit dem Scheitern anfreunden. Genau dieses wollen wir als Grundlage eines jeden Textes und jeden Umgangs mit ihm anerkennen: Dort, wo ein Wort steht, könnte auch jedes andere Wort stehen. Wir untersuchen Worte, die uns verraten und ausliefern, und begeben uns gemeinsam auf die Suche, um ins Gespräch und ins Schweigen zu kommen. Wir wollen ein neues Terrain für die Rezeption von Text erproben. Also: Was passiert, wenn wir Texte als Räume begreifen, die wir begehen und von allen Seiten betrachten können?
     </p>
+</>
+
+export const InfoBubble2Text = <>
+        <p>KOOPERATIONSPARTNER</p>
+
+      <div className='imprint-logo-grid'>
+          {koops.map((filename) => {
+            return <div style={{
+              display: "flex",
+              justifyItems: "center"
+            }}>
+              <img src={filename} style={{width: "100%", alignSelf: "center"}}/>
+            </div>
+          })}
+        </div>
+          <p>Förderer</p>
+
+        <div className='imprint-logo-grid'>
+          {foerderer.map((filename) => {
+            return <div style={{
+              display: "flex",
+              justifyContent: "center"
+            }}>
+              <img src={filename} style={{width: "100%", alignSelf: "center"}}/>
+            </div>
+          })}
+        </div>
     {/* Die diesjährige Ausgabe des Prosanovas findet unter
     dem Motto Schlechte Wörter statt. Der titelgebende Kurzprosatext von
     Ilse Aichinger gibt uns den Anlass für eine Suche nach den Wörtern -

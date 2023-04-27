@@ -25,26 +25,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
 
         }}
       >
-        <WigglyButton
-          onClick={() => {
-            setActivePage("game");
-            setCurrentColor("skyblue");
-          }}
-        >
-          <div style={{
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            /* Truncate long text with an ellipsis */
-            padding: '3px 3px',
-            display: 'inline-block',
-            width: 'auto',
-            borderRadius: '5px',
-            height: '75%',
-
-            backgroundColor: 'white',
-          }} className=" button-color-sky"><img src="images/homebutton.svg" /></div>
-        </WigglyButton>
+ 
         <WigglyButton
           onClick={() => {
             setActivePage("info");
@@ -103,20 +84,41 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         <WigglyButton
           onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
         >
-          <div className="button-color-1" style={{
+          <div  ><img src="images/instagramlogo.svg" style={{
             whiteSpace: 'nowrap',
             overflow: 'hidden',
             textOverflow: 'ellipsis',
             /* Truncate long text with an ellipsis */
-            padding: '3px 3px',
             display: 'inline-block',
             width: 'auto',
-            height: '75%',
+            height: '21px',
+
             borderRadius: '5px',
             backgroundColor: 'white',
-          }} ><img src="images/instagramlogo.svg" /></div>
+          }} className="button-color-1"/></div>
         </WigglyButton>
+       <WigglyButton
+          onClick={() => {
+            setActivePage("game");
+            setCurrentColor("skyblue");
+          }}
+        >
+          <div style={{
+      
 
+          }} ><img style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            /* Truncate long text with an ellipsis */
+            display: 'inline-block',
+            width: 'auto',
+            height: '21px',
+            
+            borderRadius: '5px ',
+            backgroundColor: 'white',
+          }} src="images/homebutton.svg" className=" button-color-sky"/></div>
+        </WigglyButton>
 
       </div>
       <div
