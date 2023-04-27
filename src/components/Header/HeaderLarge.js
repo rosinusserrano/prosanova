@@ -1,5 +1,6 @@
 import WigglyButton from "components/WigglyButton";
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function HeaderLarge({ setActivePage, setCurrentColor }) {
@@ -25,7 +26,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
 
         }}
       >
- 
+
         <WigglyButton
           onClick={() => {
             setActivePage("info");
@@ -82,6 +83,12 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         </WigglyButton>
 
         <WigglyButton
+          onClick={() => { }}
+        >
+          <div className="menu-button font-size-2 button-color-5"><Link to={"https://prosanova-festival.net"} target="_blank">PN20</Link></div>
+        </WigglyButton>
+
+        <WigglyButton
           onClick={() => window.open("https://www.instagram.com/prosanovafestival/", "_blank")}
         >
           <div  ><img src="images/instagramlogo.svg" style={{
@@ -95,16 +102,16 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
 
             borderRadius: '5px',
             backgroundColor: 'white',
-          }} className="button-color-1"/></div>
+          }} className="button-color-1" /></div>
         </WigglyButton>
-       <WigglyButton
+        <WigglyButton
           onClick={() => {
             setActivePage("game");
             setCurrentColor("skyblue");
           }}
         >
           <div style={{
-      
+
 
           }} ><img style={{
             whiteSpace: 'nowrap',
@@ -114,10 +121,10 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
             display: 'inline-block',
             width: 'auto',
             height: '21px',
-            
+
             borderRadius: '5px ',
             backgroundColor: 'white',
-          }} src="images/homebutton.svg" className=" button-color-sky"/></div>
+          }} src="images/homebutton.svg" className=" button-color-sky" /></div>
         </WigglyButton>
 
       </div>
