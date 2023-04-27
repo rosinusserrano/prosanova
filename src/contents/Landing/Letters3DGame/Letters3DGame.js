@@ -6,6 +6,8 @@ import Plane from './Plane'
 import { SCALE } from 'constants'
 import { useControls } from 'leva'
 import { Vector3 } from 'three'
+import TestCube from './TestCube'
+import { Environment } from '@react-three/drei'
 
 
 function usePointLightProps(name, ref) {
@@ -68,23 +70,31 @@ function CutomizableLights() {
 
 
 function Lights() {
+
+  const {light1, light2, light3, light4} = useControls("lights", {
+    light1: {value: 1, min: 0, max: 1, step: .01},
+    light2: {value: 1, min: 0, max: 1, step: .01},
+    light3: {value: 1, min: 0, max: 1, step: .01},
+    light4: {value: 1, min: 0, max: 1, step: .01},
+  })
+
   const pointLight1Props = {
-    intensity: 0.8,
+    intensity: light1,
     position: new Vector3(.75, .42, -.5)
   }
 
   const pointLight2Props = {
-    intensity: 0.8,
+    intensity: light2,
     position: new Vector3(.11, .24, .34)
   }
 
   const pointLight3Props = {
-    intensity: 0.4,
+    intensity: light3,
     position: new Vector3(.88, .34, 0)
   }
 
   const pointLight4Props = {
-    intensity: 0.6,
+    intensity: light4,
     position: new Vector3(.08, -.9, -.5)
   }
 
@@ -94,8 +104,15 @@ function Lights() {
       <pointLight {...pointLight2Props} />
       <pointLight {...pointLight3Props} />
       <pointLight {...pointLight4Props} />
+      <pointLight position={[.2, .2, .2]} />
     </>
   )
+}
+
+
+function EnvMap(){
+  const {preset} = useControls("env map", {preset: "apartment"})
+  return <Environment preset={preset}/>
 }
 
 
@@ -136,6 +153,7 @@ export default function Letters3DGame() {
               // restitution: -0.5,
             }}>
             {/* <Debug > */}
+            <EnvMap />
             <Buchstabis></Buchstabis>
             <Plane></Plane>
             {/* </Debug> */}
