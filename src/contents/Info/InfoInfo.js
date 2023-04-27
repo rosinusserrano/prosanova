@@ -12,7 +12,7 @@ const foerderer = [
     "images/partner/FördererSparkasse.png",
     "images/partner/FördererStiftungNiedersachsen.png",
     "images/partner/FördererStudierendenwerk.png",
-    "images/partner/FördererUnipräsidium.tif",
+    "images/partner/FördererUnipräsidium.jpg",
     "images/partner/FördererUniversitätsgesellschaft.jpg",
     "images/partner/FördererVGHS.png",
   ]
