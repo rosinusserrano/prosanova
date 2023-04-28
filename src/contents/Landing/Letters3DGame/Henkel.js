@@ -19,14 +19,14 @@ function Henkel({ gltfNode }) {
         args: [0.1 * SCALE, 0.25 * SCALE, 0.04 * SCALE],
     }), useRef())
 
-    const {metalness, roughness } = useControls("henkel",
-        {
-            metalness: {value: 0.5, min: 0, max: 1, step: 0.1},
-            roughness: {value: 0.5, min: 0, max: 1, step: 0.1}
-        })
+    // const {metalness, roughness } = useControls("henkel",
+    //     {
+    //         metalness: {value: 0.5, min: 0, max: 1, step: 0.1},
+    //         roughness: {value: 0.5, min: 0, max: 1, step: 0.1}
+    //     })
     var material = gltfNode["material"]
-    material.roughness = roughness
-    material["metalness"] = metalness
+    material.roughness = 0.27
+    material["metalness"] = 0.52
 
     console.log(material)
 

@@ -111,8 +111,8 @@ function Lights() {
 
 
 function EnvMap(){
-  const {preset} = useControls("env map", {preset: "apartment"})
-  return <Environment preset={preset}/>
+  // const {preset} = useControls("env map", {preset: "apartment"})
+  return <Environment preset={'apartment'}/>
 }
 
 
@@ -145,7 +145,7 @@ export default function Letters3DGame() {
           {/* <OrbitControls ></OrbitControls> */}
           {/* <pointLight position={[.3 * SCALE, .3 * SCALE, .3 * SCALE]} castShadow></pointLight> */}
           {/* <directionalLight position={[.1, .1, .1]} castShadow></directionalLight> */}
-          <Lights></Lights>
+          {/* <Lights></Lights> */}
           {/* <ambientLight></ambientLight> */}
           <Physics gravity={[-1, 0, 0]}
             defaultContactMaterial={{
