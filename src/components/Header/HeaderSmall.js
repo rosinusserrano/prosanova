@@ -161,10 +161,10 @@ function HeaderSmall({
               </div>
             </WigglyButton>
             <WigglyButton
-              onClick={() => { }}
+              onClick={() => { window.location = "https://prosanova-festival.net/" }}
             >
               <div className="menu-button font-size-2 button-color-5">
-                <Link to={"https://prosanova-festival.net"} target="_blank">PN20</Link>
+                PN20
               </div>
             </WigglyButton>
             <WigglyButton
