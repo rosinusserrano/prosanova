@@ -11,7 +11,7 @@ import "../styles/pages.css";
 import { slide as Menu } from "react-burger-menu";
 import Imprint from "contents/Imprint";
 import Termine from "contents/Termine/Termine";
-import LineUp from "contents/LineUp";
+import LineUp from "contents/LineUp/LineUp";
 import Header from "components/Header/Header";
 import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
@@ -34,10 +34,10 @@ function PageSwitch({ page, color, setBackFunction }) {
       return <Landing color={color}></Landing>;
     // return <LineUp />
     case "lineup":
-      return <LineUp></LineUp>;
+      return <LineUp setBackFunction={setBackFunction} color={color}></LineUp>;
     // return shop />
     case "shop":
-      return <Shop setBackFunction={setBackFunction} color={color}></Shop>;
+      return <Shop></Shop>;
     case "blog":
       return <Blog setBackFunction={setBackFunction} />;
     default:

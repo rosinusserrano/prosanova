@@ -16,7 +16,7 @@ function Blog({setBackFunction}) {
                 <title>PROSANOVA 2023 | Team</title>
                 <meta
                     name="description"
-                    content="Prosanova 2023, Festival für junge Literatur | Team"
+                    content="Prosanova 2023, Festival für junge Literatur | Blog"
                 />
             </Helmet>
 

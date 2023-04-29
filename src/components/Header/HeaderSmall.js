@@ -120,6 +120,17 @@ function HeaderSmall({
             </WigglyButton>
             <WigglyButton
               onClick={() => {
+                setActivePage("lineup");
+                setCurrentColor("#BFA9ED");
+                setExpanded(false);
+              }}
+            >
+              <div className="menu-button font-size-1 button-color-1">
+                Line Up
+              </div>
+            </WigglyButton>
+            <WigglyButton
+              onClick={() => {
                 setActivePage("team");
                 setCurrentColor("#C18167");
                 setExpanded(false);

@@ -9,7 +9,7 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, co
             display: "grid",
             gridTemplateAreas: "'overlay'",
             width: "100%",
-            
+
 
         }}>
             <div style={{
@@ -28,15 +28,15 @@ function TermineSmall({ expandedSection, setExpandedSection, setBackFunction, co
                         setExpandedSection={setExpandedSection}
                         setBackFunction={setBackFunction}
                         color={color}
-                        />
+                    />
                 })}
             </div>
-            
+
             {TermineInformation.map(({ contentJSX, date }) => {
-            return <TermineLargeSection thisSection={date} expandedSection={expandedSection}>
-              {contentJSX}
-            </TermineLargeSection>
-          })}
+                return <TermineLargeSection thisSection={date} expandedSection={expandedSection}>
+                    {contentJSX}
+                </TermineLargeSection>
+            })}
         </div>
     )
 }

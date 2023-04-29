@@ -15,7 +15,7 @@ function Info() {
         <title>PROSANOVA 2023 | Info</title>
         <meta
           name="description"
-          content="Prosanova 2023, Festival für junge Literatur | Impressum"
+          content="Prosanova 2023, Festival für junge Literatur | Information"
         />
       </Helmet>
 
