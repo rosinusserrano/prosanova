@@ -19,7 +19,7 @@ function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
             }}>
 
                 {LineUpInformation.map(({ title, contentJSX }) => {
-                    return <div className='border-radius background-color-grey' style={{
+                    return <div className='border-radius background-color-grey scrollable-element' style={{
                         gridArea: "overlay",
                         display: title == openLineUp ? "block" : "none"
                     }}>
@@ -34,10 +34,10 @@ function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
                 height: "100%",
                 width: "100%"
             }}>
-                <div className='lineup-grid'>
+                <div className='lineup-grid font-size-1 scrollable-element'>
                     {LineUpInformation.map(({ title, subtitle }) => <LineUpLargeButton
                         title={title}
-                        subtitle={subtitle}
+                        subtitle={subtitle }
                         setOpenLineUp={setOpenLineUp}
                         color={color} openLineUp={openLineUp} />)}
                 </div>

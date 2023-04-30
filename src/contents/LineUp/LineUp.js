@@ -14,7 +14,7 @@ function LineUp({ setBackFunction, color }) {
     return (
         <>
             <Helmet>
-                <title>PROSANOVA 2023 | Team</title>
+                <title>PROSANOVA 2023 | LineUp</title>
                 <meta
                     name="description"
                     content="Prosanova 2023, Festival für junge Literatur | Team"

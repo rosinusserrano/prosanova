@@ -26,6 +26,8 @@ function PageSwitch({ page, color, setBackFunction }) {
       return <Info></Info>;
     case "imprint":
       return <Imprint></Imprint>;
+          case "imprint":
+      return <Imprint></Imprint>;
     case "termine":
       return <Termine color={color} setBackFunction={setBackFunction}></Termine>
     case "team":
