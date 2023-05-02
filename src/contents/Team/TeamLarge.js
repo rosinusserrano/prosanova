@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Leitung, Praktikant_innen, TextOnTop } from "./TeamInformation"
 import { TeamMemberImage, TeamMemberSection } from './TeamComponents';
 
-function TeamLarge( {color}) {
+function TeamLarge({ color }) {
 
 
     useEffect(() => {
@@ -25,7 +25,7 @@ function TeamLarge( {color}) {
             <div className="  inside-page-padding background-color-grey border-radius font-size-1 scrollable-element no-scroll-bar"
                 style={{ flexGrow: 2, flexBasis: 0 }}>
                 <div className="team-grid">
-                    
+
                     <div className="grid-3-column txt-align-center">
                         <span className="font-script font-size-3">K</span>ünstlerische{" "}
                         <span className="font-script font-size-3">L</span>eitung{" "}
@@ -35,7 +35,7 @@ function TeamLarge( {color}) {
                         gridColumn: "span 3",
                         gridRow: "span 2"
                     }}>
-                        <img title="Foto: Anja König" src='images/KL_Team.jpg' style={{height: "100%", width: "100%"}} className='border-radius'/>
+                        <img title="Foto: Anja König" src='images/KL_Team.jpg' style={{ height: "100%", width: "100%" }} className='border-radius' />
                     </div>
 
                     {Leitung.map(({ imgSrc, sectionId, altText, imgTitle }) => {
@@ -50,7 +50,7 @@ function TeamLarge( {color}) {
                     })}
 
                     <div className="grid-3-column txt-align-center">
-                        <span className="font-script font-size-3">P</span>raktikant*innen{" "}
+                        <span className="font-script font-size-3">P</span>raktikant:innen{" "}
                     </div>
 
                     {Praktikant_innen.map(({ imgSrc, sectionId, altText }) => {
@@ -73,6 +73,12 @@ function TeamLarge( {color}) {
                 className="background-color-grey inside-page-padding border-radius font-size-1 scrollable-element no-scroll-bar"
                 style={{ flexGrow: 3, flexBasis: 0 }}>
                 <p>{TextOnTop}</p>
+
+                <div className="grid-3-column txt-align-center">
+                    <span className="font-script font-size-3">K</span>ünstlerische{" "}
+                    <span className="font-script font-size-3">L</span>eitung{" "}
+                </div>
+
                 {Leitung.map(({ sectionId, sectionContent, name1, name2 }) => {
                     return (
                         <TeamMemberSection sectionId={sectionId}
@@ -82,6 +88,10 @@ function TeamLarge( {color}) {
                             key={`${sectionId}_membersection`}
                         />)
                 })}
+
+                <div className="grid-3-column txt-align-center">
+                    <span className="font-script font-size-3">P</span>raktikant:innen{" "}
+                </div>
 
                 {Praktikant_innen.map(({ sectionId, sectionContent, name1, name2 }) => {
                     return (

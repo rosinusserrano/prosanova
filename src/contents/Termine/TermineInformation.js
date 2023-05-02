@@ -11,9 +11,10 @@ export const TermineInformation = [
             <p><span className="font-size-3 termine-titel-font">OPEN CALL</span><br />
                 <span className="font-montiac-italic">Bekenntnisse an das Misstrauen.</span></p>
             <p>Zu welchem Misstrauen bekennt ihr euch?</p>
-            <p>Zu dieser Frage haben wir eure szenischen, experimentellen und gattungsbrechenden Texte gesucht. Unsere Jury – bestehend aus Olufemi Atibioke, Deniz Bolat und Laura Shirin – musste sich schwern Herzens für drei Texte entscheiden, die in einem gemeinsamen Inszenierungprozess erarbeitet und auf dem Festival gezeigt werden. Wie die Texte umgesetzt werden, bleibt den Autor:innen in Absprache mit den Mentor:innen freigestellt – ob klassisch, experimentell, visuell, interaktiv, medial oder etwas anderes. Wir können uns also alle auf unterschiedliche Formen der Inszenierung freuen, die am Festivalwochenende gezeigt werden.</p>
+            <p>Zu dieser Frage haben wir eure szenischen, experimentellen und gattungsbrechenden Texte gesucht. Unsere Jury – bestehend aus Olufemi Atibioke, Deniz Bolat und Laura Shirin – musste sich schweren Herzens für drei Texte entscheiden, die in einem gemeinsamen Inszenierungprozess erarbeitet und auf dem Festival gezeigt werden. Wie die Texte umgesetzt werden, bleibt den Autor:innen in Absprache mit den Mentor:innen freigestellt – ob klassisch, experimentell, visuell, interaktiv, medial oder etwas anderes. Wir können uns also alle auf unterschiedliche Formen der Inszenierung freuen, die am Festivalwochenende gezeigt werden.
+            </p>
             <p>Und am Ende bleibt nur noch die Frage, wem wir trauen wollen und wo das Misstrauen bleiben wird.</p>
-            <p className="font-size-4" style={{ textAlign: "center" }}>AUTOR*INNEN</p>
+            <p className="font-size-4" style={{ textAlign: "center" }}>AUTOR:INNEN</p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
                 columnGap: "1rem",
@@ -51,7 +52,7 @@ export const TermineInformation = [
                     <p>Vici Dewinski wurde 1998 in Chemnitz geboren. Sie studiert Bühnen- und Kostümbild an der  Hochschule für Bildende Künste in Dresden und ist Stipendiatin der Studienstiftung des  deutschen Volkes. Seit 2021 arbeitet Vici als Installationskünstlerin, Regisseurin und Autorin.  Dabei erschafft sie performative Installationen, die an der Schnittstelle zwischen Bildender Kunst,  Theater und Animation operieren. Ihre Arbeit zeichnet sich durch gewaltige Atmosphären,  grotesken Humor und bis ins Detail abgestimmte Räume aus. Ihre Texte entführen uns in eine Welt  voller unausgesprochener Gedanken und Emotionen.</p>
                 </div>
             </div>
-            <p className="font-size-4" style={{ textAlign: "center" }}>JURY</p>
+            <p className="font-size-4" style={{ textAlign: "center" }}>JURY/MENTOR:INNEN</p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
                 columnGap: "1rem",
@@ -158,11 +159,19 @@ export const TermineInformation = [
             <div style={{
                 display: "flex",
                 padding: "2rem",
-                alignItems: "center"
+                alignItems: "center",
+                gap: "1.5rem",
+                flexWrap: "wrap"
             }}>
                 <img className="" src="images/LStJ_Logo_Digital_RGB_klein.png" style={{
                     height: "100%",
-                    maxWidth: "50%",
+                    maxWidth: "35%",
+                    minWidth: "170px",
+                    marginBottom: "2rem",
+                }} />
+                <img className="" src="images/partner/KoopNDR.jpg" style={{
+                    height: "100%",
+                    maxWidth: "35%",
                     minWidth: "170px",
                     marginBottom: "2rem",
                 }} />
@@ -182,9 +191,9 @@ export const TermineInformation = [
                 31134 Hildesheim
             </p>
             <p>
-                In einer Kooperation mit dem Literaturinstitut der Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale Praxis neben der künstlerischen ein und wie viele Kompromisse müssen eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt (Wiese), Irina Nekrasov (Postmigrantische Störung), Alexander Rupflin (Hermes Baby) und Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen - wir wollen diskutieren und so selbst kollektive Erfahrungen machen. Mehr Informationen und Tickets <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/abend-der-kollektive"}>hier</Link>.
+                In einer Kooperation mit dem Literaturinstitut der Universität Hildesheim und dem Literaturhaus St. Jakobi widmen wir uns dem Kollektiven als Praxis im Literaturbetrieb. Wie originell können wir sein, wenn wir gemeinsam arbeiten? Welche Rolle nimmt die soziale Praxis neben der künstlerischen ein und wie viele Kompromisse müssen eingegangen werden? Welche Ausschlüsse geschehen, wenn wir uns auf ganz bestimmte Kollektivpartner:innen einlassen? All das wollen wir uns gemeinsam fragen - und holen uns dafür Unterstützung von einzelnen Vertreter:innen aus verschiedenen Kollektiven. Mit dabei: Lynn Takeo Musiol (dyke dogs), Kyra Schmidt (Biwi Kefempom), Sandra Burckhardt (Wiese), Irina Nekrasov (Postmigrantische Störung), Manuel Stark (Hermes Baby) und Maren Wurster. Der Fokus liegt an diesem Abend auf dem Gemeinsamen - wir wollen diskutieren und so selbst kollektive Erfahrungen machen. Eintritt kostenlos. Mehr Informationen <Link target="_blank" to={"https://stjakobi.de/veranstaltungen/abend-der-kollektive"}>hier</Link>.
             </p>
-            <p className="font-size-4" style={{ textAlign: "center" }}>KÜNSTLER*INNEN</p>
+            <p className="font-size-4" style={{ textAlign: "center" }}>KÜNSTLER:INNEN</p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
                 columnGap: "1rem",
@@ -215,7 +224,7 @@ export const TermineInformation = [
                     }} />
                     <p>Maren Wurster studierte Philosophie in Köln und Literarisches Schreiben in Leipzig. Ihr Romandebüt „Das Fell“ wurde 2017 bei Hanser Berlin veröffentlicht. Ihr aktueller Roman „Eine beiläufige Entscheidung“ erzählt von einer Mutter, die ihr Kind verlässt, und einem Kind, das mutterlos aufwächst. In dem Memoir „Papa stirbt, Mama auch“ und dem erzählenden Sachbuch „Totenwache“ hat sie sich mit dem Abschied von den eigenen Eltern auseinandergesetzt. Maren Wurster war Mitglied des Autorinnen-Kollektivs „Writing with Care/Rage“, das sich in Texten und Veranstaltungen kritisch mit Kreativ- und Care-Arbeit auseinandersetzte. Zuletzt lud sie andere Schriftsteller:innen zu einer „Archäologie des Verlusts“ ein. Die Texte wurden in der Volksbühne Berlin präsentiert und in der Literaturzeitschrift Akzente veröffentlicht.</p>
                 </div>
-                <div style={{
+                {/* <div style={{
                     flex: "1 1 0",
                     minWidth: "200px",
                 }}>
@@ -232,7 +241,7 @@ export const TermineInformation = [
                         }} />
                     </div>
                     <p>Sandra Burkhardt, 1992 geboren, studierte Kunstgeschichte und Literarisches Schreiben in Karlsruhe, Leipzig und Berlin. 2018 erschien im gutleut verlag ihr Debütband „Wer a sagt“, mit dem sie 2019 bei den Lyrikempfehlungen der Leipziger Buchmesse vertreten war. Im Sommer diesen Jahres erscheint „Fragmente einer echten Ikone. Petrarca-Variationen“ bei kookbooks. Mit auf der Wiese (Wie es ist) مرج ist Sandra seit Sommer 2020.</p>
-                </div>
+                </div> */}
                 <div style={{
                     flex: "1 1 0",
                     minWidth: "200px",
@@ -251,6 +260,9 @@ export const TermineInformation = [
                         Die Wiese trifft sich mittwochabends im Theater X, Berlin-Moabit und lädt unregelmäßig zu öffentlichen Veranstaltungen. Sie ist immer offen für neue Mitglieder, die mitarbeiten, eigene Texte
                         mitbringen oder Übersetzungen anregen möchten.
 
+                    </p>
+                    <p>
+                        <p>Sandra Burkhardt, 1992 geboren, studierte Kunstgeschichte und Literarisches Schreiben in Karlsruhe, Leipzig und Berlin. 2018 erschien im gutleut verlag ihr Debütband „Wer a sagt“, mit dem sie 2019 bei den Lyrikempfehlungen der Leipziger Buchmesse vertreten war. Im Sommer diesen Jahres erscheint „Fragmente einer echten Ikone. Petrarca-Variationen“ bei kookbooks. Mit auf der Wiese (Wie es ist) مرج ist Sandra seit Sommer 2020.</p>
                     </p>
                     <p>
                         Email: <Link target="_blank" to="mailto:wiesewieesist@gmx.de">wiesewieesist@gmx.de</Link><br />
@@ -324,7 +336,7 @@ export const TermineInformation = [
         date: "02/06",
         title: ["Dort, wo wir hingehören"],
         contentJSX: <>
-            <span className="font-montiac font-size-3 termine-titel-font"> Dort, wo wir waren</span>
+            <span className="font-montiac font-size-3 termine-titel-font"> Dort, wo wir hingehören</span>
             <p>
                 2.6. - 18 Uhr<br />
                 Puls<br />
@@ -335,7 +347,7 @@ export const TermineInformation = [
                 Wo fängt das Schreiben an und wo hört es auf? Wer kann schreiben? Und welchen Anteil hat die Fantasie, welchen die Wirklichkeit für das Erzählen von Geschichten?
             </p>
             <p>
-                Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Die im gemeinsamen Prozess entstandenen Texte werden am 2.6. um 18 Uhr auf einer öffentlichen Lesung im Puls (Angoulêmeplatz 2) in Hildesheim vorgelesen. Geleitet werden die Workshops von Franziska Bothe und Limo.
+                Begleitend zum Festival veranstalten wir Workshops für Kinder und Jugendliche zwischen 13 und 17 Jahren. Geleitet werden die Workshops von Franziska Bothe und Limo.
             </p>
             <div className="termine-artist-grid" style={{
                 display: "grid",
@@ -376,22 +388,19 @@ export const TermineInformation = [
         date: "23-25/06",
         title: ["Festival<wbr>wochen<wbr>ende"],
         contentJSX: <>
-            <span className="font-size-3 termine-titel-font">Festivalwochenende</span> <br></br> <span className="font-montiac-italic">23.–25.06. </span><br></br>
+            <span className="font-size-3 termine-titel-font">Festival&shy;wochen&shy;ende</span> <br></br> <span className="font-montiac-italic">23.–25.06. </span><br></br>
             <p>
                 Keßlerstraße 51<br />
                 31134 Hildesheim
             </p>
-            <br></br>Seid dabei, wenn das Prosanova-Festival in die siebte Runde
-            geht und macht Hildesheim mit uns unsicher. Literatur, Performance,
-            Musik, Workshops und das Get-Together des Literaturbetriebs wartet in
-            Hildesheim auf euch!
+            <br></br>Seid dabei, wenn das <span className="font-montiac-italic">PROSANOVA</span> in die siebte Runde geht und macht Hildesheim mit uns unsicher. Literatur, Performance, Musik, Workshops und das Get-Together des Literaturbetriebs warten auf euch!
         </>
     },
     {
         date: "Sommer 2023",
         title: ["Sonder<wbr>aus<wbr>gabe der ", "BELLA ", "Triste"],
         contentJSX: <>
-            <span className="font-size-3 termine-titel-font">Sonderausgabe der BELLA triste </span>  <span className="font-montiac-italic"><br />Zeitschrift für junge Literatur{" "}</span>
+            <span className="font-size-3 termine-titel-font">Sonder&shy;aus&shy;gabe der BELLA triste </span>  <span className="font-montiac-italic"><br />Zeitschrift für junge Literatur{" "}</span>
             <p>
                 Sommer 2023
             </p>
