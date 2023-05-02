@@ -21,8 +21,7 @@ function Shop() {
         placeItems: 'center'
       }}>
         <div style={{ display: 'block', }}>
-          <div style={{ margin: '1rem', cursor: "url(MouseHand-Klick_small.png) 32 0, auto", }} className="font-size-1 background-color-grey shopButtons" >Early Bird Tickets</div>
-          <div style={{ margin: '1rem', textAlign: 'center', cursor: "url(MouseHand-Klick_small.png) 32 0, auto", }} className="font-size-1 background-color-grey shopButtons" >Festival Pass</div>
+   <a style={{ color: "black", textDecoration:"none", margin: '1rem', cursor: "url(MouseHand-Klick_small.png) 32 0, auto", }} className="font-size-1 background-color-grey shopButtons"  href="https://tickets.hoemepage.com/event/prosanova-23-dzf5c8" target="_blank">Early Bird Tickets</a>
 
 
         </div>
