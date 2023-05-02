@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { LineUpInformation } from './LineUpInformation'
+import { BACKGROUNDCOLOR } from 'constants'
 
 function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
+    const lineUpInfo = LineUpInformation
+    lineUpInfo.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
     return (
         <div style={{
             display: "grid",
@@ -19,7 +22,7 @@ function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
                 overflowY: "auto",
             }}>
                 {
-                    LineUpInformation.map(({ title, subtitle }) => {
+                    lineUpInfo.map(({ title, subtitle }) => {
                         return <LineUpSmallButton
                             title={title}
                             subtitle={subtitle}
@@ -48,11 +51,19 @@ export default LineUpSmall
 
 
 function LineUpSmallButton({ title, subtitle, setOpenLineUp, color, setBackFunction }) {
+
+    const [touch, setTouch] = useState(false)
     return <div style={{
         textAlign: "center",
-        color: color
+        padding: "0.7rem",
+        backgroundColor: touch ? "transparent" : BACKGROUNDCOLOR,
+        color: touch ? "white" : "black",
+        fontSize: "1.5rem"
     }}
-        className='border-radius background-color-grey'
+        className='border-radius'
+        onTouchStart={() => {
+            setTouch(true)}}
+        onTouchEnd={() => setTouch(false)}
         onClick={() => {
             setOpenLineUp(title);
             setBackFunction(() => () => {

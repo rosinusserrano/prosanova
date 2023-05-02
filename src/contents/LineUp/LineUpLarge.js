@@ -4,6 +4,8 @@ import "../../styles/lineup.css"
 import { BACKGROUNDCOLOR } from 'constants'
 
 function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
+    const lineUpInfo = LineUpInformation
+    lineUpInfo.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
     return (
         <div className='inside-main-content-wrapper' style={{
             display: "flex",
@@ -18,7 +20,7 @@ function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
                 gridTemplateAreas: "'overlay'",
             }}>
 
-                {LineUpInformation.map(({ title, contentJSX }) => {
+                {lineUpInfo.map(({ title, contentJSX }) => {
                     return <div className='border-radius background-color-grey scrollable-element' style={{
                         gridArea: "overlay",
                         display: title == openLineUp ? "block" : "none"
@@ -32,10 +34,11 @@ function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
             <div style={{
                 flex: "7 1 0",
                 height: "100%",
-                width: "100%"
+                width: "100%",
+                overflowY: "auto"
             }}>
                 <div className='lineup-grid font-size-1 scrollable-element'>
-                    {LineUpInformation.map(({ title, subtitle }) => <LineUpLargeButton
+                    {lineUpInfo.map(({ title, subtitle }) => <LineUpLargeButton
                         title={title}
                         subtitle={subtitle }
                         setOpenLineUp={setOpenLineUp}
@@ -54,7 +57,11 @@ function LineUpLargeButton({ title, subtitle, setOpenLineUp, color, openLineUp }
     const [hovered, setHovered] = useState(false)
 
     return <div style={{
+        display: "flex",
+        padding: "0.5rem",
         textAlign: "center",
+        justifyItems: "center",
+        alignItems: "center",
         color: openLineUp == title || hovered ? "white" : "black",
         backgroundColor: openLineUp == title || hovered ? "transparent" : BACKGROUNDCOLOR,
         cursor: "url(MouseHand-Klick_small.png) 32 0, auto"
@@ -69,7 +76,12 @@ function LineUpLargeButton({ title, subtitle, setOpenLineUp, color, openLineUp }
         onPointerLeave={() => {
             setHovered(false)
         }}>
-        {title} <br />
-        {subtitle}
+        <div style={{
+            textAlign: "center",
+            width: "100%"
+        }}>
+            {title} <br />
+            {subtitle}
+        </div>
     </div>
 }
