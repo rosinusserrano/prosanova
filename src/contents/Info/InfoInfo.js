@@ -18,7 +18,7 @@ const foerderer = [
 ]
 
 const koops = [
-  "images/partner/KoopFachbereich2.png",
+  "images/partner/FördererFachbereich2.png",
   "images/partner/KoopHoeme.png",
   "images/partner/KoopKET.png",
   "images/partner/KoopLitInst.png",
