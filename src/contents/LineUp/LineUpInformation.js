@@ -35,8 +35,8 @@ export const LineUpInformation = [
             src="/images/Thomas_Stangl_Foto_privat.JPG"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Thomas"} /> <PrettyName name={"Stangl"} /> Thomas
-            Stangl, geboren 1966 in Wien, studierte Philosophie und Spanisch,
+            <PrettyName name={"Thomas"} /> <PrettyName name={"Stangl"} />,
+            geboren 1966 in Wien, studierte Philosophie und Spanisch,
             lebt in Wien. Zuletzt erschienen der Roman Quecksilberlicht (Matthes
             & Seitz, Berlin 2022) und der Erzählband Diverse Wunder. Noch eine
             Handvoll sehr kurzer Geschichten (Droschl, Graz, 2023). Zahlreiche
@@ -58,7 +58,7 @@ export const LineUpInformation = [
             src="/images/VonderBeek_Tatjana_Foto_JohannaBaschke.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Tatjana"} /> von der <PrettyName name={"Beek"} />{" "}
+            <PrettyName name={"Tatjana"} /> von der <PrettyName name={"Beek"} />
             , geboren 1993, lebt und arbeitet in Leipzig. Sie studierte
             Literarisches Schreiben und Lektorieren in Hildesheim, war
             Mitherausgeberin der BELLA triste, Teil der künstlerischen Leitung
@@ -114,7 +114,7 @@ export const LineUpInformation = [
             ></img>
             <br></br> <br></br>
             <PrettyName name={"Jennifer"} /> <PrettyName name={"Aghedo"} />
-              studierte Kulturwirtschaft an der Universität.
+            studierte Kulturwirtschaft an der Universität.
             Aufgrund ihrer Leidenschaft für Literatur und der kreativen
             Auseinandersetzung mit feministischen, antirassistischen und
             weiteren politischen Themen fing sie an, sich ehrenamtlich im
@@ -162,7 +162,7 @@ export const LineUpInformation = [
 
           <img
             style={{ width: "100%", borderRadius: "15%" }}
-            src="/images/SaL_Berkholz_Fotograf©Ken Yamamoto.jpg"
+            src="/images/SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Tanasgol"} />
@@ -181,7 +181,7 @@ export const LineUpInformation = [
           </p>
           <img
             style={{ width: "100%", borderRadius: "15%" }}
-            src="/images/SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
+            src="/images/SaL_Berkholz_Fotograf©Ken Yamamoto.jpg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Josefine"} />
@@ -218,7 +218,7 @@ export const LineUpInformation = [
   },
 
   {
-    title: "Sinthujan Varatharajah",
+    title: "சிந்துஜன் வரதராஜா (Sinthujan Varatharajah)",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -227,9 +227,8 @@ export const LineUpInformation = [
             src="/images/Varatharajah_Sinthujan_Foto_ Florinel Fratica.png"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Sinthujan"} /> von der{" "}
-            <PrettyName name={"Varatharajah"} /> lebt als politische Geograf*in
-            und Essayist*in in Berlin. Varatharajahs Arbeiten befassen sich mit
+            சிந்துஜன் வரதராஜா (Sinthujan Varatharajah) lebt als politische Geograf:in
+            und Essayist:in in Berlin. Varatharajahs Arbeiten befassen sich mit
             der Staatenlosigkeit und Vertreibung aus einer räumlichen,
             logistischen und materialistischen Perspektive. Varatharajahs erstes
             Buch, 'an alle orte, die hinter uns liegen', ist im Herbst 2022 im
@@ -245,7 +244,7 @@ export const LineUpInformation = [
   },
 
   {
-    title: "Simoné Goldschmidt-Lechner",
+    title: "Simoné Goldschmidt-Lechner (sgl)",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -378,7 +377,7 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Sakine"} />
-            <PrettyName name={"Cansiz"} />
+            <PrettyName name={"Cansız"} />
             <br></br> Hevala Sara kam 1958 in Dersim (Tunceli) als Kind einer
             kurdisch-alevitischen Familie zur Welt. Diese beiden in der Republik
             Türkei diskriminierten Identitätsmerkmale verteidigte sie immer und
@@ -414,17 +413,23 @@ export const LineUpInformation = [
   },
 
   {
-    title: "Rio Theis",
+    title: "rio&dio productions™",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
             style={{ width: "100%", borderRadius: "15%" }}
+            src="images\InaDiallo (rio&dio).jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler*in und Regieassistent*in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker*in und Videograf*in
+          </p>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
             src="/images/Rio_c_Lisa Mausbach.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Rio"} />
-            <PrettyName name={"Theis"} />,<br></br> *1998, studiert Inszenierung
+            <PrettyName name={"Rio"} /> <PrettyName name={"Theis"} appendWhiteSpace={false} />,<br></br> *1998, studiert Inszenierung
             der Künste und der Medien in Hildesheim. Zuvor studierte they
             Kulturwissenschaften und ästhetische Praxis. Rio war zuletzt an
             verschiedenen Performance-Produktionen beteiligt, darunter
@@ -456,9 +461,9 @@ export const LineUpInformation = [
             <PrettyName name={"Rath"} /> und <PrettyName name={"Lucy"} />{" "}
             <PrettyName name={"Gasser"} /> sind Literaturwissenschaftlerinnen
             mit Schwerpunkt auf Postkolonialismus. Gemeinsam haben sie poco.lit.
-            https://pocolit.com/, ein bilinguales Online-Magazin für
+            <a href="https://pocolit.com/">https://pocolit.com/</a>, ein bilinguales Online-Magazin für
             postkoloniale Literatur, und macht.sprache.
-            https://www.machtsprache.de/, eine Plattform für politisch sensibles
+            <a href="https://www.machtsprache.de/">https://www.machtsprache.de/</a>, eine Plattform für politisch sensibles
             Übersetzen, gegründet. Foto: Michelle Rue
             <br></br>
             <br></br> Foto: Michelle Rue
@@ -558,8 +563,7 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Melinda"} /> <PrettyName name={"Nadj"} />{" "}
-            <PrettyName name={"Abonji"} />
-            Geboren am 22. Juni 1968 in Bečej (heutiges Serbien).
+            <PrettyName name={"Abonji"} appendWhiteSpace={false}/>, geboren am 22. Juni 1968 in Bečej (heutiges Serbien).
             Schriftstellerin, Musikerin, Vorstandsmitglied von TESORO.
             <br></br>
             <br></br>
@@ -912,10 +916,10 @@ export const LineUpInformation = [
             Eine Einladung, die Sprache von der Last des Vertrauten zu befreien.{" "}
             <br></br>
             <br></br>Konzept und Handlungsanweisungen: Karin Bucher (Hyperlink
-            auf dem Namen: https://karinbucher.ch/) <br></br>Konzept und Text:
-            Christian Caprez (https://christinacaprez.ch/About)<br></br> Ton und
-            Musik: Martin Bezzola (https://klanggestalter.ch/) <br></br>Grafik
-            und Programmierung: Jane Schindler (https://stillhartkonzept.ch/)
+            auf dem Namen: <a href="https://karinbucher.ch/">https://karinbucher.ch/</a>) <br></br>Konzept und Text:
+            Christian Caprez (<a href="https://christinacaprez.ch/About">https://christinacaprez.ch/About</a>)<br></br> Ton und
+            Musik: Martin Bezzola (<a href="https://klanggestalter.ch/">https://klanggestalter.ch/</a>) <br></br>Grafik
+            und Programmierung: Jane Schindler (<a href="https://stillhartkonzept.ch/">https://stillhartkonzept.ch/</a>)
           </p>
         </div>
       </>
@@ -1010,7 +1014,7 @@ export const LineUpInformation = [
   },
 
   {
-    title: "Duygu Agal",
+    title: "Duygu Ağal",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -1019,9 +1023,9 @@ export const LineUpInformation = [
             src="/images/12-22_DuyguAgal_Handprints_003-Wiederhergestellt Kopie.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Duygu"} /> <PrettyName name={"Agal"} />
-            ist Autor*in. Der*die in Hamburg aufgewachsene*r lebt in Berlin und
-            hat im April vergangenen Jahres seinen*ihren Debütroman Yeni
+            <PrettyName name={"Duygu"} /> <PrettyName name={"Ağal"} />
+            ist Autor:in. Der:die in Hamburg aufgewachsene:r lebt in Berlin und
+            hat im April vergangenen Jahres seinen:ihren Debütroman Yeni
             Yeşerenler mit dem Korbinian Verlag publiziert. Ağal hat mit Yeni
             Yeşerenler eine fragmentarische Coming-of-Age-Geschichte
             geschrieben, in der goldene Birkenstocks und anstrengende
@@ -1029,7 +1033,7 @@ export const LineUpInformation = [
             Insignien einer Welt, die nicht für einen gemacht scheint – aber
             auch und gerade deshalb: queer-lesbische Liebe, ein neues Leben,
             Frauenfussball, Gewalt, Verzweiflung, Emanzipation,
-            Selbstbewusstsein, Freund*innenschaft und so vieles mehr.
+            Selbstbewusstsein, Freund:innenschaft und so vieles mehr.
             <br></br>
             <br></br> Foto: Eden Jetschmann<br></br>
             (IG: @jetphoto)
@@ -1072,7 +1076,7 @@ export const LineUpInformation = [
             src="/images/Bilir-Meier_Cana_Foto_ Aleyna Osmanoğlu.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Cana"} /> <PrettyName name={"Bilir-Meier"} />
+            <PrettyName name={"Cana"} /> <PrettyName name={"Bilir-"} appendWhiteSpace={false} /><PrettyName name={"Meier"} />
             studierte an der Akademie der bildenden Künste Wien sowie an der
             Sabancı-Universität in Istanbul. 2021 war sie Gastprofessorin für
             Kunstpädagogik an der Akademie der bildenden Künste in München. Sie
@@ -1112,7 +1116,23 @@ export const LineUpInformation = [
     ),
   },
   {
-    title: "avrina prabala-joslin",
+    title: "Tanasgol Sabbagh",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="images\SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Tanasgol"} /> <PrettyName name={"Sabbagh"} />ist Dichterin und Spoken Word Autorin. Sie ist in Amol, Iran, geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten präsentiert sie in Performances, Audiostücken, Videoinstallationen und musikalischen Kollaborationen. Sie ist Mitbegründerin des Künstler*innenkollektivs parallelgesellschaft sowie der gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine Berkholz ist sie Gründerin und Redakteurin des auditiven Literaturmagazins Stoff aus Luft, das als Podcast erscheint: Ein Format das gesprochene und klangbasierte Literatur in den Vordergrund stellt. Tanasgol lebt in Berlin.
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "*அவ்ரீனா* *பிரபலா**-**ஜாஸ்லின்** / *avrina prabala-joslin",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -1140,7 +1160,7 @@ export const LineUpInformation = [
             Als Absolvent*in des MA Writing Programms an der University of
             Warwick schreibt avrina derzeit eine Antidissertation über Meena
             Kandasamys Erinnerungspolitik.<br></br>
-            <br></br> www.avrinajos.net <br></br>
+            <br></br> <a href="http://www.avrinajos.net">www.avrinajos.net</a> <br></br>
             <br></br>Foto: Michelle Gutiérrez
           </p>
         </div>
@@ -1257,6 +1277,81 @@ export const LineUpInformation = [
             <br></br>
             <br></br>
             Fotograf: Stefan Sappert
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Katharina Angus",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/KatharinaAngus.JPG"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Katharina"} />
+            <PrettyName name={"Angus"} /> studierte Drehbuchschreiben, Literaturwissenschaft und Osteuropawissenschaften mit Aufenthalten in Krakau und Prag. Sie veröffentlichte unter anderem in den Literaturzeitschriften Mosaik und BELLA triste. Im Jahr 2021 war sie Stipendiatin des Klagenfurter Literaturkurses und Teilnehmerin beim Stuttgarter Lit.Fest.<br />
+            Vom Hessischen Literaturrat e.V. und dem Prager Literaturhaus deutschsprachiger Autoren erhielt sie im November 2022 ein Aufenthaltsstipendium in Prag, um an ihrem Debütroman zu arbeiten.<br />
+            Sie lebt als freie Journalistin in Berlin.
+            <br /> <br />
+            © privat
+
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Philipp Laue",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/PhilippLaue.jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Philipp"} /> <PrettyName name={"Philipp"} /> (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach Beschäftigungen als Universitätsdozent und in der Jugendhilfe, arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in Beziehungen. Seine Gedichte und Prosa werden seit 2021 in verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA, apostrophe u. a.) gedruckt.
+            <br />
+            twitter/instagram: @imbluescreen.
+            <br /> <br />
+            Bildrechte: Jonas Erler
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Vici Dewinski",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/ViciDewinski.JPG"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name="Vici" /> <PrettyName name={"Dewsinski"} /> wurde 1998 in Chemnitz geboren. Sie studiert Bühnen- und Kostümbild an der  Hochschule für Bildende Künste in Dresden und ist Stipendiatin der Studienstiftung des  deutschen Volkes. Seit 2021 arbeitet Vici als Installationskünstlerin, Regisseurin und Autorin.  Dabei erschafft sie performative Installationen, die an der Schnittstelle zwischen Bildender Kunst,  Theater und Animation operieren. Ihre Arbeit zeichnet sich durch gewaltige Atmosphären,  grotesken Humor und bis ins Detail abgestimmte Räume aus. Ihre Texte entführen uns in eine Welt  voller unausgesprochener Gedanken und Emotionen.
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Nima Shaper",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/NimaSchaper.jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Nima"} />  <PrettyName name={"Schaper"} appendWhiteSpace={false} />, geboren und groß geworden in Köln. Nach dem Abitur an Kölner Gesamtschule ein Jahr in Odessa, Ukraine gelebt. Studiert seit Wintersemester 21/22 Kulturwissenschaften und Ästhetische Praxis an der Universität Hildesheim. Außerdem als DJ, Music Producer und Sound/Video-Künstler tätig.
+
           </p>
         </div>
       </>
