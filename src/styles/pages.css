@@ -6,7 +6,6 @@
 
 .app-screen-frame{
   height: 100vh;
-  height: -webkit-fill-available;
 }
 
 ::selection {
