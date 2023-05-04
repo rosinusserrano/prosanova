@@ -15,7 +15,7 @@ function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
 
             <div style={{
                 gridArea: "overlay",
-                display: "flex",
+                display: openLineUp == "" ? "flex" : "none",
                 flexDirection: "column",
                 gap: "1rem",
                 height: "100%",
