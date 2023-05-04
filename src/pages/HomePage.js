@@ -26,7 +26,7 @@ function PageSwitch({ page, color, setBackFunction }) {
       return <Info></Info>;
     case "imprint":
       return <Imprint></Imprint>;
-          case "imprint":
+    case "imprint":
       return <Imprint></Imprint>;
     case "termine":
       return <Termine color={color} setBackFunction={setBackFunction}></Termine>
@@ -68,14 +68,14 @@ export default function HomePage() {
         backgroundSize: currentColor === "skyblue" ? "cover" : "auto auto",
         cursor: "url(MouseHand-Normal_small.png) 32 0, auto",
         width: "100vw",
-        height: "100vh",
         padding: "1rem",
         display: "flex",
         flexDirection: "column",
         gap: "1rem",
-        overflowY: "auto", 
-         fontFamily: "BastardoRegular",
+        overflowY: "auto",
+        fontFamily: "BastardoRegular",
       }}
+      className="app-screen-frame"
     >
       {/* <Balloon></Balloon> */}
       <Helmet>
@@ -101,10 +101,10 @@ export default function HomePage() {
           flexGrow: 1,
           zIndex: 100,
           borderRadius: "25px",
-          overflowY:"auto",
+          overflowY: "auto",
         }}
       >
-        <main style={{ height: "100%", overflowY: "auto",}}>
+        <main style={{ height: "100%", overflowY: "auto", }}>
           <PageSwitch
             setBackFunction={setBackFunction}
             page={activePage}
@@ -125,11 +125,11 @@ export default function HomePage() {
           fontFamily: "BastardoRegular",
         }}
       >
-        <div 
+        <div
           style={{
             display: isMobile ? "none" : "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
-            overflowY: "auto",             
+            overflowY: "auto",
             justifyContent: "center",
             alignItems: "center",
           }}

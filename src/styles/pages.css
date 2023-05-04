@@ -4,6 +4,11 @@
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
+.app-screen-frame{
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
 ::selection {
   background-color: #e3cc4e;
 }
