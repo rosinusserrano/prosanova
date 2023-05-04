@@ -4,7 +4,7 @@ import { BACKGROUNDCOLOR } from 'constants'
 
 function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
     const lineUpInfo = LineUpInformation
-    lineUpInfo.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
+    lineUpInfo.sort((a, b) => (a.title.toLowerCase() > b.title.toLowerCase()) ? 1 : ((b.title.toLowerCase() > a.title.toLowerCase()) ? -1 : 0))
     return (
         <div style={{
             display: "grid",
@@ -19,6 +19,7 @@ function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
                 flexDirection: "column",
                 gap: "1rem",
                 height: "100%",
+                width: "100%",
                 overflowY: "auto",
             }}>
                 {
@@ -35,9 +36,11 @@ function LineUpSmall({ openLineUp, setOpenLineUp, setBackFunction, color }) {
             </div>
 
             {LineUpInformation.map(({ title, contentJSX }) => {
-                return <div  className='border-radius background-color-grey' style={{
+                return <div className='border-radius background-color-grey' style={{
                     gridArea: "overlay",
                     display: openLineUp == title ? "block" : "none",
+                    height: "100%",
+                    width: "100%",
                 }}>
                     {contentJSX}
                 </div>
@@ -62,7 +65,8 @@ function LineUpSmallButton({ title, subtitle, setOpenLineUp, color, setBackFunct
     }}
         className='border-radius'
         onTouchStart={() => {
-            setTouch(true)}}
+            setTouch(true)
+        }}
         onTouchEnd={() => setTouch(false)}
         onClick={() => {
             setOpenLineUp(title);

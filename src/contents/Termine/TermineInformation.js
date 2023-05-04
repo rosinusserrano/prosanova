@@ -224,24 +224,29 @@ export const TermineInformation = [
                     }} />
                     <p>Maren Wurster studierte Philosophie in Köln und Literarisches Schreiben in Leipzig. Ihr Romandebüt „Das Fell“ wurde 2017 bei Hanser Berlin veröffentlicht. Ihr aktueller Roman „Eine beiläufige Entscheidung“ erzählt von einer Mutter, die ihr Kind verlässt, und einem Kind, das mutterlos aufwächst. In dem Memoir „Papa stirbt, Mama auch“ und dem erzählenden Sachbuch „Totenwache“ hat sie sich mit dem Abschied von den eigenen Eltern auseinandergesetzt. Maren Wurster war Mitglied des Autorinnen-Kollektivs „Writing with Care/Rage“, das sich in Texten und Veranstaltungen kritisch mit Kreativ- und Care-Arbeit auseinandersetzte. Zuletzt lud sie andere Schriftsteller:innen zu einer „Archäologie des Verlusts“ ein. Die Texte wurden in der Volksbühne Berlin präsentiert und in der Literaturzeitschrift Akzente veröffentlicht.</p>
                 </div>
-                {/* <div style={{
+                <div style={{
                     flex: "1 1 0",
                     minWidth: "200px",
                 }}>
-                    <div style={{
-                        width: "100%",
+                    <img title="Kollektiv Wiese (Wie es ist)" className="border-radius" src="images/Hermes Baby.jpg" style={{
+                        objectPosition: "50% 40%",
+                        objectFit: "cover",
                         aspectRatio: "5/4",
-                        overflow: "hidden"
-                    }} className="border-radius">
-                        <img title="Foto: Mirko Lux" className="" src="images/SandraBurkhardt_Foto_MirkoLux.jpg" style={{
-                            objectPosition: "100% 40%",
-                            objectFit: "cover",
-                            height: "100%",
-                            width: "100%"
-                        }} />
-                    </div>
-                    <p>Sandra Burkhardt, 1992 geboren, studierte Kunstgeschichte und Literarisches Schreiben in Karlsruhe, Leipzig und Berlin. 2018 erschien im gutleut verlag ihr Debütband „Wer a sagt“, mit dem sie 2019 bei den Lyrikempfehlungen der Leipziger Buchmesse vertreten war. Im Sommer diesen Jahres erscheint „Fragmente einer echten Ikone. Petrarca-Variationen“ bei kookbooks. Mit auf der Wiese (Wie es ist) مرج ist Sandra seit Sommer 2020.</p>
-                </div> */}
+                        width: "100%"
+                    }} />
+                    <p>
+                        Hermes Baby ist ein Kollektiv, das sich dem Erzähljournalismus verschrieben hat. Gemeinsam möchten wir die Mittel des erzählenden Journalismus ausloten, um so neue Perspektiven auf die Wirklichkeit zu ergründen. Darum orientieren wir uns an Menschen und ihren Lebenswegen, statt Lückenfüller für abstrakte Themen zu suchen.
+                    </p>
+                    <p>
+                        Wir experimentieren mit Erzählweisen aus Literatur, Kunst, Performance, Musik, Fotografie und Film. Unser Ideal: journalistische Präzision, künstlerische Offenheit und zeitgeistiges Bewusstsein. Um dem gerecht zu werden, halten wir wöchentliche Textkritiken, planen unsere Geschichten gemeinsam, unterstützen uns gegenseitig bei Recherchen und lektorieren intern jede unserer Arbeiten, noch bevor sie an renommierte Redaktionen im gesamten deutschsprachigen Raum gehen.
+                    </p>
+                    <p>
+                        Hermes Baby versteht sich als feinfühliger Beobachter des gegenwärtigen menschlichen Lebens. Wir verpflichten uns zu einem humanistischen Weltbild. Mit unserem Mentoring-Programm unterstützen wir jährlich zwei angehende Journalistinnen oder Journalisten auf ihrem Weg zu einer eigenen Stimme, die Gehör finden soll. Außerdem vermitteln wir unsere Werte über unsere gemeinnützige Weiterbildungsstätte – der Reporter-Akademie.
+                    </p>
+                    <p>
+                        Als Hermes Baby haben wir uns benannt nach einer Reiseschreibmaschine.
+                    </p>
+                </div>
                 <div style={{
                     flex: "1 1 0",
                     minWidth: "200px",

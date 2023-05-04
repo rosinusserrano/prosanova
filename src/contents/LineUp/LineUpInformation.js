@@ -144,7 +144,7 @@ export const LineUpInformation = [
             Publikationsmöglichkeit. Stoff aus Luft ist deshalb eine
             Literaturzeitschrift zum Anhören. Unter je Folge wechselnden,
             offenen Themen versammelt das Magazin neue Texte aus auditiven
-            Literaturformen, vorgetragen von den Autor*innen sowie kurze
+            Literaturformen, vorgetragen von den Autor:innen sowie kurze
             Interviews: was sind Texte abseits der Schriftlichkeit? Wie sind sie
             gebaut, wie hält man sie fest, und was spricht? Stoff aus Luft wird
             auf allen gängigen Podcastplattformen und auf www.stoffausluft.de
@@ -153,8 +153,8 @@ export const LineUpInformation = [
             zehn Jahren in den verschiedenen Literaturszenen zwischen Papier und
             Bühne zuhause. Ihre Tätigkeit als Dichterinnen hat sie u.A. ans
             Deutsche Literaturinstitut, auf Theater- und Konzerthausbühnen, in
-            Kneipenkeller und in Kollaborationen mit Musiker*innen und
-            Filmemacher*innen geführt. Die Gründung und Gestaltung eines
+            Kneipenkeller und in Kollaborationen mit Musiker:innen und
+            Filmemacher:innen geführt. Die Gründung und Gestaltung eines
             auditiven Literaturmagazins steht vor dem Hintergrund dieser
             langjährigen Erfahrung mit und in performativen und gesprochenen
             Literaturformen.
@@ -171,7 +171,7 @@ export const LineUpInformation = [
             geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten
             präsentiert sie in Performances, Audiostücken, Videoinstallationen
             und musikalischen Kollaborationen. Sie ist Mitbegründerin des
-            Künstler*innenkollektivs parallelgesellschaft sowie der
+            Künstler:innenkollektivs parallelgesellschaft sowie der
             gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der
             deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine
             Berkholz ist sie Gründerin und Redakteurin des auditiven
@@ -194,7 +194,7 @@ export const LineUpInformation = [
             literarischen Gattungen, sowie zwischen wissenschaftlichem und
             poetischem Denken. Sie tritt seit 2010 als Performerin und
             Spokenwordautorin auf und arbeitet am liebsten in Kollaboration,
-            auch und besonders mit Künstler*innen anderer Sparten.
+            auch und besonders mit Künstler:innen anderer Sparten.
           </p>
           <img
             style={{ width: "100%", borderRadius: "15%" }}
@@ -258,7 +258,7 @@ export const LineUpInformation = [
             (sgl) schreibt Prosa, Lyrik und Drama, übersetzt, macht Podcasts,
             beschäftigt sich mit (queeren) Fankulturen im Netz, Horror aus
             postmigrantischer Perspektive und Sprache in Videospielen. Sie ist
-            Autor*in des Romans _Messer, Zungen_ (2022) und (Mit-)Übersetzerin
+            Autor:in des Romans _Messer, Zungen_ (2022) und (Mit-)Übersetzerin
             von u.a. _Against White Feminism _(2022), _Exponiert_ (2023), _Die
             Patriarchen_ (2023), _Unertrunken_ (2022) und der Autobiographie von
             Angela Y. Davis (2023). Literatur- und Kulturvermittlung seit 2019,
@@ -283,14 +283,14 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Selma"} />
-            <PrettyName name={"Matter"} />, geboren in Zürich, ist Autor*in und
-            Dramaturg*in und studiert Szenisches Schreiben an der Universität
+            <PrettyName name={"Matter"} />, geboren in Zürich, ist Autor:in und
+            Dramaturg:in und studiert Szenisches Schreiben an der Universität
             der Künste Berlin. Zuletzt hat dey im Duo mit Marie Lucienne Verse
             das Stück Alias Anastasius geschrieben, das gerade am Berliner
             Ensemble zu sehen ist. Selma Matters Stück Grelle Tage hatte 2023 am
             Schauspielhaus Wien Uraufführung und wurde u.a. mit dem
             Hans-Gratzer-Preis 2022 ausgezeichnet. Im September erscheint es als
-            Buch im Suhrkamp Verlag. Selma Matter war Mitherausgeber*in der
+            Buch im Suhrkamp Verlag. Selma Matter war Mitherausgeber:in der
             BELLA triste und Teil der künstlerischen Leitung von PROSANOVA 2020.
             Derzeit schreibt dey an einem autofiktionalen Text zu den
             Schnittstellen von chronischer Erkrankung und Queerness.
@@ -351,7 +351,7 @@ export const LineUpInformation = [
             Misery» mit der Sängerin Milena Krstic als Ghostwriterin und
             Musikerin auf, fungiert als Beatmakerin für die kongolesische
             Rapperin Orakle Ngoy und ist Mitbegründerin des feministischen
-            Autor*innenkollektivs RAUF. 2015 erschien die Erzählung «Fucking
+            Autor:innenkollektivs RAUF. 2015 erschien die Erzählung «Fucking
             God» beim Verlag Büro für Problem. Seit 2019 leitet sie das Virtual
             Reality Projekt «Meine Sprache und ich» – eine Annäherung an Ilse
             Aichingers Sprachkritik. 2021 erschien der Szenenband «Culturestress
@@ -407,6 +407,24 @@ export const LineUpInformation = [
             (Rojbîn) und Leyla Şaylemez (Ronahî) im Informationszentrum
             Kurdistan in Paris vom türkischen Geheimdienst MİT ermordet.
           </p>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/EstherWinckelmann.jpg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Esther"} />
+            <PrettyName name={"Winckelmann"} />, Antiquarin, politische Aktivistin, aktives Mitglied bei Azadî e.V. Rechtshilfefonds.
+          </p>
+          <img
+            style={{ width: "100%", borderRadius: "15%" }}
+            src="/images/AnjaFlach.png"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Anja"} />
+            <PrettyName name={"Flach"} />, Ethnologin und Aktivistin der kurdischen Frauenbewegung,
+            Autorin verschiedener Bücher zur kurdischen Frauenbewegung.
+            Mitübersetzerin von Sakine Cansız „Mein ganzes Leben war ein Kampf“.
+          </p>
         </div>
       </>
     ),
@@ -422,7 +440,7 @@ export const LineUpInformation = [
             src="images\InaDiallo (rio&dio).jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler*in und Regieassistent*in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker*in und Videograf*in
+            <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler:in und Regieassistent:in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker:in und Videograf:in
           </p>
           <img
             style={{ width: "100%", borderRadius: "15%" }}
@@ -435,7 +453,7 @@ export const LineUpInformation = [
             verschiedenen Performance-Produktionen beteiligt, darunter
             /FRAGMENTEZ /und /bbb/. They ist Teil des Performance- und
             Technik-Kollektivs /rio&dio productions//*™*/ und arbeitet
-            freischaffend als Lichttechniker*in und Produktionsassistenz u.a.
+            freischaffend als Lichttechniker:in und Produktionsassistenz u.a.
             für die Frl. Wunder AG und das Schauspielhaus Hannover. Aktuell
             organisiert Rio verschiedene Veranstaltungen, um Drag in Hildesheim
             zu etablieren.
@@ -563,7 +581,7 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Melinda"} /> <PrettyName name={"Nadj"} />{" "}
-            <PrettyName name={"Abonji"} appendWhiteSpace={false}/>, geboren am 22. Juni 1968 in Bečej (heutiges Serbien).
+            <PrettyName name={"Abonji"} appendWhiteSpace={false} />, geboren am 22. Juni 1968 in Bečej (heutiges Serbien).
             Schriftstellerin, Musikerin, Vorstandsmitglied von TESORO.
             <br></br>
             <br></br>
@@ -606,7 +624,7 @@ export const LineUpInformation = [
             der Universität Hildesheim. Murphy war auf Performance- und
             Theaterfestivals zu sehen, experimentiert mit elektronischen,
             Gedanken und akustischen Sounds solo, sowie mit anderen
-            Künstler*innen und Band und produziert unter anderem Filmmusik. In
+            Künstler:innen und Band und produziert unter anderem Filmmusik. In
             ihrem künstlerischen Denken, welches unter anderem auch in Malerei
             realisiert wird, setzt sie sich mit Identitätsfragen, wie
             Queerfeminismus, eigener osteuropäischen Herkunft und den
@@ -638,7 +656,7 @@ export const LineUpInformation = [
             erschien ihr zweiter Roman Im Bauch der Königin als Wendebuch
             ebenfalls bei DuMont. Beide Romane erhielten zahlreiche Stipendien
             und Preise, zuletzt die Alfred-Döblin Medaille. Sie lebt und
-            arbeitet in Köln und Paris.￼
+            arbeitet in Köln und Paris.
             <br></br>
             <br></br>
             Foto: Havin Al-Sindy
@@ -849,7 +867,7 @@ export const LineUpInformation = [
             Redaktion der Literaturzeitschrift Edit. Prosa, Lyrik, Essays und
             Dramatisches von ihm wurden in verschiedenen Zeitschriften
             veröffentlicht, u.A. in BELLA Triste, PS Politisch Schreiben, Das
-            Narr. 2022 hat er den exil-Dramatiker*innenpreis gewonnen.
+            Narr. 2022 hat er den exil-Dramatiker:innenpreis gewonnen.
             <br></br>
             <br></br>Bildcredits: David Tiefenthaler
           </p>
@@ -915,11 +933,10 @@ export const LineUpInformation = [
             Abonji beschreibt, wie wichtig das Fremdsein für ihre Literatur ist:
             Eine Einladung, die Sprache von der Last des Vertrauten zu befreien.{" "}
             <br></br>
-            <br></br>Konzept und Handlungsanweisungen: Karin Bucher (Hyperlink
-            auf dem Namen: <a href="https://karinbucher.ch/">https://karinbucher.ch/</a>) <br></br>Konzept und Text:
-            Christian Caprez (<a href="https://christinacaprez.ch/About">https://christinacaprez.ch/About</a>)<br></br> Ton und
-            Musik: Martin Bezzola (<a href="https://klanggestalter.ch/">https://klanggestalter.ch/</a>) <br></br>Grafik
-            und Programmierung: Jane Schindler (<a href="https://stillhartkonzept.ch/">https://stillhartkonzept.ch/</a>)
+            <br></br>Konzept und Handlungsanweisungen: <a href="https://karinbucher.ch/">Karin&nbsp;Bucher</a>
+            <br></br>Konzept und Text: <a href="https://christinacaprez.ch/About">Christian&nbsp;Caprez</a>
+            <br></br> Ton und Musik: <a href="https://klanggestalter.ch/">Martin&nbsp;Bezzola</a>
+            <br></br>Grafik und Programmierung: <a href="https://stillhartkonzept.ch/">Jane&nbsp;Schindler</a>
           </p>
         </div>
       </>
@@ -987,16 +1004,16 @@ export const LineUpInformation = [
           <p className="font-size-1">
             <PrettyName name={"Lynn"} /> <PrettyName name={"Takeo"} />{" "}
             <PrettyName name={"Musiol"} />
-            arbeitet als Autor*in, Regisseur*in und Performer*in mit dem Fokus
-            auf Klima, Klasse und Queerness. Lynn Takeo ist Mitgründer*in des
+            arbeitet als Autor:in, Regisseur:in und Performer:in mit dem Fokus
+            auf Klima, Klasse und Queerness. Lynn Takeo ist Mitgründer:in des
             Theater-Kollektivs les dramaturx, das aktuell am Theater Magdeburg
             die Inszenierung »Meister Röckle« auf die Bühne bringt.
             <br></br>
             <br></br>
             <PrettyName name={"Eva"} /> <PrettyName name={"Tepest"} /> ist
-            Autor*in und Journalist*in. Evas Schreibpraxis konzentriert sich auf
+            Autor:in und Journalist:in. Evas Schreibpraxis konzentriert sich auf
             autofiktionale und essayistische Textformen. Wie können
-            marginalisiert Autor*innen ihre Erfahrungen erzählen? Kann ein Text
+            marginalisiert Autor:innen ihre Erfahrungen erzählen? Kann ein Text
             submissive sein? Evas Essayband »Power Bottom« erschien im März im
             MÄRZ Verlag. Dey schreibt eine Sex-Kolumne für das Missy Magazine.
             <br></br>
@@ -1005,7 +1022,7 @@ export const LineUpInformation = [
             Schreibkollektiv DYKE DOGS, mit dem sie u. a. die gleichnamige
             lesbisch-queere Kulturpartie in der Berliner Schaubühne
             organisieren. Mit ihrem gemeinsamen Schreiben waren Musiol & Tepest
-            Finalist*innen des Open Mikes 2020. Ihre Maxime: Dyke is a riot.
+            Finalist:innen des Open Mikes 2020. Ihre Maxime: Dyke is a riot.
             Dyke ist tragisch. Dyke ist immer unzureichend.
           </p>
         </div>
@@ -1125,7 +1142,7 @@ export const LineUpInformation = [
             src="images\SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Tanasgol"} /> <PrettyName name={"Sabbagh"} />ist Dichterin und Spoken Word Autorin. Sie ist in Amol, Iran, geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten präsentiert sie in Performances, Audiostücken, Videoinstallationen und musikalischen Kollaborationen. Sie ist Mitbegründerin des Künstler*innenkollektivs parallelgesellschaft sowie der gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine Berkholz ist sie Gründerin und Redakteurin des auditiven Literaturmagazins Stoff aus Luft, das als Podcast erscheint: Ein Format das gesprochene und klangbasierte Literatur in den Vordergrund stellt. Tanasgol lebt in Berlin.
+            <PrettyName name={"Tanasgol"} /> <PrettyName name={"Sabbagh"} />ist Dichterin und Spoken Word Autorin. Sie ist in Amol, Iran, geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten präsentiert sie in Performances, Audiostücken, Videoinstallationen und musikalischen Kollaborationen. Sie ist Mitbegründerin des Künstler:innenkollektivs parallelgesellschaft sowie der gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine Berkholz ist sie Gründerin und Redakteurin des auditiven Literaturmagazins Stoff aus Luft, das als Podcast erscheint: Ein Format das gesprochene und klangbasierte Literatur in den Vordergrund stellt. Tanasgol lebt in Berlin.
           </p>
         </div>
       </>
@@ -1135,13 +1152,13 @@ export const LineUpInformation = [
     title: "*அவ்ரீனா* *பிரபலா**-**ஜாஸ்லின்** / *avrina prabala-joslin",
     contentJSX: (
       <>
-        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%", width: "100%" }}>
           <img
             style={{ width: "100%", borderRadius: "15%" }}
             src="/images/Prabala-Joslin_Avrina_Foto_ Michelle Gutiérrez.jpeg"
           ></img>
           <p className="font-size-1">
-            *அவ்ரீனா* *பிரபலா**-**ஜாஸ்லின்** / * <PrettyName name={"Avrina"} />
+            *அவ்ரீனா* *பிரபலா**- **ஜாஸ்லின்** / * <PrettyName name={"Avrina"} />
             <PrettyName name={"Prabala-Joslin"} /> (1992, Tamil Nadu)
             schreibt/performt Prosa und Lyrik über Orte, Wesen und Zeiten.
             avrinas Schreiben ist besessen von Erinnerungen, oft aus der
@@ -1157,7 +1174,7 @@ export const LineUpInformation = [
             anderem beim Mathrubhumi International Festival of Letters Kerala
             2023, Poetry Meets, dem Literaturhaus Berlin, dem LCB, dem poesie
             festival Berlin und dem Performing Arts Festival Berlin performt.
-            Als Absolvent*in des MA Writing Programms an der University of
+            Als Absolvent:in des MA Writing Programms an der University of
             Warwick schreibt avrina derzeit eine Antidissertation über Meena
             Kandasamys Erinnerungspolitik.<br></br>
             <br></br> <a href="http://www.avrinajos.net">www.avrinajos.net</a> <br></br>
@@ -1271,7 +1288,7 @@ export const LineUpInformation = [
             Förderungspreis für Literatur der Stadt Wien ausgezeichnet, 2022
             gewann sein Stück Wonderwomb den Kleist-Förderpreis für junge
             Dramatik. Es erhielt außerdem eine „spezielle Erwähnung“ durch die
-            Jury der Autor*innentheatertage 2022. Im selben Jahr wurde Gudarzi
+            Jury der Autor:innentheatertage 2022. Im selben Jahr wurde Gudarzi
             der Anerkennungspreis der Sparte Literatur des Landes
             Niederösterreich verliehen. 2023 erscheint sein Debütroman bei dtv.
             <br></br>

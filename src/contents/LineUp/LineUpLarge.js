@@ -5,7 +5,7 @@ import { BACKGROUNDCOLOR } from 'constants'
 
 function LineUpLarge({ openLineUp, color, setOpenLineUp }) {
     const lineUpInfo = LineUpInformation
-    lineUpInfo.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
+    lineUpInfo.sort((a,b) => (a.title.toLowerCase() > b.title.toLowerCase()) ? 1 : ((b.title.toLowerCase() > a.title.toLowerCase()) ? -1 : 0))
     return (
         <div className='inside-main-content-wrapper' style={{
             display: "flex",
