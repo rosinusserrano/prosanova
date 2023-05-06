@@ -8,7 +8,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Xosewist_Foto_privat.JPG"
           ></img>
           <p className="font-size-1">
@@ -31,7 +31,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Thomas_Stangl_Foto_privat.JPG"
           ></img>
           <p className="font-size-1">
@@ -54,7 +54,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/VonderBeek_Tatjana_Foto_JohannaBaschke.jpg"
           ></img>
           <p className="font-size-1">
@@ -78,7 +78,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Logo-Stolze-Augen.png"
           ></img>
           <p className="font-size-1">
@@ -94,7 +94,7 @@ export const LineUpInformation = [
             Februar 2020 zum Ausdruck bringen. <br></br>
             <br></br>
             <img
-              style={{ width: "100%", borderRadius: "15%" }}
+              style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Crooks_Michelle.jpeg"
             ></img>
             <br></br> <br></br>
@@ -109,7 +109,7 @@ export const LineUpInformation = [
             <br></br>
             <br></br>
             <img
-              style={{ width: "100%", borderRadius: "15%" }}
+              style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Aghedo_Jennifer_Foto_ privat.jpg"
             ></img>
             <br></br> <br></br>
@@ -161,7 +161,7 @@ export const LineUpInformation = [
           </p>
 
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
           <p className="font-size-1">
@@ -180,7 +180,7 @@ export const LineUpInformation = [
             Vordergrund stellt. Tanasgol lebt in Berlin.
           </p>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Berkholz_Fotograf©Ken Yamamoto.jpg"
           ></img>
           <p className="font-size-1">
@@ -197,7 +197,7 @@ export const LineUpInformation = [
             auch und besonders mit Künstler:innen anderer Sparten.
           </p>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMG_6471-1.jpeg"
           ></img>
           <p className="font-size-1">
@@ -223,7 +223,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Varatharajah_Sinthujan_Foto_ Florinel Fratica.png"
           ></img>
           <p className="font-size-1">
@@ -249,7 +249,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Simoné Goldschmidt-Lechner_c Maik Gräf.jpeg"
           ></img>
           <p className="font-size-1">
@@ -278,7 +278,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/89846F18-5A9B-4975-A18C-1FF497D0DEE3.jpeg"
           ></img>
           <p className="font-size-1">
@@ -308,7 +308,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Vogel_Saskia_Foto_ Nikolaus Kim.jpg"
           ></img>
           <p className="font-size-1">
@@ -337,7 +337,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sarah_Elena_Mueller_Press_Laura_Stevens_7.jpg"
           ></img>
           <p className="font-size-1">
@@ -372,7 +372,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sara für Lit.jpg"
           ></img>
           <p className="font-size-1">
@@ -408,7 +408,7 @@ export const LineUpInformation = [
             Kurdistan in Paris vom türkischen Geheimdienst MİT ermordet.
           </p>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/EstherWinckelmann.jpg"
           ></img>
           <p className="font-size-1">
@@ -416,7 +416,7 @@ export const LineUpInformation = [
             <PrettyName name={"Winckelmann"} />, Antiquarin, politische Aktivistin, aktives Mitglied bei Azadî e.V. Rechtshilfefonds.
           </p>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/AnjaFlach.png"
           ></img>
           <p className="font-size-1">
@@ -436,14 +436,14 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\InaDiallo (rio&dio).jpeg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler:in und Regieassistent:in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker:in und Videograf:in
           </p>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Rio_c_Lisa Mausbach.jpg"
           ></img>
           <p className="font-size-1">
@@ -471,7 +471,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Poco.lit_ von Rath_Anna, Gasser_Lucy, Foto_ Michelle Rue.jpg"
           ></img>
           <p className="font-size-1">
@@ -496,7 +496,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Atibioke_Olufemi_Privat.jpg"
           ></img>
           <p className="font-size-1">
@@ -517,7 +517,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kennel_Odile_Foto_ Charlotte_Werndt.JPG"
           ></img>
           <p className="font-size-1">
@@ -549,7 +549,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Mirjam Wittig, Foto von Stefan Klüter.jpg"
           ></img>
           <p className="font-size-1">
@@ -576,7 +576,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Foto_Melinda Nadj Abonji_©AyseYavas_2018.jpg"
           ></img>
           <p className="font-size-1">
@@ -613,7 +613,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Martyna Murphy Baginski.jpg"
           ></img>
           <p className="font-size-1">
@@ -644,7 +644,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Karosh_Taha.JPG"
           ></img>
           <p className="font-size-1">
@@ -672,7 +672,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Friese_Julia_Foto_@_Info_folgt.jpg"
           ></img>
           <p className="font-size-1">
@@ -721,7 +721,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Calleja_Jen_Foto_ Robin_Christian.jpeg"
           ></img>
           <p className="font-size-1">
@@ -752,7 +752,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kicaj_Foto.JPG"
           ></img>
           <p className="font-size-1">
@@ -781,7 +781,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/InanaOthman_Bild privat.jpg"
           ></img>
           <p className="font-size-1">
@@ -808,7 +808,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Geißler_Heike_176_HR_HeikeSteinweg_SV(2).jpg"
           ></img>
           <p className="font-size-1">
@@ -835,7 +835,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Tezkan_Hakan_Foto_ Dinçer GüçyeterJPG.JPG"
           ></img>
           <p className="font-size-1">
@@ -856,7 +856,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Ferretti_Giorgio_credits_David_Tiefenthaler.JPG"
           ></img>
           <p className="font-size-1">
@@ -881,7 +881,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMAGE 2023-04-26 09_32_51.jpg"
           ></img>
           <p className="font-size-1">
@@ -904,7 +904,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/fremdzuhause_sequence1.jpg"
           ></img>
           <p className="font-size-1">
@@ -948,7 +948,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Franziska Gänsler Foto c Linda Rosa Saal.jpg"
           ></img>
           <p className="font-size-1">
@@ -970,7 +970,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Beqiraj_Elona_Foto_ Alin Daghestani.jpeg"
           ></img>
           <p className="font-size-1">
@@ -998,7 +998,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Dyke_Dogs_Foto_ Yana Kaziulia.jpg"
           ></img>
           <p className="font-size-1">
@@ -1036,7 +1036,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/12-22_DuyguAgal_Handprints_003-Wiederhergestellt Kopie.jpg"
           ></img>
           <p className="font-size-1">
@@ -1066,7 +1066,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Damon Taleghani.jpeg"
           ></img>
           <p className="font-size-1">
@@ -1089,7 +1089,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Bilir-Meier_Cana_Foto_ Aleyna Osmanoğlu.jpeg"
           ></img>
           <p className="font-size-1">
@@ -1114,7 +1114,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/DSCF3946.jpeg"
           ></img>
           <p className="font-size-1">
@@ -1138,7 +1138,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
           <p className="font-size-1">
@@ -1154,7 +1154,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%", width: "100%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Prabala-Joslin_Avrina_Foto_ Michelle Gutiérrez.jpeg"
           ></img>
           <p className="font-size-1">
@@ -1191,7 +1191,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Armeghan photo by Bethany Burgoyne.jpg"
           ></img>
           <p className="font-size-1">
@@ -1215,7 +1215,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Anna Kim_c_E. van Lanen.jpg"
           ></img>
           <p className="font-size-1">
@@ -1244,7 +1244,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Hetzer_Anna.Fotograf_Björn Kuhligk.jpg"
           ></img>
           <p className="font-size-1">
@@ -1273,7 +1273,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Amir_Gudarzi_Foto_@_Stefan_Sappert.jpg"
           ></img>
           <p className="font-size-1">
@@ -1305,7 +1305,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/KatharinaAngus.JPG"
           ></img>
           <p className="font-size-1">
@@ -1327,11 +1327,11 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/PhilippLaue.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Philipp"} /> <PrettyName name={"Philipp"} /> (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach Beschäftigungen als Universitätsdozent und in der Jugendhilfe, arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in Beziehungen. Seine Gedichte und Prosa werden seit 2021 in verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA, apostrophe u. a.) gedruckt.
+            <PrettyName name={"Philipp"} /> <PrettyName name={"Laue"} /> (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach Beschäftigungen als Universitätsdozent und in der Jugendhilfe, arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in Beziehungen. Seine Gedichte und Prosa werden seit 2021 in verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA, apostrophe u. a.) gedruckt.
             <br />
             twitter/instagram: @imbluescreen.
             <br /> <br />
@@ -1347,7 +1347,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/ViciDewinski.JPG"
           ></img>
           <p className="font-size-1">
@@ -1363,7 +1363,7 @@ export const LineUpInformation = [
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
           <img
-            style={{ width: "100%", borderRadius: "15%" }}
+            style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/NimaSchaper.jpeg"
           ></img>
           <p className="font-size-1">
