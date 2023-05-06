@@ -1358,7 +1358,7 @@ export const LineUpInformation = [
     ),
   },
   {
-    title: "Nima Shaper",
+    title: "Nima Schaper",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
