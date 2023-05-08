@@ -16,8 +16,8 @@ export const LineUpInformation = [
             1987 in Hasaka, Syrien, geboren. Sein amtlicher Name ist Abdulaziz
             Ramadan. Er studierte an den Universitäten Damaskus, Halle, Leipzig
             und Oxford. Xoşewîst ist Gründer und Geschäftsführer von DOZ e.V.
-            (DOZ International) und lebt in Leipzig.Leipzigيّاtist sein Debüt.
-            Xoşewîst hat den Preis "Bayern Beste Independet Bücher 2020 für
+            (DOZ International) und lebt in Leipzig.Leipzigيّاt ist sein Debüt.
+            Xoşewîst hat den Preis "Bayern Beste Independet Bücher 2020" für
             seinen Buch LeipzigيّاT bekommen.
           </p>
         </div>
@@ -254,7 +254,8 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Simoné"} />
-            <PrettyName name={"Goldschmidt-Lechner"} />
+            <PrettyName name={"Goldschmidt-"} appendWhiteSpace={false} />
+            <PrettyName name={"Lechner"} />
             (sgl) schreibt Prosa, Lyrik und Drama, übersetzt, macht Podcasts,
             beschäftigt sich mit (queeren) Fankulturen im Netz, Horror aus
             postmigrantischer Perspektive und Sprache in Videospielen. Sie ist
@@ -301,7 +302,22 @@ export const LineUpInformation = [
       </>
     ),
   },
-
+  {
+    title: "SCHLECHTE WÖRTER / BAD WORDS",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/SchlechteWorter_16x9.png"
+          ></img>
+          <p className="font-size-1">
+            Ausgehend von Aichingers Text, schafft die Audioserie Schlechte Wörter / Bad Words einen Ort für ein anderes Sprechen über Sprache und Literatur, für die Annäherung an ein neues Sprachgefühl. Aus Gesprächen, Lesungen, Sprachnachrichten, Field Recordings und Musik entsteht ein begehbarer, vielstimmiger Raum mit wechselnden Gästen. Die Verabredung lautet: Wir gehen von einem Text aus, damit ein anderer Text beginnen kann.
+          </p>
+        </div>
+      </>
+    )
+  },
   {
     title: "Saskia Vogel",
     contentJSX: (
@@ -424,6 +440,14 @@ export const LineUpInformation = [
             <PrettyName name={"Flach"} />, Ethnologin und Aktivistin der kurdischen Frauenbewegung,
             Autorin verschiedener Bücher zur kurdischen Frauenbewegung.
             Mitübersetzerin von Sakine Cansız „Mein ganzes Leben war ein Kampf“.
+          </p>
+          <img
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/images/LeylaKaya.jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Leyla"} />
+            <PrettyName name={"Kaya"} />ist Krankenschwester und Mutter 1 Tochter. Sie ist Gründungsmitglied des 1. Kurdischen Frauenvereins in Hamburg im Jahr 2000 und 2005 Gründungsmitglied des 1. Frauenrates in Hamburg. Seitdem ist die im Frauenrat in Rojbin aktiv.
           </p>
         </div>
       </>
@@ -692,6 +716,10 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/images/JuliaBuchberger.jpeg"
+          ></img>
           <p className="font-size-1">
             <PrettyName name={"Julia"} /> <PrettyName name={"Buchberger"} /> ist
             Dramaturgin und Theatermacherin. Sie studierte Szenische Künste an
@@ -993,7 +1021,7 @@ export const LineUpInformation = [
   },
 
   {
-    title: "dyke dogs",
+    title: "dyke dogs (Eva Tepest & Lynn Takeo Musiol)",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -1149,7 +1177,7 @@ export const LineUpInformation = [
     ),
   },
   {
-    title: "*அவ்ரீனா* *பிரபலா**-**ஜாஸ்லின்** / *avrina prabala-joslin",
+    title: "அவ்ரீனா பிரபலா-ஜாஸ்லின் / avrina prabala-joslin",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%", width: "100%" }}>
@@ -1158,8 +1186,9 @@ export const LineUpInformation = [
             src="/images/Prabala-Joslin_Avrina_Foto_ Michelle Gutiérrez.jpeg"
           ></img>
           <p className="font-size-1">
-            *அவ்ரீனா* *பிரபலா**- **ஜாஸ்லின்** / * <PrettyName name={"Avrina"} />
-            <PrettyName name={"Prabala-Joslin"} /> (1992, Tamil Nadu)
+            அவ்ரீனா பிரபலா- ஜாஸ்லின் /  <PrettyName name={"Avrina"} />
+            <PrettyName name={"Prabala-"} appendWhiteSpace={false} /> <PrettyName name={"Joslin"} />
+            (1992, Tamil Nadu)
             schreibt/performt Prosa und Lyrik über Orte, Wesen und Zeiten.
             avrinas Schreiben ist besessen von Erinnerungen, oft aus der
             Kindheit, die sich an- und wieder entziehen; wie Ebbe und Flut, die
