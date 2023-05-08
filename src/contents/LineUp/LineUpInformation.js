@@ -447,7 +447,7 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Leyla"} />
-            <PrettyName name={"Kaya"} />ist Krankenschwester und Mutter 1 Tochter. Sie ist Gründungsmitglied des 1. Kurdischen Frauenvereins in Hamburg im Jahr 2000 und 2005 Gründungsmitglied des 1. Frauenrates in Hamburg. Seitdem ist die im Frauenrat in Rojbin aktiv.
+            <PrettyName name={"Kaya"} />ist Krankenschwester und Mutter 1 Tochter. Sie ist Gründungsmitglied des 1. Kurdischen Frauenvereins in Hamburg im Jahr 2000 und 2005 Gründungsmitglied des 1. Frauenrates in Hamburg. Seitdem ist sie im Frauenrat in Rojbin aktiv.
           </p>
         </div>
       </>
