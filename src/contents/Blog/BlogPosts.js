@@ -537,7 +537,7 @@ export const Posts = [
   },
   {
     title: "We can all do worse",
-    author: "Aichinger Gänsler",
+    author: "Franziska Gänsler",
     contentJSX: <>
       <p>
         2011, bei einem Patti Smith Konzert, rief ein Mann aus dem Publikum „You can do better“ und  ihre Antwort war: „Baby, I can do worse“.
