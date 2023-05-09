@@ -566,7 +566,22 @@ export const LineUpInformation = [
       </>
     ),
   },
+  {
+    title: "Natasha A. Kelly",
+    contentJSX: <>
+      <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+        <img
+          style={{ width: "100%", borderRadius: "2.2rem" }}
+          src="/images/NatashaKelly.jpg"
+        ></img>
+        <p className="font-size-1">
+          <PrettyName name={"Natasha"} /> <PrettyName name={"A."} /> <PrettyName name={"Kelly"} />ist promovierte Kommunikationssoziologin, Autorin und Künstlerin. Mit ihrer preisgekrönten und international gereisten Dokumentation „Millis Erwachen“ feierte sie ihr Filmdebüt auf der 10. Berlin Biennale 2018. Ihr Regiedebüt beging sie 2019 mit der internationalen Aufführung ihrer Dissertationsschrift „Afrokultur“ in drei Ländern und drei Sprachen. 2021 veröffentliche sie zwei weitere Bücher: „Rassismus, Strukturelle Probleme brauchen strukturelle Lösungen“ im Atrium Verlag und „Sisters and Souls“ im Orlanda Verlag.
 
+          Foto: Samia Rachel
+        </p>
+      </div>
+    </>
+  },
   {
     title: "Mirjam Wittig",
     contentJSX: (
