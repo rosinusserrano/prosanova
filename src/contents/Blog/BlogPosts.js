@@ -595,5 +595,40 @@ export const Posts = [
         Hast du schon mal überlegt, ob deine guten Wörter vielleicht meine schlechten Wörter sind? Sind denn meine schlechten Wörter auch deine schlechten Wörter?
       </p>
     </>
+  },
+  {
+    author: "Odile Kennel",
+    title: "Ich",
+    contentJSX: <>
+      <p>
+        Ich schreibe in meinen Texten noch immer Ich und weiß noch immer nicht wer Ich ist. <br />
+        Merke: Das Ich ist umstritten und wenig gelitten. <br />
+        Ich ist phantastisch <br />
+        Ich gibt es nicht <br />
+        Ich ist zimperlich <br />
+        Ich ist ein Zampano <br />
+        Ich redet ohne Punkt und Komma <br />
+        Ich macht Werbung für die Post <br />
+        Merke: Ich sage nicht Ich, wenn ich Ich sage. <br />
+        Ich sage: Gewirr aus Strukturen, biologischen Uhren, Lemuren, Huren. Uhus und Urubus. <br />
+        Unumgänglich umgänglich. Ultrapraktisch. <br />
+        Ich gängelt alle, inklusive sich, inklusive mich! <br />
+        Ich ist historisch, hypersensibel, hysterisch. <br />
+        Ich liebt Versteckspiele, Ich spielt sich auf, Ich spielt mit Geschlechtern, nicht schlecht! <br />
+        Ich ist sie Ich ist er Ich ist es Ich ist nichtbinär Ich ist nicht bin er Ich ist Sie Ich ist wir Ich ist <br />
+        uns Ich ist dein Hund! Ich ist der Schatten deines Hundes Ich ist Brel. Ich ist Brezel. Ich <br />
+        brennt. Ich flennt. Ich hat seinen Einsatz verpennt! Mensch, Ich! <br />
+        Am stram gram pic et pic et colégram <br />
+        Ist unser Ich? <br />
+        Ist dein Ich? <br />
+        Ist mein Ich? <br />
+        Müllers Esel der ist Ich. <br />
+        Was sage Ich wenn ich nicht Ich sage? <br />
+        Was sage wenn nicht sage? <br />
+        Was säge am Ast auf dem sitze? <br />
+        Was sänge gern sagte? <br />
+        Was läge ferner als? <br />
+      </p>
+    </>
   }
 ];
