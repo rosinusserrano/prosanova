@@ -17,8 +17,9 @@ import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
 import Landing from "contents/Landing/Landing";
 import Blog from "contents/Blog/Blog";
-import Shop from "contents/Shop";
+import ShopLarge from "contents/Shop/ShopLarge";
 import FridgePoetry from "components/FridgePoetry";
+import Shop from "contents/Shop/Shop";
 
 function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {

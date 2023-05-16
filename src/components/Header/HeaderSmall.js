@@ -72,7 +72,7 @@ function HeaderSmall({
               <img style={{ marginRight: '0.5rem', filter: 'drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))', }}
                 src={"images/PROSANOVA-Logo-Klein.png"}
                 alt="Logo Small"
-                onClick={() => { setActivePage("game"); setCurrentColor("skyblue"); }}
+                onClick={() => { setActivePage("game"); setCurrentColor("skyblue"); setExpanded(false); }}
               />
             </div>
           </div>
@@ -151,6 +151,7 @@ function HeaderSmall({
               onClick={() => {
                 setActivePage("shop");
                 setCurrentColor("#E3CC4E");
+                setExpanded(false);
               }}
             >
               <div className="menu-button font-size-1 button-color-4">Shop</div>
@@ -198,6 +199,7 @@ function HeaderSmall({
               onClick={() => {
                 setActivePage("game");
                 setCurrentColor("skyblue");
+                setExpanded(false);
               }}
             >
               <div style={{

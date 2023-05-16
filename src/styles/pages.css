@@ -4,6 +4,10 @@
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
+a {
+  cursor: url(/public/MouseHand-Klick_small.png) 32 0, auto
+}
+
 .app-screen-frame{
   height: 100vh;
 }
