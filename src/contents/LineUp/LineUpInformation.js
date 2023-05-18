@@ -314,6 +314,80 @@ export const LineUpInformation = [
           <p className="font-size-1">
             Ausgehend von Aichingers Text, schafft die Audioserie Schlechte Wörter / Bad Words einen Ort für ein anderes Sprechen über Sprache und Literatur, für die Annäherung an ein neues Sprachgefühl. Aus Gesprächen, Lesungen, Sprachnachrichten, Field Recordings und Musik entsteht ein begehbarer, vielstimmiger Raum mit wechselnden Gästen. Die Verabredung lautet: Wir gehen von einem Text aus, damit ein anderer Text beginnen kann.
           </p>
+          <p className="font-size-1">
+            Eine Audioserie von Fabian Saul, in Zusammenarbeit mit Mathias Zeiske. Mit Beiträgen von Don Mee Choi, Sophia Eisenhut, Lama El Khatib, Haytham El Wardany, Merve Emre, Joshua Groß, Hanne Lippard, Enis Maci, Nalan, Thuy-Han Nguyen-Chi, Tanasgol Sabbagh, Miriam Stoney, Karosh Taha, Senthuran Varatharajah, Uljana Wolf sowie Texten von Ilse Aichinger und Etel Adnan.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Fabian Saul
+          </p>
+          <p className="font-size-1">
+            Fabian Saul ist Autor, Komponist und seit 2013 Chefredakteur des Magazins Flaneur. Das Heft, das sich in jeder Ausgabe einer anderen Straße in der Welt widmet, verfolgt einen nomadischen und interdisziplinären Ansatz, der sich auch in Sauls Arbeit wiederfindet. Neben seinen Tätigkeiten als Schriftsteller und Redakteur arbeitet er seit vielen Jahren als Komponist für Filmmusik und Songwriter. Er lebt in Berlin, seine Arbeit führt ihn jedoch regelmäßig an andere Orte.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Don Mee Choi
+          </p>
+          <p className="font-size-1">
+            Don Mee Choi ist Autorin des mit dem National Book Award ausgezeichneten Buches DMZ Colony (2020). Sie ist 2021 Fellow der MacArthur Foundation und der John Simon Guggenheim Foundation. 2019 war sie Stipendiatin des DAAD Künstlerprogramms in Berlin und ist derzeit als Picador-Gastprofessorin in Leipzig.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Lama El Khatib
+          </p>
+          <p className="font-size-1">
+            Lama El Khatib ist ausgebildete Architektin und studierte Kunstgeschichte und Philosophie an der American University of Beirut. Derzeit absolviert sie einen Masterstudiengang in Philosophie an der Freien Universität Berlin. Seit 2018 arbeitet sie im Rahmen von The Whole Life Academy und The Whole Life. An Archive Project am Haus der Kulturen der Welt in Berlin.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Merve Emre
+          </p>
+          <p className="font-size-1">
+            Merve Emre ist Associate Professor für Englisch an der University of Oxford und Autorin für The New Yorker. Von 2020-21 war sie Fellow am Wissenschaftskolleg zu Berlin.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Hanne Lippard
+          </p>
+          <p className="font-size-1">
+            Hanne Lippard lebt und arbeitet in Berlin. In Kurzfilmen, Installationen, Sound- und Performance-Arbeiten erforscht Lippard die Stimme als Gestaltungsmittel. Inspiriert durch ihre Ausbildung als Grafikdesignerin zeigt sie, wie Sprache visuell kraftvoll sein kann. Ihre Texte sind bildlich, rhythmisch und performativ, nicht bloß rein informativ. Ihre letzten Performances und Ausstellungen wurden präsentiert bei RIBOCA2, Riga (2020), ART 4 ALL, Hamburger Bahnhof Berlin (2020), Our present, Museum für Gegenwartskunst Siegen (2020), Le language est une peau, FRAC Lorraine, Metz (2021), Contact, Mood, Share, MHKA, Antwerp (2021).
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Tanasgol Sabbagh
+          </p>
+          <p className="font-size-1">
+            Tanasgol Sabbagh schreibt Lyrik und Spoken Word Texte. Seit über zehn Jahren performt sie als freischaffende Bühnenpoetin auf vielzähligen Bühnen im deutschsprachigen Raum, ihre Texte sind in verschiedenen Bühnen- und Videoformaten inszeniert worden. Sie ist Gründungsmitglied des Künstler*innenkollektivs parallelgesellschaft und der gleichnamigen Veranstaltungsreihe in Berlin. Sabbagh setzt sich für literarische Nachwuchsförderung ein und leitet Schreibworkshops für Jugendliche und Schüler*innen.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Miriam Stoney
+          </p>
+          <p className="font-size-1">
+            Miriam Stoney lebt als Autorin und Übersetzerin in Wien. Ihre meist kollaborative Praxis ist textbasiert, umfasst aber auch künstlerisches Schreiben, Performance, Audio und Installation. 2022 erscheint ihr Roman bei Broken Dimanche Press. 2021 hatte sie im Kunstverein Kevin Space in Wien ihre erste Einzelausstellung, außerdem wurden ihre Arbeiten unter anderem im Neuen Kunstverein Wien und BBC Introducing Arts gezeigt.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Karosh Taha
+          </p>
+          <p className="font-size-1">
+            Karosh Taha lebt und schreibt im Ruhrgebiet. 2018 erschien ihr Debütroman Beschreibung einer Krabbenwanderung, im April 2020 folgte Im Bauch der Königin. Für ihre Werke erhielt sie mehrere Preise und Stipendien, darunter den Hohenemser Literaturpreis 2019 und das Werkstipendium des Deutschen Literaturfonds.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Senthuran Varatharajah
+          </p>
+          <p className="font-size-1">
+            Senthuran Varatharajah ist Schriftsteller und Philosoph. Er studierte Philosophie, evangelische Theologie und vergleichende Religions- und Kulturwissenschaft in Marburg, Berlin und London. 2016 erschien sein mehrfach ausgezeichneter Debütroman Vor der Zunahme der Zeichen; Varatharajahs zweiter Roman Rot (Hunger) erscheint im März 2022. Seine Texte handeln vom Verhältnis von Biographie, Poetologie, Philosophie und Theologie, unter den Bedingungen von Flucht, Asyl, Exil und Genozid.
+          </p>
+          <br></br>
+          <p className="font-size-1">
+            Uljana Wolf
+          </p>
+          <p className="font-size-1">
+            Uljana Wolf ist Lyrikerin und Übersetzerin. Sie veröffentlichte vier Gedichtbände und zahlreiche Lyrikübersetzungen u. a. aus dem Polnischen und Belarussischen. 2021 erschien Etymologischer Gossip. Essays und Reden. Mit Marie Luise Knott kuratierte sie die Ausstellung Die Hochsee der Ilse Aichinger. Ein unglaubwürdiger Reiseführer zum 100. Geburtstag im Literarischen Colloquium Berlin. Wolfs Werk wurde u. a. mit dem Adelbert-von-Chamisso-Preis 2016 und dem Kunstpreis Berlin 2019 ausgezeichnet.
+          </p>
+          <p className="font-size-1"></p>
         </div>
       </>
     )
