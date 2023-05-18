@@ -506,7 +506,7 @@ export const LineUpInformation = [
             <a href="https://pocolit.com/">https://pocolit.com/</a>, ein bilinguales Online-Magazin für
             postkoloniale Literatur, und macht.sprache.
             <a href="https://www.machtsprache.de/">https://www.machtsprache.de/</a>, eine Plattform für politisch sensibles
-            Übersetzen, gegründet. Foto: Michelle Rue
+            Übersetzen, gegründet.
             <br></br>
             <br></br> Foto: Michelle Rue
           </p>
