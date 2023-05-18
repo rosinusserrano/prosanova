@@ -216,6 +216,17 @@ export const TermineInformation = [
                     </p>
                 </div>
                 <div>
+                    <img title="" alt="" className="border-radius" src="images/PMS_cover.png" style={{
+                        aspectRatio: "5/4",
+                        objectPosition: "50% 36%",
+                        objectFit: "cover",
+                        width: "100%",
+                    }} />
+                    <p>
+                    PMS, Postmigrantische Störung ist ein Autor_innenkollektiv, dass sich in Leipzig gefunden hat. Das Kollektiv veranstaltet regelmäßig Lesungen in Leipzig und Umgebung, hat zwei Anthologien herausgebracht, macht Radiolesungen und kooperiert oft mit anderen Künstler_innen beim Format "PMS + friends". Zuletzt zum Beispiel bei der "Love" Lesung mit Xinan Pandan.Den Hauptfokus legt PMS aber nicht aufs Lesen und Schreiben, sondern auf Essen und Freundschaft.Irina Nekrasov/a schreibt primär über Klasse, Queerness und sowjetische Erinnerungskultur(en).
+                    </p>
+                </div>
+                <div>
                     <img title="Foto: Franziska Hauser" className="border-radius" src="images/MarenWurster_c_FranziskaHauser.jpg" style={{
                         aspectRatio: "5/4",
                         objectPosition: "50% 55%",
