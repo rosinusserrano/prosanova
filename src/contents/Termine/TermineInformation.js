@@ -223,7 +223,7 @@ export const TermineInformation = [
                         width: "100%",
                     }} />
                     <p>
-                    PMS, Postmigrantische Störung ist ein Autor_innenkollektiv, dass sich in Leipzig gefunden hat. Das Kollektiv veranstaltet regelmäßig Lesungen in Leipzig und Umgebung, hat zwei Anthologien herausgebracht, macht Radiolesungen und kooperiert oft mit anderen Künstler_innen beim Format "PMS + friends". Zuletzt zum Beispiel bei der "Love" Lesung mit Xinan Pandan.Den Hauptfokus legt PMS aber nicht aufs Lesen und Schreiben, sondern auf Essen und Freundschaft.Irina Nekrasov/a schreibt primär über Klasse, Queerness und sowjetische Erinnerungskultur(en).
+                        PMS, Postmigrantische Störung ist ein Autor_innenkollektiv, dass sich in Leipzig gefunden hat. Das Kollektiv veranstaltet regelmäßig Lesungen in Leipzig und Umgebung, hat zwei Anthologien herausgebracht, macht Radiolesungen und kooperiert oft mit anderen Künstler_innen beim Format "PMS + friends". Zuletzt zum Beispiel bei der "Love" Lesung mit Xinan Pandan.Den Hauptfokus legt PMS aber nicht aufs Lesen und Schreiben, sondern auf Essen und Freundschaft.Irina Nekrasov/a schreibt primär über Klasse, Queerness und sowjetische Erinnerungskultur(en).
                     </p>
                 </div>
                 <div>
@@ -333,6 +333,11 @@ export const TermineInformation = [
         date: "01-02/06",
         title: ["ZU<wbr>SAMMEN<wbr>KOMMEN"],
         contentJSX: <>
+            <p className="font-b-bold font-size-1">
+                Muss leider ausfallen. Besucht stattdessen gerne den Co-Writing-Space des Literaturhaus St. Jakobi. Alle Informationen dazu findet ihr unter <a href="https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben">https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben</a>
+            </p>
+            <br />
+            <br />
             <span className="font-montiac font-size-3 termine-titel-font">ZUSAMMENKOMMEN</span>
             <p>
                 1.-2.6. (jeweils 13-20 Uhr)<br />
@@ -352,6 +357,11 @@ export const TermineInformation = [
         date: "02/06",
         title: ["Dort, wo wir hingehören"],
         contentJSX: <>
+            <p className="font-b-bold font-size-1 ">
+                Muss leider ausfallen. Alternativ dazu gibt es am Festivalwochenende diverse Workshops und eine Open Stage. Bei Fragen meldet euch unter <a href="mailto:kommunikation@prosanova.net">kommunikation@prosanova.net</a>
+            </p>
+            <br />
+            <br />
             <span className="font-montiac font-size-3 termine-titel-font"> Dort, wo wir hingehören</span>
             <p>
                 2.6. - 18 Uhr<br />
