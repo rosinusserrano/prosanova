@@ -274,7 +274,7 @@ export const LineUpInformation = [
   },
 
   {
-    title: "Selma Matter",
+    title: "Selma Kay Matter",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
@@ -284,7 +284,8 @@ export const LineUpInformation = [
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Selma"} />
-            <PrettyName name={"Matter"} />, geboren in Zürich, ist Autor:in und
+            <PrettyName name={"Kay"} />
+            <PrettyName name={"Matter"} appendWhiteSpace={false} />, geboren in Zürich, ist Autor:in und
             Dramaturg:in und studiert Szenisches Schreiben an der Universität
             der Künste Berlin. Zuletzt hat dey im Duo mit Marie Lucienne Verse
             das Stück Alias Anastasius geschrieben, das gerade am Berliner
