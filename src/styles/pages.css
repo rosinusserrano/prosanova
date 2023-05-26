@@ -44,6 +44,29 @@ a {
   background-color: #f97dd0;
 }
 
+.background-color-grey {
+  background-color: #e8e3dd;
+}
+.color-1 {
+  color: #bfa9ed;
+}
+
+.color-2 {
+  color: #c18167;
+}
+
+.color-3 {
+  color: #c8bf9b;
+}
+
+.color-4 {
+  color: #e3cc4e;
+}
+
+.color-5 {
+  color: #f97dd0;
+}
+
 .switch-color-button {
   width: 20px;
   height: 20px;

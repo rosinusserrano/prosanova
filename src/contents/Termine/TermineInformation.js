@@ -334,7 +334,7 @@ export const TermineInformation = [
         title: ["ZU<wbr>SAMMEN<wbr>KOMMEN"],
         contentJSX: <>
             <p className="font-b-bold font-size-1">
-                Muss leider ausfallen. Besucht stattdessen gerne den Co-Writing-Space des Literaturhaus St. Jakobi. Alle Informationen dazu findet ihr unter <a href="https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben">https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben</a>
+                Muss leider ausfallen. Besucht stattdessen gerne den Co-Writing-Space des Literaturhaus St. Jakobi. Alle Informationen dazu findet ihr unter <a className="color-5" href="https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben">https://stjakobi.de/veranstaltungen/co-writing-space-freiraum-zum-schreiben</a>
             </p>
             <br />
             <br />
@@ -358,7 +358,7 @@ export const TermineInformation = [
         title: ["Dort, wo wir hingehören"],
         contentJSX: <>
             <p className="font-b-bold font-size-1 ">
-                Muss leider ausfallen. Alternativ dazu gibt es am Festivalwochenende diverse Workshops und eine Open Stage. Bei Fragen meldet euch unter <a href="mailto:kommunikation@prosanova.net">kommunikation@prosanova.net</a>
+                Muss leider ausfallen. Alternativ dazu gibt es am Festivalwochenende diverse Workshops und eine Open Stage. Bei Fragen meldet euch unter <a className="color-5" href="mailto:kommunikation@prosanova.net">kommunikation@prosanova.net</a>
             </p>
             <br />
             <br />
