@@ -7,7 +7,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Xosewist_Foto_privat.JPG"
           ></img>
@@ -30,7 +30,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Thomas_Stangl_Foto_privat.JPG"
           ></img>
@@ -53,7 +53,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/VonderBeek_Tatjana_Foto_JohannaBaschke.jpg"
           ></img>
@@ -77,7 +77,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Logo-Stolze-Augen.png"
           ></img>
@@ -93,7 +93,7 @@ export const LineUpInformation = [
             Enttäuschungen und Erwartungen nach dem Anschlag in Hanau am 19.
             Februar 2020 zum Ausdruck bringen. <br></br>
             <br></br>
-            <img
+            <img alt=""
               style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Crooks_Michelle.jpeg"
             ></img>
@@ -108,7 +108,7 @@ export const LineUpInformation = [
             stolzeaugen.books zuständig für Lektorat und assistierende Aufgaben.
             <br></br>
             <br></br>
-            <img
+            <img alt=""
               style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Aghedo_Jennifer_Foto_ privat.jpg"
             ></img>
@@ -160,7 +160,7 @@ export const LineUpInformation = [
             Literaturformen.
           </p>
 
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
@@ -179,7 +179,7 @@ export const LineUpInformation = [
             Format das gesprochene und klangbasierte Literatur in den
             Vordergrund stellt. Tanasgol lebt in Berlin.
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Berkholz_Fotograf©Ken Yamamoto.jpg"
           ></img>
@@ -196,7 +196,7 @@ export const LineUpInformation = [
             Spokenwordautorin auf und arbeitet am liebsten in Kollaboration,
             auch und besonders mit Künstler:innen anderer Sparten.
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMG_6471-1.jpeg"
           ></img>
@@ -222,7 +222,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Varatharajah_Sinthujan_Foto_ Florinel Fratica.png"
           ></img>
@@ -248,7 +248,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Simoné Goldschmidt-Lechner_c Maik Gräf.jpeg"
           ></img>
@@ -278,7 +278,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/89846F18-5A9B-4975-A18C-1FF497D0DEE3.jpeg"
           ></img>
@@ -308,7 +308,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/SchlechteWorter_16x9.png"
           ></img>
@@ -398,7 +398,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Vogel_Saskia_Foto_ Nikolaus Kim.jpg"
           ></img>
@@ -427,7 +427,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sarah_Elena_Mueller_Press_Laura_Stevens_7.jpg"
           ></img>
@@ -462,7 +462,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sara für Lit.jpg"
           ></img>
@@ -498,7 +498,7 @@ export const LineUpInformation = [
             (Rojbîn) und Leyla Şaylemez (Ronahî) im Informationszentrum
             Kurdistan in Paris vom türkischen Geheimdienst MİT ermordet.
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/EstherWinckelmann.jpg"
           ></img>
@@ -506,7 +506,7 @@ export const LineUpInformation = [
             <PrettyName name={"Esther"} />
             <PrettyName name={"Winckelmann"} />, Antiquarin, politische Aktivistin, aktives Mitglied bei Azadî e.V. Rechtshilfefonds.
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/AnjaFlach.png"
           ></img>
@@ -516,7 +516,7 @@ export const LineUpInformation = [
             Autorin verschiedener Bücher zur kurdischen Frauenbewegung.
             Mitübersetzerin von Sakine Cansız „Mein ganzes Leben war ein Kampf“.
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/LeylaKaya.jpeg"
           ></img>
@@ -534,14 +534,14 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\InaDiallo (rio&dio).jpeg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler:in und Regieassistent:in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker:in und Videograf:in
           </p>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Rio_c_Lisa Mausbach.jpg"
           ></img>
@@ -569,7 +569,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Poco.lit_ von Rath_Anna, Gasser_Lucy, Foto_ Michelle Rue.jpg"
           ></img>
@@ -594,7 +594,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Atibioke_Olufemi_Privat.jpg"
           ></img>
@@ -615,7 +615,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kennel_Odile_Foto_ Charlotte_Werndt.JPG"
           ></img>
@@ -645,7 +645,7 @@ export const LineUpInformation = [
     title: "Natasha A. Kelly",
     contentJSX: <>
       <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-        <img
+        <img alt=""
           style={{ width: "100%", borderRadius: "2.2rem" }}
           src="/images/NatashaKelly.jpg"
         ></img>
@@ -662,7 +662,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Mirjam Wittig, Foto von Stefan Klüter.jpg"
           ></img>
@@ -689,7 +689,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Foto_Melinda Nadj Abonji_©AyseYavas_2018.jpg"
           ></img>
@@ -726,7 +726,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Martyna Murphy Baginski.jpg"
           ></img>
@@ -757,7 +757,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Karosh_Taha.JPG"
           ></img>
@@ -785,7 +785,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Friese_Julia_Foto_@_Info_folgt.jpg"
           ></img>
@@ -806,7 +806,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/JuliaBuchberger.jpeg"
           ></img>
@@ -838,7 +838,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Calleja_Jen_Foto_ Robin_Christian.jpeg"
           ></img>
@@ -869,7 +869,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kicaj_Foto.JPG"
           ></img>
@@ -898,7 +898,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/InanaOthman_Bild privat.jpg"
           ></img>
@@ -925,7 +925,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Geißler_Heike_176_HR_HeikeSteinweg_SV(2).jpg"
           ></img>
@@ -952,7 +952,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Tezkan_Hakan_Foto_ Dinçer GüçyeterJPG.JPG"
           ></img>
@@ -973,7 +973,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Ferretti_Giorgio_credits_David_Tiefenthaler.JPG"
           ></img>
@@ -998,7 +998,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMAGE 2023-04-26 09_32_51.jpg"
           ></img>
@@ -1021,7 +1021,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/fremdzuhause_sequence1.jpg"
           ></img>
@@ -1065,7 +1065,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Franziska Gänsler Foto c Linda Rosa Saal.jpg"
           ></img>
@@ -1087,7 +1087,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Beqiraj_Elona_Foto_ Alin Daghestani.jpeg"
           ></img>
@@ -1115,7 +1115,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Dyke_Dogs_Foto_ Yana Kaziulia.jpg"
           ></img>
@@ -1153,7 +1153,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/12-22_DuyguAgal_Handprints_003-Wiederhergestellt Kopie.jpg"
           ></img>
@@ -1183,7 +1183,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Damon Taleghani.jpeg"
           ></img>
@@ -1206,7 +1206,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Bilir-Meier_Cana_Foto_ Aleyna Osmanoğlu.jpeg"
           ></img>
@@ -1231,7 +1231,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/DSCF3946.jpeg"
           ></img>
@@ -1255,7 +1255,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
@@ -1271,7 +1271,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%", width: "100%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Prabala-Joslin_Avrina_Foto_ Michelle Gutiérrez.jpeg"
           ></img>
@@ -1309,7 +1309,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Armeghan photo by Bethany Burgoyne.jpg"
           ></img>
@@ -1333,7 +1333,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Anna Kim_c_E. van Lanen.jpg"
           ></img>
@@ -1362,7 +1362,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Hetzer_Anna.Fotograf_Björn Kuhligk.jpg"
           ></img>
@@ -1391,7 +1391,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Amir_Gudarzi_Foto_@_Stefan_Sappert.jpg"
           ></img>
@@ -1423,7 +1423,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/KatharinaAngus.JPG"
           ></img>
@@ -1445,7 +1445,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/PhilippLaue.jpeg"
           ></img>
@@ -1465,7 +1465,7 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/ViciDewinski.JPG"
           ></img>
@@ -1481,13 +1481,32 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img
+          <img alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/NimaSchaper.jpeg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Nima"} />  <PrettyName name={"Schaper"} appendWhiteSpace={false} />, geboren und groß geworden in Köln. Nach dem Abitur an Kölner Gesamtschule ein Jahr in Odessa, Ukraine gelebt. Studiert seit Wintersemester 21/22 Kulturwissenschaften und Ästhetische Praxis an der Universität Hildesheim. Außerdem als DJ, Music Producer und Sound/Video-Künstler tätig.
 
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: "Agon Beqiraj",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img alt=""
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/images/Agon Beqiraj.jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Agon"} /> ist ein aufstrebender Musiker und Produzent, der früh in seinem Leben seine Leidenschaft für die Musik entdeckte.
+          </p>
+          <p className="font-size-1">
+            Sein Sound bewegt sich zwischen den Richtungen Pop und Rap, die er ineinander verschmelzen lässt und durch diese Mischung verschiedener Genres seinen eigenen unverwechselbaren Sound entwickelt. Inspiriert von seinen Erfahrungen und Gefühlen möchte er Menschen emotional erreichen und ihnen auf verschiedenste Weisen helfen.
           </p>
         </div>
       </>
