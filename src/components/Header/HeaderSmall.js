@@ -1,10 +1,7 @@
 import WigglyButton from "components/WigglyButton";
-import { motion } from "framer-motion";
-import { useWindowSize } from "hooks/useWindowSize";
 import React, { useState } from "react";
 import BurgerMenuIcon from "./BurgerMenuIcon";
 import BackButton from "./BackButton";
-import { Link } from "react-router-dom";
 
 
 function HeaderSmall({
@@ -154,7 +151,7 @@ function HeaderSmall({
                 setExpanded(false);
               }}
             >
-              <div className="menu-button font-size-1 button-color-4">Shop</div>
+              <div className="menu-button font-size-1 button-color-4">Tickets</div>
             </WigglyButton>
             <WigglyButton onClick={() => window.open("/LeichteSprache.pdf")}>
               <div className="menu-button font-size-2 button-color-1">

@@ -76,7 +76,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
             setCurrentColor("#E3CC4E");
           }}
         >
-          <div className="menu-button font-size-1 button-color-4">Shop</div>
+          <div className="menu-button font-size-1 button-color-4">Tickets</div>
         </WigglyButton>
         <WigglyButton onClick={() => window.open("/LeichteSprache.pdf", "_blank")}>
           <div className="menu-button font-size-2 button-color-1">
