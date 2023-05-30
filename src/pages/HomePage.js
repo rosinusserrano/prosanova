@@ -8,25 +8,21 @@ import "../styles/fonts.css";
 import "../styles/pages.css";
 // import "../styles/responsive.css";
 
-import { slide as Menu } from "react-burger-menu";
 import Imprint from "contents/Imprint";
 import Termine from "contents/Termine/Termine";
 import LineUp from "contents/LineUp/LineUp";
 import Header from "components/Header/Header";
-import { motion } from "framer-motion";
 import { useMobile } from "hooks/useMediaQuery";
 import Landing from "contents/Landing/Landing";
 import Blog from "contents/Blog/Blog";
-import ShopLarge from "contents/Shop/ShopLarge";
 import FridgePoetry from "components/FridgePoetry";
 import Shop from "contents/Shop/Shop";
+import Programm from "contents/Programm/Programm";
 
 function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {
     case "info":
       return <Info></Info>;
-    case "imprint":
-      return <Imprint></Imprint>;
     case "imprint":
       return <Imprint></Imprint>;
     case "termine":
@@ -43,6 +39,8 @@ function PageSwitch({ page, color, setBackFunction }) {
       return <Shop></Shop>;
     case "blog":
       return <Blog setBackFunction={setBackFunction} />;
+    case "program":
+      return <Programm setBackFunction={setBackFunction} color={color} />
     default:
       return <Landing color={color}></Landing>;
   }

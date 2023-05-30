@@ -19,7 +19,7 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
           flexWrap: "wrap",
           justifyContent: "flex-start",
           alignContent: "flex-end",
-          width: "420px",
+          width: "650px",
           gap: "0.3rem",
           margin: "1rem",
           height: "100%",
@@ -69,6 +69,14 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
           }}
         >
           <div className="menu-button font-size-1 button-color-3">Blog</div>
+        </WigglyButton>
+        <WigglyButton
+          onClick={() => {
+            setActivePage("program");
+            setCurrentColor("#c8bf9b");
+          }}
+        >
+          <div className="menu-button font-size-1 button-color-5">Programm</div>
         </WigglyButton>
         <WigglyButton
           onClick={() => {
