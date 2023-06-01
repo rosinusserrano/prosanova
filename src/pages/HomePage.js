@@ -65,7 +65,7 @@ export default function HomePage() {
         background:
           currentColor === "skyblue" ? "url('blue-sky.jpg')" : currentColor,
         backgroundSize: currentColor === "skyblue" ? "cover" : "auto auto",
-        cursor: "url(MouseHand-Normal_small.png) 32 0, auto",
+        cursor: "url(MouseHand-Normal_small.png) 32 0, grab",
         width: "100vw",
         padding: "1rem",
         display: "flex",
