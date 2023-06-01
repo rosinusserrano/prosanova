@@ -2,9 +2,11 @@ import FridgePoetry from 'components/FridgePoetry'
 import React, { useState } from 'react'
 import { ProgramTypeToColor } from '../ProgrammInformation'
 import { BACKGROUNDCOLOR } from 'constants'
+import { useTablet } from 'hooks/useMediaQuery'
 
 function ProgrammLargeFooter({ day, setDay, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
+    const isTablet = useTablet()
     return (
         <footer
             className=""
@@ -38,7 +40,7 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
                 placeItems: "center",
                 paddingLeft: "2rem",
                 gap: "0.6rem"
-            }} className='border-radius font-size-1 background-color-grey'>
+            }} className={`border-radius ${isTablet ? "font-size-2" : "font-size-1"} background-color-grey`}>
                 {Object.keys(ProgramTypeToColor).map(
                     (type) => <FridgePoetry color={ProgramTypeToColor[type]}>{type}</FridgePoetry>)}
             </div>
