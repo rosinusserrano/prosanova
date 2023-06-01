@@ -99,11 +99,11 @@ export default function HomePage() {
         style={{
           flexGrow: 1,
           zIndex: 100,
-          borderRadius: "25px",
+          // borderRadius: "25px",
           overflowY: "auto",
         }}
       >
-        <main style={{ height: "100%", overflowY: "auto", }}>
+        <main style={{ height: "100%" }}>
           <PageSwitch
             setBackFunction={setBackFunction}
             page={activePage}
