@@ -18,6 +18,7 @@ import Blog from "contents/Blog/Blog";
 import FridgePoetry from "components/FridgePoetry";
 import Shop from "contents/Shop/Shop";
 import Programm from "contents/Programm/Programm";
+import { StandardFooter } from "components/Footer";
 
 function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {
@@ -55,9 +56,7 @@ export default function HomePage() {
 
   const [backFunction, setBackFunction] = useState(null);
 
-  const today = new Date()
-  const festivalDate = new Date("2023-06-23")
-  const daysDiff = Math.round((festivalDate - today) / 1000 / 60 / 60 / 24)
+  const hideFooter = isMobile || (activePage === "program")
 
   return (
     <div
@@ -112,76 +111,7 @@ export default function HomePage() {
         </main>
       </div>
 
-      <footer
-        className="background-color-grey border-radius"
-        style={{
-          minHeight: "4rem",
-          maxHeight: "4rem",
-          height: "4rem",
-          display: isMobile ? "none" : "grid",
-
-          // height: 'auto',
-          fontFamily: "BastardoRegular",
-        }}
-      >
-        <div
-          style={{
-            display: isMobile ? "none" : "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            overflowY: "auto",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div className="footer-text"
-            style={{
-              fontSize: "1.5rem",
-              display: "flex",
-              flexWrap: "wrap",
-              alignItems: "flex-start",
-              gap: "0.3rem",
-              margin: "1rem",
-            }}
-          >
-            <FridgePoetry color="white">noch</FridgePoetry>
-            <FridgePoetry color={currentColor}>{daysDiff}</FridgePoetry>
-            <FridgePoetry color="white">Tage</FridgePoetry>
-            <FridgePoetry color="white">bis</FridgePoetry>
-            <FridgePoetry color="white">zum</FridgePoetry>
-          </div>
-
-          <div className="footer-text"
-            style={{
-              fontSize: "1.5rem",
-              display: "flex",
-              flexWrap: "wrap",
-              alignItems: "flex-center",
-              gap: "0.3rem",
-              margin: "1rem",
-              justifyContent: "center",
-            }}>
-            <FridgePoetry color="white">Festival </FridgePoetry>
-            <FridgePoetry color="white"> für </FridgePoetry>
-            <FridgePoetry color="white"> junge</FridgePoetry>
-
-            <FridgePoetry color="white">Literatur</FridgePoetry>
-          </div>
-          <div className="footer-text"
-            style={{
-              fontSize: "1.5rem",
-              display: "flex",
-              alignItems: "flex-end",
-              gap: "0.3rem",
-              margin: "1rem",
-              justifyContent: "end",
-
-            }}>            <FridgePoetry color="white">am</FridgePoetry>
-            <FridgePoetry color="white">23.-25. Juni</FridgePoetry>
-            <FridgePoetry color="white">in</FridgePoetry>
-            <FridgePoetry color="white">Hildesheim</FridgePoetry>
-          </div>
-        </div>
-      </footer>
+      <StandardFooter hideFooter={hideFooter} currentColor={currentColor}/>
     </div>
   );
 }

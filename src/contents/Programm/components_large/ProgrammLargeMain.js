@@ -1,31 +1,42 @@
 import React, { useState } from 'react'
 import { ProgrammLargeButton } from './ProgrammLargeButton'
+import { motion } from 'framer-motion'
 
-function ProgrammLargeMain({ProgrammFuerTag}) {
+function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
     const [clickedButton, setClickedButton] = useState("")
-  return (
-    <div className='inside-main-content-wrapper'
+    return (
+        <div className='inside-main-content-wrapper'
             style={{
                 display: "flex",
+                gap: "0.3rem",
                 height: "100%",
-                gap: "0.3rem"
+                overflowY: "auto"
             }}>
-            <div style={{
-                flex: "2 1 0",
-                display: "grid",
-                gridTemplateAreas: "'overlay'"
-            }}>
-                {ProgrammFuerTag.map(({title, description}) =>
-                <div className='border-radius background-color-grey inside-page-padding'
-                    style={{
-                        gridArea: "overlay",
-                        display: clickedButton === title ? "block" : "none"
-                    }}>
-                    <span className='font-b-bold font-size-5'>{title}</span><br/>
-                    {description}
-                </div>)}
-            </div>
+            <motion.div
+                initial={{ flex: "0 0 0" }}
+                style={{
+
+                    display: "grid",
+                    gridTemplateAreas: "'overlay'",
+                    height: "100%",
+                    overflowY: "auto"
+                }}
+                animate={animationControls}>
+                {ProgrammFuerTag.map(({ title, description }) =>
+                    <div className='border-radius background-color-grey inside-page-padding'
+                        style={{
+                            gridArea: "overlay",
+                            display: clickedButton === title ? "block" : "none",
+                            overflowY: "auto",
+                            overflowX: "hidden"
+                        }}>
+                        <div style={{ overflowY: "auto", overflowX: "hidden", maxWidth: "100%"}}>
+                            <span style={{maxWidth: "100%"}} className='font-b-bold font-size-5'>{title}</span><br />
+                            {description}
+                        </div>
+                    </div>)}
+            </motion.div>
             <div style={{
                 flex: "3 1 0"
             }}>
@@ -39,12 +50,13 @@ function ProgrammLargeMain({ProgrammFuerTag}) {
                         hoveredButton={hoveredButton}
                         setHoveredButton={setHoveredButton}
                         setClickedButton={setClickedButton}
+                        animationControls={animationControls}
                     />
-                    <div style={{height: "0.3rem"}} />
+                    <div style={{ height: "0.3rem" }} />
                 </>)}
             </div>
         </div>
-  )
+    )
 }
 
 export default ProgrammLargeMain

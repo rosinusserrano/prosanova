@@ -2,7 +2,7 @@ import { BACKGROUNDCOLOR } from "constants"
 import React from "react"
 import { ProgramTypeToColor } from "../ProgrammInformation"
 
-export function ProgrammLargeButton({ type, time, location, title, people, hoveredButton, setHoveredButton, setClickedButton }) {
+export function ProgrammLargeButton({ type, time, location, title, people, hoveredButton, setHoveredButton, setClickedButton, animationControls }) {
     return <div style={{
         width: "100%",
         display: "flex",
@@ -11,7 +11,10 @@ export function ProgrammLargeButton({ type, time, location, title, people, hover
     }}
         onPointerOver={() => setHoveredButton(title)}
         onPointerLeave={() => setHoveredButton("")}
-        onClick={() => setClickedButton(title)}>
+        onClick={() => {
+            setClickedButton(title)
+            animationControls.start({flex: "2 1 0"})
+        }}>
         <div style={{
             padding: "1rem",
             display: "flex",

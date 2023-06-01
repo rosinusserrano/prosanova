@@ -19,7 +19,7 @@ function Programm({ setBackFunction, color }) {
                     content="Prosanova 2023, Festival für junge Literatur | Team"
                 />
             </Helmet>
-            {isMobile ? <ProgrammSmall /> : <ProgrammLarge />}
+            {isMobile ? <ProgrammSmall /> : <ProgrammLarge color={color}/>}
         </>
     );
 }
