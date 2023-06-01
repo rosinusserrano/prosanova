@@ -10,6 +10,10 @@ export const ProgramTypeToColor = {
   Hören: "#FF9B53",
 };
 
+export function makeProgramID(title, time, location){
+  return title + time + location
+}
+
 export const ProgrammAmFreitag = [
   {
     location: "Aula",

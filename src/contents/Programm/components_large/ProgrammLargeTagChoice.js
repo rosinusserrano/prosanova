@@ -6,7 +6,6 @@ import React, { useState } from 'react'
 function ProgrammTagChoice({ setDayFunction }) {
 
     const [hoveredButton, setHoveredButton] = useState("")
-    const isMobile = useMobile()
 
     return (
         <div style={{
@@ -18,8 +17,7 @@ function ProgrammTagChoice({ setDayFunction }) {
             <div style={{
                 display: "flex",
                 justifyContent: "center",
-                gap: "1.5rem",
-                flexDirection: isMobile ? "column" : "row"
+                gap: "1.5rem"
             }}>
                 <div className='border-radius background-color-grey'
                     onClick={() => setDayFunction("friday")}
