@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ProgrammAmFreitag } from './ProgrammInformation'
+import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformation'
 import ProgrammTagChoice from './components_large/ProgrammTagChoice';
 import ProgrammLargeMain from './components_large/ProgrammLargeMain';
 
@@ -33,13 +33,13 @@ function ProgrammLarge({ color }) {
                 display: day == "saturday" ? "block" : "none",
                 gridArea: "overlay"
             }}>
-                <ProgrammLargeMain ProgrammFuerTag={ProgrammAmFreitag} />
+                <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSamstag} />
             </div>
             <div style={{
                 display: day == "sunday" ? "block" : "none",
                 gridArea: "overlay"
             }}>
-                <ProgrammLargeMain ProgrammFuerTag={ProgrammAmFreitag} />
+                <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSonntag} />
             </div>
         </div>
     )
