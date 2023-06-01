@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function WigglyButton({children, onClick}) {
     const buttonStyle = {
-        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
+        cursor: "url(MouseHand-Klick_small.png) 32 0, pointer",
         rotate: 0
     }
     return (
