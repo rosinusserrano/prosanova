@@ -8,7 +8,6 @@ export const ProgramTypeToColor = {
     "Andauern": "#E3CC4E",
     "Teilnehmen": "#F97DD0",
     "Schauen": "skyblue",
-
 }
 
 
@@ -31,4 +30,14 @@ export const ProgrammAmFreitag = [
         </>,
         "type": "Schauen"
     }
+]
+
+
+export const ProgrammAmSamstag = [
+
+]
+
+
+export const ProgrammAmSonntag = [
+    
 ]
