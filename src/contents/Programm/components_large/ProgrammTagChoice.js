@@ -1,10 +1,12 @@
 
 import { BACKGROUNDCOLOR } from 'constants'
+import { useMobile } from 'hooks/useMediaQuery'
 import React, { useState } from 'react'
 
 function ProgrammTagChoice({ setDayFunction }) {
 
     const [hoveredButton, setHoveredButton] = useState("")
+    const isMobile = useMobile()
 
     return (
         <div style={{
@@ -17,6 +19,7 @@ function ProgrammTagChoice({ setDayFunction }) {
                 display: "flex",
                 justifyContent: "center",
                 gap: "1.5rem",
+                flexDirection: isMobile ? "column" : "row"
             }}>
                 <div className='border-radius background-color-grey'
                     onClick={() => setDayFunction("friday")}

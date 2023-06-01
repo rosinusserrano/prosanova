@@ -20,7 +20,8 @@ export function ProgrammLargeButton({ type, time, location, title, people, hover
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            placeItems: "center",
+            placeItems: "start",
+            flex: "2 1 0",
             backgroundColor: hoveredButton === title ? ProgramTypeToColor[type] : BACKGROUNDCOLOR
         }} className='border-radius background-color-grey font-montiac-mono'>
             <div>

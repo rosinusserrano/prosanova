@@ -31,14 +31,16 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                             overflowY: "auto",
                             overflowX: "hidden"
                         }}>
-                        <div style={{ overflowY: "auto", overflowX: "hidden", maxWidth: "100%"}}>
-                            <span style={{maxWidth: "100%"}} className='font-b-bold font-size-5'>{title}</span><br />
+                        <div style={{ overflowY: "auto", overflowX: "hidden", maxWidth: "100%" }}>
+                            <span style={{ maxWidth: "100%" }} className='font-b-bold font-size-5'>{title}</span><br />
                             {description}
                         </div>
                     </div>)}
             </motion.div>
             <div style={{
-                flex: "3 1 0"
+                flex: "3 1 0",
+                overflowY: "auto",
+                overflowX: "hidden"
             }}>
                 {ProgrammFuerTag.map(({ location, title, time, people, type }) => <>
                     <ProgrammLargeButton
