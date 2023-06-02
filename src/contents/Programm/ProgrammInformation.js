@@ -8,7 +8,7 @@ export const ProgramTypeToColor = {
   Teilnehmen: "#F97DD0",
   Schauen: "skyblue",
   Hören: "#FF9B53",
-  Feirn: "#999999",
+  Feiern: "#999999",
 };
 
 export const ProgrammAmFreitag = [
