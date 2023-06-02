@@ -8,6 +8,7 @@ export const ProgramTypeToColor = {
   Teilnehmen: "#F97DD0",
   Schauen: "skyblue",
   Hören: "#FF9B53",
+  Feirn: "#999999",
 };
 
 export const ProgrammAmFreitag = [
@@ -486,11 +487,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Aula",
     people: <>Savo</>,
-    title: "",
+    title: "PARTY",
     time: "21:00 - 22:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -498,11 +499,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Klassenzimmer",
     people: <>disk.o</>,
-    title: "",
+    title: "PARTY",
     time: "21:00 - 22:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -510,11 +511,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Aula",
     people: <>yung_womb, slimgirl fat</>,
-    title: "",
+    title: "PARTY",
     time: "22:00 - 00:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -522,11 +523,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Klassenzimmer",
     people: <>Orientalisman and Cansel</>,
-    title: "",
+    title: "PARTY",
     time: "22:00 - 00:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -534,11 +535,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Aula",
     people: <>Pavement Gun</>,
-    title: "",
+    title: "PARTY",
     time: "00:00 - 03:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -546,11 +547,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Klassenzimmer",
     people: <>Gemini Gems</>,
-    title: "",
+    title: "PARTY",
     time: "00:00 - 02:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -558,11 +559,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Klassenzimmer",
     people: <>---</>,
-    title: "",
+    title: "PARTY",
     time: "02:00 - 03:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
@@ -570,11 +571,11 @@ export const ProgrammAmSamstag = [
   {
     location: "Aula",
     people: <>disk.o</>,
-    title: "",
+    title: "PARTY",
     time: "03:00 - 04:00",
     description: (
       <>
-        Party
+        
       </>
     ),
     type: "Feiern",
