@@ -311,7 +311,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>One Mother Collective<br />Preach & EuroEyez</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "21-22:30",
     location: "Aula",
     type: "Feiern"
@@ -319,7 +319,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>00sirenas00</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "23-1",
     location: "Aula",
     type: "Feiern"
@@ -327,7 +327,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>disk.o</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "1-3",
     location: "Aula",
     type: "Feiern"
@@ -335,7 +335,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>sth that runs</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "3-4",
     location: "Aula",
     type: "Feiern"
@@ -801,98 +801,12 @@ export const ProgrammAmSamstag = [
     people: <>Savo</>,
     title: "PARTY",
     time: "21:00 - 22:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Klassenzimmer",
-    people: <>disk.o</>,
-    title: "PARTY",
-    time: "21:00 - 22:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Aula",
-    people: <>yung_womb, slimgirl fat</>,
-    title: "PARTY",
-    time: "22:00 - 00:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Klassenzimmer",
-    people: <>Orientalisman and Cansel</>,
-    title: "PARTY",
-    time: "22:00 - 00:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Aula",
-    people: <>Pavement Gun</>,
-    title: "PARTY",
-    time: "00:00 - 03:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Klassenzimmer",
-    people: <>Gemini Gems</>,
-    title: "PARTY",
-    time: "00:00 - 02:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Klassenzimmer",
-    people: <>---</>,
-    title: "PARTY",
-    time: "02:00 - 03:00",
-    description: <></>,
-    type: "Feiern",
-  },
-  {
-    location: "Aula",
-    people: <>disk.o</>,
-    title: "PARTY",
-    time: "03:00 - 04:00",
-    description: <></>,
-    type: "Feiern",
-  },
-];
-
-export const ProgrammAmSonntag = [
-  {
-    location: "Schulhof",
-    people: (
-      <>
-        Fremd Zuhause (u. a. Usama Al Shahmani, Samira El-Maawi, Asa S. Hendry,
-        Angelika Overath und Melinda Nadj Abonji. Er wurde entwickelt von Karin
-        Bucher, Christina Caprez, Martin Bezzola und Jane Schindler)
-      </>
-    ),
-    title: "Fremder Morgen - Fremdes Morgen",
-    time: "10:00 - 11:00",
     description: (
       <>
-        Für die Frühaufsteher:innen unter uns oder für die, die immer noch wach
-        sind. Wir treffen uns um 10 Uhr vor der Schule und legen uns Literatur
-        auf die Ohren. Gemeinsam und doch jeder für sich hören wir den Audiowalk
-        Fremd Zuhause und erkunden dabei die Hildesheimer Innenstadt in
-        kräftiger Morgensonne. Währenddessen wollen wir uns fragen, ob man zu
-        Hause sein kann und, wenn ja, wie man dort hinkommt. Ob das Fremde nicht
-        immer existent ist, unabhängig davon, wo wir uns befinden. Im Nachhinein
-        wollen wir bei Kaffee, Tee oder Kakao über die eigene Entfremdung ins
-        Gespräch kommen. Bitte bringt (wenn möglich) eigene Kopfhörer und
-        Smartphones mit Internetzugang mit. Wir treffen uns um 10 Uhr auf dem
-        Schulhof. Fremd Zuhause enthält Beiträge von Usama Al Shahmani, Samira
-        El-Maawi, Asa S. Hendry, Angelika Overath und Melinda Nadj Abonji. Er
-        wurde entwickelt von Karin Bucher, Christina Caprez, Martin Bezzola und
-        Jane Schindler.
+        Party
       </>
     ),
-    type: "Hören",
+    type: "Feiern",
   },
 
   {
@@ -958,74 +872,41 @@ export const ProgrammAmSonntag = [
 
   {
     location: "Klassenzimmer",
-    people: <>Anna Hetzer, Giorgio Ferretti und Inana Othman</>,
-    title: "Grammar, Grimm, Gilgamesch",
-    time: "10:30 - 11:30",
+    people: <>disk.o</>,
+    title: "",
+    time: "21:00 - 22:00",
     description: (
       <>
-        Grammatik, Märchen und Mythen ist gemeinsam, dass sie festgeschrieben
-        wurden. Doch von wem? Und aus welcher Perspektive? Was geschieht, wenn
-        ihre Narrationen auf das eigene Ich treffen und dem eigenen Körper
-        begegnen? In dieser Konfrontation entsteht das Bedürfnis, sie
-        anzueignen, sie neu zu schreiben. Drei Ichs stellen sich lyrisch vor und
-        erproben sich in einer Grammatik von alten und neuen Mythen. Inana
-        Othman, Anna Hetzer und Giorgio Ferretti laden euch zu einem
-        Kennenlernen ein. Durch Texte, Gesten und gegenseitige Übersetzungen
-        entsteht ein Gespräch, das über die Sprache hinausgeht. Dieses Format
-        ist in Kooperation mit dem Schreibzeit-Stipendium der Stiftung
-        Niedersachsen entstanden.
+        Party
       </>
     ),
-    type: "Aufführen",
+    type: "Feiern",
   },
 
   {
-    location: "Mensa",
-    people: <>Thomas Stangl</>,
-    title: "Das Labyrinth der Gurken",
-    time: "ab 12:00",
+    location: "Aula",
+    people: <>yung_womb, slimgirl fat</>,
+    title: "",
+    time: "22:00 - 00:00",
     description: (
       <>
-        Obwohl wir permanent von Text und Nachrichten umgeben sind, ist das
-        Briefeschreiben wohl eher vom Aussterben bedroht. Doch im ganzen
-        Festivaltrubel brauchen wir vielleicht nichts so sehr wie eine kurze
-        Pause, in der wir unseren Gedanken nachhängen können. In der Cafeteria
-        kannst du eine kurze Pause einlegen und dem Autor Thomas Stangl einen
-        Brief schreiben. Anlass dazu bietet ein Kurzprosatext, der lediglich aus
-        einem Satz besteht und den du gemeinsam mit Stift und Papier vor Ort
-        findest. Im Nachgang des Festivals beantwortet Thomas Stangl exklusiv
-        für das PROSANOVA sieben Briefe.
+        Party
       </>
     ),
-    type: "Andauern",
+    type: "Feiern",
   },
 
   {
     location: "Klassenzimmer",
-    people: (
-      <>Julia Friese und Melinda Nadj Abonji (Moderation: Jenifer Becker)</>
-    ),
-    title: "Recherchieren / Transformieren / Übersetzen",
-    time: "12:00 - 13:00",
+    people: <>Orientalisman and Cansel</>,
+    title: "",
+    time: "22:00 - 00:00",
     description: (
       <>
-        Wir wollen uns in die Welten um uns herum stürzen und über das
-        Recherchieren sprechen. Wie kann Recherche und Schreiben vereint werden,
-        was geht bei einer Übersetzung von Realität und Text verloren, was kommt
-        hinzu? Wir widmen uns dem Schreiben draußen und dem Recherche-losen.
-        Gibt es das überhaupt? Oder brauchen wir bei all dem Unwissen vielleicht
-        nichts so sehr wie Recherche? Wir wollen versuchen, diese als Ankämpfen
-        gegen das eigene Unverständnis zu verstehen und / oder als Schleuder,
-        die uns aus unseren eigenen Welten herauswirft. Die Autorinnen Melinda
-        Nadj Abonji und Julia Friese kommen in eine Gespräch über ihre
-        literarischen Verfahren. Wie kann man recherchieren und gleichzeitig
-        literarisch schreiben? Wie können Worte des Alltags Teil einer
-        literarischen Arbeit werden? Und welche Rolle nimmt die Recherche
-        überhaupt noch in Zeiten der Autofiktionalität ein? Ein Gespräch,
-        moderiert von Jenifer Becker.
+        Party
       </>
     ),
-    type: "Diskutieren",
+    type: "Feiern",
   },
 
   {
@@ -1071,44 +952,28 @@ export const ProgrammAmSonntag = [
 
   {
     location: "Aula",
-    people: <>Julia Friese</>,
-    title: "Geben, was fehlt",
-    time: "13.30 - 14.30",
+    people: <>Pavement Gun</>,
+    title: "",
+    time: "00:00 - 03:00",
     description: (
       <>
-        Wir wollen das Lesen als Im-Fluss-Sein begreifen und uns dem Rausch der
-        Worte hingeben. Dazu liest Julia Friese aus ihrem Roman „MTTR“, in dem
-        die Autorin eine Frau porträtiert, ihren Körper in den Vordergrund
-        stellt und so von tieferliegenden Strukturen von Schwangerschaft und
-        Mutterschaft erzählt. Wir hören ihr zu, wie sie den Fokus auf die
-        Sprachgewalt des Textes lenkt und uns mit radikaler Ehrlichkeit
-        konfrontiert. In einer Lesung, die nicht von Erklärungen oder
-        Erläuterungen durchbrochen ist, wird Julia Friese die Grenze zwischen
-        Zuhören, In-Trance-Sein und körperlichem Dasein auflösen.
+        Party
       </>
     ),
-    type: "Lesen",
+    type: "Feiern",
   },
 
   {
     location: "Klassenzimmer",
-    people: <>Odile Kennel</>,
-    title: "Baubo schickt Klitpics",
-    time: "13.30 - 15.00",
+    people: <>Gemini Gems</>,
+    title: "",
+    time: "00:00 - 02:00",
     description: (
       <>
-        Gedichte können Lust entfachen und auffächern, können Objekt der
-        Begierde und Subjekt des Begehrens sein. Sie sind selbst Körper, der
-        sich reibt, der einverleibt, es mit der Sprache treibt und mit sich
-        selbst. Braucht Lust im Gedicht ein Du? Ist Du Ich? Ich Du? Wer begehrt
-        wen? Und wie? Hat Lust ein Geschlecht? Das sind Fragen, denen sich Odile
-        Kennel vielsprachig und sprachverspielt nähert, dabei Sprachen, das
-        Sprechen und das Schreiben auf ihre Körperlichkeit hin erkundet und
-        Universen auf kleinstem Raum nach ihrem Lusthorizont abtastet. Sie liest
-        aus eigenen Texten und Übersetzungen.
+        Party
       </>
     ),
-    type: "Lesen",
+    type: "Feiern",
   },
 
   {
@@ -1201,28 +1066,15 @@ export const ProgrammAmSonntag = [
 
   {
     location: "Klassenzimmer",
-    people: (
-      <>
-        Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri (Moderation: Aidan
-        Riebensahm)
-      </>
-    ),
-    title: "Werkvorschau",
-    time: "15:30 - 16:15",
+    people: <>---</>,
+    title: "",
+    time: "02:00 - 03:00",
     description: (
       <>
-        In Form einer Werkvorschau präsentieren drei Autor*innen exklusiv
-        Auszüge aus unveröffentlichten Texten, Skizzen und Romanprojekten.
-        Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri werden in einem
-        dunklen Raum lesen, um den normalerweise auf sie gerichteten Blick auf
-        ihre Texte zu lenken. In einem anschließenden Gespräch mit Aidan
-        Riebensahm wird es um den Literaturbetrieb und seine Zugänge, die
-        Zweifel beim Schreiben, das Vertrauen in die Leser*innen und um Tipps
-        zum Überleben in einem Betrieb gehen, der abweisend sein kann. Kann der
-        Text den Blicken standhalten?
+        Party
       </>
     ),
-    type: "Lesen",
+    type: "Feiern",
   },
   {
     location: "Container",
@@ -1303,36 +1155,12 @@ export const ProgrammAmSonntag = [
 
   {
     location: "Aula",
-    people: <>Melinda Nadj Abonji</>,
-    title: "Die Figur neben, hinter und in uns",
-    time: "17:00 - 18:00",
+    people: <>disk.o</>,
+    title: "",
+    time: "03:00 - 04:00",
     description: (
       <>
-        Melinda Nadj Abonji schafft es mit ihren Romanen, uns die
-        Vielschichtigkeit von Figuren nahezubringen und das Gefühl zu
-        vermitteln, wir selbst seien Teil eines fremden Lebens. Egal, ob es sich
-        dabei um die Geschwister Ildiko und Nomi handelt, deren Familie einst
-        aus Jugoslawien gekommen ist und die nun ein Café in der Schweiz
-        betreibt, oder Zoltán, der so gerne Kreuzworträtsel löst - Melinda Nadj
-        Abonji wagt große Thesen und Deutungen, die einem Welt, Gesellschaft und
-        Zwischenmenschliches erklären und bleibt dabei doch zart und immer mit
-        einer Liebe zum Detail. Bei einer Lesung wird die Autorin aus mehreren
-        Texten vorlesen und uns so eine Vielzahl an Welten präsentieren, die
-        letztendlich alle durch den Ton ihrer einzigartigen Sprache verbunden
-        sind.
-      </>
-    ),
-    type: "Lesen",
-  },
-
-  {
-    location: "Aula",
-    people: <>Funkin Further</>,
-    title: "FADE OUT mit Funkin Further",
-    time: "ab 18:30",
-    description: (
-      <>
-       Konzert
+        Party
       </>
     ),
     type: "Feiern",

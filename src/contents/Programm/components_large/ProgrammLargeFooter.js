@@ -40,7 +40,8 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
                 display: "flex",
                 placeItems: "center",
                 paddingLeft: "0.7rem",
-                gap: isTablet ? "0.2rem" : "0.6rem"
+                gap: isTablet ? "0.2rem" : "0.6rem",
+                color: "white"
             }} className={`border-radius ${isTablet ? "font-size-2" : "font-size-1"} background-color-grey`}>
                 {Object.keys(ProgramTypeToColor).map(
                     (type) => <FridgePoetry color={ProgramTypeToColor[type]}>{type}</FridgePoetry>)}
