@@ -311,7 +311,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>One Mother Collective<br />Preach & EuroEyez</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "21-22:30",
     location: "Aula",
     type: "Feiern"
@@ -319,7 +319,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>00sirenas00</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "23-1",
     location: "Aula",
     type: "Feiern"
@@ -327,7 +327,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>disk.o</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "1-3",
     location: "Aula",
     type: "Feiern"
@@ -335,7 +335,7 @@ export const ProgrammAmFreitag = [
   {
     title: "",
     people: <>sth that runs</>,
-    description: <>PARTY</>,
+    description: "PARTY",
     time: "3-4",
     location: "Aula",
     type: "Feiern"
@@ -801,11 +801,7 @@ export const ProgrammAmSamstag = [
     people: <>Savo</>,
     title: "",
     time: "21:00 - 22:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -813,11 +809,7 @@ export const ProgrammAmSamstag = [
     people: <>disk.o</>,
     title: "",
     time: "21:00 - 22:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -825,11 +817,7 @@ export const ProgrammAmSamstag = [
     people: <>yung_womb, slimgirl fat</>,
     title: "",
     time: "22:00 - 00:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -837,11 +825,7 @@ export const ProgrammAmSamstag = [
     people: <>Orientalisman and Cansel</>,
     title: "",
     time: "22:00 - 00:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -849,11 +833,7 @@ export const ProgrammAmSamstag = [
     people: <>Pavement Gun</>,
     title: "",
     time: "00:00 - 03:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -861,11 +841,7 @@ export const ProgrammAmSamstag = [
     people: <>Gemini Gems</>,
     title: "",
     time: "00:00 - 02:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -873,11 +849,7 @@ export const ProgrammAmSamstag = [
     people: <>---</>,
     title: "",
     time: "02:00 - 03:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
   {
@@ -885,11 +857,7 @@ export const ProgrammAmSamstag = [
     people: <>disk.o</>,
     title: "",
     time: "03:00 - 04:00",
-    description: (
-      <>
-        Party
-      </>
-    ),
+    description: "PARTY",
     type: "Feiern",
   },
 ];
