@@ -1,8 +1,12 @@
 import { BACKGROUNDCOLOR } from "constants"
 import React from "react"
 import { ProgramTypeToColor } from "../ProgrammInformation"
+import { useTablet } from "hooks/useMediaQuery"
 
 export function ProgrammLargeButton({ type, time, location, title, people, hoveredButton, setHoveredButton, setClickedButton, animationControls }) {
+
+    const isTablet = useTablet()
+
     return <div style={{
         width: "100%",
         display: "flex",
@@ -21,7 +25,7 @@ export function ProgrammLargeButton({ type, time, location, title, people, hover
             flexDirection: "column",
             justifyContent: "center",
             placeItems: "start",
-            flex: "2 1 0",
+            flex: isTablet ? "4 1 0" : "2 1 0",
             backgroundColor: hoveredButton === title ? ProgramTypeToColor[type] : BACKGROUNDCOLOR
         }} className='border-radius background-color-grey font-montiac-mono'>
             <div>

@@ -10,28 +10,336 @@ export const ProgramTypeToColor = {
   Hören: "#FF9B53",
 };
 
-export function makeProgramID(title, time, location){
+export function makeProgramID(title, time, location) {
   return title + time + location
 }
 
 export const ProgrammAmFreitag = [
   {
-    location: "Aula",
-    people: <>Sinthujan Varatharajah</>,
-    title: "Hier fehlt ein Titel",
-    time: "12:30 - 14:00",
-    description: "Das ist die Beschreibung",
-    type: "Lesen",
+    location: "Schulhof",
+    people: "PROSANOVA",
+    title: "Begrüßung",
+    description: "",
+    time: "12-12:30 Uhr",
+    type: ""
   },
   {
-    location: "Klassenzimmer",
-    people: <>Thomas Stangl, Murphy</>,
-    title: "Der Sprung/ Die Sprünge (in der Zeit)",
-    time: "12:15 - 14:00",
-    description: <>Das ist eine Beschreibung in JSX</>,
-    type: "Schauen",
+    location: "Werkstatt",
+    people: "Felix Herrmann, Angelina Klempert, Meret Stühmer",
+    title: "Bee(ing) part of - ein Schwarmworkshop",
+    description: <>
+      <p>Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten verweben. Im Klang der Gruppe untergehen. </p>
+      <p>Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.</p>
+    </>,
+    time: "ab 13 uhr",
+    type: "Teilnehmen"
   },
-];
+  {
+    title: "Container",
+    people: "",
+    description: "Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet.",
+    time: "ab 13 Uhr",
+    location: "Container",
+    type: "Andauern"
+  },
+  {
+    title: <>Schreiben um zu Leben:<br />
+      Ein atmendes Erinnerungsgewebe</>,
+    people: "Nima Schaper",
+    description: "",
+    time: "ab 13 Uhr",
+    location: "Container",
+    type: "Hören"
+  },
+  {
+    title: "Die erste Naivität",
+    people: "Anna Kim, Karosh Taha",
+    description: "Anna Kim und Karosh Taha untersuchen in ihrer Korrespondenz, die im Vorhinein des Festivals entstanden ist, ihr Verhältnis zum Text und zum Schreiben. Sie fragen nach dem Ursprung des Textes, der mal Naivität war, nach der Urheberschaft am Roman, erforschen die vielfältigen Weisen, in denen sich Sprachen, Erinnerungen und Träume in ihre Texte einschreiben. Durch diese textliche Begegnung erlauben sie einen Blick auf das, was man Autofiktion nennen kann. Was ist das Verhältnis von Lüge und Wahrheit in einem Text? Ist das überhaupt wichtig? Welches Verhältnis von Wahrheit und Lüge ist legitimierbar - und ist Fiktion die Überschneidung von beidem oder die Differenz? Wer darf was und worüber schreiben? Im Rahmen des PROSANOVA 2023 wird die Korrespondenz von Laura Shirin und Deniz Bolat vorgelesen.",
+    time: "13:00-13:30",
+    location: "Aula",
+    type: "Lesen"
+  },
+  {
+    title: "Lieben als kreative Praxis",
+    people: "Saskia Vogel",
+    description: "Am Anfang steht das Geständnis der Spielerin in Michael Hanekes Verfilmung von Elfriede Jelineks Roman \"Die Klavierspielerin\": Sie offenbart, wie sie geliebt werden will. Die Schriftstellerin und Übersetzerin Saskia Vogel hat dies zum Anlass genommen, sich in ihrem Roman \"Permission\" mit ähnlichen Fragestellungen auseinanderzusetzen. Wie will ich geliebt werden? Und welche Risiken beinhaltet das Äußern vom eigenen Verlangen? In einer Lecture Perfomance mit Auszügen aus \"Permission\" erkundet sie ihre Inspirationsquelle und wie diese auf ihren Debütroman gewirkt hat. Im Anschluss wird es ein Nachgespräch geben.",
+    time: "13:15-14:15",
+    location: "Labor",
+    type: "Diskutieren"
+  },
+  {
+    title: "Die Leerstelle giert nach einem Bild",
+    people: "Sarah Elena Müller und riodioproductions™",
+    description: <>
+      Ein Kind sucht nach dem fehlenden Gefühl, das ein Übergriff hinterlassen hat. Zwischen rauschendem Schweigen, Ameisengewimmel, Erinnerungsresten und den Verletzungen seiner Vorgänger*innen sucht das Kind nach einem Bild von sich, das die Erwachsenen zur Einsicht bringt. Überlagert und verschränkt mit Videosequenzen entsteht in dieser multimedialen Lesung aus Sarah Elena Müllers Roman "Bild ohne Mädchen" ein Sog um die flimmernde Leerstelle, an der das Unvermögen zu erkennen und zu benennen selbst Bilder hervorbringt.<br /> <br />
+      CN: Kindesmissbrauch
+    </>,
+    time: "13:30-14:15",
+    location: "Dunkelkammer",
+    type: "Schauen"
+  },
+  {
+    title: <>"Schreib auf: Ich bin Araber"- Mahmoud Darwisch</>,
+    people: "Mira Sidawi",
+    description: "Mahmoud Darwischs Werke sind ein Zeugnis der Erfahrungen und Hoffnungen der palästinensischen Bevölkerung und haben die arabische und internationale Literatur maßgeblich geprägt. Dennoch bleiben die Werke vieler anderer talentierter Schriftstellerinnen aus Palästina in Deutschland weitgehend unbeachtet. Wir möchten das Bewusstsein für diese Lücke in der deutschen Literaturlandschaft schärfen und das Interesse an der literarischen Vielfalt Palästinas wecken. Gemeinsam mit Mira Sidawi, einer Theaterschaffenden, Schriftstellerin und Schauspielerin aus Beirut, werden in diesem Format das Schreiben und die Werke von Mahmoud Darwisch gewertschätzt. Die Veranstaltung wird moderiert und übersetzt von Aya Khalil. Sie findet statt auf Arabisch, Englisch und Deutsch.",
+    time: "13:30-14:30",
+    location: "Klassenzimmer",
+    type: "Diskutieren"
+  },
+  {
+    title: <>Der Prozess - das Schlechte im Guten zu finden...</>,
+    people: <>Meret Buchholz, Dennis Brock</>,
+    description: <>
+      ist gar nicht so einfach. Wenn du es trotzdem wagen willst, werde Teil eines Schreibkollektivs und entscheide über den Prozess. Die Zeit läuft, der Text ist im Wandel und der Stift bleibt niemals still. Der Verhandlungstermin ist Freitag, der 23.06. von 13 - 14 Uhr. Der Verhandlungsort ist die Werkstatt.
+      <br /><br />
+      Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.
+    </>,
+    time: "13:15-15:15",
+    location: "Werkstatt",
+    type: "Teilnehmen"
+  },
+  {
+    title: <>Das Labyrinth der Gurken</>,
+    people: <>Thomas Stangl</>,
+    description: <>Obwohl wir permanent von Text und Nachrichten umgeben sind, ist das Briefeschreiben wohl eher vom Aussterben bedroht. Doch im ganzen Festivaltrubel brauchen wir vielleicht nichts so sehr wie eine kurze Pause, in der wir unseren Gedanken nachhängen können. In der Cafeteria kannst du eine kurze Pause einlegen und dem Autor Thomas Stangl einen Brief schreiben. Anlass dazu bietet ein Kurzprosatext, der lediglich aus einem Satz besteht und den du gemeinsam mit Stift und Papier vor Ort findest. Im Nachgang des Festivals beantwortet Thomas Stangl exklusiv für das PROSANOVA sieben Briefe.</>,
+    time: "ab 14 Uhr",
+    location: "Mensa",
+    type: "Andauern"
+  },
+  {
+    title: <>Macetti</>,
+    people: <>Damon Taleghani</>,
+    description: <>Ein Geiger, versehentlich im Fluchtauto. Ein machthungriger Stadtplaner. Enttäuschte Kinder, maoistische Splitter, ein verlassenes Parteibüro in Leipzig. Dies ist eine Live-Vertonung eines Spionageromans mit kaputtem E-Harmonium und sehr kleinen Büchern. Geschichte ist das Gegenteil von einem Staubsauger. Zufällig trifft das auch auf elektrische Aerophone zu. In seinem DDR-Roman „Macetti“ beobachtet Damon Taleghani iranische Parteikader im Deutschland der Sechziger- und Siebzigerjahre.</>,
+    time: "14:30-15:30",
+    location: "Aula",
+    type: "Lesen"
+  },
+  {
+    title: <>Macht Sprache: Sensibles Übersetzen</>,
+    people: <>poco.lit</>,
+    description: <>Sprache kann diskriminieren und Diskriminierung aufrecht erhalten. Schon in einer Sprache ist das eine Herausforderung, noch schwieriger wird es in Übersetzungen. Übersetzungen nehmen immer an mehreren Diskursen teil: Sie gehen aus einem bestehenden Diskurs hervor und treten in einen anderen ein. Anhand von konkreten Beispielen schauen wir in diesem Workshop, wie Übersetzungen bestimmte Diskurse mitgestalten und diskutieren verschiedene Handlungsoptionen und mögliche Leitlinien, die bei der Begriffswahl helfen können. Mithilfe der digitalen Plattform machtsprache.de tragen wir gemeinsam Wissen zusammen, auf das auch nach dem Workshop noch zurückgegriffen werden kann.</>,
+    time: "14:30-16:30",
+    location: "Werkstatt",
+    type: "Teilnehmen"
+  },
+  {
+    title: <>no. mad. in. the. attic. </>,
+    people: <>அவ்ரீனா பிரபலா-ஜாஸ்லின் (Avrina Prabala-Joslin)</>,
+    description: <>Letters. Journal entries. Worn out soles. Nicotine patches. In the moonlight, the yellow wallpaper mutates. We're on all fours, we've broken free. I told me how to save me in a dream. Light the candle. Burn the Great House. Mad, madder, maddest. Cull. That's not you in the mirror. That's the child you were. Would you like to hold hands? There's surely ways to escape diagnoses. The garden awaits. You know the way, you are. Kiss the dark, leak at its lips. Slap yourself awake. Write everything down, don't you miss even a single detail.
+      <br /><br />
+      அவ்ரீனா பிரபலா-ஜாஸ்லின் / avrina prabala-joslin has been meaning to tell a story of  horror and madness and the strange world of words. It's time. Inspired by Wide Sargasso Sea (Jean Rhys) and The Yellow Wallpaper (Charlotte Perkins Gilman).
+      Note: disturbing content and noises.
+      <br /><br />
+      <br /><br />
+      Briefe. Tagebücher. Abgewetzte Schuhe. Nikotinpflaster. Im Mondlicht mutiert die gelbe Tapete. Wir sind auf allen Vieren, wir haben uns losgerissen. Ich habe mir im Traum gesagt, wie ich mich retten kann. Zünde die Kerze an. Brenn das Herrenhaus nieder. Irr, irrer, am irrsten. Schlachte. Das bist nicht du im Spiegel; das ist das Kind, das du mal warst. Willst du Händchen halten? Bestimmt gibt es Wege, der Diagnose zu entkommen. Der Garten wartet auf dich. Du weißt, wie du bist. Küsse die Dunkelheit, lecke ihre Lippen. Schlag dich wach. Schreib alles auf, lass bloß kein Detail aus.
+      <br /><br />
+      Schon lange wollte அவ்ரீனா பிரபலா-ஜாஸ்லின் / avrina prabala-joslin eine Geschichte über Grauen und Wahnsinn und die seltsame Welt der Worte erzählen. Nun ist es soweit. Inspiriert von Wide Sargasso Sea (Jean Rhys) und The Yellow Wallpaper (Charlotte Perkins Gilman).
+      CN: verstörender Inhalt und Geräusche.
+      Diese Veranstaltung wird auf Englisch stattfinden.</>,
+    time: "15-16:45",
+    location: "Klassenzimmer",
+    type: "Aufführen"
+  },
+  {
+    title: <>Die Erfindung der Unruhe I Literaturmeditation I </>,
+    people: <>Laura Shirin</>,
+    description: <>
+      In den Literaturmeditationen werden die Augen geschlossen, die Atmung wird beruhigt und es wird ein Punkt kommen, an dem der Text nicht mehr Selbstzweck ist. Vielleicht wird er zu einem Traum weiterverarbeitet. Vielleicht auch nicht. Vielleicht ist es falsch davon auszugehen, dass es eine Monotonie, eine Ruhe, eine Konsistenz geben muss. Störungen können passieren, auch in Literaturmeditationen. An jedem Festivaltag findet eine Literaturmeditation zu unterschiedlichen Zeitpunkten statt. Diese wird geleitet von Laura Shirin.
+    </>,
+    time: "15-15:30",
+    location: "Labor",
+    type: "Teilnehmen"
+  },
+  {
+    title: <>Ewig Laufen</>,
+    people: <>Franziska Gänsler</>,
+    description: <>
+      In ihrem Debütroman "Ewig Sommer" erzählt Franziska Gänsler von der gegenwärtigen Klimakatastrophe: Mit präzisen Beschreibungen und einer bildgewaltigen Sprache sind die Szenen Dystopie und Hoffnung zugleich, erlauben sich mehrdeutig zu sein. Innerhalb eines literarischen Spaziergangs holt sie die brennenden Wälder und den Rauch aus Bad Heim nach Hildesheim. Treffpunkt für den Spaziergang ist um 15 Uhr an der Sparkasse gegenüber der Schule. Moderiert von Duygu Ağal.
+    </>,
+    time: "15-16 Uhr",
+    location: <>
+      Extern<br/>
+      Treffpunkt: 15 Uhr an der Sparkasse gegnüber der Schule
+    </>,
+    type: "Lesen"
+  },
+  {
+    title: <>Der letzte Kommunist: Matthias Frings über Ronald M. Schernikau</>,
+    people: <>Matthias Frings</>,
+    description: <>
+      Das Werk des kommunistischen und schwulen Schriftstellers Ronald M. Schernikau ist lange in Vergessenheit geraten. Zumindest in Teilen des Literaturbetriebs hat es in den letzten Jahren eine Renaissance erlebt. Ein Grund dafür ist die 2009 erschienene Biografie "Der letzte Kommunist" des langjährigen Schernikau-Freundes Matthias Frings. Auf dem PROSANOVA wird Matthias Frings aus seinem Buch "Der letzte Kommunist. Das traumhafte Leben des Ronald M. Schernikau" lesen und mit uns über Schernikau ins Gespräch kommen.
+    </>,
+    time: "15-16 Uhr",
+    location: "Container",
+    type: "Diskutieren"
+  },
+  {
+    title: <>Juice and Sauce</>,
+    people: <>Olufemi Atibioke</>,
+    description: <>Ausstellung zum Format "Wenn der geklaute Laptop eine Erfindung wäre" in der Dunkelkammer. Danach geht es weiter um 16 Uhr im Labor.</>,
+    time: "15-15:30",
+    location: "Dunkelkammer",
+    type: "Aufführen"
+  },
+  {
+    title: <>Juice and Sauce</>,
+    people: <>Olufemi Atibioke</>,
+    description: <>
+      In dieser performativen, lautlosen Lesung von Olufemi Atibioke geht es um die Geschichte eines gestohlenen Laptops. Es ist der Versuch, einen Zusammenhang zu rekonstruieren, der sich weigert, einer zu sein. Ausgehend von Anna Kims und Karosh Tahas Briefwechsel bleiben viele Fragen offen: Geht die Haltung des Schreibenden dem Text voraus? Ist das Scheitern am Text eine Konseqeunz der Haltung? Und wenn der Text geklaut wird - was bleibt dann von dieser Haltung übrig?
+    </>,
+    time: "16-16:45",
+    location: "Labor",
+    type: "Aufführen"
+  },
+  {
+    title: <>Bekenntnisse an das Misstrauen: Kettwirts</>,
+    people: <>Vici Dewinski</>,
+    description: <>
+      "Ein Sprichwort sagt, dass der Ort, an dem du geboren wurdest, immer in deinem  Herzen verankert ist. Auch, wenn er an der Grenze zur Hölle liegt."
+      Geheimnisse, Albträume und mündliche Überlieferungen prägen die Geschichte des längst vergessenen Ortes und seiner sogenannten  Dorfbewohnerennie. Verweilen Sie kurz, aber bleiben Sie besser nicht zu lang. Fremdkörper sind auf Dauer nicht tragbar. Bestehend aus Sound- und performativen Videoinstallationen präsentiert dieses Auszüge aus Vici Dewinskis Graphic Novel "Kettwirts". Skurriler Humor und düstere Bildsprache verbinden sich hier mit märchenhaft-poetischer Sprachästhetik und scheinen dabei die Grenzen von Fiktion und dualistischer Realität aufzuheben.
+      Im Rahmen des Vermittlungsprogramms "Bekenntnisse an das Misstrauen" ist in Zusammenarbeit von Vici Dewinski mit Mentorin Laura Shirin ein Triptychon entstanden.
+    </>,
+    time: "16-20 Uhr",
+    location: "Dunkelkammer",
+    type: "Aufführen"
+  },
+  {
+    title: <>Rezensionsmaschine</>,
+    people: <>Behzad Karim Khani</>,
+    description: <>
+      Das deutschsprachige Feuilleton ist ein Ort des Spannungsverhältnisses von Wahrheit und Wahrnehmung. In den Mechanismen des undurchsichtigen Betriebs wird Literatur rezipiert, kritisiert, verteidigt, geliebt und wertgeschätzt. Auf diese Weise wird der Blick auf Romane zwangsläufig immer wieder umgelenkt auf die Autor:innen. Behzad Karim Khani richtet im Rahmen der Rezensionsmaschine nun den Blick auf die Besprechung seines Debütromans "Hund Wolf Schakal". Irgendwo zwischen den Beschreibungen als Gangsterroman, Milieuroman und Migrantenroman lässt sich vielleicht eine Wahrheit finden - vielleicht aber auch nicht. Zwischendurch liest Khani immer wieder Ausschnitte aus "Hund Wolf Schakal" - und startet so den Versuch einer Verschmelzung aus Blick nach innen und nach außen.
+    </>,
+    time: "17-18:00 Uhr",
+    location: "Aula",
+    type: "Diskutieren"
+  },
+  {
+    title: <>TraumaTelefon</>,
+    people: <>Julia Friese</>,
+    description: <>
+      Sind wir Sprachcomputer auf Basis der Programmiersprache unserer Eltern? Wie prägen uns Elternphrasen? Sätze, die wir in unseren ersten Lebensjahren immer wieder gehört haben. Und was geschieht, wenn man sich kanonische Erziehungssätze Wort für Wort anschaut - wenn man „Reiß dich zusammen“ auseinandernimmt? Und wie lässt sich das in Literatur übersetzen?
+      Finde - in dem Spiel mit dem sprechenden Telefon - heraus, was dich geprägt hat und komm mit Julia Friese ins Gespräch über die literarische Übersetzung von Trauma. Welche Wunden liegen hinter den Worten und welche Verantwortung trägt Literatur dabei, wenn wir uns Trauma gleichzeitig zu- und abwenden? Wähl einfach Julia Frieses Nummer! Im Sani-Raum findest du dafür ein Telefon.
+      <br /><br />
+      CN: Themenfelder Kindheit, Elternschaft und Erziehung
+    </>,
+    time: "17-18 Uhr",
+    location: "Sanitätsraum",
+    type: "Teilnehmen"
+  },
+  {
+    title: <>
+      The Translator Is Present<br />
+      Oder<br />
+      In Conversation: Jen Calleja und Saskia Vogel
+    </>,
+    people: <>Jen Calleja und Saskia Vogel</>,
+    description: <>Xenophobie, Ausbeutung, Sex und Macht: Die beiden Übersetzer*innen und Autor*innen Jen Calleja und Saskia Vogel treffen sich im Gespräch und erzählen uns davon, was sie beim Schreiben inspiriert und wie ihre Routinen und Praktiken aussehen. Begleitet wird das Gespräch von Passagen aus ihren neusten Werken. Die Veranstaltung wird auf Englisch stattfinden.</>,
+    time: "17:15-18:15",
+    location: "Klassenzimmer",
+    type: "Diskutieren"
+  },
+  {
+    title: <>triangle of exhaustion</>,
+    people: <>Simoné Goldschmidt-Lechner (sgl), Selma Kay Matter und Mirjam Wittig</>,
+    description: <>In einer Relaxed Performance werden die Autor*innen Simoné Goldschmidt-Lechner, Selma Kay Matter und Mirjam Wittig aus neuen Texten lesen. Aus drei verschiedenen Positionen hat sich ein Dreieck ergeben, das triangle of exhaustion (ABC). Zwischen drei Textpositionen (A, B, C) aufgespannt, in seiner Form stabil gehalten durch eine endlose Bewegung aus Anstrengung, Erschöpfung und Wiederholung.
+      Punkt A spricht von der Anstrengung, sich verständlich zu machen in einem Raum, der nicht sicher ist.
+      Punkt B spricht von Überanstrengung als Alltagserfahrung eines chronisch kranken Körpers.
+      Punkt C spricht von der Erschöpfung eines zerstörten Bodens und der Anstrengung, ihn wiederherzustellen.
+      In einer Trigonometrie der Erschöpfung lassen die Autor*innen ihre Texte in Beziehung zueinander treten. Welche Verbindungen (a, b, c) ergeben sich daraus? In welchen Winkeln (α, β, γ) verhalten die Texte sich zueinander? And how can we get some rest?</>,
+    time: "17:30-18:30",
+    location: "Labor",
+    type: "Aufführen"
+  },
+  {
+    title: <>kadal ondru</>,
+    people: <>அவ்ரீனா பிரபலா-ஜாஸ்லின் (Avrina Prabala Joslin) und சிந்துஜன் வரதராஜா (Sinthujan Varatharajah)</>,
+    description: <>“Water masses (are) a constant reminder of what was, what could have been and stopped being” (possible biography of an ocean).
+      What does it mean to share an ocean? To return to water, not land? What does the ocean swallow and hide? Whose epitaphs are written in water and what eulogies do whales sing? In this session, Avrina Prabala-Joslin and Sinthujan Varatharajah will let their tongues form waves to allow for water to form human words.
+      <br /><br />
+      {"//"}
+      <br /><br />
+      "Wassermassen (sind) eine ständige Erinnerung an das, was war, was hätte sein können und was nicht mehr ist." (mögliche Biografie eines Ozeans)
+      Was bedeutet es, einen Ozean zu teilen? Zum Wasser zurückzukehren, nicht zum Land? Was verschluckt und versteckt der Ozean? Wessen Epitaphien werden ins Wasser geschrieben und welche Eulogien singen die Wale? In dieser Sequenz werden Avrina Prabala-Joslin und Sinthujan Varatharajah ihre Zungen Wellen bilden lassen, damit das Wasser menschliche Worte formen kann. Die Veranstaltung wird auf Englisch stattfinden.</>,
+    time: "18:45-19:45 ",
+    location: "Aula",
+    type: "Aufführen"
+  },
+  {
+    title: <>Das Ende ist nah</>,
+    people: <>Amir Gudarzi</>,
+    description: <>Amir Gudarzi liest aus seinem im August 2023 erscheinenden Roman "Das Ende ist nah". Aus Wien kommend bringt er die Tradition der Psychoanalyse mit. Das Publikum liegt, setzt sich aus, lässt sich ein: der unsichtbare Autor seinen Text als Berührung, die in das Unbewusste der Zuhörenden vordringt. Seine Stimme wird zu einer inneren Stimme und am Ende bleibt nur das Wort. </>,
+    time: "19-20 Uhr",
+    location: "Labor",
+    type: "Lesen"
+  },
+  {
+    title: <>Der Sprung / Die Sprünge (in der Zeit)</>,
+    people: <>Thomas Stangl</>,
+    description: <>Wie können wir etwas greifen, das im nächsten Augenblick schon wieder verschwunden ist? Und gibt es Momente, die sich dem Fortgang der Zeit entziehen?<br />
+      Diesen Fragen widmet sich Thomas Stangl in seinem 2022 erschienenen Roman “Quecksilberlicht”, aus dem er in einer kollaborativen Soundlesung mit der Künstlerin Martyna Murphy Baginski lesen wird. Während der Autor verzweifelten, wunderbaren und wahnsinnigen Kämpfen gegen Zeit und Verschwinden durch die Jahrhunderte nachspürt, ist das Medium Sound schon von selbst ein Spiel mit Zeit. Denn was könnte vergänglicher sein als der Ton, der schon wieder weg ist, sobald wir ihn bemerken? <br />
+      Wir wollen die Medien Text und Sound erkunden und das Zusammenkommen der beiden Künstler*innen als Match begreifen. Wir können gespannt sein auf schnelle Wechsel und ein sich Einstellen auf das unbekannte Gegenüber.</>,
+    time: "19:15-20 Uhr",
+    location: "Klassenzimmer",
+    type: "Aufführen"
+  },
+  {
+    title: <>Sprache als widerständiger Rückzugsort / Ein Kurzfilmabend</>,
+    people: "",
+    description: <>Das permanente Verschwinden: Das ist es, was Ilse Aichinger als überzeugte Kinogängerin am Film begeisterte. Diese Bewegung, das sich ständig Auflösende, das Anfangen ohne ein Ende zu benennen, das Verdichtete, Geraffte, niemals Verkürzte, hat sich auch in ihre Texte übertragen. In einer Auswahl von fünf Kurzfilmen setzen wir uns innerhalb eines Kinoabends der Möglichkeit des Verlustes des roten Fadens aus. Ein Kurzfilmabend mit Beiträgen über May Ayim, Semra Ertan, James Baldwin und mehr.</>,
+    time: "20:15-22 Uhr",
+    location: "Container",
+    type: "Schauen"
+  },
+  {
+    title: <>Die Erde ist tot! Lang lebe die Erde! </>,
+    people: <>Lara Hajj Sleiman, Deborah Lara Schaefer</>,
+    description: <>Ein Sci-Fi Livehörspiel: Berlin 2045 - um die Erde abzukühlen, haben Großkonzerne wie Tesla die
+      Welt mit neuen, fluoreszierenden Wäldern überzogen. Am Spreeufer, wo
+      Esther lebt, entstehen Elendsviertel und neue Wolkenkratzer mit
+      Algenreaktorfassaden. Vor vier Jahren hat Esther mit Freunden das
+      Tageslicht gegründet - eine 14-köpfige Kommune, in der sie in
+      Gemeinschaft leben und später ihre Kinder großziehen wollen. Ihr Leben
+      scheint nach Plan zu laufen, bis ihr Freund Jascha nach einem Suizidversuch
+      mit einer schweren Psychose in die Psychiatrie eingewiesen wird und ihre
+      Community finanziell vor dem Aus steht.
+      CN: Psychische Erkrankung</>,
+    time: "20:30-21:15",
+    location: "Labor",
+    type: "Lesen"
+  },
+  {
+    title: <></>,
+    people: <>One Mother Collective<br />Preach & EuroEyez</>,
+    description: <>PARTY</>,
+    time: "21-22:30",
+    location: "Aula",
+    type: "Feiern"
+  },
+  {
+    title: <></>,
+    people: <>00sirenas00</>,
+    description: <>PARTY</>,
+    time: "23-1",
+    location: "Aula",
+    type: "Feiern"
+  },
+  {
+    title: <></>,
+    people: <>disk.o</>,
+    description: <>PARTY</>,
+    time: "1-3",
+    location: "Aula",
+    type: "Feiern"
+  },
+  {
+    title: <></>,
+    people: <>sth that runs</>,
+    description: <>PARTY</>,
+    time: "3-4",
+    location: "Aula",
+    type: "Feiern"
+  }
+]
 
 export const ProgrammAmSamstag = [
   {
@@ -498,7 +806,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  }, 
+  },
   {
     location: "Klassenzimmer",
     people: <>disk.o</>,
@@ -510,7 +818,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  }, 
+  },
   {
     location: "Aula",
     people: <>yung_womb, slimgirl fat</>,
@@ -522,7 +830,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  },  
+  },
   {
     location: "Klassenzimmer",
     people: <>Orientalisman and Cansel</>,
@@ -534,7 +842,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  }, 
+  },
   {
     location: "Aula",
     people: <>Pavement Gun</>,
@@ -546,7 +854,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  },  
+  },
   {
     location: "Klassenzimmer",
     people: <>Gemini Gems</>,
@@ -558,7 +866,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  }, 
+  },
   {
     location: "Klassenzimmer",
     people: <>---</>,
@@ -570,7 +878,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  },   
+  },
   {
     location: "Aula",
     people: <>disk.o</>,
@@ -582,7 +890,7 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  },     
+  },
 ];
 
 export const ProgrammAmSonntag = [];
