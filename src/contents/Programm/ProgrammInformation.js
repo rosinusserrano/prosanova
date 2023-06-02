@@ -808,7 +808,97 @@ export const ProgrammAmSamstag = [
     ),
     type: "Feiern",
   },
+  {
+    location: "Klassenzimmer",
+    people: <>disk.o</>,
+    title: "PARTY",
+    time: "21:00 - 22:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Aula",
+    people: <>yung_womb, slimgirl fat</>,
+    title: "PARTY",
+    time: "22:00 - 00:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Klassenzimmer",
+    people: <>Orientalisman and Cansel</>,
+    title: "PARTY",
+    time: "22:00 - 00:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Aula",
+    people: <>Pavement Gun</>,
+    title: "PARTY",
+    time: "00:00 - 03:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Klassenzimmer",
+    people: <>Gemini Gems</>,
+    title: "PARTY",
+    time: "00:00 - 02:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Klassenzimmer",
+    people: <>---</>,
+    title: "PARTY",
+    time: "02:00 - 03:00",
+    description: <></>,
+    type: "Feiern",
+  },
+  {
+    location: "Aula",
+    people: <>disk.o</>,
+    title: "PARTY",
+    time: "03:00 - 04:00",
+    description: <></>,
+    type: "Feiern",
+  },
+];
 
+
+export const ProgrammAmSonntag = [
+  {
+    location: "Schulhof",
+    people: (
+      <>
+        Fremd Zuhause (u. a. Usama Al Shahmani, Samira El-Maawi, Asa S. Hendry,
+        Angelika Overath und Melinda Nadj Abonji. Er wurde entwickelt von Karin
+        Bucher, Christina Caprez, Martin Bezzola und Jane Schindler)
+      </>
+    ),
+    title: "Fremder Morgen - Fremdes Morgen",
+    time: "10:00 - 11:00",
+    description: (
+      <>
+        Für die Frühaufsteher:innen unter uns oder für die, die immer noch wach
+        sind. Wir treffen uns um 10 Uhr vor der Schule und legen uns Literatur
+        auf die Ohren. Gemeinsam und doch jeder für sich hören wir den Audiowalk
+        Fremd Zuhause und erkunden dabei die Hildesheimer Innenstadt in
+        kräftiger Morgensonne. Währenddessen wollen wir uns fragen, ob man zu
+        Hause sein kann und, wenn ja, wie man dort hinkommt. Ob das Fremde nicht
+        immer existent ist, unabhängig davon, wo wir uns befinden. Im Nachhinein
+        wollen wir bei Kaffee, Tee oder Kakao über die eigene Entfremdung ins
+        Gespräch kommen. Bitte bringt (wenn möglich) eigene Kopfhörer und
+        Smartphones mit Internetzugang mit. Wir treffen uns um 10 Uhr auf dem
+        Schulhof. Fremd Zuhause enthält Beiträge von Usama Al Shahmani, Samira
+        El-Maawi, Asa S. Hendry, Angelika Overath und Melinda Nadj Abonji. Er
+        wurde entwickelt von Karin Bucher, Christina Caprez, Martin Bezzola und
+        Jane Schindler.
+      </>
+    ),
+    type: "Hören",
+  },
   {
     location: "Schulhof",
     people: <>Odile Kennel</>,
@@ -1164,6 +1254,5 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Feiern",
-  },
   },
 ];

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformation'
+import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformationV2'
 import ProgrammTagChoice from './components_large/ProgrammLargeTagChoice';
 import ProgrammLargeMain from './components_large/ProgrammLargeMain';
 import { StandardFooter } from 'components/Footer';

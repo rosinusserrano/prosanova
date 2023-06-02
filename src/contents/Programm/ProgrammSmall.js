@@ -1,7 +1,7 @@
 import React from 'react'
 import ProgrammSmallTagChoice from './components_small/ProgrammSmallTagChoice'
 import ProgrammSmallMain from './components_small/ProgrammSmallMain'
-import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformation'
+import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformationV2'
 
 function ProgrammSmall({ setDay, day, setBackFunction, backFunction }) {
   return (
