@@ -6,8 +6,6 @@ import { PrettyName, TeamMemberImage, TeamMemberImageSmall, TeamMemberSection } 
 function TeamSmall({ color, setBackFunction }) {
     const [openSection, setOpenSection] = useState(null)
 
-    console.log(setBackFunction)
-
     return (
         <div style={{
             display: "grid",
