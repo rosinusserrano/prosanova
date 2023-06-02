@@ -9,13 +9,15 @@ function ProgrammSmallMain({ ProgrammFuerTag, setBackFunction, backFunction }) {
     <div style={{
       display: "grid",
       gridTemplateAreas: "'overlay'",
-      height: "100%"
+      height: "100%",
+      overflowY: "auto"
     }}>
       <div style={{
         display: clickedButton === "" ? "flex" : "none",
         flexDirection: "column",
         gridArea: "overlay",
-        height: "100%"
+        height: "100%",
+        overflowY: "auto"
       }}>
         {ProgrammFuerTag.map(({ type, title, time, location, people }) => {
           return <ProgrammSmallButton
@@ -33,6 +35,7 @@ function ProgrammSmallMain({ ProgrammFuerTag, setBackFunction, backFunction }) {
       {ProgrammFuerTag.map(({ title, description, time, location }) =>
         <div style={{
           height: "100%",
+          overflowY: "auto",
           gridArea: "overlay",
           display: clickedButton === makeProgramID(title, time, location) ? "block" : "none"
         }}>
