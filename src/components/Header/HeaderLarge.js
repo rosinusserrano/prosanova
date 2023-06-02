@@ -73,10 +73,10 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         <WigglyButton
           onClick={() => {
             setActivePage("program");
-            setCurrentColor("#C18167");
+            setCurrentColor("#c8bf9b");
           }}
         >
-          <div className="menu-button font-size-1 button-color-2">Programm</div>
+          <div className="menu-button font-size-1 button-color-5">Programm</div>
         </WigglyButton>
         <WigglyButton
           onClick={() => {
