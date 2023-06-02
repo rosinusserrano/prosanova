@@ -21,4 +21,8 @@ export const useMobile = () => {
   return useMediaQuery("only screen and (max-width: 767px)");
 }
 
+export const useTablet = () => {
+  return useMediaQuery("only screen and (max-width: 1090px)");
+}
+
 export default useMediaQuery;
