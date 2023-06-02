@@ -1,6 +1,5 @@
 
 import { BACKGROUNDCOLOR } from 'constants'
-import { useMobile } from 'hooks/useMediaQuery'
 import React, { useState } from 'react'
 
 function ProgrammTagChoice({ setDayFunction }) {
@@ -17,7 +16,7 @@ function ProgrammTagChoice({ setDayFunction }) {
             <div style={{
                 display: "flex",
                 justifyContent: "center",
-                gap: "1.5rem"
+                gap: "1.5rem",
             }}>
                 <div className='border-radius background-color-grey'
                     onClick={() => setDayFunction("friday")}

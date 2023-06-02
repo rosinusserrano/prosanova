@@ -55,7 +55,7 @@ function HeaderSmall({
               <BackButton
                 onClick={() => {
                   backFunction();
-                  // setBackFunction(null);
+                  setBackFunction(null);
                 }}
                 color={color}
               />

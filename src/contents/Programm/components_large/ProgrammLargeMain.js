@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { ProgrammLargeButton } from './ProgrammLargeButton'
 import { motion } from 'framer-motion'
-import { makeProgramID } from '../ProgrammInformation'
 
 function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
@@ -24,33 +23,30 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                     overflowY: "auto"
                 }}
                 animate={animationControls}>
-                {ProgrammFuerTag.map(({ title, description, location, time }) =>
+                {ProgrammFuerTag.map(({ title, description }) =>
                     <div className='border-radius background-color-grey inside-page-padding'
                         style={{
                             gridArea: "overlay",
-                            display: clickedButton === makeProgramID(title, time, location) ? "block" : "none",
+                            display: clickedButton === title ? "block" : "none",
                             overflowY: "auto",
                             overflowX: "hidden"
                         }}>
-                        <div style={{ overflowY: "auto", overflowX: "hidden", maxWidth: "100%" }}>
-                            <span style={{ maxWidth: "100%" }} className='font-b-bold font-size-5'>{title}</span><br />
+                        <div style={{ overflowY: "auto", overflowX: "hidden", maxWidth: "100%"}}>
+                            <span style={{maxWidth: "100%"}} className='font-b-bold font-size-5'>{title}</span><br />
                             {description}
                         </div>
                     </div>)}
             </motion.div>
             <div style={{
-                flex: "3 1 0",
-                overflowY: "auto",
-                overflowX: "hidden"
+                flex: "3 1 0"
             }}>
-                {ProgrammFuerTag.map(({ location, title, time, people, type, description }) => <>
+                {ProgrammFuerTag.map(({ location, title, time, people, type }) => <>
                     <ProgrammLargeButton
                         location={location}
                         time={time}
                         title={title}
                         people={people}
                         type={type}
-                        description={description}
                         hoveredButton={hoveredButton}
                         setHoveredButton={setHoveredButton}
                         setClickedButton={setClickedButton}

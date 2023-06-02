@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import { ProgrammAmFreitag, ProgrammAmSamstag, ProgrammAmSonntag } from './ProgrammInformation'
-import ProgrammTagChoice from './components_large/ProgrammLargeTagChoice';
+import ProgrammTagChoice from './components_large/ProgrammTagChoice';
 import ProgrammLargeMain from './components_large/ProgrammLargeMain';
 import { StandardFooter } from 'components/Footer';
 import ProgrammLargeFooter from './components_large/ProgrammLargeFooter';
 import { useAnimationControls } from 'framer-motion';
 
-function ProgrammLarge({ color, setDay, day }) {
+function ProgrammLarge({ color }) {
+
+    const [day, setDay] = useState("");
 
     const controls = useAnimationControls()
 

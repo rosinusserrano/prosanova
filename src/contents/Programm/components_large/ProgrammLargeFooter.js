@@ -2,19 +2,16 @@ import FridgePoetry from 'components/FridgePoetry'
 import React, { useState } from 'react'
 import { ProgramTypeToColor } from '../ProgrammInformation'
 import { BACKGROUNDCOLOR } from 'constants'
-import { useTablet } from 'hooks/useMediaQuery'
 
 function ProgrammLargeFooter({ day, setDay, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
-    const isTablet = useTablet()
-    const height = isTablet ? "2rem" : "3rem"
     return (
         <footer
             className=""
             style={{
-                minHeight: height,
-                maxHeight: height,
-                height: height,
+                minHeight: "3rem",
+                maxHeight: "3rem",
+                height: "3rem",
                 display: "flex",
                 gap: "0.5rem"
             }}
@@ -31,17 +28,17 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
                 onPointerLeave={() => setHoveredButton("")}
                 onClick={() => {
                     animationControls.start({ flex: "0 0 0" })
-                    setDay(getPreviousDay(day, isTablet, {}))
+                    setDay(getPreviousDay(day, {}))
                 }}>
-                {getPreviousDay(day, isTablet, { germanAllCaps: true })}
+                {getPreviousDay(day, { germanAllCaps: true })}
             </div>
             <div style={{
                 flexGrow: 1,
                 display: "flex",
                 placeItems: "center",
-                paddingLeft: "0.7rem",
-                gap: isTablet ? "0.2rem" : "0.6rem"
-            }} className={`border-radius ${isTablet ? "font-size-2" : "font-size-1"} background-color-grey`}>
+                paddingLeft: "2rem",
+                gap: "0.6rem"
+            }} className='border-radius font-size-1 background-color-grey'>
                 {Object.keys(ProgramTypeToColor).map(
                     (type) => <FridgePoetry color={ProgramTypeToColor[type]}>{type}</FridgePoetry>)}
             </div>
@@ -57,24 +54,24 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
                 onPointerLeave={() => setHoveredButton("")}
                 onClick={() => {
                     animationControls.start({ flex: "0 0 0" })
-                    setDay(getNextDay(day, isTablet, {}))
+                    setDay(getNextDay(day, {}))
                 }}>
-                {getNextDay(day, isTablet, { germanAllCaps: true })}
+                {getNextDay(day, { germanAllCaps: true })}
             </div>
         </footer>
     )
 }
 
-function getNextDay(currentDay, isTablet, { germanAllCaps = false }) {
+function getNextDay(currentDay, { germanAllCaps = false }) {
     if (currentDay === "friday") {
         if (germanAllCaps) {
-            return isTablet ? "SA" : "SAMSTAG"
+            return "SAMSTAG"
         } else {
             return "saturday"
         }
     } else if (currentDay === "saturday") {
         if (germanAllCaps) {
-            return isTablet ? "SO" : "SONNTAG"
+            return "SONNTAG"
         } else {
             return "sunday"
         }
@@ -87,7 +84,7 @@ function getNextDay(currentDay, isTablet, { germanAllCaps = false }) {
     }
 }
 
-function getPreviousDay(currentDay, isTablet, { germanAllCaps = false }) {
+function getPreviousDay(currentDay, { germanAllCaps = false }) {
     console.log(currentDay)
     if (currentDay === "friday") {
         if (germanAllCaps) {
@@ -97,13 +94,13 @@ function getPreviousDay(currentDay, isTablet, { germanAllCaps = false }) {
         }
     } else if (currentDay === "saturday") {
         if (germanAllCaps) {
-            return isTablet ? "FR" : "FREITAG"
+            return "FREITAG"
         } else {
             return "friday"
         }
     } else if (currentDay === "sunday") {
         if (germanAllCaps) {
-            return isTablet ? "SA" : "SAMSTAG"
+            return "SAMSTAG"
         } else {
             return "saturday"
         }

@@ -20,7 +20,7 @@ import Shop from "contents/Shop/Shop";
 import Programm from "contents/Programm/Programm";
 import { StandardFooter } from "components/Footer";
 
-function PageSwitch({ page, color, setBackFunction, backFunction }) {
+function PageSwitch({ page, color, setBackFunction }) {
   switch (page) {
     case "info":
       return <Info></Info>;
@@ -41,7 +41,7 @@ function PageSwitch({ page, color, setBackFunction, backFunction }) {
     case "blog":
       return <Blog setBackFunction={setBackFunction} />;
     case "program":
-      return <Programm setBackFunction={setBackFunction} color={color} backFunction={backFunction} />
+      return <Programm setBackFunction={setBackFunction} color={color} />
     default:
       return <Landing color={color}></Landing>;
   }
@@ -98,14 +98,13 @@ export default function HomePage() {
         style={{
           flexGrow: 1,
           zIndex: 100,
-          borderRadius: "10px",
+          // borderRadius: "25px",
           overflowY: "auto",
         }}
       >
         <main style={{ height: "100%" }}>
           <PageSwitch
             setBackFunction={setBackFunction}
-            backFunction={backFunction}
             page={activePage}
             color={currentColor}
           ></PageSwitch>

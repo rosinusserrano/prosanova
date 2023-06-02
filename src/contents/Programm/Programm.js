@@ -2,15 +2,13 @@ import { useMobile } from "hooks/useMediaQuery";
 import { Helmet } from "react-helmet";
 import ProgrammSmall from "./ProgrammSmall";
 import ProgrammLarge from "./ProgrammLarge";
-import React, { useState } from "react";
+import React from "react";
 
 
 
-function Programm({ setBackFunction, color, backFunction }) {
+function Programm({ setBackFunction, color }) {
 
     const isMobile = useMobile();
-
-    const [day, setDay] = useState("");
 
     return (
         <>
@@ -21,10 +19,7 @@ function Programm({ setBackFunction, color, backFunction }) {
                     content="Prosanova 2023, Festival für junge Literatur | Team"
                 />
             </Helmet>
-            {isMobile ? <ProgrammSmall day={day} setDay={setDay}
-                setBackFunction={setBackFunction}
-                backFunction={backFunction}
-            /> : <ProgrammLarge color={color} day={day} setDay={setDay} />}
+            {isMobile ? <ProgrammSmall /> : <ProgrammLarge color={color}/>}
         </>
     );
 }

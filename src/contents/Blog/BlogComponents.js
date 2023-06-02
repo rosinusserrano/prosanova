@@ -57,7 +57,6 @@ export function BlogSmallButton({
         setExpandedPostTitle(title);
         setBackFunction(() => () => {
           setExpandedPostTitle(null);
-          setBackFunction(null)
         });
       }}
     >
