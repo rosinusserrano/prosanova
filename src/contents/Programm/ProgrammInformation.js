@@ -8,6 +8,7 @@ export const ProgramTypeToColor = {
   Teilnehmen: "#F97DD0",
   Schauen: "skyblue",
   Hören: "#FF9B53",
+  Feiern: "#553c6d"
 };
 
 export function makeProgramID(title, time, location) {
@@ -158,7 +159,7 @@ export const ProgrammAmFreitag = [
     </>,
     time: "15-16 Uhr",
     location: <>
-      Extern<br/>
+      Extern<br />
       Treffpunkt: 15 Uhr an der Sparkasse gegnüber der Schule
     </>,
     type: "Lesen"
@@ -308,7 +309,7 @@ export const ProgrammAmFreitag = [
     type: "Lesen"
   },
   {
-    title: <></>,
+    title: "",
     people: <>One Mother Collective<br />Preach & EuroEyez</>,
     description: <>PARTY</>,
     time: "21-22:30",
@@ -316,7 +317,7 @@ export const ProgrammAmFreitag = [
     type: "Feiern"
   },
   {
-    title: <></>,
+    title: "",
     people: <>00sirenas00</>,
     description: <>PARTY</>,
     time: "23-1",
@@ -324,7 +325,7 @@ export const ProgrammAmFreitag = [
     type: "Feiern"
   },
   {
-    title: <></>,
+    title: "",
     people: <>disk.o</>,
     description: <>PARTY</>,
     time: "1-3",
@@ -332,7 +333,7 @@ export const ProgrammAmFreitag = [
     type: "Feiern"
   },
   {
-    title: <></>,
+    title: "",
     people: <>sth that runs</>,
     description: <>PARTY</>,
     time: "3-4",
@@ -354,7 +355,7 @@ export const ProgrammAmSamstag = [
 
   {
     location: "Labor",
-    people: <></>,
+    people: "",
     title: "Container",
     time: "ab 10 Uhr",
     description:
@@ -461,9 +462,9 @@ export const ProgrammAmSamstag = [
         சிந்துஜன் வரதராஜா <br></br>(Sinthujan Varatharajah){" "}
       </>
     ),
-    title: "Vortrag",
+    title: "an alle orte, die hinter uns liegen",
     time: "ab 12:00",
-    description: <></>,
+    description: "Kippen, das ist eine Bewegung, das ist ein Impuls, ein Antasten. In Sinthujan Varatharajhs Debüt \"an alle orte, die hinter uns liegen\" wird das Einheitliche in die Schieflage gebracht: Was passiert, wenn wir uns Sprache als Verschiebung nähern, dem Sprechen als Instrument der Macht? In einem Vortrag mit Auszügen aus seinem*ihrem Buch widmet sich Varatharajah dem Kippen als Versuch aus einer Schieflage in die Gerade zu kommen.",
     type: "Diskutieren",
   },
 

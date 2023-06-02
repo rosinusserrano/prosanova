@@ -19,7 +19,7 @@ function ProgrammSmallMain({ ProgrammFuerTag, setBackFunction, backFunction }) {
         height: "100%",
         overflowY: "auto"
       }}>
-        {ProgrammFuerTag.map(({ type, title, time, location, people }) => {
+        {ProgrammFuerTag.map(({ type, title, time, location, people, description }) => {
           return <ProgrammSmallButton
             setClickedButton={setClickedButton}
             type={type}
@@ -29,17 +29,18 @@ function ProgrammSmallMain({ ProgrammFuerTag, setBackFunction, backFunction }) {
             people={people}
             setBackFunction={setBackFunction}
             backFunction={backFunction}
+            description={description}
           />
         })}
       </div>
-      {ProgrammFuerTag.map(({ title, description, time, location }) =>
+      {ProgrammFuerTag.map(({ title, description, time, location, type }) =>
         <div style={{
           height: "100%",
           overflowY: "auto",
           gridArea: "overlay",
           display: clickedButton === makeProgramID(title, time, location) ? "block" : "none"
         }}>
-          <ProgrammSmallContent title={title} description={description} />
+          <ProgrammSmallContent title={title} description={description} type={type}/>
         </div>)}
     </div>
   )

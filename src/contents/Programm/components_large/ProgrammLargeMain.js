@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ProgrammLargeButton } from './ProgrammLargeButton'
 import { motion } from 'framer-motion'
+import { makeProgramID } from '../ProgrammInformation'
 
 function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
@@ -23,11 +24,11 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                     overflowY: "auto"
                 }}
                 animate={animationControls}>
-                {ProgrammFuerTag.map(({ title, description }) =>
+                {ProgrammFuerTag.map(({ title, description, location, time }) =>
                     <div className='border-radius background-color-grey inside-page-padding'
                         style={{
                             gridArea: "overlay",
-                            display: clickedButton === title ? "block" : "none",
+                            display: clickedButton === makeProgramID(title, time, location) ? "block" : "none",
                             overflowY: "auto",
                             overflowX: "hidden"
                         }}>
@@ -42,13 +43,14 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                 overflowY: "auto",
                 overflowX: "hidden"
             }}>
-                {ProgrammFuerTag.map(({ location, title, time, people, type }) => <>
+                {ProgrammFuerTag.map(({ location, title, time, people, type, description }) => <>
                     <ProgrammLargeButton
                         location={location}
                         time={time}
                         title={title}
                         people={people}
                         type={type}
+                        description={description}
                         hoveredButton={hoveredButton}
                         setHoveredButton={setHoveredButton}
                         setClickedButton={setClickedButton}
