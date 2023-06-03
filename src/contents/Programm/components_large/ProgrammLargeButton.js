@@ -7,6 +7,8 @@ export function ProgrammLargeButton({ type, time, location, title, people, descr
 
     const isTablet = useTablet()
 
+    const hovered = hoveredButton === makeProgramID(title, time, location) && Object.keys(ProgramTypeToColor).includes(type)
+
     return <div style={{
         width: "100%",
         display: "flex",
@@ -19,7 +21,7 @@ export function ProgrammLargeButton({ type, time, location, title, people, descr
         }}
         onPointerLeave={() => setHoveredButton("")}
         onClick={() => {
-            if (description !== ""){
+            if (description !== "") {
                 setClickedButton(makeProgramID(title, time, location))
                 animationControls.start({ flex: "2 1 0" })
             }
@@ -31,7 +33,8 @@ export function ProgrammLargeButton({ type, time, location, title, people, descr
             justifyContent: "center",
             placeItems: "start",
             flex: isTablet ? "4 1 0" : "2 1 0",
-            backgroundColor: hoveredButton === makeProgramID(title, time, location) ? ProgramTypeToColor[type] : BACKGROUNDCOLOR
+            backgroundColor: hovered ? ProgramTypeToColor[type] : BACKGROUNDCOLOR,
+            color: hovered ? "white" : "black"
         }} className='border-radius background-color-grey font-montiac-mono'>
             <div>
                 <span>{time}</span>
@@ -46,7 +49,8 @@ export function ProgrammLargeButton({ type, time, location, title, people, descr
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            backgroundColor: hoveredButton === makeProgramID(title, time, location) ? ProgramTypeToColor[type] : BACKGROUNDCOLOR
+            backgroundColor: hovered ? ProgramTypeToColor[type] : BACKGROUNDCOLOR,
+            color: hovered ? "white" : "black"
         }} className='border-radius background-color-grey'>
             <div>
                 <span className='font-b-bold'>{title === "" ? people : title}</span><br />

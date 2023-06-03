@@ -14,7 +14,7 @@ function ProgrammSmallContent({ title, description, type }) {
       {description !== "PARTY"
         ?
         <div style={{
-          height: "90%",
+          height: "85%",
           overflowY: "auto",
           padding: "1rem"
         }}
@@ -31,22 +31,22 @@ function ProgrammSmallContent({ title, description, type }) {
           justifyContent: "center",
           placeItems: "center"
         }}
-        className='border-radius background-color-grey'>
-        <motion.div
-        initial={{
-          rotate: 0
-        }}
-        animate={{
-          rotate: 360
-        }}
-        transition={{
-          duration: 1,
-          repeat: Infinity,
-          repeatType: "loop",
-          ease: "linear",
-          bounce: false
-        }}
-        >PARTY</motion.div>
+          className='border-radius background-color-grey'>
+          <motion.div
+            initial={{
+              rotate: 0
+            }}
+            animate={{
+              rotate: 360
+            }}
+            transition={{
+              duration: 1,
+              repeat: Infinity,
+              repeatType: "loop",
+              ease: "linear",
+              bounce: false
+            }}
+          >PARTY</motion.div>
         </div>}
       <div style={{
         height: "15%",

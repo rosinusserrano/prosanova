@@ -9,7 +9,8 @@ function ProgrammSmallButton({ time, type, location, title, people, description,
       style={{
         marginBottom: "0.5rem",
         padding: "1rem",
-        backgroundColor: hovered ? ProgramTypeToColor[type] : BACKGROUNDCOLOR
+        backgroundColor: hovered ? ProgramTypeToColor[type] : BACKGROUNDCOLOR,
+        color: hovered && Object.keys(ProgramTypeToColor).includes(type) ? "white" : "black"
       }}
       onPointerLeave={() => setHovered(false)}
       onPointerOver={() => setHovered(true)}
