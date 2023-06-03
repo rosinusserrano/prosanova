@@ -12,7 +12,8 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                 display: "flex",
                 gap: "0.3rem",
                 height: "100%",
-                overflowY: "auto"
+                overflowY: "auto",
+                borderRadius: "10px"
             }}>
             <motion.div
                 initial={{ flex: "0 0 0" }}
