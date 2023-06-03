@@ -1,6 +1,6 @@
 import FridgePoetry from 'components/FridgePoetry'
 import React, { useState } from 'react'
-import { ProgramTypeToColor } from '../ProgrammInformation'
+import { ProgramTypeToColor } from '../ProgrammInformationV2'
 import { BACKGROUNDCOLOR } from 'constants'
 import { useTablet } from 'hooks/useMediaQuery'
 

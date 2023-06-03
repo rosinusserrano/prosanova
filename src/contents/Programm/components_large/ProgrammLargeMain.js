@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ProgrammLargeButton } from './ProgrammLargeButton'
 import { motion } from 'framer-motion'
-import { ProgramTypeToColor, makeProgramID } from '../ProgrammInformation'
+import { ProgramTypeToColor, makeProgramID } from '../ProgrammInformationV2'
 
 function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")

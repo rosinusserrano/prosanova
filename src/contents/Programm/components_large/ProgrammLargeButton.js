@@ -1,6 +1,6 @@
 import { BACKGROUNDCOLOR } from "constants"
 import React from "react"
-import { ProgramTypeToColor, makeProgramID } from "../ProgrammInformation"
+import { ProgramTypeToColor, makeProgramID } from "../ProgrammInformationV2"
 import { useTablet } from "hooks/useMediaQuery"
 
 export function ProgrammLargeButton({ type, time, location, title, people, description, hoveredButton, setHoveredButton, setClickedButton, animationControls }) {

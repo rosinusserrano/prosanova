@@ -1,6 +1,6 @@
 import FridgePoetry from 'components/FridgePoetry'
 import React from 'react'
-import { ProgramTypeToColor } from '../ProgrammInformation'
+import { ProgramTypeToColor } from '../ProgrammInformationV2'
 import { motion } from 'framer-motion'
 
 function ProgrammSmallContent({ title, description, type }) {

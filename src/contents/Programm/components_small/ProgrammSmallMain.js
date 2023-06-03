@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ProgrammSmallButton from './ProgrammSmallButton'
 import ProgrammSmallContent from './ProgrammSmallContent'
-import { makeProgramID } from '../ProgrammInformation'
+import { makeProgramID } from '../ProgrammInformationV2'
 
 function ProgrammSmallMain({ ProgrammFuerTag, setBackFunction, backFunction }) {
   const [clickedButton, setClickedButton] = useState("")

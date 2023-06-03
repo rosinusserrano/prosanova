@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ProgramTypeToColor, makeProgramID } from '../ProgrammInformation'
+import { ProgramTypeToColor, makeProgramID } from '../ProgrammInformationV2'
 import { BACKGROUNDCOLOR } from 'constants'
 
 function ProgrammSmallButton({ time, type, location, title, people, description, setClickedButton, setBackFunction, backFunction }) {
