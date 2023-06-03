@@ -8,7 +8,8 @@ function ProgrammSmallContent({ title, description, type }) {
     <div style={
       {
         height: "100%",
-        overflowY: "auto"
+        overflowY: "auto",
+        fontSize: "4vw"
       }
     }>
       {description !== "PARTY"

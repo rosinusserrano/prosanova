@@ -30,7 +30,8 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                             gridArea: "overlay",
                             display: clickedButton === makeProgramID(title, time, location) ? "block" : "none",
                             overflowY: "auto",
-                            overflowX: "hidden"
+                            overflowX: "hidden",
+                            fontSize: "2vw"
                         }}>
                         {
                             description !== "PARTY"
