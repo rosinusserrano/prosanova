@@ -6,15 +6,15 @@ import { useTablet } from 'hooks/useMediaQuery'
 
 function ProgrammLargeFooter({ day, setDay, animationControls }) {
     const [hoveredButton, setHoveredButton] = useState("")
-    const isTablet = useTablet()
+    const isTablet = false //useTablet()
     const height = isTablet ? "2rem" : "3rem"
     return (
         <footer
             className=""
             style={{
-                minHeight: height,
-                maxHeight: height,
-                height: height,
+                // minHeight: height,
+                // maxHeight: height,
+                // height: height,
                 display: "flex",
                 gap: "0.5rem"
             }}
@@ -38,10 +38,13 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
             <div style={{
                 flexGrow: 1,
                 display: "flex",
+                // flexWrap: "wrap",
+                padding: "0.7rem",
                 placeItems: "center",
                 paddingLeft: "0.7rem",
-                gap: isTablet ? "0.2rem" : "0.6rem",
-                color: "white"
+                gap: isTablet ? "0.2rem" : "0.5vw",
+                color: "white",
+                fontSize: "2vw"
             }} className={`border-radius ${isTablet ? "font-size-2" : "font-size-1"} background-color-grey`}>
                 {Object.keys(ProgramTypeToColor).map(
                     (type) => <FridgePoetry color={ProgramTypeToColor[type]}>{type}</FridgePoetry>)}
