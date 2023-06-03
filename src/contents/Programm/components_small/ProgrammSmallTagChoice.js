@@ -73,7 +73,7 @@ function ProgrammSmallTagChoice({ setDayFunction, setBackFunction }) {
                 <span className='font-b-bold'>Sonntag</span><br />
                 <span >25.06.2023</span>
             </div>
-            <div className='border-radius background-color-grey'
+            {/* <div className='border-radius background-color-grey'
                 onPointerOver={() => setHoveredButton("pdf")}
                 onPointerLeave={() => setHoveredButton("")}
                 style={{
@@ -86,7 +86,7 @@ function ProgrammSmallTagChoice({ setDayFunction, setBackFunction }) {
                 }}>
                 <span >Timetable als PDF herunterladen</span>
 
-            </div>
+            </div> */}
         </div>
     )
 }

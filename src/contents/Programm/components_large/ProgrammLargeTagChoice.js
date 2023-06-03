@@ -59,7 +59,7 @@ function ProgrammTagChoice({ setDayFunction }) {
                     <span >25.06.2023</span>
                 </div>
             </div>
-            <div style={{height: "4rem"}} ></div>
+            {/* <div style={{height: "4rem"}} ></div>
             <div style={{
                 display: "flex",
                 justifyContent: "center"
@@ -76,7 +76,7 @@ function ProgrammTagChoice({ setDayFunction }) {
                     <span >Timetable als PDF<br />herunterladen</span>
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
