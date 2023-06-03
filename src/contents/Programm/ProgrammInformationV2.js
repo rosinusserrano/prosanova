@@ -22,25 +22,44 @@ export const ProgrammAmFreitag = [
         people: "PROSANOVA",
         title: "Begrüßung",
         description: "",
-        time: "12-12:30 Uhr",
+        time: "12-12:30",
         type: ""
     },
     {
         location: "Werkstatt",
-        people: "Felix Herrmann, Angelina Klempert, Meret Stühmer",
+        people: "Felix Herrmann, Angelina Klempert und Meret Stühmer",
         title: "Bee(ing) part of - ein Schwarmworkshop",
         description: <>
             <p>Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten verweben. Im Klang der Gruppe untergehen. </p>
             <p>Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.</p>
         </>,
-        time: "ab 13 uhr",
+        time: "ab 13",
         type: "Teilnehmen"
     },
     {
         title: "Container",
         people: "",
-        description: "Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet.",
-        time: "ab 13 Uhr",
+        description: <>
+            Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet.
+
+            <p>
+                <span className="font-b-bold">Solange wir Erinnern - Ausstellung</span><br />
+                ab 13
+                <br /> <br />
+                "Solange Wir Erinnern" ist ein Projekt, das sich zum Ziel gesetzt hat, ein Hanau-Gedenken in Schulen zu etablieren. Im Anschluss einer thematischen Auseinandersetzung und Sensibilisierung mit der Kontinuität rechter Gewalt in Deutschland, erarbeiten Schüler*innen aus Berlin und Hamburg künstlerische Interventionen in Erinnerung und Solidarität mit Betroffenen und Opfern rechter Gewalt mit dem Fokus auf den jüngsten rechtsterroristischen Attentat in Hanau.
+                <br /><br />
+                „Solange Wir Erinnern“ ist ein Projekt von Theater findet Stadt e. V., und wird gefördert durch den Berliner Projektfonds Kulturelle Bildung in Kooperation mit dem Maxim Gorki Theater.<br /><br />
+                Projektleitung: Hiyam Biary und Elona Beqiraj
+                Ausstellungskonzeption- & produktion: Ronak Jundi
+            </p>
+            <p>
+                <span className="font-b-bold">Schreiben um zu Leben:<br />Ein atmendes Erinnerungsgewebe</span><br />
+                von Nima Schaper<br />
+                ab 13<br /><br />
+                „Ich werde still sein, doch mein Lied geht weiter“ schreibt Mascha Kaléko in einem ihrer Gedichte. Es ist ein Satz, der sich der Endlichkeit des eigenen Lebens stellt, die andere Endlichkeit aber, die der Existenz verweigert. Denn: Ein Leben hört nicht auf, wenn es geschrieben wurde. Dieser Satz soll sinnbildlich für das Aufeinandertreffen verschiedener Autor:innen in einer Soundcollage von Nima Schaper stehen, in der bereits verstorbenen Autor:innen gedacht werden soll. Teil der Soundcollage werden Else Lasker-Schüler, Mascha Kaléko, May Ayim, Selma Meerbaum-Eisinger und Semra Ertan.
+            </p>
+        </>,
+        time: "ab 13",
         location: "Container",
         type: "Andauern"
     },
@@ -49,13 +68,13 @@ export const ProgrammAmFreitag = [
             Ein atmendes Erinnerungsgewebe</>,
         people: "Nima Schaper",
         description: "",
-        time: "ab 13 Uhr",
+        time: "ab 13",
         location: "Container",
         type: "Hören"
     },
     {
         title: "Die erste Naivität",
-        people: "Anna Kim, Karosh Taha",
+        people: "Anna Kim und Karosh Taha",
         description: "Anna Kim und Karosh Taha untersuchen in ihrer Korrespondenz, die im Vorhinein des Festivals entstanden ist, ihr Verhältnis zum Text und zum Schreiben. Sie fragen nach dem Ursprung des Textes, der mal Naivität war, nach der Urheberschaft am Roman, erforschen die vielfältigen Weisen, in denen sich Sprachen, Erinnerungen und Träume in ihre Texte einschreiben. Durch diese textliche Begegnung erlauben sie einen Blick auf das, was man Autofiktion nennen kann. Was ist das Verhältnis von Lüge und Wahrheit in einem Text? Ist das überhaupt wichtig? Welches Verhältnis von Wahrheit und Lüge ist legitimierbar - und ist Fiktion die Überschneidung von beidem oder die Differenz? Wer darf was und worüber schreiben? Im Rahmen des PROSANOVA 2023 wird die Korrespondenz von Laura Shirin und Deniz Bolat vorgelesen.",
         time: "13:00-13:30",
         location: "Aula",
@@ -82,7 +101,7 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>"Schreib auf: Ich bin Araber"- Mahmoud Darwisch</>,
-        people: "Mira Sidawi",
+        people: "Mira Sidawi / Moderation: Aya Zavê",
         description: "Mahmoud Darwischs Werke sind ein Zeugnis der Erfahrungen und Hoffnungen der palästinensischen Bevölkerung und haben die arabische und internationale Literatur maßgeblich geprägt. Dennoch bleiben die Werke vieler anderer talentierter Schriftstellerinnen aus Palästina in Deutschland weitgehend unbeachtet. Wir möchten das Bewusstsein für diese Lücke in der deutschen Literaturlandschaft schärfen und das Interesse an der literarischen Vielfalt Palästinas wecken. Gemeinsam mit Mira Sidawi, einer Theaterschaffenden, Schriftstellerin und Schauspielerin aus Beirut, werden in diesem Format das Schreiben und die Werke von Mahmoud Darwisch gewertschätzt. Die Veranstaltung wird moderiert und übersetzt von Aya Khalil. Sie findet statt auf Arabisch, Englisch und Deutsch.",
         time: "13:30-14:30",
         location: "Klassenzimmer",
@@ -90,7 +109,7 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>Der Prozess - das Schlechte im Guten zu finden...</>,
-        people: <>Meret Buchholz, Dennis Brock</>,
+        people: <>Meret Buchholz und Dennis Brock</>,
         description: <>
             ist gar nicht so einfach. Wenn du es trotzdem wagen willst, werde Teil eines Schreibkollektivs und entscheide über den Prozess. Die Zeit läuft, der Text ist im Wandel und der Stift bleibt niemals still. Der Verhandlungstermin ist Freitag, der 23.06. von 13 - 14 Uhr. Der Verhandlungsort ist die Werkstatt.
             <br /><br />
@@ -104,7 +123,7 @@ export const ProgrammAmFreitag = [
         title: <>Das Labyrinth der Gurken</>,
         people: <>Thomas Stangl</>,
         description: <>Obwohl wir permanent von Text und Nachrichten umgeben sind, ist das Briefeschreiben wohl eher vom Aussterben bedroht. Doch im ganzen Festivaltrubel brauchen wir vielleicht nichts so sehr wie eine kurze Pause, in der wir unseren Gedanken nachhängen können. In der Cafeteria kannst du eine kurze Pause einlegen und dem Autor Thomas Stangl einen Brief schreiben. Anlass dazu bietet ein Kurzprosatext, der lediglich aus einem Satz besteht und den du gemeinsam mit Stift und Papier vor Ort findest. Im Nachgang des Festivals beantwortet Thomas Stangl exklusiv für das PROSANOVA sieben Briefe.</>,
-        time: "ab 14 Uhr",
+        time: "ab 14",
         location: "Mensa",
         type: "Andauern"
     },
@@ -154,11 +173,11 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>Ewig Laufen</>,
-        people: <>Franziska Gänsler</>,
+        people: <>Franziska Gänsler / Moderation: Duygu Ağal</>,
         description: <>
             In ihrem Debütroman "Ewig Sommer" erzählt Franziska Gänsler von der gegenwärtigen Klimakatastrophe: Mit präzisen Beschreibungen und einer bildgewaltigen Sprache sind die Szenen Dystopie und Hoffnung zugleich, erlauben sich mehrdeutig zu sein. Innerhalb eines literarischen Spaziergangs holt sie die brennenden Wälder und den Rauch aus Bad Heim nach Hildesheim. Treffpunkt für den Spaziergang ist um 15 Uhr an der Sparkasse gegenüber der Schule. Moderiert von Duygu Ağal.
         </>,
-        time: "15-16 Uhr",
+        time: "15-16",
         location: <>
             Extern<br />
             Treffpunkt: 15 Uhr an der Sparkasse gegnüber der Schule
@@ -167,18 +186,18 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>Der letzte Kommunist: Matthias Frings über Ronald M. Schernikau</>,
-        people: <>Matthias Frings</>,
+        people: <>Matthias Frings / Moderation: Tilman Busch</>,
         description: <>
             Das Werk des kommunistischen und schwulen Schriftstellers Ronald M. Schernikau ist lange in Vergessenheit geraten. Zumindest in Teilen des Literaturbetriebs hat es in den letzten Jahren eine Renaissance erlebt. Ein Grund dafür ist die 2009 erschienene Biografie "Der letzte Kommunist" des langjährigen Schernikau-Freundes Matthias Frings. Auf dem PROSANOVA wird Matthias Frings aus seinem Buch "Der letzte Kommunist. Das traumhafte Leben des Ronald M. Schernikau" lesen und mit uns über Schernikau ins Gespräch kommen.
         </>,
-        time: "15-16 Uhr",
+        time: "15-16",
         location: "Container",
         type: "Diskutieren"
     },
     {
         title: <>Juice and Sauce</>,
         people: <>Olufemi Atibioke</>,
-        description: <>Ausstellung zum Format "Wenn der geklaute Laptop eine Erfindung wäre" in der Dunkelkammer. Danach geht es weiter um 16 Uhr im Labor.</>,
+        description: <>Die Ausstellung zum Format "Juice and Sauce" in der Dunkelkammer. Im Anschluss geht es weiter um 16 Uhr im Labor.</>,
         time: "15-15:30",
         location: "Dunkelkammer",
         type: "Aufführen"
@@ -195,13 +214,13 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>Bekenntnisse an das Misstrauen: Kettwirts</>,
-        people: <>Vici Dewinski</>,
+        people: <>Vici Dewinski / Mentorat: Laura Shirin</>,
         description: <>
             "Ein Sprichwort sagt, dass der Ort, an dem du geboren wurdest, immer in deinem  Herzen verankert ist. Auch, wenn er an der Grenze zur Hölle liegt."
             Geheimnisse, Albträume und mündliche Überlieferungen prägen die Geschichte des längst vergessenen Ortes und seiner sogenannten  Dorfbewohnerennie. Verweilen Sie kurz, aber bleiben Sie besser nicht zu lang. Fremdkörper sind auf Dauer nicht tragbar. Bestehend aus Sound- und performativen Videoinstallationen präsentiert dieses Auszüge aus Vici Dewinskis Graphic Novel "Kettwirts". Skurriler Humor und düstere Bildsprache verbinden sich hier mit märchenhaft-poetischer Sprachästhetik und scheinen dabei die Grenzen von Fiktion und dualistischer Realität aufzuheben.
             Im Rahmen des Vermittlungsprogramms "Bekenntnisse an das Misstrauen" ist in Zusammenarbeit von Vici Dewinski mit Mentorin Laura Shirin ein Triptychon entstanden.
         </>,
-        time: "16-20 Uhr",
+        time: "16-20",
         location: "Dunkelkammer",
         type: "Aufführen"
     },
@@ -211,7 +230,7 @@ export const ProgrammAmFreitag = [
         description: <>
             Das deutschsprachige Feuilleton ist ein Ort des Spannungsverhältnisses von Wahrheit und Wahrnehmung. In den Mechanismen des undurchsichtigen Betriebs wird Literatur rezipiert, kritisiert, verteidigt, geliebt und wertgeschätzt. Auf diese Weise wird der Blick auf Romane zwangsläufig immer wieder umgelenkt auf die Autor:innen. Behzad Karim Khani richtet im Rahmen der Rezensionsmaschine nun den Blick auf die Besprechung seines Debütromans "Hund Wolf Schakal". Irgendwo zwischen den Beschreibungen als Gangsterroman, Milieuroman und Migrantenroman lässt sich vielleicht eine Wahrheit finden - vielleicht aber auch nicht. Zwischendurch liest Khani immer wieder Ausschnitte aus "Hund Wolf Schakal" - und startet so den Versuch einer Verschmelzung aus Blick nach innen und nach außen.
         </>,
-        time: "17-18:00 Uhr",
+        time: "17-18:00",
         location: "Aula",
         type: "Diskutieren"
     },
@@ -220,12 +239,12 @@ export const ProgrammAmFreitag = [
         people: <>Julia Friese</>,
         description: <>
             Sind wir Sprachcomputer auf Basis der Programmiersprache unserer Eltern? Wie prägen uns Elternphrasen? Sätze, die wir in unseren ersten Lebensjahren immer wieder gehört haben. Und was geschieht, wenn man sich kanonische Erziehungssätze Wort für Wort anschaut - wenn man „Reiß dich zusammen“ auseinandernimmt? Und wie lässt sich das in Literatur übersetzen?
-            Finde - in dem Spiel mit dem sprechenden Telefon - heraus, was dich geprägt hat und komm mit Julia Friese ins Gespräch über die literarische Übersetzung von Trauma. Welche Wunden liegen hinter den Worten und welche Verantwortung trägt Literatur dabei, wenn wir uns Trauma gleichzeitig zu- und abwenden? Wähl einfach Julia Frieses Nummer! Im Sani-Raum findest du dafür ein Telefon.
+            Finde - in dem Spiel mit dem sprechenden Telefon - heraus, was dich geprägt hat und komm mit Julia Friese ins Gespräch über die literarische Übersetzung von Trauma. Welche Wunden liegen hinter den Worten und welche Verantwortung trägt Literatur dabei, wenn wir uns Trauma gleichzeitig zu- und abwenden? Wähl einfach Julia Frieses Nummer! Das TraumaTelefon findet im Zwischengeschoss statt.
             <br /><br />
             CN: Themenfelder Kindheit, Elternschaft und Erziehung
         </>,
-        time: "17-18 Uhr",
-        location: "Sanitätsraum",
+        time: "17-18",
+        location: "Extern",
         type: "Teilnehmen"
     },
     {
@@ -235,7 +254,9 @@ export const ProgrammAmFreitag = [
             In Conversation: Jen Calleja und Saskia Vogel
         </>,
         people: <>Jen Calleja und Saskia Vogel</>,
-        description: <>Xenophobie, Ausbeutung, Sex und Macht: Die beiden Übersetzer*innen und Autor*innen Jen Calleja und Saskia Vogel treffen sich im Gespräch und erzählen uns davon, was sie beim Schreiben inspiriert und wie ihre Routinen und Praktiken aussehen. Begleitet wird das Gespräch von Passagen aus ihren neusten Werken. Die Veranstaltung wird auf Englisch stattfinden.</>,
+        description: <>
+            Xenophobie, Ausbeutung, Sex und Macht: Die beiden Übersetzer:innen und Autor:innen Jen Calleja und Saskia Vogel treffen sich im Gespräch und erzählen uns davon, was sie beim Schreiben inspiriert und wie ihre Routinen und Praktiken aussehen. Begleitet wird das Gespräch von Passagen aus ihren neusten Werken. Die Veranstaltung wird auf Englisch stattfinden.
+        </>,
         time: "17:15-18:15",
         location: "Klassenzimmer",
         type: "Diskutieren"
@@ -243,11 +264,13 @@ export const ProgrammAmFreitag = [
     {
         title: <>triangle of exhaustion</>,
         people: <>Simoné Goldschmidt-Lechner (sgl), Selma Kay Matter und Mirjam Wittig</>,
-        description: <>In einer Relaxed Performance werden die Autor*innen Simoné Goldschmidt-Lechner, Selma Kay Matter und Mirjam Wittig aus neuen Texten lesen. Aus drei verschiedenen Positionen hat sich ein Dreieck ergeben, das triangle of exhaustion (ABC). Zwischen drei Textpositionen (A, B, C) aufgespannt, in seiner Form stabil gehalten durch eine endlose Bewegung aus Anstrengung, Erschöpfung und Wiederholung.
-            Punkt A spricht von der Anstrengung, sich verständlich zu machen in einem Raum, der nicht sicher ist.
-            Punkt B spricht von Überanstrengung als Alltagserfahrung eines chronisch kranken Körpers.
-            Punkt C spricht von der Erschöpfung eines zerstörten Bodens und der Anstrengung, ihn wiederherzustellen.
-            In einer Trigonometrie der Erschöpfung lassen die Autor*innen ihre Texte in Beziehung zueinander treten. Welche Verbindungen (a, b, c) ergeben sich daraus? In welchen Winkeln (α, β, γ) verhalten die Texte sich zueinander? And how can we get some rest?</>,
+        description: <>
+            In einer Relaxed Performance werden die Autor:innen Simoné Goldschmidt-Lechner, Selma Kay Matter und Mirjam Wittig aus neuen Texten lesen. Aus drei verschiedenen Positionen hat sich ein Dreieck ergeben, das triangle of exhaustion (ABC). Zwischen drei Textpositionen (A, B, C) aufgespannt, in seiner Form stabil gehalten durch eine endlose Bewegung aus Anstrengung, Erschöpfung und Wiederholung.<br />
+            Punkt A spricht von der Anstrengung, sich verständlich zu machen in einem Raum, der nicht sicher ist.<br />
+            Punkt B spricht von Überanstrengung als Alltagserfahrung eines chronisch kranken Körpers.<br />
+            Punkt C spricht von der Erschöpfung eines zerstörten Bodens und der Anstrengung, ihn wiederherzustellen.<br />
+            In einer Trigonometrie der Erschöpfung lassen die Autor:innen ihre Texte in Beziehung zueinander treten. Welche Verbindungen (a, b, c) ergeben sich daraus? In welchen Winkeln (α, β, γ) verhalten die Texte sich zueinander? And how can we get some rest?
+        </>,
         time: "17:30-18:30",
         location: "Labor",
         type: "Aufführen"
@@ -270,17 +293,19 @@ export const ProgrammAmFreitag = [
         title: <>Das Ende ist nah</>,
         people: <>Amir Gudarzi</>,
         description: <>Amir Gudarzi liest aus seinem im August 2023 erscheinenden Roman "Das Ende ist nah". Aus Wien kommend bringt er die Tradition der Psychoanalyse mit. Das Publikum liegt, setzt sich aus, lässt sich ein: der unsichtbare Autor seinen Text als Berührung, die in das Unbewusste der Zuhörenden vordringt. Seine Stimme wird zu einer inneren Stimme und am Ende bleibt nur das Wort. </>,
-        time: "19-20 Uhr",
+        time: "19-20",
         location: "Labor",
         type: "Lesen"
     },
     {
         title: <>Der Sprung / Die Sprünge (in der Zeit)</>,
         people: <>Thomas Stangl</>,
-        description: <>Wie können wir etwas greifen, das im nächsten Augenblick schon wieder verschwunden ist? Und gibt es Momente, die sich dem Fortgang der Zeit entziehen?<br />
-            Diesen Fragen widmet sich Thomas Stangl in seinem 2022 erschienenen Roman “Quecksilberlicht”, aus dem er in einer kollaborativen Soundlesung mit der Künstlerin Martyna Murphy Baginski lesen wird. Während der Autor verzweifelten, wunderbaren und wahnsinnigen Kämpfen gegen Zeit und Verschwinden durch die Jahrhunderte nachspürt, ist das Medium Sound schon von selbst ein Spiel mit Zeit. Denn was könnte vergänglicher sein als der Ton, der schon wieder weg ist, sobald wir ihn bemerken? <br />
-            Wir wollen die Medien Text und Sound erkunden und das Zusammenkommen der beiden Künstler*innen als Match begreifen. Wir können gespannt sein auf schnelle Wechsel und ein sich Einstellen auf das unbekannte Gegenüber.</>,
-        time: "19:15-20 Uhr",
+        description: <>
+            Wie können wir etwas greifen, das im nächsten Augenblick schon wieder verschwunden ist? Und gibt es Momente, die sich dem Fortgang der Zeit entziehen?<br />
+            Diesen Fragen widmet sich Thomas Stangl in seinem 2022 erschienenen Roman “Quecksilberlicht”, aus dem er in einer kollaborativen Soundlesung mit der Künstlerin Martyna Murphy Baginski lesen wird. Während der Autor verzweifelten, wunderbaren und wahnsinnigen Kämpfen gegen Zeit und Verschwinden durch die Jahrhunderte nachspürt, ist das Medium Sound schon von selbst ein Spiel mit Zeit. Denn was könnte vergänglicher sein als der Ton, der schon wieder weg ist, sobald wir ihn bemerken?<br />
+            Wir wollen die Medien Text und Sound erkunden und das Zusammenkommen der beiden Künstler:innen als Match begreifen. Wir können gespannt sein auf schnelle Wechsel und ein sich Einstellen auf das unbekannte Gegenüber.
+        </>,
+        time: "19:15-20",
         location: "Klassenzimmer",
         type: "Aufführen"
     },
@@ -288,13 +313,13 @@ export const ProgrammAmFreitag = [
         title: <>Sprache als widerständiger Rückzugsort / Ein Kurzfilmabend</>,
         people: "",
         description: <>Das permanente Verschwinden: Das ist es, was Ilse Aichinger als überzeugte Kinogängerin am Film begeisterte. Diese Bewegung, das sich ständig Auflösende, das Anfangen ohne ein Ende zu benennen, das Verdichtete, Geraffte, niemals Verkürzte, hat sich auch in ihre Texte übertragen. In einer Auswahl von fünf Kurzfilmen setzen wir uns innerhalb eines Kinoabends der Möglichkeit des Verlustes des roten Fadens aus. Ein Kurzfilmabend mit Beiträgen über May Ayim, Semra Ertan, James Baldwin und mehr.</>,
-        time: "20:15-22 Uhr",
+        time: "20:15-22",
         location: "Container",
         type: "Schauen"
     },
     {
         title: <>Die Erde ist tot! Lang lebe die Erde! </>,
-        people: <>Lara Hajj Sleiman, Deborah Lara Schaefer</>,
+        people: <>Lara Hajj Sleiman und Deborah Lara Schaefer</>,
         description: <>Ein Sci-Fi Livehörspiel: Berlin 2045 - um die Erde abzukühlen, haben Großkonzerne wie Tesla die
             Welt mit neuen, fluoreszierenden Wäldern überzogen. Am Spreeufer, wo
             Esther lebt, entstehen Elendsviertel und neue Wolkenkratzer mit
@@ -326,8 +351,8 @@ export const ProgrammAmFreitag = [
         type: "Feiern"
     },
     {
-        title: "",
-        people: <>disk.o</>,
+        title: "disk.o",
+        people: <>toronto<br />tshymax303</>,
         description: "PARTY",
         time: "1-3",
         location: "Aula",
@@ -355,12 +380,30 @@ export const ProgrammAmSamstag = [
     },
 
     {
-        location: "Labor",
+        location: "Container",
         people: "",
         title: "Container",
-        time: "ab 10 Uhr",
-        description:
-            "Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet. ",
+        time: "ab 10",
+        description: <>
+            Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet.
+
+            <p>
+                <span className="font-b-bold">Solange wir Erinnern - Ausstellung</span><br />
+                ab 13 Uhr
+                <br /> <br />
+                "Solange Wir Erinnern" ist ein Projekt, das sich zum Ziel gesetzt hat, ein Hanau-Gedenken in Schulen zu etablieren. Im Anschluss einer thematischen Auseinandersetzung und Sensibilisierung mit der Kontinuität rechter Gewalt in Deutschland, erarbeiten Schüler*innen aus Berlin und Hamburg künstlerische Interventionen in Erinnerung und Solidarität mit Betroffenen und Opfern rechter Gewalt mit dem Fokus auf den jüngsten rechtsterroristischen Attentat in Hanau.
+                <br /><br />
+                „Solange Wir Erinnern“ ist ein Projekt von Theater findet Stadt e. V., und wird gefördert durch den Berliner Projektfonds Kulturelle Bildung in Kooperation mit dem Maxim Gorki Theater.<br /><br />
+                Projektleitung: Hiyam Biary und Elona Beqiraj
+                Ausstellungskonzeption- & produktion: Ronak Jundi
+            </p>
+            <p>
+                <span className="font-b-bold">Schreiben um zu Leben:<br />Ein atmendes Erinnerungsgewebe</span><br />
+                von Nima Schaper<br />
+                ab 13 Uhr<br /><br />
+                „Ich werde still sein, doch mein Lied geht weiter“ schreibt Mascha Kaléko in einem ihrer Gedichte. Es ist ein Satz, der sich der Endlichkeit des eigenen Lebens stellt, die andere Endlichkeit aber, die der Existenz verweigert. Denn: Ein Leben hört nicht auf, wenn es geschrieben wurde. Dieser Satz soll sinnbildlich für das Aufeinandertreffen verschiedener Autor:innen in einer Soundcollage von Nima Schaper stehen, in der bereits verstorbenen Autor:innen gedacht werden soll. Teil der Soundcollage werden Else Lasker-Schüler, Mascha Kaléko, May Ayim, Selma Meerbaum-Eisinger und Semra Ertan.
+            </p>
+        </>,
         type: "Andauern",
     },
 
@@ -420,7 +463,7 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Klassenzimmer",
-        people: <>Philipp Laue</>,
+        people: <>Philipp Laue / Mentorat: Deniz Bolat</>,
         title: "Bekenntnisse an das Misstrauen: Zeit zu gehen. ein Bruchstück.",
         time: "12:00-12:45",
         description: (
@@ -465,9 +508,7 @@ export const ProgrammAmSamstag = [
         ),
         title: "an alle orte, die hinter uns liegen",
         time: "12:30-13:30",
-        description: <>
-            Kippen, das ist eine Bewegung, das ist ein Impuls, ein Antasten. In Sinthujan Varatharajhs Debüt "an alle orte, die hinter uns liegen" wird das Einheitliche in die Schieflage gebracht: Was passiert, wenn wir uns Sprache als Verschiebung nähern, dem Sprechen als Instrument der Macht? In einem Vortrag mit Auszügen aus seinem*ihrem Buch widmet sich Varatharajah dem Kippen als Versuch aus einer Schieflage in die Gerade zu kommen.
-        </>,
+        description: "",
         type: "Diskutieren",
     },
 
@@ -478,19 +519,9 @@ export const ProgrammAmSamstag = [
         time: "13:00 - 14:00",
         description: (
             <>
-                We are in danger. The Nation is now on high alert. Do not accept
-                telegrams from unverified sources; return to sender. Do not look out to
-                sea, do not look into the sky. Unless it is completely necessary, do not
-                look out of the window…" In einer Zeit, in der die Erforschung der
-                Vergangenheit geächtet und illegal geworden ist, sendet eine längst
-                vergessene Inselgruppe, The Islets, ein Notsignal an ihre früheren
-                Siedler*innen. Eine reformierte Kultmusikerin, die mittlerweile
-                Staatsagentin geworden ist, wird damit beauftragt, Informationen zu
-                sammeln. In ihrem Werk Vehicle setzt sich die Autorin Jen Calleja mit
-                Xenophobie, Ausbeutung, der Frage nach Deutungshoheit und der Politik
-                des Übersetzens auseinander. Mit einer Collage aus visuellem Material
-                erzählt sie, was sie beim Schreiben inspiriert hat. Die Veranstaltung
-                wird auf Englisch stattfinden.
+                "We are in danger. The Nation is now on high alert. Do not accept telegrams from unverified sources; return to sender. Do not look out to sea, do not look into the sky. Unless it is completely necessary, do not look out of the window…"<br />
+                In einer Zeit, in der die Erforschung der Vergangenheit geächtet und illegal geworden ist, sendet eine längst vergessene Inselgruppe, The Islets, ein Notsignal an ihre früheren Siedler:innen. Eine reformierte Kultmusikerin, die mittlerweile Staatsagentin geworden ist, wird damit beauftragt, Informationen zu sammeln.<br />
+                In ihrem Werk Vehicle setzt sich die Autorin Jen Calleja mit Xenophobie, Ausbeutung, der Frage nach Deutungshoheit und der Politik des Übersetzens auseinander. Mit einer Collage aus visuellem Material erzählt sie, was sie beim Schreiben inspiriert hat. Die Veranstaltung wird auf Englisch stattfinden.
             </>
         ),
         type: "Lesen",
@@ -516,22 +547,11 @@ export const ProgrammAmSamstag = [
     {
         location: "Klassenzimmer",
         people: <>Anja Flach, Esther Winckelmann und Leyla Kaya </>,
-        title: "Sakine Cansiz: Mein ganzes Leben war ein Kampf",
+        title: "Sakine Cansız: Mein ganzes Leben war ein Kampf",
         time: "14:00 - 15:30",
         description: (
             <>
-                Sakine Cansız war Mitbegründerin der kurdischen Arbeiterpartei und der
-                Frauenbewegung und wurde 2016 in Paris ermordet. Anja Flach, die Sakine
-                Cansız vom Türkischen und Kurdischen ins Deutsche mitübersetzt hat,
-                liest zusammen mit Esther Winckelmann und Leyla Kaya Auszüge aus Sakine
-                Cansız' Tagebüchern vor. Innerhalb der Lesung testen wir die Grenzen von
-                politischem und literarischem Schreiben aus. Und gedenken gleichzeitig
-                der kurdischen Aktivistin Sakine Cansız. Anschließend wollen wir uns
-                innerhalb eines Gesprächs mit Fragen von Solidarität und Verantwortung
-                deutschsprachiger Verlage im Umgang mit politischen Schriftsteller*innen
-                beschäftigen: Wer ist von Publikationsverboten betroffen und in welchem
-                Ausmaß? Wie sieht praktische Solidarität im Literaturbetrieb aus? Was
-                ist widerständiges Schreiben?
+                Sakine Cansız war Mitbegründerin der kurdischen Arbeiterpartei und der Frauenbewegung und wurde 2016 in Paris ermordet. Anja Flach, die Sakine Cansız vom Türkischen und Kurdischen ins Deutsche mitübersetzt hat, liest zusammen mit Esther Winckelmann und Leyla Kaya Auszüge aus Sakine Cansız' Tagebüchern vor. Innerhalb der Lesung testen wir die Grenzen von politischem und literarischem Schreiben aus. Und gedenken gleichzeitig der kurdischen Aktivistin Sakine Cansız. Anschließend wollen wir uns innerhalb eines Gesprächs mit Fragen von Solidarität und Verantwortung deutschsprachiger Verlage im Umgang mit politischen Schriftsteller:innen beschäftigen: Wer ist von Publikationsverboten betroffen und in welchem Ausmaß? Wie sieht praktische Solidarität im Literaturbetrieb aus? Was ist widerständiges Schreiben?
             </>
         ),
         type: "Diskutieren",
@@ -561,43 +581,24 @@ export const ProgrammAmSamstag = [
 
     {
         location: "Werkstatt",
-        people: (
-            <>
-                Rosa Lobejäger, Nico Blumrich, Felice Wilhelms, Philip Hart, Leah
-                Rombach, Marlo Oberließen{" "}
-            </>
-        ),
+        people: "Rosa Lobejäger, Nico Crayen, Felice Wilhelms, Philip Hart, Leah Rombach und Marlo Oberließen",
         title: "Bekenntnisse an das kollektive Vertrauen: Ein Schreibwettbewerb",
         time: "15:00 - 16:00",
         description: (
             <>
-                Einen Text mit Anderen zu teilen, setzt Vertrauen voraus und schafft
-                einen Raum der Intimität. Gemeinsam wollen wir diesen Raum erforschen
-                und Strategien kollektiven Vertrauens erproben. In einer kleinen Gruppe
-                von fünf Wettbewerbsteilnehmer*innen wirst du vor Ort ab 15 Uhr eine
-                Stunde Zeit haben, dein Bekenntnis an das kollektive Vertrauen zu
-                verfassen. Dabei wird es keine gattungsspezifischen Vorgaben der Jury
-                geben. Wir suchen Teilnehmer*innen, die bereit sind, uns an ihrem
-                Schreibprozess teilhaben zu lassen, entstandene Texte mit einer Jury und
-                einem kleinen Publikum zu teilen und sich so kollektiv einer Poetologie
-                des Prozesshaften und Unfertigen anzunähern. Im Rahmen einer
-                partizipativen Jurydiskussion wird anschließend ein Text ausgewählt.
-                Hierzu laden wir zum Zuhören und Mitdiskutieren herzlich ein! Der
-                ausgewählte Text wird im Anschluss auf Litradio veröffentlicht.
-                Anmeldung für Wettbewerbsteilnehmer*innen bis 21. Juni unter
-                schreibwettbewerb.prosanova@gmail.com (Aufgrund der begrenzten
-                Teilnehmer*innenzahl erhalten ausschließlich die ersten fünf Anmeldungen
-                einen Platz) Konkrete Schreibimpulse sowie alle weiteren Formalia und
-                die Zusammensetzung der Jury werden kurz vorher bekanntgegeben, um den
-                Wettbewerb möglichst fair zu gestalten. Anmeldung unter
-                workshop@prosanova.net. Entstanden in Kooperation mit dem
-                Literaturinstitut der Universität Hildesheim.
+                Einen Text mit Anderen zu teilen, setzt Vertrauen voraus und schafft einen Raum der Intimität. Gemeinsam wollen wir diesen Raum erforschen und Strategien kollektiven Vertrauens erproben. In einer kleinen Gruppe von fünf Wettbewerbsteilnehmer:innen wirst du vor Ort ab 15 Uhr eine Stunde Zeit haben, dein Bekenntnis an das kollektive Vertrauen zu verfassen. Dabei wird es keine gattungsspezifischen Vorgaben der Jury geben.<br />
+                Wir suchen Teilnehmer:innen, die bereit sind, uns an ihrem Schreibprozess teilhaben zu lassen, entstandene Texte mit einer Jury und einem kleinen Publikum zu teilen und sich so kollektiv einer Poetologie des Prozesshaften und Unfertigen anzunähern. Im Rahmen einer partizipativen Jurydiskussion wird anschließend ein Text ausgewählt.  Ab 16 Uhr laden wir zum Zuhören und Mitdiskutieren herzlich ein!
+                <br /><br />
+                Der ausgewählte Text wird im Anschluss auf Litradio veröffentlicht. Anmeldung für Wettbewerbsteilnehmer:innen bis 21. Juni unter schreibwettbewerb.prosanova@gmail.com (Aufgrund der begrenzten Teilnehmer:innenzahl erhalten ausschließlich die ersten fünf Anmeldungen einen Platz)<br />
+                Konkrete Schreibimpulse sowie alle weiteren Formalia und die Zusammensetzung der Jury werden kurz vorher bekanntgegeben, um den Wettbewerb möglichst fair zu gestalten.
+                <br /><br />
+                Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.
             </>
         ),
         type: "Teilnehmen",
     },
     {
-        location: "Extern",
+        location: <>Extern<br />Hügel hinter der Schule</>,
         people: <>Giorgio Ferretti</>,
         title: "die richtigen orte finden / die richtigen worte finden",
         time: "15:00 - 15:30",
@@ -667,19 +668,14 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Werkstatt",
-        people: <>Linda Florek, Hanna Rafalski, Kay Schier, Malte Wegner</>,
+        people: <>Linda Florek, Hanna Rafalski, Kay Schier und Malte Wegner</>,
         title: "Der Zwei-Stunden-Roman",
         time: "17:00 - 19:00",
         description: (
             <>
-                Wir gebrauchen die einsame Autor:innenschaft nicht mehr. Was gebrauchen
-                wir dann? 15 Kapitel, 15 Autor:innen, 120 Minuten – in dieser Zeit
-                lassen wir Fünfe gerade sein und improvisieren entlang von
-                Schreibimpulsen einen erzählenden Text. Kommt am Ende dabei ein Roman
-                heraus? Oder haben wir einfach Spaß? Womöglich sogar beides? Wir wissen
-                es noch nicht. Findet es mit uns heraus. Anmeldung unter
-                workshop@prosanova.net. Entstanden in Kooperation mit dem
-                Literaturinstitut der Universität Hildesheim.
+                Wir gebrauchen die einsame Autor:innenschaft nicht mehr.  Was gebrauchen wir dann? 15 Kapitel, 15 Autor:innen, 120 Minuten – in dieser Zeit lassen wir Fünfe gerade sein und improvisieren entlang von Schreibimpulsen einen erzählenden Text. Kommt am Ende dabei ein Roman heraus? Oder haben wir einfach Spaß? Womöglich sogar beides? Wir wissen es noch nicht. Findet es mit uns heraus.
+                <br /><br />
+                Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.
             </>
         ),
         type: "Teilnehmen",
@@ -687,7 +683,7 @@ export const ProgrammAmSamstag = [
 
     {
         location: "Labor",
-        people: <>Xosewist</>,
+        people: <>Xoşewîst / Moderation: Giorgio Ferretti</>,
         title: "möglichkeiten are on جدران aufgehängt",
         time: "17:30 - 18:15",
         description: (
@@ -709,35 +705,22 @@ export const ProgrammAmSamstag = [
         type: "Lesen",
     },
     {
-        location: "Sanitär-Zimmer",
+        location: "Extern",
         people: <>Olufemi Atibioke</>,
-        title: "Ausfälle / Ego als Nicht-Ort",
-        time: "ab 18:00 Uhr",
+        title: "Ausfälle",
+        time: "ab 18",
         description: (
             <>
-                Stellen wir uns vor: Wir betreten eine Box, die mit nichts gefüllt ist
-                als uns selbst. Nirgendwo spüren wir das Ego so sehr wie hier - und hier
-                soll nun der Ursprung des Textes liegen. Macht das Ego als Anfang diesen
-                nun zu einem Absurden? Oder nicht vielmehr zu einem Ehrlichen,
-                Hinfälligen, Schlechten? Olufemi Atibioke fragt nach dem Ego und seiner
-                unabdingbaren Permanenz im Kapitalismus. Wie damit umgehen, dass die
-                schreibende Person und der Text zwangsläufig ein Verhältnis haben? Und
-                was ist das Verhältnis von Text und Autor:in - Wie sehr schreibt es sich
-                über die Rezeption hinaus in den Körper des Autors hinein, durch ihn
-                hindurch? Alle schreibenden Personen sind herzlich eingeladen, in diesem
-                Raum zu träumen, zu zweifeln oder den eigenen Zweifeln standzuhalten,
-                ihnen etwas anderes entgegenzusetzen, ehrlich zu sein oder auch nicht,
-                sich trösten zu lassen und weiterhin zu scheitern. Samstag geöffnet von
-                18-20 Uhr.
+                Stellen wir uns vor: Wir betreten eine Box, die mit nichts gefüllt ist als uns selbst. Nirgendwo spüren wir das Ego so sehr wie hier - und hier soll nun der Ursprung des Textes liegen. Macht das Ego als Anfang diesen nun zu einem Absurden? Oder nicht vielmehr zu einem Ehrlichen, Hinfälligen, Schlechten? Olufemi Atibioke fragt nach dem Ego und seiner unabdingbaren Permanenz im Kapitalismus. Wie damit umgehen, dass die schreibende Person und der Text zwangsläufig ein Verhältnis haben? Und was ist das Verhältnis von Text und Autor:in - Wie sehr schreibt es sich über die Rezeption hinaus in den Körper des Autors hinein, durch ihn hindurch? Alle schreibenden Personen sind herzlich eingeladen, in diesem Raum zu träumen, zu zweifeln oder den eigenen Zweifeln standzuhalten, ihnen etwas anderes entgegenzusetzen, ehrlich zu sein oder auch nicht, sich trösten zu lassen und weiterhin zu scheitern. Samstag geöffnet von 18-20 Uhr im Zwischengeschoss.
             </>
         ),
         type: "Andauern",
     },
 
     {
-        location: "Extern",
+        location: <>Extern<br />Treffpunkt: 18.15 Uhr vor der Schule oder 18.30 Uhr an der Bushaltestelle HAWK-Campus</>,
         people: <>Tatjana von der Beek </>,
-        title: "Ein Literaturspaziergang mit Tatjana von der Beek",
+        title: "Allein sein, allein gehen",
         time: "18:30 - 21:00",
         description: (
             <>
@@ -783,7 +766,7 @@ export const ProgrammAmSamstag = [
     {
         location: "Labor",
         people: <>Elona Beqiraj und Agon Beqiraj</>,
-        title: "Sound Text Collage I",
+        title: "I caught myself feeling jealous of the moon",
         time: "19:00 - 20:00",
         description: (
             <>
@@ -809,8 +792,8 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Klassenzimmer",
-        people: <>disk.o</>,
-        title: "",
+        people: "tome",
+        title: "disk.o",
         time: "21:00 - 22:00",
         description: "PARTY",
         type: "Feiern",
@@ -825,16 +808,16 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Klassenzimmer",
-        people: <>Orientalisman and Cansel</>,
-        title: "",
+        people: "",
+        title: "orientalisman and cansel",
         time: "22:00 - 00:00",
         description: "PARTY",
         type: "Feiern",
     },
     {
         location: "Aula",
-        people: <>Pavement Gun</>,
-        title: "",
+        people: <>Skilian<br />Pauli<br />curdoroy</>,
+        title: "Pavement Gum",
         time: "00:00 - 03:00",
         description: "PARTY",
         type: "Feiern",
@@ -849,16 +832,16 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Klassenzimmer",
-        people: <>---</>,
-        title: "",
+        people: "",
+        title: "Dream the Butchqueen",
         time: "02:00 - 03:00",
         description: "PARTY",
         type: "Feiern",
     },
     {
         location: "Aula",
-        people: <>disk.o</>,
-        title: "",
+        people: "Ndona",
+        title: "disk.o",
         time: "03:00 - 04:00",
         description: "PARTY",
         type: "Feiern",
@@ -876,7 +859,7 @@ export const ProgrammAmSonntag = [
             </>
         ),
         title: "Fremder Morgen - Fremdes Morgen",
-        time: "10:00 - 11:00",
+        time: "10-11",
         description: (
             <>
                 Für die Frühaufsteher:innen unter uns oder für die, die immer noch wach
@@ -919,21 +902,29 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Container",
-        people: <>--</>,
-        title: "Wildes Übersetzen",
+        people: "",
+        title: "Container",
         time: "ab 10:00",
         description: (
             <>
-                Im Container öffnen wir die verstaubte Konservendose, die da, ganz da
-                hinten im Vorratsschrank. Hier finden wir Stimmen der
-                Literaturgeschichte, die unerhört blieben und überhört wurden. Der
-                Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen,
-                sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen
-                Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern,
-                konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald
-                M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else
-                Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir
-                erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch.
+                Im Container öffnen wir die verstaubte Konservendose, die da, ganz da hinten im Vorratsschrank. Hier finden wir Stimmen der Literaturgeschichte, die unerhört blieben und überhört wurden. Der Container ist der Versuch, diesen Stimmen Sichtbarkeit zu verschaffen, sie zu feiern, ihnen zu gedenken. Wir hören Soundcollagen, machen einen Filmabend, führen Interviews mit Hinterbliebenen. Wir erinnern, konservieren, bereiten auf und erleben nach. Mit: Ilse Aichinger, Ronald M. Schernikau, Mascha Kaléko, May Ayim, Semra Ertan, Else Lasker-Schüler, Marianne Fritz, stolzeaugen.books und solange wir erinnern, Selma Meerbaum, Sakine Cansiz und Mahmoud Darwisch. Der Container ist über den gesamten Festivalzeitraum geöffnet.
+
+                <p>
+                    <span className="font-b-bold">Solange wir Erinnern - Ausstellung</span><br />
+                    ab 13 Uhr
+                    <br /> <br />
+                    "Solange Wir Erinnern" ist ein Projekt, das sich zum Ziel gesetzt hat, ein Hanau-Gedenken in Schulen zu etablieren. Im Anschluss einer thematischen Auseinandersetzung und Sensibilisierung mit der Kontinuität rechter Gewalt in Deutschland, erarbeiten Schüler*innen aus Berlin und Hamburg künstlerische Interventionen in Erinnerung und Solidarität mit Betroffenen und Opfern rechter Gewalt mit dem Fokus auf den jüngsten rechtsterroristischen Attentat in Hanau.
+                    <br /><br />
+                    „Solange Wir Erinnern“ ist ein Projekt von Theater findet Stadt e. V., und wird gefördert durch den Berliner Projektfonds Kulturelle Bildung in Kooperation mit dem Maxim Gorki Theater.<br /><br />
+                    Projektleitung: Hiyam Biary und Elona Beqiraj
+                    Ausstellungskonzeption- & produktion: Ronak Jundi
+                </p>
+                <p>
+                    <span className="font-b-bold">Schreiben um zu Leben:<br />Ein atmendes Erinnerungsgewebe</span><br />
+                    von Nima Schaper<br />
+                    ab 13 uhr<br /><br />
+                    „Ich werde still sein, doch mein Lied geht weiter“ schreibt Mascha Kaléko in einem ihrer Gedichte. Es ist ein Satz, der sich der Endlichkeit des eigenen Lebens stellt, die andere Endlichkeit aber, die der Existenz verweigert. Denn: Ein Leben hört nicht auf, wenn es geschrieben wurde. Dieser Satz soll sinnbildlich für das Aufeinandertreffen verschiedener Autor:innen in einer Soundcollage von Nima Schaper stehen, in der bereits verstorbenen Autor:innen gedacht werden soll. Teil der Soundcollage werden Else Lasker-Schüler, Mascha Kaléko, May Ayim, Selma Meerbaum-Eisinger und Semra Ertan.
+                </p>
             </>
         ),
         type: "Hören",
@@ -942,7 +933,7 @@ export const ProgrammAmSonntag = [
     {
         location: "Container",
         people: <>Olufemi Atibioke</>,
-        title: "The Line / Literatur Meditation III",
+        title: "The Line / Literaturmeditation III",
         time: "10:00 - 10:30",
         description: (
             <>
@@ -1005,9 +996,7 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Klassenzimmer",
-        people: (
-            <>Julia Friese und Melinda Nadj Abonji (Moderation: Jenifer Becker)</>
-        ),
+        people: "Julia Friese und Melinda Nadj Abonji / Moderation: Jenifer Becker",
         title: "Recherchieren / Transformieren / Übersetzen",
         time: "12:00 - 13:00",
         description: (
@@ -1033,43 +1022,19 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Labor",
-        people: <>Elona Beqiraj und Argon Beqiraj</>,
-        title: "I caught myself feeling jealous of the moon",
-        time: "12:00 - 13:00",
+        people: <>Armeghan Taheri und Nima Schaper </>,
+        title: "Robin H. und die Frage der Schuld",
+        time: "12-13",
         description: (
             <>
-                “I caught myself feeling jealous of the moon” - In einer lyrischen
-                Performance verbindet Elona Beqiraj erstmals gemeinsam mit ihrem Bruder
-                Agon Beqiraj Klänge albanischer Lieder mit ihren deutschsprachigen
-                Texten. Wie in einer Schleife gefangen, wiederholen sich ihre Worte mit
-                den verfremdeten Klängen der Lieder, die ihre Kindheit beschreiben.
-                Taucht ein in die Berge des Kosovo und begebt euch mit Elona und Agon
-                Beqiraj auf eine Traumreise.
+                Wer hat wem was an welchem Tag wie getan? Die Frage der Schuld liegt
+                zusammen mit Robins Fleisch in einer Schublade verschlossen.
+                <br /><br />
+                In einer Soundlesung mit gesprochenen Soundscape-Kompositionen von Armeghan Taheri (aka Robin Hoe) und Nima Schaper wird der Text zu etwas Lebendigem. Er verlässt die enge Struktur der sprachlichen Regeln, wird von Sound und Ton dekonstruiert und in seine Einzelteile zerlegt. Sprache und Musik
+                stellen die Frage nach der Symbiose von Befreiung, Versagen und Selbstzerstörung.
             </>
         ),
         type: "Aufführen",
-    },
-
-    {
-        location: "Container",
-        people: <>Cana Bilir-Meier</>,
-        title: "Zwischen den Zeilen: Von der Hässlichkeit",
-        time: "12:00 - 13:00",
-        description: (
-            <>
-                Wie wird gesprochen? Wie wird kritisiert? Welche Kriterien gibt es für
-                gute und schlechte Wörter? Welche Worte werden als "hochkulturell"
-                gelesen? In diesem Format geht es um die guten Wörter, die zu schlechten
-                gemacht werden. Um die sogenannten "schönen Wörter", die eigentlich das
-                "Schlechte" implizieren wollen und verharmlosen. In einem Videobeitrag
-                verhandelt Cana Bilir-Meier die Sprache der Kritik in der
-                Literaturlandschaft und die Kommerzialisierung von Texten.Sie nimmt die
-                Sprache in den Blick, die die harte Realität abbildet und die von
-                Verlagen ungewollt bleibt. Denn sind es nicht gerade diese Worte, die es
-                wert sind, rezipiert zu werden?
-            </>
-        ),
-        type: "Schauen",
     },
 
     {
@@ -1116,7 +1081,7 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Labor",
-        people: <>Katharina Angus (Mentorat: Olufemi Atibioke)</>,
+        people: <>Katharina Angus / Mentorat: Olufemi Atibioke</>,
         title: "Bekenntnisse an das Misstrauen: Lucky Girl",
         time: "13.30 - 14.00",
         description: (
@@ -1137,7 +1102,7 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Dunkelkammer",
-        people: <>KaHakan Tezkan</>,
+        people: <>Hakan Tezkan</>,
         title: "Eine Poetik der Kerne",
         time: "14:00 - 15:00 und 15:00 - 16:00",
         description: (
@@ -1145,15 +1110,15 @@ export const ProgrammAmSonntag = [
                 Mit Hakan Tezkan gehen wir in einer Live-Installation die Bewegung der
                 Texte ab und wollen uns ausgehend von schon Geschriebenem und noch nicht
                 Geschriebenem fragen, was ein Text überhaupt ist, genauer: was uns ein
-                Text überhaupt bedeuten kann. Was folgt, ist die Antwort eines Autors,
-                der 2018 sein Debüt publiziert hat und danach von der Bildfläche des
-                Literaturbetriebs verschwunden ist. Die Antwort könnte so beginnen:
-                Jeder Text ist eine Anhäufung, jeder Text ist gehäufter Raum. Was wir
-                finden, ist Hinein-, Darunter und Dazwischengeschriebenes. Hakan Tezkan
-                spürt dieser Erkenntnis nicht nur im Raum, sondern auch lesend nach,
-                indem er seinen Roman mit eigenen, aber auch mit Fragmenten anderer
-                Autor*innen durchsetzt. Am Ende finden wir vielleicht eine Einladung -
-                die Einladung an das Publikum, weiterzuschreiben.
+                Text überhaupt bedeuten kann. Was folgt, ist die Antwort eines Autors, der 2018
+                sein Debüt publiziert hat und danach von der Bildfläche des
+                Literaturbetriebs verschwunden ist. Die Antwort könnte so beginnen: Jeder
+                Text ist eine Anhäufung, jeder Text ist gehäufter Raum. Was wir finden,
+                ist Hinein-, Darunter und Dazwischengeschriebenes. Hakan Tezkan spürt dieser
+                Erkenntnis nicht nur im Raum, sondern auch lesend nach, indem er seinen
+                Roman mit eigenen, aber auch mit Fragmenten anderer Autor:innen durchsetzt.
+                Am Ende finden wir vielleicht eine Einladung - die Einladung an das
+                Publikum, weiterzuschreiben.
             </>
         ),
         type: "Aufführen",
@@ -1161,19 +1126,13 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Labor",
-        people: <>Armeghan Taheri</>,
-        title: "Robin H. und die Frage der Schuld",
-        time: "15:00 - 16:00",
+        people: <>Elona Beqiraj und Agon Beqiraj</>,
+        title: "I caught myself feeling jealous of the moon",
+        time: "15-16",
         description: (
             <>
-                Wer hat wem was an welchem Tag wie getan? Die Frage der Schuld liegt
-                zusammen mit Robins Fleisch in einer Schublade verschlossen. In einer
-                Soundlesung mit gesprochenen Soundscape-Kompositionen von Armeghan
-                Taheri (aka Robin Hoe) und Nima Schaper wird der Text zu etwas
-                Lebendigem. Er verlässt die enge Struktur der sprachlichen Regeln, wird
-                von Sound und Ton dekonstruiert und in seine Einzelteile zerlegt.
-                Sprache und Musik stellen die Frage nach der Symbiose von Befreiung,
-                Versagen und Selbstzerstörung.
+                "“I caught myself feeling jealous of the moon” In einer lyrischen Performance verbindet Elona Beqiraj erstmals gemeinsam mit ihrem Bruder Agon Beqiraj Klänge albanischer Lieder mit ihren deutschsprachigen Texten.<br />
+                Wie in einer Schleife gefangen, wiederholen sich ihre Worte mit den verfremdeten Klängen der Lieder, die ihre Kindheit beschreiben. Taucht ein in die Berge des Kosovo und begebt euch mit Elona und Agon Beqiraj auf eine Traumreise."
             </>
         ),
         type: "Aufführen",
@@ -1204,36 +1163,19 @@ export const ProgrammAmSonntag = [
 
     {
         location: "Klassenzimmer",
-        people: (
-            <>
-                Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri (Moderation: Aidan
-                Riebensahm)
-            </>
-        ),
+        people: "Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri / Moderation: Aidan Riebensahm",
         title: "Werkvorschau",
         time: "15:30 - 16:15",
         description: (
             <>
-                In Form einer Werkvorschau präsentieren drei Autor*innen exklusiv
-                Auszüge aus unveröffentlichten Texten, Skizzen und Romanprojekten.
-                Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri werden in einem
-                dunklen Raum lesen, um den normalerweise auf sie gerichteten Blick auf
-                ihre Texte zu lenken. In einem anschließenden Gespräch mit Aidan
-                Riebensahm wird es um den Literaturbetrieb und seine Zugänge, die
-                Zweifel beim Schreiben, das Vertrauen in die Leser*innen und um Tipps
-                zum Überleben in einem Betrieb gehen, der abweisend sein kann. Kann der
-                Text den Blicken standhalten?
+                In Form einer Werkvorschau präsentieren drei Autor:innen exklusiv Auszüge aus unveröffentlichten Texten, Skizzen und Romanprojekten. Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri werden in einem dunklen Raum lesen, um den normalerweise auf sie gerichteten Blick auf ihre Texte zu lenken. In einem anschließenden Gespräch mit Aidan Riebensahm wird es um den Literaturbetrieb und seine Zugänge, die Zweifel beim Schreiben, das Vertrauen in die Leser:innen und um Tipps zum Überleben in einem Betrieb gehen, der abweisend sein kann. Kann der Text den Blicken standhalten?
             </>
         ),
         type: "Lesen",
     },
     {
         location: "Container",
-        people: (
-            <>
-                stolzeaugen.books x solange.wir.erinnern (Moderation: Aylin Himmetoglu)
-            </>
-        ),
+        people: "stolzeaugen.books x solange.wir.erinnern / Moderation: Aylin Himmetoğlu",
         title: "Wenn die Worte sich an uns erinnern würden",
         time: "16:00 - 17:15",
         description: (
@@ -1280,25 +1222,13 @@ export const ProgrammAmSonntag = [
         type: "Teilnehmen",
     },
     {
-        location: "Sani-Raum",
+        location: "Extern",
         people: <>Olufemi Atibioke</>,
         title: "Ausfälle",
         time: "16:30 - 18:00",
         description: (
             <>
-                Stellen wir uns vor: Wir betreten eine Box, die mit nichts gefüllt ist
-                als uns selbst. Nirgendwo spüren wir das Ego so sehr wie hier - und hier
-                soll nun der Ursprung des Textes liegen. Macht das Ego als Anfang diesen
-                nun zu einem Absurden? Oder nicht vielmehr zu einem Ehrlichen,
-                Hinfälligen, Schlechten? Olufemi Atibioke fragt nach dem Ego und seiner
-                unabdingbaren Permanenz im Kapitalismus. Wie damit umgehen, dass die
-                schreibende Person und der Text zwangsläufig ein Verhältnis haben? Und
-                was ist das Verhältnis von Text und Autor:in - Wie sehr schreibt es sich
-                über die Rezeption hinaus in den Körper des Autors hinein, durch ihn
-                hindurch? Alle schreibenden Personen sind herzlich eingeladen, in diesem
-                Raum zu träumen, zu zweifeln oder den eigenen Zweifeln standzuhalten,
-                ihnen etwas anderes entgegenzusetzen, ehrlich zu sein oder auch nicht,
-                sich trösten zu lassen und weiterhin zu scheitern.
+                Stellen wir uns vor: Wir betreten eine Box, die mit nichts gefüllt ist als uns selbst. Nirgendwo spüren wir das Ego so sehr wie hier - und hier soll nun der Ursprung des Textes liegen. Macht das Ego als Anfang diesen nun zu einem Absurden? Oder nicht vielmehr zu einem Ehrlichen, Hinfälligen, Schlechten? Olufemi Atibioke fragt nach dem Ego und seiner unabdingbaren Permanenz im Kapitalismus. Wie damit umgehen, dass die schreibende Person und der Text zwangsläufig ein Verhältnis haben? Und was ist das Verhältnis von Text und Autor:in - Wie sehr schreibt es sich über die Rezeption hinaus in den Körper des Autors hinein, durch ihn hindurch? Alle schreibenden Personen sind herzlich eingeladen, in diesem Raum zu träumen, zu zweifeln oder den eigenen Zweifeln standzuhalten, ihnen etwas anderes entgegenzusetzen, ehrlich zu sein oder auch nicht, sich trösten zu lassen und weiterhin zu scheitern. Das Format findet im Zwischengeschoss statt.
             </>
         ),
         type: "Andauern",
