@@ -2,6 +2,7 @@ import WigglyButton from "components/WigglyButton";
 import React, { useState } from "react";
 import BurgerMenuIcon from "./BurgerMenuIcon";
 import BackButton from "./BackButton";
+import { COLORS } from "constants";
 
 
 function HeaderSmall({
@@ -55,7 +56,6 @@ function HeaderSmall({
               <BackButton
                 onClick={() => {
                   backFunction();
-                  // setBackFunction(null);
                 }}
                 color={color}
               />
@@ -147,11 +147,11 @@ function HeaderSmall({
             <WigglyButton
               onClick={() => {
                 setActivePage("program");
-                setCurrentColor("#C8BF9B");
+                setCurrentColor(COLORS.blue);
                 setExpanded(false);
               }}
             >
-              <div className="menu-button font-size-1 button-color-3">Programm</div>
+              <div className="menu-button font-size-1 button-color-sky">Programm</div>
             </WigglyButton>
             <WigglyButton
               onClick={() => {

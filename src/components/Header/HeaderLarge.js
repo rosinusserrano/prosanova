@@ -1,4 +1,5 @@
 import WigglyButton from "components/WigglyButton";
+import { COLORS } from "constants";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -73,10 +74,10 @@ function HeaderLarge({ setActivePage, setCurrentColor }) {
         <WigglyButton
           onClick={() => {
             setActivePage("program");
-            setCurrentColor("#C18167");
+            setCurrentColor(COLORS.blue);
           }}
         >
-          <div className="menu-button font-size-1 button-color-2">Programm</div>
+          <div className="menu-button font-size-1 button-color-sky">Programm</div>
         </WigglyButton>
         <WigglyButton
           onClick={() => {
