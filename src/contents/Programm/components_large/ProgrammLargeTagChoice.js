@@ -1,11 +1,8 @@
 
 import { BACKGROUNDCOLOR } from 'constants'
-import { useMobile } from 'hooks/useMediaQuery'
 import React, { useState } from 'react'
 
 function ProgrammTagChoice({ setDayFunction }) {
-
-    const [hoveredButton, setHoveredButton] = useState("")
 
     return (
         <div style={{
@@ -19,45 +16,18 @@ function ProgrammTagChoice({ setDayFunction }) {
                 justifyContent: "center",
                 gap: "1.5rem"
             }}>
-                <div className='border-radius background-color-grey'
+                <ProgrammLargeTagChoiceButton
+                    day="Freitag" date="23.06.2023"
                     onClick={() => setDayFunction("friday")}
-                    onPointerOver={() => setHoveredButton("friday")}
-                    onPointerLeave={() => setHoveredButton("")}
-                    style={{
-                        textAlign: "center",
-                        padding: "0.5rem 3rem",
-                        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
-                        backgroundColor: hoveredButton === "friday" ? "transparent" : BACKGROUNDCOLOR
-                    }}>
-                    <span className='font-b-bold'>Freitag</span><br />
-                    <span >23.06.2023</span>
-                </div>
-                <div className='border-radius background-color-grey'
+                />
+                <ProgrammLargeTagChoiceButton
+                    day="Samstag" date="24.06.2023"
                     onClick={() => setDayFunction("saturday")}
-                    onPointerOver={() => setHoveredButton("saturday")}
-                    onPointerLeave={() => setHoveredButton("")}
-                    style={{
-                        textAlign: "center",
-                        padding: "0.5rem 3rem",
-                        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
-                        backgroundColor: hoveredButton === "saturday" ? "transparent" : BACKGROUNDCOLOR
-                    }}>
-                    <span className='font-b-bold'>Samstag</span><br />
-                    <span >24.06.2023</span>
-                </div>
-                <div className='border-radius background-color-grey'
+                />
+                <ProgrammLargeTagChoiceButton
+                    day="Sonntag" date="25.06.2023"
                     onClick={() => setDayFunction("sunday")}
-                    onPointerOver={() => setHoveredButton("sunday")}
-                    onPointerLeave={() => setHoveredButton("")}
-                    style={{
-                        textAlign: "center",
-                        padding: "0.5rem 3rem",
-                        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
-                        backgroundColor: hoveredButton === "sunday" ? "transparent" : BACKGROUNDCOLOR
-                    }}>
-                    <span className='font-b-bold'>Sonntag</span><br />
-                    <span >25.06.2023</span>
-                </div>
+                />
             </div>
             {/* <div style={{height: "4rem"}} ></div>
             <div style={{
@@ -79,6 +49,26 @@ function ProgrammTagChoice({ setDayFunction }) {
             </div> */}
         </div>
     )
+}
+
+
+function ProgrammLargeTagChoiceButton({ day, date, onClick }) {
+    const [hovered, setHovered] = useState(false)
+
+    return < div className='border-radius background-color-grey'
+        onClick={onClick}
+        onPointerOver={() => setHovered(true)}
+        onPointerLeave={() => setHovered(false)}
+        style={{
+            textAlign: "center",
+            padding: "0.5rem 3rem",
+            cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
+            backgroundColor: hovered ? "transparent" : BACKGROUNDCOLOR,
+            borderRadius: "50px"
+        }}>
+        <span className='font-b-bold font-size-1'>{day}</span><br />
+        <span className=''>{date}</span>
+    </div >
 }
 
 export default ProgrammTagChoice
