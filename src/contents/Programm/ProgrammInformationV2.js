@@ -310,7 +310,7 @@ export const ProgrammAmFreitag = [
         type: "Lesen"
     },
     {
-        title: <></>,
+        title: "",
         people: <>One Mother Collective<br />Preach & EuroEyez</>,
         description: "PARTY",
         time: "21-22:30",
@@ -318,7 +318,7 @@ export const ProgrammAmFreitag = [
         type: "Feiern"
     },
     {
-        title: <></>,
+        title: "",
         people: <>00sirenas00</>,
         description: "PARTY",
         time: "23-1",
@@ -326,7 +326,7 @@ export const ProgrammAmFreitag = [
         type: "Feiern"
     },
     {
-        title: <></>,
+        title: "",
         people: <>disk.o</>,
         description: "PARTY",
         time: "1-3",
@@ -334,7 +334,7 @@ export const ProgrammAmFreitag = [
         type: "Feiern"
     },
     {
-        title: <></>,
+        title: "",
         people: <>sth that runs</>,
         description: "PARTY",
         time: "3-4",
@@ -356,7 +356,7 @@ export const ProgrammAmSamstag = [
 
     {
         location: "Labor",
-        people: <></>,
+        people: "",
         title: "Container",
         time: "ab 10 Uhr",
         description:
@@ -463,9 +463,11 @@ export const ProgrammAmSamstag = [
                 சிந்துஜன் வரதராஜா <br></br>(Sinthujan Varatharajah){" "}
             </>
         ),
-        title: "Vortrag",
-        time: "ab 12:00",
-        description: <></>,
+        title: "an alle orte, die hinter uns liegen",
+        time: "12:30-13:30",
+        description: <>
+            Kippen, das ist eine Bewegung, das ist ein Impuls, ein Antasten. In Sinthujan Varatharajhs Debüt "an alle orte, die hinter uns liegen" wird das Einheitliche in die Schieflage gebracht: Was passiert, wenn wir uns Sprache als Verschiebung nähern, dem Sprechen als Instrument der Macht? In einem Vortrag mit Auszügen aus seinem*ihrem Buch widmet sich Varatharajah dem Kippen als Versuch aus einer Schieflage in die Gerade zu kommen.
+        </>,
         type: "Diskutieren",
     },
 
