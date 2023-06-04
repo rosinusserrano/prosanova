@@ -26,15 +26,12 @@ export const ProgrammAmFreitag = [
         type: ""
     },
     {
-        location: "Werkstatt",
-        people: "Felix Herrmann, Angelina Klempert und Meret Stühmer",
-        title: "Bee(ing) part of - ein Schwarmworkshop",
-        description: <>
-            <p>Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten verweben. Im Klang der Gruppe untergehen. </p>
-            <p>Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.</p>
-        </>,
-        time: "ab 13",
-        type: "Teilnehmen"
+        title: "Die erste Naivität",
+        people: "Anna Kim und Karosh Taha",
+        description: "Anna Kim und Karosh Taha untersuchen in ihrer Korrespondenz, die im Vorhinein des Festivals entstanden ist, ihr Verhältnis zum Text und zum Schreiben. Sie fragen nach dem Ursprung des Textes, der mal Naivität war, nach der Urheberschaft am Roman, erforschen die vielfältigen Weisen, in denen sich Sprachen, Erinnerungen und Träume in ihre Texte einschreiben. Durch diese textliche Begegnung erlauben sie einen Blick auf das, was man Autofiktion nennen kann. Was ist das Verhältnis von Lüge und Wahrheit in einem Text? Ist das überhaupt wichtig? Welches Verhältnis von Wahrheit und Lüge ist legitimierbar - und ist Fiktion die Überschneidung von beidem oder die Differenz? Wer darf was und worüber schreiben? Im Rahmen des PROSANOVA 2023 wird die Korrespondenz von Laura Shirin und Deniz Bolat vorgelesen.",
+        time: "13:00-13:30",
+        location: "Aula",
+        type: "Lesen"
     },
     {
         title: "Container",
@@ -64,21 +61,15 @@ export const ProgrammAmFreitag = [
         type: "Andauern"
     },
     {
-        title: <>Schreiben um zu Leben:<br />
-            Ein atmendes Erinnerungsgewebe</>,
-        people: "Nima Schaper",
-        description: "",
+        location: "Werkstatt",
+        people: "Felix Herrmann, Angelina Klempert und Meret Stühmer",
+        title: "Bee(ing) part of - ein Schwarmworkshop",
+        description: <>
+            <p>Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten verweben. Im Klang der Gruppe untergehen. </p>
+            <p>Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.</p>
+        </>,
         time: "ab 13",
-        location: "Container",
-        type: "Hören"
-    },
-    {
-        title: "Die erste Naivität",
-        people: "Anna Kim und Karosh Taha",
-        description: "Anna Kim und Karosh Taha untersuchen in ihrer Korrespondenz, die im Vorhinein des Festivals entstanden ist, ihr Verhältnis zum Text und zum Schreiben. Sie fragen nach dem Ursprung des Textes, der mal Naivität war, nach der Urheberschaft am Roman, erforschen die vielfältigen Weisen, in denen sich Sprachen, Erinnerungen und Träume in ihre Texte einschreiben. Durch diese textliche Begegnung erlauben sie einen Blick auf das, was man Autofiktion nennen kann. Was ist das Verhältnis von Lüge und Wahrheit in einem Text? Ist das überhaupt wichtig? Welches Verhältnis von Wahrheit und Lüge ist legitimierbar - und ist Fiktion die Überschneidung von beidem oder die Differenz? Wer darf was und worüber schreiben? Im Rahmen des PROSANOVA 2023 wird die Korrespondenz von Laura Shirin und Deniz Bolat vorgelesen.",
-        time: "13:00-13:30",
-        location: "Aula",
-        type: "Lesen"
+        type: "Teilnehmen"
     },
     {
         title: "Lieben als kreative Praxis",
@@ -145,7 +136,7 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>no. mad. in. the. attic. </>,
-        people: <>அவ்ரீனா பிரபலா-ஜாஸ்லின் (Avrina Prabala-Joslin)</>,
+        people: <>அவ்ரீனா பிரபலா-ஜாஸ்லின் / Avrina Prabala-Joslin</>,
         description: <>Letters. Journal entries. Worn out soles. Nicotine patches. In the moonlight, the yellow wallpaper mutates. We're on all fours, we've broken free. I told me how to save me in a dream. Light the candle. Burn the Great House. Mad, madder, maddest. Cull. That's not you in the mirror. That's the child you were. Would you like to hold hands? There's surely ways to escape diagnoses. The garden awaits. You know the way, you are. Kiss the dark, leak at its lips. Slap yourself awake. Write everything down, don't you miss even a single detail.
             <br /><br />
             அவ்ரீனா பிரபலா-ஜாஸ்லின் / avrina prabala-joslin has been meaning to tell a story of  horror and madness and the strange world of words. It's time. Inspired by Wide Sargasso Sea (Jean Rhys) and The Yellow Wallpaper (Charlotte Perkins Gilman).
@@ -162,7 +153,7 @@ export const ProgrammAmFreitag = [
         type: "Aufführen"
     },
     {
-        title: <>Die Erfindung der Unruhe I Literaturmeditation I </>,
+        title: <>Die Erfindung der Unruhe I / Literaturmeditation I </>,
         people: <>Laura Shirin</>,
         description: <>
             In den Literaturmeditationen werden die Augen geschlossen, die Atmung wird beruhigt und es wird ein Punkt kommen, an dem der Text nicht mehr Selbstzweck ist. Vielleicht wird er zu einem Traum weiterverarbeitet. Vielleicht auch nicht. Vielleicht ist es falsch davon auszugehen, dass es eine Monotonie, eine Ruhe, eine Konsistenz geben muss. Störungen können passieren, auch in Literaturmeditationen. An jedem Festivaltag findet eine Literaturmeditation zu unterschiedlichen Zeitpunkten statt. Diese wird geleitet von Laura Shirin.
@@ -180,7 +171,7 @@ export const ProgrammAmFreitag = [
         time: "15-16",
         location: <>
             Extern<br />
-            Treffpunkt: 15 Uhr an der Sparkasse gegnüber der Schule
+            Treffpunkt: 15 Uhr an der Sparkasse gegenüber der Schule
         </>,
         type: "Lesen"
     },
@@ -299,7 +290,7 @@ export const ProgrammAmFreitag = [
     },
     {
         title: <>Der Sprung / Die Sprünge (in der Zeit)</>,
-        people: <>Thomas Stangl</>,
+        people: <>Martyna Murphy Baginski und Thomas Stangl</>,
         description: <>
             Wie können wir etwas greifen, das im nächsten Augenblick schon wieder verschwunden ist? Und gibt es Momente, die sich dem Fortgang der Zeit entziehen?<br />
             Diesen Fragen widmet sich Thomas Stangl in seinem 2022 erschienenen Roman “Quecksilberlicht”, aus dem er in einer kollaborativen Soundlesung mit der Künstlerin Martyna Murphy Baginski lesen wird. Während der Autor verzweifelten, wunderbaren und wahnsinnigen Kämpfen gegen Zeit und Verschwinden durch die Jahrhunderte nachspürt, ist das Medium Sound schon von selbst ein Spiel mit Zeit. Denn was könnte vergänglicher sein als der Ton, der schon wieder weg ist, sobald wir ihn bemerken?<br />
@@ -336,9 +327,9 @@ export const ProgrammAmFreitag = [
     },
     {
         title: "",
-        people: <>One Mother Collective<br />Preach & EuroEyez</>,
+        people: <>One Mother Collective:<br />Preach & EuroEyez</>,
         description: "PARTY",
-        time: "21-22:30",
+        time: "21-22",
         location: "Aula",
         type: "Feiern"
     },
@@ -352,7 +343,7 @@ export const ProgrammAmFreitag = [
     },
     {
         title: "disk.o",
-        people: <>toronto<br />tshymax303</>,
+        people: <>toronto (disk.o)<br />tshymax303 (disk.o)</>,
         description: "PARTY",
         time: "1-3",
         location: "Aula",
@@ -409,7 +400,7 @@ export const ProgrammAmSamstag = [
 
     {
         location: "Klassenzimmer",
-        people: <>Tatjana von der Beek und Julia Buchberger</>,
+        people: <>Tatjana von der Beek und Julia Buchberger / Moderation: Armin Djamali</>,
         title: "Zwischen Traditionslinien und Innovation",
         time: "10:30-11:30",
         description:
@@ -442,11 +433,11 @@ export const ProgrammAmSamstag = [
                 über den eigenen Wahrnehmungshorizont hinauszugehen.
             </>
         ),
-        type: "Hören",
+        type: "Lesen",
     },
     {
         location: "Werkstatt",
-        people: <>dyke dogs, Duygu Agal</>,
+        people: <>dyke dogs, Duygu Ağal</>,
         title: "Lesbian Semiotics / Workshop",
         time: "11:00-14:30",
         description: (
@@ -464,7 +455,7 @@ export const ProgrammAmSamstag = [
     {
         location: "Klassenzimmer",
         people: <>Philipp Laue / Mentorat: Deniz Bolat</>,
-        title: "Bekenntnisse an das Misstrauen: Zeit zu gehen. ein Bruchstück.",
+        title: "Bekenntnisse an das Misstrauen: Zeit zu gehen. Ein Bruchstück.",
         time: "12:00-12:45",
         description: (
             <>
@@ -589,7 +580,9 @@ export const ProgrammAmSamstag = [
                 Einen Text mit Anderen zu teilen, setzt Vertrauen voraus und schafft einen Raum der Intimität. Gemeinsam wollen wir diesen Raum erforschen und Strategien kollektiven Vertrauens erproben. In einer kleinen Gruppe von fünf Wettbewerbsteilnehmer:innen wirst du vor Ort ab 15 Uhr eine Stunde Zeit haben, dein Bekenntnis an das kollektive Vertrauen zu verfassen. Dabei wird es keine gattungsspezifischen Vorgaben der Jury geben.<br />
                 Wir suchen Teilnehmer:innen, die bereit sind, uns an ihrem Schreibprozess teilhaben zu lassen, entstandene Texte mit einer Jury und einem kleinen Publikum zu teilen und sich so kollektiv einer Poetologie des Prozesshaften und Unfertigen anzunähern. Im Rahmen einer partizipativen Jurydiskussion wird anschließend ein Text ausgewählt.  Ab 16 Uhr laden wir zum Zuhören und Mitdiskutieren herzlich ein!
                 <br /><br />
-                Der ausgewählte Text wird im Anschluss auf Litradio veröffentlicht. Anmeldung für Wettbewerbsteilnehmer:innen bis 21. Juni unter schreibwettbewerb.prosanova@gmail.com (Aufgrund der begrenzten Teilnehmer:innenzahl erhalten ausschließlich die ersten fünf Anmeldungen einen Platz)<br />
+                Der ausgewählte Text wird im Anschluss auf Litradio veröffentlicht.
+                <br /><br />
+                Anmeldung für Wettbewerbsteilnehmer:innen bis 21. Juni unter schreibwettbewerb.prosanova@gmail.com (Aufgrund der begrenzten Teilnehmer:innenzahl erhalten ausschließlich die ersten fünf Anmeldungen einen Platz)<br />
                 Konkrete Schreibimpulse sowie alle weiteren Formalia und die Zusammensetzung der Jury werden kurz vorher bekanntgegeben, um den Wettbewerb möglichst fair zu gestalten.
                 <br /><br />
                 Entstanden in Kooperation mit dem Literaturinstitut der Universität Hildesheim.
@@ -622,7 +615,7 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Aula",
-        people: <>Cana Bilir-Meier und Natasha A Kelly</>,
+        people: <>Cana Bilir-Meier und Natasha A. Kelly / Moderation: Deborah Fallis </>,
         title:
             "Widerständiges Schreiben: Eine Widmung an May Ayim und Semra Ertan ",
         time: "16:30 - 18:00",
@@ -809,14 +802,14 @@ export const ProgrammAmSamstag = [
     {
         location: "Klassenzimmer",
         people: "",
-        title: "orientalisman and cansel",
+        title: "orientalisman b2b cansel",
         time: "22:00 - 00:00",
         description: "PARTY",
         type: "Feiern",
     },
     {
         location: "Aula",
-        people: <>Skilian<br />Pauli<br />curdoroy</>,
+        people: <>Skilian (Pavement Gum)<br />Pauli (Pavement Gum)<br />curdoroy (Pavement Gum)</>,
         title: "Pavement Gum",
         time: "00:00 - 03:00",
         description: "PARTY",
@@ -840,7 +833,7 @@ export const ProgrammAmSamstag = [
     },
     {
         location: "Aula",
-        people: "Ndona",
+        people: "Ndona (disk.o)",
         title: "disk.o",
         time: "03:00 - 04:00",
         description: "PARTY",
@@ -851,13 +844,7 @@ export const ProgrammAmSamstag = [
 export const ProgrammAmSonntag = [
     {
         location: "Schulhof",
-        people: (
-            <>
-                Fremd Zuhause (u. a. Usama Al Shahmani, Samira El-Maawi, Asa S. Hendry,
-                Angelika Overath und Melinda Nadj Abonji. Er wurde entwickelt von Karin
-                Bucher, Christina Caprez, Martin Bezzola und Jane Schindler)
-            </>
-        ),
+        people: "Fremd Zuhause",
         title: "Fremder Morgen - Fremdes Morgen",
         time: "10-11",
         description: (
@@ -882,7 +869,7 @@ export const ProgrammAmSonntag = [
     },
 
     {
-        location: "Schulhof",
+        location: "Werkstatt",
         people: <>Odile Kennel</>,
         title: "Wildes Übersetzen",
         time: "10:00 - 12:00",
@@ -1197,7 +1184,9 @@ export const ProgrammAmSonntag = [
                 erarbeiten Schüler:innen aus Berlin und Hamburg künstlerische
                 Interventionen in Erinnerung und Solidarität mit Betroffenen und Opfern
                 rechter Gewalt mit dem Fokus auf den jüngsten rechtsterroristischen
-                Attentat in Hanau. „Solange Wir Erinnern“ ist ein Projekt von Theater
+                Attentat in Hanau.
+                <br/><br/>
+                „Solange Wir Erinnern“ ist ein Projekt von Theater
                 findet Stadt e. V., und wird gefördert durch den Berliner Projektfonds
                 Kulturelle Bildung in Kooperation mit dem Maxim Gorki Theater.
                 Projektleitung: Hiyam Biary und Elona Beqiraj Ausstellungskonzeption- &
