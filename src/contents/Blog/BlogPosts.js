@@ -630,5 +630,42 @@ export const Posts = [
         Was läge ferner als? <br />
       </p>
     </>
+  },
+  {
+    author: "Loubna Khaddaj",
+    title: "Wortlos",
+    contentJSX: <>
+      <p>
+      Ich weiß gar nicht, was schlimmer ist: Schlechte Worte zu verwenden oder einfach gar keine
+Worte zu finden. Ihr könntet euch jetzt fragen, was unter „schlechten Worten“ zu verstehen ist.
+Das kann ich nicht so genau sagen. Vielleicht sind das unpräzise Beschreibungen oder Worte,
+die nicht so „schlau“ klingen. Keine Ahnung. In meiner Situation würden mir schon „schlechte
+Worte“ reichen. Mir geht es seit einiger Zeit so, dass ich gar keine Worte finde. Überhaupt
+keine Worte, in keiner Sprache die ich kenne. Ich bin immer noch erschüttert. Wie kann das
+denn passieren? Dass einem einfach die Worte verloren gehen. „Abhandenkommen“, könnten
+wir auch sagen. Einfach so. Oder wurden diese Worte gar nicht erst erfunden? „Mir fehlen die
+Worte“. Das denke ich die ganze Zeit. Ich habe so viele Gedanken und Emotionen in mir, aber
+einfach keine Buchstaben dafür. Ich brauche Worte, um die Enttäuschung in mir auszudrücken.
+Die Abgründe, die sich in mir aufgetan haben. Die Schluchten und die Lavafälle, die auf mich
+hereinfallen, wie ein heißer Regenbach, der mich verbrennt und vielleicht sogar auslöscht. Ich
+brauche Worte, um die Wut zu beschreiben. Diese Wut, die mich rasend macht. Ungehalten.
+Eine Wut, die sich in mir auftut, wie ein Orkan, der alles, was sich ihm in den Weg stellt,
+niedermacht. Ich suche nach Worten, die meine Verletzungen beschreiben. Diese vereiterten
+Wunden, die ich immer wieder aufkratze. Sie sind so tief, es ist unmöglich, dass sie verheilen.
+Ich bin zwar keine Ärztin, aber das weiß ich sicher. Die Wunden werden niemals verheilen.
+Vielleicht will ich das auch gar nicht. Und dann suche ich auch nach Worten der Trauer. Ja, die
+fehlen mir am allermeisten. Worte der Trauer. Worte der Trauer. Ich sage es immer wieder, weil
+sie mir so sehr fehlen. Worte der Trauer. Auch diese sind „abhandengekommen“ oder wurden
+nie erfunden. Ich weiß es einfach nicht. Das macht mich noch viel trauriger. Und jetzt denke
+ich darüber nach, dass sie mir umso mehr fehlen: Sie fehlen mir, im Sinne von, ich finde sie
+nicht. Und sie fehlen mir, weil ich sie vermisse. Ich vermisse die Worte meiner Trauer. Ich
+würde sie so gerne in den Arm nehmen. Und jetzt frage ich mich, ob ich die Worte einfach
+verloren habe oder ob die Worte einfach wegwollten. Weg von mir. Vielleicht kann ich sie
+deshalb nicht mehr finden. Vielleicht verstecken sie sich so gut. Vielleicht haben zumindest sie
+es geschafft, sich von diesem Schmerz, meinem Schmerz, zu befreien.
+      </p>
+    </>
   }
+  
+
 ];

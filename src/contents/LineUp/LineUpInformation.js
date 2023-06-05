@@ -7,7 +7,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Xosewist_Foto_privat.JPG"
           ></img>
@@ -30,15 +31,16 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Thomas_Stangl_Foto_privat.JPG"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Thomas"} /> <PrettyName name={"Stangl"} />,
-            geboren 1966 in Wien, studierte Philosophie und Spanisch,
-            lebt in Wien. Zuletzt erschienen der Roman Quecksilberlicht (Matthes
-            & Seitz, Berlin 2022) und der Erzählband Diverse Wunder. Noch eine
+            geboren 1966 in Wien, studierte Philosophie und Spanisch, lebt in
+            Wien. Zuletzt erschienen der Roman Quecksilberlicht (Matthes &
+            Seitz, Berlin 2022) und der Erzählband Diverse Wunder. Noch eine
             Handvoll sehr kurzer Geschichten (Droschl, Graz, 2023). Zahlreiche
             Auszeichnungen, zuletzt der Kunstpreis für Literatur der Republik
             Österreich 2022 und der Bremer Literaturpreis 2023.
@@ -53,7 +55,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/VonderBeek_Tatjana_Foto_JohannaBaschke.jpg"
           ></img>
@@ -77,7 +80,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Logo-Stolze-Augen.png"
           ></img>
@@ -93,7 +97,8 @@ export const LineUpInformation = [
             Enttäuschungen und Erwartungen nach dem Anschlag in Hanau am 19.
             Februar 2020 zum Ausdruck bringen. <br></br>
             <br></br>
-            <img alt=""
+            <img
+              alt=""
               style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Crooks_Michelle.jpeg"
             ></img>
@@ -108,22 +113,23 @@ export const LineUpInformation = [
             stolzeaugen.books zuständig für Lektorat und assistierende Aufgaben.
             <br></br>
             <br></br>
-            <img alt=""
+            <img
+              alt=""
               style={{ width: "100%", borderRadius: "2.2rem" }}
               src="/images/Aghedo_Jennifer_Foto_ privat.jpg"
             ></img>
             <br></br> <br></br>
             <PrettyName name={"Jennifer"} /> <PrettyName name={"Aghedo"} />
-            studierte Kulturwirtschaft an der Universität.
-            Aufgrund ihrer Leidenschaft für Literatur und der kreativen
-            Auseinandersetzung mit feministischen, antirassistischen und
-            weiteren politischen Themen fing sie an, sich ehrenamtlich im
-            Bereich Social Media bei der BIPoC Verlagsgesellschaft
-            stolzeaugen.books zu engagieren. Neben ihrer hauptberuflichen
-            Tätigkeit unterstützt sie die Produktion von Kulturveranstaltungen
-            mit einem antirassistischen Fokus. Mittels eigener Texte setzt sie
-            sich mit ihrer Lebensrealität als Schwarze deutsche Frau
-            auseinander, um diese einem weiteren Publikum näher zu bringen.
+            studierte Kulturwirtschaft an der Universität. Aufgrund ihrer
+            Leidenschaft für Literatur und der kreativen Auseinandersetzung mit
+            feministischen, antirassistischen und weiteren politischen Themen
+            fing sie an, sich ehrenamtlich im Bereich Social Media bei der BIPoC
+            Verlagsgesellschaft stolzeaugen.books zu engagieren. Neben ihrer
+            hauptberuflichen Tätigkeit unterstützt sie die Produktion von
+            Kulturveranstaltungen mit einem antirassistischen Fokus. Mittels
+            eigener Texte setzt sie sich mit ihrer Lebensrealität als Schwarze
+            deutsche Frau auseinander, um diese einem weiteren Publikum näher zu
+            bringen.
           </p>
         </div>
       </>
@@ -160,7 +166,8 @@ export const LineUpInformation = [
             Literaturformen.
           </p>
 
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
@@ -179,7 +186,8 @@ export const LineUpInformation = [
             Format das gesprochene und klangbasierte Literatur in den
             Vordergrund stellt. Tanasgol lebt in Berlin.
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/SaL_Berkholz_Fotograf©Ken Yamamoto.jpg"
           ></img>
@@ -196,7 +204,8 @@ export const LineUpInformation = [
             Spokenwordautorin auf und arbeitet am liebsten in Kollaboration,
             auch und besonders mit Künstler:innen anderer Sparten.
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMG_6471-1.jpeg"
           ></img>
@@ -222,19 +231,20 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Varatharajah_Sinthujan_Foto_ Florinel Fratica.png"
           ></img>
           <p className="font-size-1">
-            சிந்துஜன் வரதராஜா (Sinthujan Varatharajah) lebt als politische Geograf:in
-            und Essayist:in in Berlin. Varatharajahs Arbeiten befassen sich mit
-            der Staatenlosigkeit und Vertreibung aus einer räumlichen,
-            logistischen und materialistischen Perspektive. Varatharajahs erstes
-            Buch, 'an alle orte, die hinter uns liegen', ist im Herbst 2022 im
-            Hanser Verlag erschienen. Das Buchprojekt 'Englisch in Berlin', eine
-            Kollaboration mit Moshtari Hilal, ist im gleichen Jahr bei
-            Wirklichkeits Books erschienen.
+            சிந்துஜன் வரதராஜா (Sinthujan Varatharajah) lebt als politische
+            Geograf:in und Essayist:in in Berlin. Varatharajahs Arbeiten
+            befassen sich mit der Staatenlosigkeit und Vertreibung aus einer
+            räumlichen, logistischen und materialistischen Perspektive.
+            Varatharajahs erstes Buch, 'an alle orte, die hinter uns liegen',
+            ist im Herbst 2022 im Hanser Verlag erschienen. Das Buchprojekt
+            'Englisch in Berlin', eine Kollaboration mit Moshtari Hilal, ist im
+            gleichen Jahr bei Wirklichkeits Books erschienen.
             <br></br>
             <br></br> Foto: Florinel Fratica
           </p>
@@ -248,7 +258,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Simoné Goldschmidt-Lechner_c Maik Gräf.jpeg"
           ></img>
@@ -278,24 +289,26 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/89846F18-5A9B-4975-A18C-1FF497D0DEE3.jpeg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Selma"} />
             <PrettyName name={"Kay"} />
-            <PrettyName name={"Matter"} appendWhiteSpace={false} />, geboren in Zürich, ist Autor:in und
-            Dramaturg:in und studiert Szenisches Schreiben an der Universität
-            der Künste Berlin. Zuletzt hat dey im Duo mit Marie Lucienne Verse
-            das Stück Alias Anastasius geschrieben, das gerade am Berliner
-            Ensemble zu sehen ist. Selma Matters Stück Grelle Tage hatte 2023 am
-            Schauspielhaus Wien Uraufführung und wurde u.a. mit dem
-            Hans-Gratzer-Preis 2022 ausgezeichnet. Im September erscheint es als
-            Buch im Suhrkamp Verlag. Selma Matter war Mitherausgeber:in der
-            BELLA triste und Teil der künstlerischen Leitung von PROSANOVA 2020.
-            Derzeit schreibt dey an einem autofiktionalen Text zu den
-            Schnittstellen von chronischer Erkrankung und Queerness.
+            <PrettyName name={"Matter"} appendWhiteSpace={false} />, geboren in
+            Zürich, ist Autor:in und Dramaturg:in und studiert Szenisches
+            Schreiben an der Universität der Künste Berlin. Zuletzt hat dey im
+            Duo mit Marie Lucienne Verse das Stück Alias Anastasius geschrieben,
+            das gerade am Berliner Ensemble zu sehen ist. Selma Matters Stück
+            Grelle Tage hatte 2023 am Schauspielhaus Wien Uraufführung und wurde
+            u.a. mit dem Hans-Gratzer-Preis 2022 ausgezeichnet. Im September
+            erscheint es als Buch im Suhrkamp Verlag. Selma Matter war
+            Mitherausgeber:in der BELLA triste und Teil der künstlerischen
+            Leitung von PROSANOVA 2020. Derzeit schreibt dey an einem
+            autofiktionalen Text zu den Schnittstellen von chronischer
+            Erkrankung und Queerness.
             <br></br>
             <br></br> Foto: Max Zerrahn
           </p>
@@ -308,97 +321,148 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/SchlechteWorter_16x9.png"
           ></img>
           <p className="font-size-1">
-            Ausgehend von Aichingers Text, schafft die Audioserie Schlechte Wörter / Bad Words einen Ort für ein anderes Sprechen über Sprache und Literatur, für die Annäherung an ein neues Sprachgefühl. Aus Gesprächen, Lesungen, Sprachnachrichten, Field Recordings und Musik entsteht ein begehbarer, vielstimmiger Raum mit wechselnden Gästen. Die Verabredung lautet: Wir gehen von einem Text aus, damit ein anderer Text beginnen kann.
+            Ausgehend von Aichingers Text, schafft die Audioserie Schlechte
+            Wörter / Bad Words einen Ort für ein anderes Sprechen über Sprache
+            und Literatur, für die Annäherung an ein neues Sprachgefühl. Aus
+            Gesprächen, Lesungen, Sprachnachrichten, Field Recordings und Musik
+            entsteht ein begehbarer, vielstimmiger Raum mit wechselnden Gästen.
+            Die Verabredung lautet: Wir gehen von einem Text aus, damit ein
+            anderer Text beginnen kann.
           </p>
           <p className="font-size-1">
-            Eine Audioserie von Fabian Saul, in Zusammenarbeit mit Mathias Zeiske. Mit Beiträgen von Don Mee Choi, Sophia Eisenhut, Lama El Khatib, Haytham El Wardany, Merve Emre, Joshua Groß, Hanne Lippard, Enis Maci, Nalan, Thuy-Han Nguyen-Chi, Tanasgol Sabbagh, Miriam Stoney, Karosh Taha, Senthuran Varatharajah, Uljana Wolf sowie Texten von Ilse Aichinger und Etel Adnan.
-          </p>
-          <br></br>
-          <p className="font-size-1">
-            Fabian Saul
-          </p>
-          <p className="font-size-1">
-            Fabian Saul ist Autor, Komponist und seit 2013 Chefredakteur des Magazins Flaneur. Das Heft, das sich in jeder Ausgabe einer anderen Straße in der Welt widmet, verfolgt einen nomadischen und interdisziplinären Ansatz, der sich auch in Sauls Arbeit wiederfindet. Neben seinen Tätigkeiten als Schriftsteller und Redakteur arbeitet er seit vielen Jahren als Komponist für Filmmusik und Songwriter. Er lebt in Berlin, seine Arbeit führt ihn jedoch regelmäßig an andere Orte.
-          </p>
-          <br></br>
-          <p className="font-size-1">
-            Don Mee Choi
-          </p>
-          <p className="font-size-1">
-            Don Mee Choi ist Autorin des mit dem National Book Award ausgezeichneten Buches DMZ Colony (2020). Sie ist 2021 Fellow der MacArthur Foundation und der John Simon Guggenheim Foundation. 2019 war sie Stipendiatin des DAAD Künstlerprogramms in Berlin und ist derzeit als Picador-Gastprofessorin in Leipzig.
+            Eine Audioserie von Fabian Saul, in Zusammenarbeit mit Mathias
+            Zeiske. Mit Beiträgen von Don Mee Choi, Sophia Eisenhut, Lama El
+            Khatib, Haytham El Wardany, Merve Emre, Joshua Groß, Hanne Lippard,
+            Enis Maci, Nalan, Thuy-Han Nguyen-Chi, Tanasgol Sabbagh, Miriam
+            Stoney, Karosh Taha, Senthuran Varatharajah, Uljana Wolf sowie
+            Texten von Ilse Aichinger und Etel Adnan.
           </p>
           <br></br>
+          <p className="font-size-1">Fabian Saul</p>
           <p className="font-size-1">
-            Lama El Khatib
-          </p>
-          <p className="font-size-1">
-            Lama El Khatib ist ausgebildete Architektin und studierte Kunstgeschichte und Philosophie an der American University of Beirut. Derzeit absolviert sie einen Masterstudiengang in Philosophie an der Freien Universität Berlin. Seit 2018 arbeitet sie im Rahmen von The Whole Life Academy und The Whole Life. An Archive Project am Haus der Kulturen der Welt in Berlin.
-          </p>
-          <br></br>
-          <p className="font-size-1">
-            Merve Emre
-          </p>
-          <p className="font-size-1">
-            Merve Emre ist Associate Professor für Englisch an der University of Oxford und Autorin für The New Yorker. Von 2020-21 war sie Fellow am Wissenschaftskolleg zu Berlin.
+            Fabian Saul ist Autor, Komponist und seit 2013 Chefredakteur des
+            Magazins Flaneur. Das Heft, das sich in jeder Ausgabe einer anderen
+            Straße in der Welt widmet, verfolgt einen nomadischen und
+            interdisziplinären Ansatz, der sich auch in Sauls Arbeit
+            wiederfindet. Neben seinen Tätigkeiten als Schriftsteller und
+            Redakteur arbeitet er seit vielen Jahren als Komponist für Filmmusik
+            und Songwriter. Er lebt in Berlin, seine Arbeit führt ihn jedoch
+            regelmäßig an andere Orte.
           </p>
           <br></br>
+          <p className="font-size-1">Don Mee Choi</p>
           <p className="font-size-1">
-            Hanne Lippard
-          </p>
-          <p className="font-size-1">
-            Hanne Lippard lebt und arbeitet in Berlin. In Kurzfilmen, Installationen, Sound- und Performance-Arbeiten erforscht Lippard die Stimme als Gestaltungsmittel. Inspiriert durch ihre Ausbildung als Grafikdesignerin zeigt sie, wie Sprache visuell kraftvoll sein kann. Ihre Texte sind bildlich, rhythmisch und performativ, nicht bloß rein informativ. Ihre letzten Performances und Ausstellungen wurden präsentiert bei RIBOCA2, Riga (2020), ART 4 ALL, Hamburger Bahnhof Berlin (2020), Our present, Museum für Gegenwartskunst Siegen (2020), Le language est une peau, FRAC Lorraine, Metz (2021), Contact, Mood, Share, MHKA, Antwerp (2021).
-          </p>
-          <br></br>
-          <p className="font-size-1">
-            Tanasgol Sabbagh
-          </p>
-          <p className="font-size-1">
-            Tanasgol Sabbagh schreibt Lyrik und Spoken Word Texte. Seit über zehn Jahren performt sie als freischaffende Bühnenpoetin auf vielzähligen Bühnen im deutschsprachigen Raum, ihre Texte sind in verschiedenen Bühnen- und Videoformaten inszeniert worden. Sie ist Gründungsmitglied des Künstler*innenkollektivs parallelgesellschaft und der gleichnamigen Veranstaltungsreihe in Berlin. Sabbagh setzt sich für literarische Nachwuchsförderung ein und leitet Schreibworkshops für Jugendliche und Schüler*innen.
+            Don Mee Choi ist Autorin des mit dem National Book Award
+            ausgezeichneten Buches DMZ Colony (2020). Sie ist 2021 Fellow der
+            MacArthur Foundation und der John Simon Guggenheim Foundation. 2019
+            war sie Stipendiatin des DAAD Künstlerprogramms in Berlin und ist
+            derzeit als Picador-Gastprofessorin in Leipzig.
           </p>
           <br></br>
+          <p className="font-size-1">Lama El Khatib</p>
           <p className="font-size-1">
-            Miriam Stoney
-          </p>
-          <p className="font-size-1">
-            Miriam Stoney lebt als Autorin und Übersetzerin in Wien. Ihre meist kollaborative Praxis ist textbasiert, umfasst aber auch künstlerisches Schreiben, Performance, Audio und Installation. 2022 erscheint ihr Roman bei Broken Dimanche Press. 2021 hatte sie im Kunstverein Kevin Space in Wien ihre erste Einzelausstellung, außerdem wurden ihre Arbeiten unter anderem im Neuen Kunstverein Wien und BBC Introducing Arts gezeigt.
-          </p>
-          <br></br>
-          <p className="font-size-1">
-            Karosh Taha
-          </p>
-          <p className="font-size-1">
-            Karosh Taha lebt und schreibt im Ruhrgebiet. 2018 erschien ihr Debütroman Beschreibung einer Krabbenwanderung, im April 2020 folgte Im Bauch der Königin. Für ihre Werke erhielt sie mehrere Preise und Stipendien, darunter den Hohenemser Literaturpreis 2019 und das Werkstipendium des Deutschen Literaturfonds.
+            Lama El Khatib ist ausgebildete Architektin und studierte
+            Kunstgeschichte und Philosophie an der American University of
+            Beirut. Derzeit absolviert sie einen Masterstudiengang in
+            Philosophie an der Freien Universität Berlin. Seit 2018 arbeitet sie
+            im Rahmen von The Whole Life Academy und The Whole Life. An Archive
+            Project am Haus der Kulturen der Welt in Berlin.
           </p>
           <br></br>
+          <p className="font-size-1">Merve Emre</p>
           <p className="font-size-1">
-            Senthuran Varatharajah
-          </p>
-          <p className="font-size-1">
-            Senthuran Varatharajah ist Schriftsteller und Philosoph. Er studierte Philosophie, evangelische Theologie und vergleichende Religions- und Kulturwissenschaft in Marburg, Berlin und London. 2016 erschien sein mehrfach ausgezeichneter Debütroman Vor der Zunahme der Zeichen; Varatharajahs zweiter Roman Rot (Hunger) erscheint im März 2022. Seine Texte handeln vom Verhältnis von Biographie, Poetologie, Philosophie und Theologie, unter den Bedingungen von Flucht, Asyl, Exil und Genozid.
+            Merve Emre ist Associate Professor für Englisch an der University of
+            Oxford und Autorin für The New Yorker. Von 2020-21 war sie Fellow am
+            Wissenschaftskolleg zu Berlin.
           </p>
           <br></br>
+          <p className="font-size-1">Hanne Lippard</p>
           <p className="font-size-1">
-            Uljana Wolf
+            Hanne Lippard lebt und arbeitet in Berlin. In Kurzfilmen,
+            Installationen, Sound- und Performance-Arbeiten erforscht Lippard
+            die Stimme als Gestaltungsmittel. Inspiriert durch ihre Ausbildung
+            als Grafikdesignerin zeigt sie, wie Sprache visuell kraftvoll sein
+            kann. Ihre Texte sind bildlich, rhythmisch und performativ, nicht
+            bloß rein informativ. Ihre letzten Performances und Ausstellungen
+            wurden präsentiert bei RIBOCA2, Riga (2020), ART 4 ALL, Hamburger
+            Bahnhof Berlin (2020), Our present, Museum für Gegenwartskunst
+            Siegen (2020), Le language est une peau, FRAC Lorraine, Metz (2021),
+            Contact, Mood, Share, MHKA, Antwerp (2021).
           </p>
+          <br></br>
+          <p className="font-size-1">Tanasgol Sabbagh</p>
           <p className="font-size-1">
-            Uljana Wolf ist Lyrikerin und Übersetzerin. Sie veröffentlichte vier Gedichtbände und zahlreiche Lyrikübersetzungen u. a. aus dem Polnischen und Belarussischen. 2021 erschien Etymologischer Gossip. Essays und Reden. Mit Marie Luise Knott kuratierte sie die Ausstellung Die Hochsee der Ilse Aichinger. Ein unglaubwürdiger Reiseführer zum 100. Geburtstag im Literarischen Colloquium Berlin. Wolfs Werk wurde u. a. mit dem Adelbert-von-Chamisso-Preis 2016 und dem Kunstpreis Berlin 2019 ausgezeichnet.
+            Tanasgol Sabbagh schreibt Lyrik und Spoken Word Texte. Seit über
+            zehn Jahren performt sie als freischaffende Bühnenpoetin auf
+            vielzähligen Bühnen im deutschsprachigen Raum, ihre Texte sind in
+            verschiedenen Bühnen- und Videoformaten inszeniert worden. Sie ist
+            Gründungsmitglied des Künstler*innenkollektivs parallelgesellschaft
+            und der gleichnamigen Veranstaltungsreihe in Berlin. Sabbagh setzt
+            sich für literarische Nachwuchsförderung ein und leitet
+            Schreibworkshops für Jugendliche und Schüler*innen.
+          </p>
+          <br></br>
+          <p className="font-size-1">Miriam Stoney</p>
+          <p className="font-size-1">
+            Miriam Stoney lebt als Autorin und Übersetzerin in Wien. Ihre meist
+            kollaborative Praxis ist textbasiert, umfasst aber auch
+            künstlerisches Schreiben, Performance, Audio und Installation. 2022
+            erscheint ihr Roman bei Broken Dimanche Press. 2021 hatte sie im
+            Kunstverein Kevin Space in Wien ihre erste Einzelausstellung,
+            außerdem wurden ihre Arbeiten unter anderem im Neuen Kunstverein
+            Wien und BBC Introducing Arts gezeigt.
+          </p>
+          <br></br>
+          <p className="font-size-1">Karosh Taha</p>
+          <p className="font-size-1">
+            Karosh Taha lebt und schreibt im Ruhrgebiet. 2018 erschien ihr
+            Debütroman Beschreibung einer Krabbenwanderung, im April 2020 folgte
+            Im Bauch der Königin. Für ihre Werke erhielt sie mehrere Preise und
+            Stipendien, darunter den Hohenemser Literaturpreis 2019 und das
+            Werkstipendium des Deutschen Literaturfonds.
+          </p>
+          <br></br>
+          <p className="font-size-1">Senthuran Varatharajah</p>
+          <p className="font-size-1">
+            Senthuran Varatharajah ist Schriftsteller und Philosoph. Er
+            studierte Philosophie, evangelische Theologie und vergleichende
+            Religions- und Kulturwissenschaft in Marburg, Berlin und London.
+            2016 erschien sein mehrfach ausgezeichneter Debütroman Vor der
+            Zunahme der Zeichen; Varatharajahs zweiter Roman Rot (Hunger)
+            erscheint im März 2022. Seine Texte handeln vom Verhältnis von
+            Biographie, Poetologie, Philosophie und Theologie, unter den
+            Bedingungen von Flucht, Asyl, Exil und Genozid.
+          </p>
+          <br></br>
+          <p className="font-size-1">Uljana Wolf</p>
+          <p className="font-size-1">
+            Uljana Wolf ist Lyrikerin und Übersetzerin. Sie veröffentlichte vier
+            Gedichtbände und zahlreiche Lyrikübersetzungen u. a. aus dem
+            Polnischen und Belarussischen. 2021 erschien Etymologischer Gossip.
+            Essays und Reden. Mit Marie Luise Knott kuratierte sie die
+            Ausstellung Die Hochsee der Ilse Aichinger. Ein unglaubwürdiger
+            Reiseführer zum 100. Geburtstag im Literarischen Colloquium Berlin.
+            Wolfs Werk wurde u. a. mit dem Adelbert-von-Chamisso-Preis 2016 und
+            dem Kunstpreis Berlin 2019 ausgezeichnet.
           </p>
           <p className="font-size-1"></p>
         </div>
       </>
-    )
+    ),
   },
   {
     title: "Saskia Vogel",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Vogel_Saskia_Foto_ Nikolaus Kim.jpg"
           ></img>
@@ -427,7 +491,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sarah_Elena_Mueller_Press_Laura_Stevens_7.jpg"
           ></img>
@@ -462,7 +527,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Sara für Lit.jpg"
           ></img>
@@ -498,31 +564,40 @@ export const LineUpInformation = [
             (Rojbîn) und Leyla Şaylemez (Ronahî) im Informationszentrum
             Kurdistan in Paris vom türkischen Geheimdienst MİT ermordet.
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/EstherWinckelmann.jpg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Esther"} />
-            <PrettyName name={"Winckelmann"} />, Antiquarin, politische Aktivistin, aktives Mitglied bei Azadî e.V. Rechtshilfefonds.
+            <PrettyName name={"Winckelmann"} />, Antiquarin, politische
+            Aktivistin, aktives Mitglied bei Azadî e.V. Rechtshilfefonds.
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/AnjaFlach.png"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Anja"} />
-            <PrettyName name={"Flach"} />, Ethnologin und Aktivistin der kurdischen Frauenbewegung,
-            Autorin verschiedener Bücher zur kurdischen Frauenbewegung.
-            Mitübersetzerin von Sakine Cansız „Mein ganzes Leben war ein Kampf“.
+            <PrettyName name={"Flach"} />, Ethnologin und Aktivistin der
+            kurdischen Frauenbewegung, Autorin verschiedener Bücher zur
+            kurdischen Frauenbewegung. Mitübersetzerin von Sakine Cansız „Mein
+            ganzes Leben war ein Kampf“.
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/LeylaKaya.jpeg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Leyla"} />
-            <PrettyName name={"Kaya"} />ist Krankenschwester und Mutter 1 Tochter. Sie ist Gründungsmitglied des 1. Kurdischen Frauenvereins in Hamburg im Jahr 2000 und 2005 Gründungsmitglied des 1. Frauenrates in Hamburg. Seitdem ist sie im Frauenrat in Rojbin aktiv.
+            <PrettyName name={"Kaya"} />
+            ist Krankenschwester und Mutter 1 Tochter. Sie ist Gründungsmitglied
+            des 1. Kurdischen Frauenvereins in Hamburg im Jahr 2000 und 2005
+            Gründungsmitglied des 1. Frauenrates in Hamburg. Seitdem ist sie im
+            Frauenrat in Rojbin aktiv.
           </p>
         </div>
       </>
@@ -534,28 +609,37 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\InaDiallo (rio&dio).jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina) studiert Kulturwissenschaften und ästhetische Praxis an der Universität Hildesheim. Zuvor war Ina als FSJ-ler:in und Regieassistent:in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019 ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in unterschiedlichen Kontexten als freie Techniker:in und Videograf:in
+            <PrettyName name={"INA"} /> <PrettyName name={"DIALLO"} /> (sie/Ina)
+            studiert Kulturwissenschaften und ästhetische Praxis an der
+            Universität Hildesheim. Zuvor war Ina als FSJ-ler:in und
+            Regieassistent:in am Jungen Schauspiel Haus Hamburg tätig. Seit 2019
+            ist Ina Teil der Performance-Gruppe elenapatrowna und seit 2021 Teil
+            von dem Technik-Kollektiv rio&dio productions™. Ina arbeitet in
+            unterschiedlichen Kontexten als freie Techniker:in und Videograf:in
           </p>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Rio_c_Lisa Mausbach.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Rio"} /> <PrettyName name={"Theis"} appendWhiteSpace={false} />,<br></br> *1998, studiert Inszenierung
-            der Künste und der Medien in Hildesheim. Zuvor studierte they
-            Kulturwissenschaften und ästhetische Praxis. Rio war zuletzt an
-            verschiedenen Performance-Produktionen beteiligt, darunter
-            /FRAGMENTEZ /und /bbb/. They ist Teil des Performance- und
-            Technik-Kollektivs /rio&dio productions//*™*/ und arbeitet
-            freischaffend als Lichttechniker:in und Produktionsassistenz u.a.
-            für die Frl. Wunder AG und das Schauspielhaus Hannover. Aktuell
-            organisiert Rio verschiedene Veranstaltungen, um Drag in Hildesheim
-            zu etablieren.
+            <PrettyName name={"Rio"} />{" "}
+            <PrettyName name={"Theis"} appendWhiteSpace={false} />,<br></br>{" "}
+            *1998, studiert Inszenierung der Künste und der Medien in
+            Hildesheim. Zuvor studierte they Kulturwissenschaften und
+            ästhetische Praxis. Rio war zuletzt an verschiedenen
+            Performance-Produktionen beteiligt, darunter /FRAGMENTEZ /und /bbb/.
+            They ist Teil des Performance- und Technik-Kollektivs /rio&dio
+            productions//*™*/ und arbeitet freischaffend als Lichttechniker:in
+            und Produktionsassistenz u.a. für die Frl. Wunder AG und das
+            Schauspielhaus Hannover. Aktuell organisiert Rio verschiedene
+            Veranstaltungen, um Drag in Hildesheim zu etablieren.
             <br></br>
             <br></br> Foto: Lisa Mausbach
           </p>
@@ -569,7 +653,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Poco.lit_ von Rath_Anna, Gasser_Lucy, Foto_ Michelle Rue.jpg"
           ></img>
@@ -578,10 +663,13 @@ export const LineUpInformation = [
             <PrettyName name={"Rath"} /> und <PrettyName name={"Lucy"} />{" "}
             <PrettyName name={"Gasser"} /> sind Literaturwissenschaftlerinnen
             mit Schwerpunkt auf Postkolonialismus. Gemeinsam haben sie poco.lit.
-            <a href="https://pocolit.com/">https://pocolit.com/</a>, ein bilinguales Online-Magazin für
-            postkoloniale Literatur, und macht.sprache.
-            <a href="https://www.machtsprache.de/">https://www.machtsprache.de/</a>, eine Plattform für politisch sensibles
-            Übersetzen, gegründet.
+            <a href="https://pocolit.com/">https://pocolit.com/</a>, ein
+            bilinguales Online-Magazin für postkoloniale Literatur, und
+            macht.sprache.
+            <a href="https://www.machtsprache.de/">
+              https://www.machtsprache.de/
+            </a>
+            , eine Plattform für politisch sensibles Übersetzen, gegründet.
             <br></br>
             <br></br> Foto: Michelle Rue
           </p>
@@ -594,7 +682,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Atibioke_Olufemi_Privat.jpg"
           ></img>
@@ -615,7 +704,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kennel_Odile_Foto_ Charlotte_Werndt.JPG"
           ></img>
@@ -643,26 +733,38 @@ export const LineUpInformation = [
   },
   {
     title: "Natasha A. Kelly",
-    contentJSX: <>
-      <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-        <img alt=""
-          style={{ width: "100%", borderRadius: "2.2rem" }}
-          src="/images/NatashaKelly.jpg"
-        ></img>
-        <p className="font-size-1">
-          <PrettyName name={"Natasha"} /> <PrettyName name={"A."} /> <PrettyName name={"Kelly"} />ist promovierte Kommunikationssoziologin, Autorin und Künstlerin. Mit ihrer preisgekrönten und international gereisten Dokumentation „Millis Erwachen“ feierte sie ihr Filmdebüt auf der 10. Berlin Biennale 2018. Ihr Regiedebüt beging sie 2019 mit der internationalen Aufführung ihrer Dissertationsschrift „Afrokultur“ in drei Ländern und drei Sprachen. 2021 veröffentliche sie zwei weitere Bücher: „Rassismus, Strukturelle Probleme brauchen strukturelle Lösungen“ im Atrium Verlag und „Sisters and Souls“ im Orlanda Verlag.
-
-          Foto: Samia Rachel
-        </p>
-      </div>
-    </>
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            alt=""
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/images/NatashaKelly.jpg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Natasha"} /> <PrettyName name={"A."} />{" "}
+            <PrettyName name={"Kelly"} />
+            ist promovierte Kommunikationssoziologin, Autorin und Künstlerin.
+            Mit ihrer preisgekrönten und international gereisten Dokumentation
+            „Millis Erwachen“ feierte sie ihr Filmdebüt auf der 10. Berlin
+            Biennale 2018. Ihr Regiedebüt beging sie 2019 mit der
+            internationalen Aufführung ihrer Dissertationsschrift „Afrokultur“
+            in drei Ländern und drei Sprachen. 2021 veröffentliche sie zwei
+            weitere Bücher: „Rassismus, Strukturelle Probleme brauchen
+            strukturelle Lösungen“ im Atrium Verlag und „Sisters and Souls“ im
+            Orlanda Verlag. Foto: Samia Rachel
+          </p>
+        </div>
+      </>
+    ),
   },
   {
     title: "Mirjam Wittig",
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Mirjam Wittig, Foto von Stefan Klüter.jpg"
           ></img>
@@ -689,14 +791,16 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Foto_Melinda Nadj Abonji_©AyseYavas_2018.jpg"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Melinda"} /> <PrettyName name={"Nadj"} />{" "}
-            <PrettyName name={"Abonji"} appendWhiteSpace={false} />, geboren am 22. Juni 1968 in Bečej (heutiges Serbien).
-            Schriftstellerin, Musikerin, Vorstandsmitglied von TESORO.
+            <PrettyName name={"Abonji"} appendWhiteSpace={false} />, geboren am
+            22. Juni 1968 in Bečej (heutiges Serbien). Schriftstellerin,
+            Musikerin, Vorstandsmitglied von TESORO.
             <br></br>
             <br></br>
             Studium der Germanistik und Geschichte in Zürich (Lic. Phil. I).
@@ -726,7 +830,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Martyna Murphy Baginski.jpg"
           ></img>
@@ -757,7 +862,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Karosh_Taha.JPG"
           ></img>
@@ -785,7 +891,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Friese_Julia_Foto_@_Info_folgt.jpg"
           ></img>
@@ -806,7 +913,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/JuliaBuchberger.jpeg"
           ></img>
@@ -838,7 +946,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Calleja_Jen_Foto_ Robin_Christian.jpeg"
           ></img>
@@ -869,7 +978,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Kicaj_Foto.JPG"
           ></img>
@@ -898,7 +1008,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/InanaOthman_Bild privat.jpg"
           ></img>
@@ -925,7 +1036,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Geißler_Heike_176_HR_HeikeSteinweg_SV(2).jpg"
           ></img>
@@ -952,7 +1064,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Tezkan_Hakan_Foto_ Dinçer GüçyeterJPG.JPG"
           ></img>
@@ -973,7 +1086,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Ferretti_Giorgio_credits_David_Tiefenthaler.JPG"
           ></img>
@@ -998,7 +1112,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/IMAGE 2023-04-26 09_32_51.jpg"
           ></img>
@@ -1021,7 +1136,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/fremdzuhause_sequence1.jpg"
           ></img>
@@ -1051,10 +1167,14 @@ export const LineUpInformation = [
             Abonji beschreibt, wie wichtig das Fremdsein für ihre Literatur ist:
             Eine Einladung, die Sprache von der Last des Vertrauten zu befreien.{" "}
             <br></br>
-            <br></br>Konzept und Handlungsanweisungen: <a href="https://karinbucher.ch/">Karin&nbsp;Bucher</a>
-            <br></br>Konzept und Text: <a href="https://christinacaprez.ch/About">Christian&nbsp;Caprez</a>
-            <br></br> Ton und Musik: <a href="https://klanggestalter.ch/">Martin&nbsp;Bezzola</a>
-            <br></br>Grafik und Programmierung: <a href="https://stillhartkonzept.ch/">Jane&nbsp;Schindler</a>
+            <br></br>Konzept und Handlungsanweisungen:{" "}
+            <a href="https://karinbucher.ch/">Karin&nbsp;Bucher</a>
+            <br></br>Konzept und Text:{" "}
+            <a href="https://christinacaprez.ch/About">Christian&nbsp;Caprez</a>
+            <br></br> Ton und Musik:{" "}
+            <a href="https://klanggestalter.ch/">Martin&nbsp;Bezzola</a>
+            <br></br>Grafik und Programmierung:{" "}
+            <a href="https://stillhartkonzept.ch/">Jane&nbsp;Schindler</a>
           </p>
         </div>
       </>
@@ -1065,7 +1185,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Franziska Gänsler Foto c Linda Rosa Saal.jpg"
           ></img>
@@ -1087,7 +1208,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Beqiraj_Elona_Foto_ Alin Daghestani.jpeg"
           ></img>
@@ -1115,7 +1237,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Dyke_Dogs_Foto_ Yana Kaziulia.jpg"
           ></img>
@@ -1153,7 +1276,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/12-22_DuyguAgal_Handprints_003-Wiederhergestellt Kopie.jpg"
           ></img>
@@ -1183,7 +1307,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Damon Taleghani.jpeg"
           ></img>
@@ -1206,12 +1331,15 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Bilir-Meier_Cana_Foto_ Aleyna Osmanoğlu.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Cana"} /> <PrettyName name={"Bilir-"} appendWhiteSpace={false} /><PrettyName name={"Meier"} />
+            <PrettyName name={"Cana"} />{" "}
+            <PrettyName name={"Bilir-"} appendWhiteSpace={false} />
+            <PrettyName name={"Meier"} />
             studierte an der Akademie der bildenden Künste Wien sowie an der
             Sabancı-Universität in Istanbul. 2021 war sie Gastprofessorin für
             Kunstpädagogik an der Akademie der bildenden Künste in München. Sie
@@ -1231,7 +1359,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/DSCF3946.jpeg"
           ></img>
@@ -1255,12 +1384,24 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="images\SaL_Sabbagh_Fotograf © Sergen Yener.jpg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Tanasgol"} /> <PrettyName name={"Sabbagh"} />ist Dichterin und Spoken Word Autorin. Sie ist in Amol, Iran, geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten präsentiert sie in Performances, Audiostücken, Videoinstallationen und musikalischen Kollaborationen. Sie ist Mitbegründerin des Künstler:innenkollektivs parallelgesellschaft sowie der gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine Berkholz ist sie Gründerin und Redakteurin des auditiven Literaturmagazins Stoff aus Luft, das als Podcast erscheint: Ein Format das gesprochene und klangbasierte Literatur in den Vordergrund stellt. Tanasgol lebt in Berlin.
+            <PrettyName name={"Tanasgol"} /> <PrettyName name={"Sabbagh"} />
+            ist Dichterin und Spoken Word Autorin. Sie ist in Amol, Iran,
+            geboren und in Hessen aufgewachsen. Ihre literarischen Arbeiten
+            präsentiert sie in Performances, Audiostücken, Videoinstallationen
+            und musikalischen Kollaborationen. Sie ist Mitbegründerin des
+            Künstler:innenkollektivs parallelgesellschaft sowie der
+            gleichnamigen Veranstaltungsreihe, die politische Kunst abseits der
+            deutschen Leitkultur verhandelt. Zusammen mit der Lyrikerin Josefine
+            Berkholz ist sie Gründerin und Redakteurin des auditiven
+            Literaturmagazins Stoff aus Luft, das als Podcast erscheint: Ein
+            Format das gesprochene und klangbasierte Literatur in den
+            Vordergrund stellt. Tanasgol lebt in Berlin.
           </p>
         </div>
       </>
@@ -1271,32 +1412,34 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%", width: "100%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Prabala-Joslin_Avrina_Foto_ Michelle Gutiérrez.jpeg"
           ></img>
           <p className="font-size-1">
-            அவ்ரீனா பிரபலா- ஜாஸ்லின் /  <PrettyName name={"Avrina"} />
-            <PrettyName name={"Prabala-"} appendWhiteSpace={false} /> <PrettyName name={"Joslin"} />
-            (1992, Tamil Nadu)
-            schreibt/performt Prosa und Lyrik über Orte, Wesen und Zeiten.
-            avrinas Schreiben ist besessen von Erinnerungen, oft aus der
-            Kindheit, die sich an- und wieder entziehen; wie Ebbe und Flut, die
-            für avrinas Sehnsucht nach dem Meer stehen. avrinas tamilisches Ich,
-            das von avrinas Englisch frustriert ist, schreibt nun eigenständig
-            als Chella Thambi. avrina gewann den Short Fiction / University of
-            Essex International Short Story Prize 2021, den die Schriftstellerin
-            Irenosen Okojie vergeben hat, stand auch auf der Shortlist für den
-            Indiana Review Fiction Prize 2021, den Radical Art Review Contest
-            2021, den Berlin Writing Prize 2019 sowie der Longlist für den
-            Desperate Literature Short Fiction Prize 2021. avrina hat unter
-            anderem beim Mathrubhumi International Festival of Letters Kerala
-            2023, Poetry Meets, dem Literaturhaus Berlin, dem LCB, dem poesie
-            festival Berlin und dem Performing Arts Festival Berlin performt.
-            Als Absolvent:in des MA Writing Programms an der University of
-            Warwick schreibt avrina derzeit eine Antidissertation über Meena
-            Kandasamys Erinnerungspolitik.<br></br>
-            <br></br> <a href="http://www.avrinajos.net">www.avrinajos.net</a> <br></br>
+            அவ்ரீனா பிரபலா- ஜாஸ்லின் / <PrettyName name={"Avrina"} />
+            <PrettyName name={"Prabala-"} appendWhiteSpace={false} />{" "}
+            <PrettyName name={"Joslin"} />
+            (1992, Tamil Nadu) schreibt/performt Prosa und Lyrik über Orte,
+            Wesen und Zeiten. avrinas Schreiben ist besessen von Erinnerungen,
+            oft aus der Kindheit, die sich an- und wieder entziehen; wie Ebbe
+            und Flut, die für avrinas Sehnsucht nach dem Meer stehen. avrinas
+            tamilisches Ich, das von avrinas Englisch frustriert ist, schreibt
+            nun eigenständig als Chella Thambi. avrina gewann den Short Fiction
+            / University of Essex International Short Story Prize 2021, den die
+            Schriftstellerin Irenosen Okojie vergeben hat, stand auch auf der
+            Shortlist für den Indiana Review Fiction Prize 2021, den Radical Art
+            Review Contest 2021, den Berlin Writing Prize 2019 sowie der
+            Longlist für den Desperate Literature Short Fiction Prize 2021.
+            avrina hat unter anderem beim Mathrubhumi International Festival of
+            Letters Kerala 2023, Poetry Meets, dem Literaturhaus Berlin, dem
+            LCB, dem poesie festival Berlin und dem Performing Arts Festival
+            Berlin performt. Als Absolvent:in des MA Writing Programms an der
+            University of Warwick schreibt avrina derzeit eine Antidissertation
+            über Meena Kandasamys Erinnerungspolitik.<br></br>
+            <br></br> <a href="http://www.avrinajos.net">www.avrinajos.net</a>{" "}
+            <br></br>
             <br></br>Foto: Michelle Gutiérrez
           </p>
         </div>
@@ -1309,7 +1452,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Armeghan photo by Bethany Burgoyne.jpg"
           ></img>
@@ -1333,7 +1477,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Anna Kim_c_E. van Lanen.jpg"
           ></img>
@@ -1362,7 +1507,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Hetzer_Anna.Fotograf_Björn Kuhligk.jpg"
           ></img>
@@ -1391,7 +1537,8 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Amir_Gudarzi_Foto_@_Stefan_Sappert.jpg"
           ></img>
@@ -1423,18 +1570,26 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/KatharinaAngus.JPG"
           ></img>
           <p className="font-size-1">
             <PrettyName name={"Katharina"} />
-            <PrettyName name={"Angus"} /> studierte Drehbuchschreiben, Literaturwissenschaft und Osteuropawissenschaften mit Aufenthalten in Krakau und Prag. Sie veröffentlichte unter anderem in den Literaturzeitschriften Mosaik und BELLA triste. Im Jahr 2021 war sie Stipendiatin des Klagenfurter Literaturkurses und Teilnehmerin beim Stuttgarter Lit.Fest.<br />
-            Vom Hessischen Literaturrat e.V. und dem Prager Literaturhaus deutschsprachiger Autoren erhielt sie im November 2022 ein Aufenthaltsstipendium in Prag, um an ihrem Debütroman zu arbeiten.<br />
+            <PrettyName name={"Angus"} /> studierte Drehbuchschreiben,
+            Literaturwissenschaft und Osteuropawissenschaften mit Aufenthalten
+            in Krakau und Prag. Sie veröffentlichte unter anderem in den
+            Literaturzeitschriften Mosaik und BELLA triste. Im Jahr 2021 war sie
+            Stipendiatin des Klagenfurter Literaturkurses und Teilnehmerin beim
+            Stuttgarter Lit.Fest.
+            <br />
+            Vom Hessischen Literaturrat e.V. und dem Prager Literaturhaus
+            deutschsprachiger Autoren erhielt sie im November 2022 ein
+            Aufenthaltsstipendium in Prag, um an ihrem Debütroman zu arbeiten.
+            <br />
             Sie lebt als freie Journalistin in Berlin.
-            <br /> <br />
-            © privat
-
+            <br /> <br />© privat
           </p>
         </div>
       </>
@@ -1445,12 +1600,22 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/PhilippLaue.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Philipp"} /> <PrettyName name={"Laue"} /> (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach Beschäftigungen als Universitätsdozent und in der Jugendhilfe, arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in Beziehungen. Seine Gedichte und Prosa werden seit 2021 in verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA, apostrophe u. a.) gedruckt.
+            <PrettyName name={"Philipp"} /> <PrettyName name={"Laue"} />{" "}
+            (er/ihn), 1996 in Halle/Saale geboren, aufgewachsen im
+            Mitteldeutschen Chemiedreieck, studierte Psychologie in Jena. Nach
+            Beschäftigungen als Universitätsdozent und in der Jugendhilfe,
+            arbeitet er mittlerweile als wissenschaftlicher Mitarbeiter und lebt
+            in Leipzig. In seinen Texten verhandelt er u. a. Leben in dörflichen
+            (Un)Strukturen, familiäre Zerwürfnisse, Beziehungslosigkeit in
+            Beziehungen. Seine Gedichte und Prosa werden seit 2021 in
+            verschiedenen Independent-Magazinen (HotTopic!, FLUT Magazin, DRAMA,
+            apostrophe u. a.) gedruckt.
             <br />
             twitter/instagram: @imbluescreen.
             <br /> <br />
@@ -1465,12 +1630,22 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/ViciDewinski.JPG"
           ></img>
           <p className="font-size-1">
-            <PrettyName name="Vici" /> <PrettyName name={"Dewsinski"} /> wurde 1998 in Chemnitz geboren. Sie studiert Bühnen- und Kostümbild an der  Hochschule für Bildende Künste in Dresden und ist Stipendiatin der Studienstiftung des  deutschen Volkes. Seit 2021 arbeitet Vici als Installationskünstlerin, Regisseurin und Autorin.  Dabei erschafft sie performative Installationen, die an der Schnittstelle zwischen Bildender Kunst,  Theater und Animation operieren. Ihre Arbeit zeichnet sich durch gewaltige Atmosphären,  grotesken Humor und bis ins Detail abgestimmte Räume aus. Ihre Texte entführen uns in eine Welt  voller unausgesprochener Gedanken und Emotionen.
+            <PrettyName name="Vici" /> <PrettyName name={"Dewsinski"} /> wurde
+            1998 in Chemnitz geboren. Sie studiert Bühnen- und Kostümbild an der
+            Hochschule für Bildende Künste in Dresden und ist Stipendiatin der
+            Studienstiftung des deutschen Volkes. Seit 2021 arbeitet Vici als
+            Installationskünstlerin, Regisseurin und Autorin. Dabei erschafft
+            sie performative Installationen, die an der Schnittstelle zwischen
+            Bildender Kunst, Theater und Animation operieren. Ihre Arbeit
+            zeichnet sich durch gewaltige Atmosphären, grotesken Humor und bis
+            ins Detail abgestimmte Räume aus. Ihre Texte entführen uns in eine
+            Welt voller unausgesprochener Gedanken und Emotionen.
           </p>
         </div>
       </>
@@ -1481,13 +1656,19 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/NimaSchaper.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Nima"} />  <PrettyName name={"Schaper"} appendWhiteSpace={false} />, geboren und groß geworden in Köln. Nach dem Abitur an Kölner Gesamtschule ein Jahr in Odessa, Ukraine gelebt. Studiert seit Wintersemester 21/22 Kulturwissenschaften und Ästhetische Praxis an der Universität Hildesheim. Außerdem als DJ, Music Producer und Sound/Video-Künstler tätig.
-
+            <PrettyName name={"Nima"} />{" "}
+            <PrettyName name={"Schaper"} appendWhiteSpace={false} />, geboren
+            und groß geworden in Köln. Nach dem Abitur an Kölner Gesamtschule
+            ein Jahr in Odessa, Ukraine gelebt. Studiert seit Wintersemester
+            21/22 Kulturwissenschaften und Ästhetische Praxis an der Universität
+            Hildesheim. Außerdem als DJ, Music Producer und Sound/Video-Künstler
+            tätig.
           </p>
         </div>
       </>
@@ -1498,18 +1679,64 @@ export const LineUpInformation = [
     contentJSX: (
       <>
         <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
-          <img alt=""
+          <img
+            alt=""
             style={{ width: "100%", borderRadius: "2.2rem" }}
             src="/images/Agon Beqiraj.jpeg"
           ></img>
           <p className="font-size-1">
-            <PrettyName name={"Agon"} /> ist ein aufstrebender Musiker und Produzent, der früh in seinem Leben seine Leidenschaft für die Musik entdeckte.
+            <PrettyName name={"Agon"} /> <PrettyName name={"Beqiraj"} />
+            ist ein aufstrebender Musiker und Produzent, der früh in seinem
+            Leben seine Leidenschaft für die Musik entdeckte.
           </p>
           <p className="font-size-1">
-            Sein Sound bewegt sich zwischen den Richtungen Pop und Rap, die er ineinander verschmelzen lässt und durch diese Mischung verschiedener Genres seinen eigenen unverwechselbaren Sound entwickelt. Inspiriert von seinen Erfahrungen und Gefühlen möchte er Menschen emotional erreichen und ihnen auf verschiedenste Weisen helfen.
+            Sein Sound bewegt sich zwischen den Richtungen Pop und Rap, die er
+            ineinander verschmelzen lässt und durch diese Mischung verschiedener
+            Genres seinen eigenen unverwechselbaren Sound entwickelt. Inspiriert
+            von seinen Erfahrungen und Gefühlen möchte er Menschen emotional
+            erreichen und ihnen auf verschiedenste Weisen helfen.
           </p>
         </div>
       </>
     ),
   },
+
+  {
+    title: "Mira Sidawi",
+    contentJSX: (
+      <>
+        <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
+          <img
+            alt=""
+            style={{ width: "100%", borderRadius: "2.2rem" }}
+            src="/images/mirasidawi.jpeg"
+          ></img>
+          <p className="font-size-1">
+            <PrettyName name={"Mira"} /> <PrettyName name={"Sidawi"} />
+            is a Palestinian writer actress and director and activist. She
+            graduated from the Lebanese university with a Theatre diploma. In
+            2015 she created her first short film. The name of the film is Four
+            Wheels Camp. She took a role in a different plays such as: Kafas
+            directed by Lina Abyad, Systematical directed by Badih Abu
+            Shakra.etc... She directed several performances in different schools
+            and universities. Now she is working as a trainer in DW media
+            workshops in Shatila camp for investigation form and story telling.
+            She also created different portraits about characters lived in the
+            camps. Now, she is preparing for a web series that holds the real
+            black comedy found in the camp. She took a role in different feature
+            and short films as: Permission, instead of a homeland, Mon soufflé.
+            Her last theatre play name "AYOUBE", she played the role of
+            Palestinian woman that faces her own struggles and obstacles. She
+            participated in writing the theatre script as well. Mira is
+            preparing now for her first feature film that happens in the between
+            Bourj Barajani and Shatila. Mira also, is working on her first novel
+            that describes the life in the camp which more closely to be living
+            in a maze.
+          </p>
+        </div>
+      </>
+    ),
+  },
+
+  
 ];
