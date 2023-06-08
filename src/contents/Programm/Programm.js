@@ -18,7 +18,7 @@ function Programm({ setBackFunction, color, backFunction }) {
                 <title>PROSANOVA 2023 | Programm</title>
                 <meta
                     name="description"
-                    content="Prosanova 2023, Festival für junge Literatur | Team"
+                    content="Prosanova 2023, Festival für junge Literatur | Programm"
                 />
             </Helmet>
             {isMobile ? <ProgrammSmall day={day} setDay={setDay}

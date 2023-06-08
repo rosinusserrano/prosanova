@@ -9,10 +9,10 @@ function ShopSmall() {
   return (
     <>
       <Helmet>
-        <title>PROSANOVA 2023 | Info</title>
+        <title>PROSANOVA 2023 | Tickets</title>
         <meta
           name="description"
-          content="Prosanova 2023, Festival für junge Literatur | Impressum"
+          content="Prosanova 2023, Festival für junge Literatur | Tickets"
         />
       </Helmet>
 

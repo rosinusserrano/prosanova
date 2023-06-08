@@ -13,7 +13,7 @@ function Blog({setBackFunction}) {
     return (
         <>
             <Helmet>
-                <title>PROSANOVA 2023 | Team</title>
+                <title>PROSANOVA 2023 | Blog</title>
                 <meta
                     name="description"
                     content="Prosanova 2023, Festival für junge Literatur | Blog"
