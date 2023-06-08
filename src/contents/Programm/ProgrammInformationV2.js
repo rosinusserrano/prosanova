@@ -34,6 +34,16 @@ export const ProgrammAmFreitag = [
     type: "Lesen",
   },
   {
+    title: "Litradio Lounge",
+    people: "litradio",
+    description: <>
+      Zwischen Bühne, Bar und Liegestuhl findet ihr in der Litradio-Lounge einen Ort für Gespräche und Getränke. Die Redaktion von <a href="https://litradio.net">Litradio.net</a> kommt vor der Kamera mit Gästen ins Gespräch und ihr könnt dabei zusehen, entspannen oder euch austauschen. Es findet kein durchgehendes Programm statt, die genauen Zeiten findet ihr auf Instagram @litradionet.
+    </>,
+    time: "13-20",
+    location: "Hort",
+    type: "Andauern",
+  },
+  {
     title: "Container",
     people: "",
     description: (
@@ -119,26 +129,6 @@ export const ProgrammAmFreitag = [
     type: "Andauern",
   },
   {
-    location: "Werkstatt",
-    people: "Felix Herrmann, Angelina Klempert und Meret Stühmer",
-    title: "Bee(ing) part of - ein Schwarmworkshop",
-    description: (
-      <>
-        <p>
-          Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer
-          gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten
-          verweben. Im Klang der Gruppe untergehen.{" "}
-        </p>
-        <p>
-          Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit
-          dem Literaturinstitut der Universität Hildesheim.
-        </p>
-      </>
-    ),
-    time: "ab 13",
-    type: "Teilnehmen",
-  },
-  {
     title: "Lieben als kreative Praxis",
     people: "Saskia Vogel",
     description:
@@ -214,7 +204,7 @@ export const ProgrammAmFreitag = [
       </>
     ),
     time: "ab 14",
-    location: "Mensa",
+    location: "Cafeteria",
     type: "Andauern",
   },
   {
@@ -466,6 +456,26 @@ export const ProgrammAmFreitag = [
     ),
     time: "17-18",
     location: "Extern",
+    type: "Teilnehmen",
+  },
+  {
+    location: "Werkstatt",
+    people: "Felix Herrmann, Angelina Klempert und Meret Stühmer",
+    title: "Bee(ing) part of - ein Schwarmworkshop",
+    description: (
+      <>
+        <p>
+          Was heißt es, Teil eines Schwarms zu werden? Wie gehen wir mit einer
+          gemeinsamen Aufgabe um? Zusammen einen Rhythmus finden. Sich in Worten
+          verweben. Im Klang der Gruppe untergehen.{" "}
+        </p>
+        <p>
+          Anmeldung unter workshop@prosanova.net. Entstanden in Kooperation mit
+          dem Literaturinstitut der Universität Hildesheim.
+        </p>
+      </>
+    ),
+    time: "17-17:30",
     type: "Teilnehmen",
   },
   {
@@ -859,7 +869,19 @@ export const ProgrammAmSamstag = [
         Workshop ist ausschließlich für FLINTA* Personen zugänglich.
       </>
     ),
-    type: "Teilnehmen",
+    type: "Aufführen",
+  },
+  {
+    location: "Container",
+    people: <></>,
+    title: "Verschlossene Sprache - eine Annäherung an die Festung der Marianne Fritz",
+    time: "19-21",
+    description: (
+      <>
+        Das Werk der Marianne Fritz kennen nur wenige. Bekannt geworden 1978 mit ihrem Erstlingswerk „Die Schwerkraft der Verhältnisse“, für das sie den Robert-Walser-Preis erhielt, geriet sie schon mit ihrem zweiten, zwölfbändigen Werk „Dessen Sprache du nicht verstehst“ in Verruf. Kritiker warfen ihr Unzugänglichkeit, Unlesbarkeit und eine zu hohe Komplexität vor. In Kim Kielhofners Film „Whose Language You Don‘t Understand“ nähert sich die Künstlerin Marianne Fritz und ihrem Werk an. Im Screening dieses Films wollen wir Marianne Fritz gedenken und den Zuschauer:innen einen Einblick in die Festung der Marianne Fritz ermöglichen.
+      </>
+    ),
+    type: "Schauen",
   },
   {
     location: "Klassenzimmer",
@@ -880,7 +902,7 @@ export const ProgrammAmSamstag = [
     type: "Aufführen",
   },
   {
-    location: "Mensa",
+    location: "Cafeteria",
     people: <>Thomas Stangl</>,
     title: "Das Labyrinth der Gurken",
     time: "ab 12:00",
@@ -903,12 +925,12 @@ export const ProgrammAmSamstag = [
     location: "Aula",
     people: (
       <>
-        சிந்துஜன் வரதராஜா <br></br>(Sinthujan Varatharajah){" "}
+        Armin Djamali und சிந்துஜன் வரதராஜா (Sinthujan Varatharajah)
       </>
     ),
     title: "an alle orte, die hinter uns liegen",
     time: "12:30-13:30",
-    description: "",
+    description: "Sinthujan Varatharajah spricht ausgehend aus ihrem:seinem Buch an alle orte, die hinter uns liegen mit Armin Djamali über den Versuch, Sprache umzukippen, sie verhandelbar zu machen, sie zu bestürzen. Wie können Autor:innen ihre eigene Stimme, vielleicht auch die Progressivität bestimmter Themen, in einer Flut von Verlagslogiken und finanziellen Abhängigkeiten behalten?",
     type: "Diskutieren",
   },
 
@@ -1056,7 +1078,7 @@ export const ProgrammAmSamstag = [
     ),
     people: <>Giorgio Ferretti</>,
     title: "die richtigen orte finden / die richtigen worte finden",
-    time: "15:00 - 15:30",
+    time: "15-16",
     description: (
       <>
         Giorgio Ferretti ist abgeschweift. Oder heißt das abgeschwiffen? Egal:
@@ -1073,7 +1095,7 @@ export const ProgrammAmSamstag = [
         konstant zu verschwinden scheint.
       </>
     ),
-    type: "Schauen",
+    type: "Aufführen",
   },
   {
     location: "Aula",
@@ -1104,7 +1126,7 @@ export const ProgrammAmSamstag = [
     location: "Klassenzimmer",
     people: <>Stoff aus Luft</>,
     title: "Das bessere Leben: Stoff aus Luft live",
-    time: "16:30 - 18:30",
+    time: "17-18:30",
     description: (
       <>
         "Was machen wir hier? Hier, wo du dich nach mir umlehnst. Wir sehen
@@ -1149,7 +1171,7 @@ export const ProgrammAmSamstag = [
     location: "Labor",
     people: <>Xoşewîst / Moderation: Giorgio Ferretti</>,
     title: "möglichkeiten are on جدران aufgehängt",
-    time: "17:30 - 18:15",
+    time: "17:30-18:30",
     description: (
       <>
         Vers für Vers prallen beim Lesen von Xoşewîsts Gedichtssammlung Leipzig
@@ -1169,7 +1191,7 @@ export const ProgrammAmSamstag = [
     type: "Lesen",
   },
   {
-    location: "Extern",
+    location: "Zwischengeschoss",
     people: <>Olufemi Atibioke</>,
     title: "Ausfälle",
     time: "ab 18",
@@ -1191,7 +1213,7 @@ export const ProgrammAmSamstag = [
         18-20 Uhr im Zwischengeschoss.
       </>
     ),
-    type: "Andauern",
+    type: "Hören",
   },
 
   {
@@ -1228,7 +1250,7 @@ export const ProgrammAmSamstag = [
   {
     location: "Aula",
     people: <>dyke dogs, Duygu Agal </>,
-    title: "Lesbian Semiotics / dyke dogs Salon",
+    title: "Lesbian Semiotics",
     time: "19:00 - 20:30",
     description: (
       <>
@@ -1284,7 +1306,7 @@ export const ProgrammAmSamstag = [
   },
   {
     location: "Aula",
-    people: <>yung_womb, slimgirl fat</>,
+    people: <>yung_womb, slimgirl fat (SLIC unit)</>,
     title: "",
     time: "22:00 - 00:00",
     description: "PARTY",
@@ -1533,7 +1555,7 @@ export const ProgrammAmSonntag = [
   },
 
   {
-    location: "Mensa",
+    location: "Cafeteria",
     people: <>Thomas Stangl</>,
     title: "Das Labyrinth der Gurken",
     time: "ab 12:00",
@@ -1600,6 +1622,20 @@ export const ProgrammAmSonntag = [
     ),
     type: "Aufführen",
   },
+  {
+    location: "Container",
+    people: <>Cana Bilir-Meier </>,
+    title: "Zwischen den Zeilen: Eine Videobotschaft",
+    time: "12-13",
+    description: (
+      <>
+        Wie wird gesprochen? Wie wird kritisiert? Welche Kriterien gibt es für gute und schlechte Wörter? Welche Worte werden als ""hochkulturell"" gelesen?
+        <br/><br/>
+        In diesem Format geht es um die guten Wörter, die zu schlechten gemacht werden. Um die sogenannten ""schönen Wörter"", die eigentlich das ""Schlechte"" implizieren wollen und verharmlosen. In einem Videobeitrag verhandelt Cana Bilir-Meier die Sprache der Kritik in der Literaturlandschaft und die Kommerzialisierung von Texten.Sie nimmt die Sprache in den Blick, die die harte Realität abbildet und die von Verlagen ungewollt bleibt. Denn sind es nicht gerade diese Worte, die es wert sind, rezipiert zu werden?
+      </>
+    ),
+    type: "Schauen",
+  },
 
   {
     location: "Aula",
@@ -1626,7 +1662,7 @@ export const ProgrammAmSonntag = [
     location: "Klassenzimmer",
     people: <>Odile Kennel</>,
     title: "Baubo schickt Klitpics",
-    time: "13.30 - 15.00",
+    time: "13.30 - 14:30",
     description: (
       <>
         Gedichte können Lust entfachen und auffächern, können Objekt der
@@ -1661,14 +1697,14 @@ export const ProgrammAmSonntag = [
         Mentor Olufemi Atibioke.
       </>
     ),
-    type: "Aufführen",
+    type: "Lesen",
   },
 
   {
     location: "Dunkelkammer",
     people: <>Hakan Tezkan</>,
     title: "Eine Poetik der Kerne",
-    time: "14:00 - 15:00 und 15:00 - 16:00",
+    time: "12-13 und 13-14 ",
     description: (
       <>
         Mit Hakan Tezkan gehen wir in einer Live-Installation die Bewegung der
@@ -1733,11 +1769,11 @@ export const ProgrammAmSonntag = [
   },
 
   {
-    location: "Klassenzimmer",
+    location: "Dunkelkammer",
     people:
       "Olufemi Atibioke, Jehona Kicaj und Armeghan Taheri / Moderation: Aidan Riebensahm",
     title: "Werkvorschau",
-    time: "15:30 - 16:15",
+    time: "15:30-17",
     description: (
       <>
         In Form einer Werkvorschau präsentieren drei Autor:innen exklusiv
@@ -1756,7 +1792,7 @@ export const ProgrammAmSonntag = [
   {
     location: "Container",
     people:
-      "stolzeaugen.books x solange.wir.erinnern / Moderation: Aylin Himmetoğlu",
+      "stolzeaugen.books, solange wir erinnern / Moderation: Aylin Himmetoğlu",
     title: "Wenn die Worte sich an uns erinnern würden",
     time: "16:00 - 17:15",
     description: (
@@ -1793,7 +1829,7 @@ export const ProgrammAmSonntag = [
     location: "Labor",
     people: <>Moderation und Organisation: Franziska Bothe</>,
     title: "Open Stage",
-    time: "16:30 - 17:30",
+    time: "16:30-18",
     description: (
       <>
         Im Vorhinein des Festivals haben wir nach euren Texten gesucht: Texte
@@ -1805,7 +1841,7 @@ export const ProgrammAmSonntag = [
     type: "Teilnehmen",
   },
   {
-    location: "Extern",
+    location: "Zwischengeschoss",
     people: <>Olufemi Atibioke</>,
     title: "Ausfälle",
     time: "16:30 - 18:00",
