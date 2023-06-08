@@ -20,7 +20,7 @@ function InfoLarge() {
                     }}>
                     {InfoBubble1Text}     <div style={{
                     }}>
-                        <img style={{
+                        <img alt="" style={{
                             width: "80%",
                             rotate: "20deg",
                         }} src='images/Schlechte_Woerter_Sticker.gif' />
