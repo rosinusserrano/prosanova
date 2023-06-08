@@ -636,36 +636,54 @@ export const Posts = [
     title: "Wortlos",
     contentJSX: <>
       <p>
-      Ich weiß gar nicht, was schlimmer ist: Schlechte Worte zu verwenden oder einfach gar keine
-Worte zu finden. Ihr könntet euch jetzt fragen, was unter „schlechten Worten“ zu verstehen ist.
-Das kann ich nicht so genau sagen. Vielleicht sind das unpräzise Beschreibungen oder Worte,
-die nicht so „schlau“ klingen. Keine Ahnung. In meiner Situation würden mir schon „schlechte
-Worte“ reichen. Mir geht es seit einiger Zeit so, dass ich gar keine Worte finde. Überhaupt
-keine Worte, in keiner Sprache die ich kenne. Ich bin immer noch erschüttert. Wie kann das
-denn passieren? Dass einem einfach die Worte verloren gehen. „Abhandenkommen“, könnten
-wir auch sagen. Einfach so. Oder wurden diese Worte gar nicht erst erfunden? „Mir fehlen die
-Worte“. Das denke ich die ganze Zeit. Ich habe so viele Gedanken und Emotionen in mir, aber
-einfach keine Buchstaben dafür. Ich brauche Worte, um die Enttäuschung in mir auszudrücken.
-Die Abgründe, die sich in mir aufgetan haben. Die Schluchten und die Lavafälle, die auf mich
-hereinfallen, wie ein heißer Regenbach, der mich verbrennt und vielleicht sogar auslöscht. Ich
-brauche Worte, um die Wut zu beschreiben. Diese Wut, die mich rasend macht. Ungehalten.
-Eine Wut, die sich in mir auftut, wie ein Orkan, der alles, was sich ihm in den Weg stellt,
-niedermacht. Ich suche nach Worten, die meine Verletzungen beschreiben. Diese vereiterten
-Wunden, die ich immer wieder aufkratze. Sie sind so tief, es ist unmöglich, dass sie verheilen.
-Ich bin zwar keine Ärztin, aber das weiß ich sicher. Die Wunden werden niemals verheilen.
-Vielleicht will ich das auch gar nicht. Und dann suche ich auch nach Worten der Trauer. Ja, die
-fehlen mir am allermeisten. Worte der Trauer. Worte der Trauer. Ich sage es immer wieder, weil
-sie mir so sehr fehlen. Worte der Trauer. Auch diese sind „abhandengekommen“ oder wurden
-nie erfunden. Ich weiß es einfach nicht. Das macht mich noch viel trauriger. Und jetzt denke
-ich darüber nach, dass sie mir umso mehr fehlen: Sie fehlen mir, im Sinne von, ich finde sie
-nicht. Und sie fehlen mir, weil ich sie vermisse. Ich vermisse die Worte meiner Trauer. Ich
-würde sie so gerne in den Arm nehmen. Und jetzt frage ich mich, ob ich die Worte einfach
-verloren habe oder ob die Worte einfach wegwollten. Weg von mir. Vielleicht kann ich sie
-deshalb nicht mehr finden. Vielleicht verstecken sie sich so gut. Vielleicht haben zumindest sie
-es geschafft, sich von diesem Schmerz, meinem Schmerz, zu befreien.
+        Ich weiß gar nicht, was schlimmer ist: Schlechte Worte zu verwenden oder einfach gar keine
+        Worte zu finden. Ihr könntet euch jetzt fragen, was unter „schlechten Worten“ zu verstehen ist.
+        Das kann ich nicht so genau sagen. Vielleicht sind das unpräzise Beschreibungen oder Worte,
+        die nicht so „schlau“ klingen. Keine Ahnung. In meiner Situation würden mir schon „schlechte
+        Worte“ reichen. Mir geht es seit einiger Zeit so, dass ich gar keine Worte finde. Überhaupt
+        keine Worte, in keiner Sprache die ich kenne. Ich bin immer noch erschüttert. Wie kann das
+        denn passieren? Dass einem einfach die Worte verloren gehen. „Abhandenkommen“, könnten
+        wir auch sagen. Einfach so. Oder wurden diese Worte gar nicht erst erfunden? „Mir fehlen die
+        Worte“. Das denke ich die ganze Zeit. Ich habe so viele Gedanken und Emotionen in mir, aber
+        einfach keine Buchstaben dafür. Ich brauche Worte, um die Enttäuschung in mir auszudrücken.
+        Die Abgründe, die sich in mir aufgetan haben. Die Schluchten und die Lavafälle, die auf mich
+        hereinfallen, wie ein heißer Regenbach, der mich verbrennt und vielleicht sogar auslöscht. Ich
+        brauche Worte, um die Wut zu beschreiben. Diese Wut, die mich rasend macht. Ungehalten.
+        Eine Wut, die sich in mir auftut, wie ein Orkan, der alles, was sich ihm in den Weg stellt,
+        niedermacht. Ich suche nach Worten, die meine Verletzungen beschreiben. Diese vereiterten
+        Wunden, die ich immer wieder aufkratze. Sie sind so tief, es ist unmöglich, dass sie verheilen.
+        Ich bin zwar keine Ärztin, aber das weiß ich sicher. Die Wunden werden niemals verheilen.
+        Vielleicht will ich das auch gar nicht. Und dann suche ich auch nach Worten der Trauer. Ja, die
+        fehlen mir am allermeisten. Worte der Trauer. Worte der Trauer. Ich sage es immer wieder, weil
+        sie mir so sehr fehlen. Worte der Trauer. Auch diese sind „abhandengekommen“ oder wurden
+        nie erfunden. Ich weiß es einfach nicht. Das macht mich noch viel trauriger. Und jetzt denke
+        ich darüber nach, dass sie mir umso mehr fehlen: Sie fehlen mir, im Sinne von, ich finde sie
+        nicht. Und sie fehlen mir, weil ich sie vermisse. Ich vermisse die Worte meiner Trauer. Ich
+        würde sie so gerne in den Arm nehmen. Und jetzt frage ich mich, ob ich die Worte einfach
+        verloren habe oder ob die Worte einfach wegwollten. Weg von mir. Vielleicht kann ich sie
+        deshalb nicht mehr finden. Vielleicht verstecken sie sich so gut. Vielleicht haben zumindest sie
+        es geschafft, sich von diesem Schmerz, meinem Schmerz, zu befreien.
+      </p>
+    </>
+  },
+  {
+    author: "Anna Kim",
+    title: "Schlechte Augen",
+    contentJSX: <>
+      <p>
+        Jedes Mal, wenn ich <span className="font-montiac-italic">Schlechte Wörter</span> lese, entdecke ich einen Aspekt, den ich vorher nicht sah; nein, ich entdecke den Aspekt nicht, er taucht in meinem Blickfeld auf, er ist plötzlich da, und mir scheint, ich hätte schlecht gelesen, oder mein Gehirn hätte sich erst jetzt angeknipst, angeknipst, ohne von mir angeknipst zu werden, wohlgemerkt, denn vom Anknipsen bekam ich nichts mit, genauso wenig wie von jenem Aspekt, der sich meiner Wahrnehmung entzog –
+      </p>
+      <p>
+        „Ich schaue zu, wie alles und jedes seine rasche, unzutreffende Bezeichnung bekommt, ich tue sogar seit kurzem mit. Der Unterschied ist nur: ich weiß, was ich tue.“ An diese Sätze erinnere ich mich, ich habe sie die letzten zwei Male gelesen, mit schlechtem Gewissen, weil auch ich mittue, auch ich beim Zuordnen von „unzutreffenden Bezeichnungen“ bloß zuschaue, nicht einmal Zeugin sein möchte, höchstens <span className="font-montiac-italic">unbeteiligte Passantin</span>. Diesen Sätzen folgt ein Satz, der mich erschüttert, ihn habe ich vorher nicht gesehen, obwohl er, nun bediene ich mich der drittbesten Wendung, weil sie zugleich die beste ist, <span className="font-montiac-italic">am meisten reinfetzt</span>: „Ich weiß, daß die Welt schlechter ist als ihr Name und daß deshalb auch ihr Name schlecht ist.“
+      </p>
+      <p>
+        – ich weigere mich, zu glauben, dass die „Welt schlechter ist als ihr Name“ und dass „deshalb auch ihr Name schlecht ist“; ich bleibe an der Redewendung „schlechter (…) als ihr Name“ hängen, und je öfter ich sie lese, desto intensiver wird das Wort <span className="font-montiac-italic">Name</span>, schon scheint es alle anderen Wörter zu überdecken, überstrahlen, <span className="font-montiac-italic">Name</span>, das Wort pulsiert, lebt, <span className="font-montiac-italic">Name</span>, noch ist es ein Lebewesen, kein Tier, kein Insekt, ein Lebewesen, das keiner der bekannten Gattungen zugehört, <span className="font-montiac-italic">Name</span> –
+      </p>
+      <p>
+        und plötzlich zerfällt die Welt in vier Buchstaben.
       </p>
     </>
   }
-  
+
 
 ];
