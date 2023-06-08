@@ -683,6 +683,15 @@ export const Posts = [
         und plötzlich zerfällt die Welt in vier Buchstaben.
       </p>
     </>
+  },
+  {
+    author: "Sarah Elena Müller",
+    title: "Schlechte Wörter",
+    contentJSX: <>
+      <p>
+        Sprache wie Waage, umschwankt einen Kipppunkt. Träumbarkeit, Nutzen, Tarnung, Bestimmtheit, Hermetik und Hermeneutik, Schlechtes, Gutes und Besseres, Norm und Versteck. Eingebettete Werte im Holzblock. Massenvergleich. Wohin soll das führen, fragt sie sich, der Mechanik bereits überdrüssig und probiert es trotzdem. Dort, wo der Vögel Schnabelspitzen sich berühren, landet die Bedeutung. Ready to transfer. Doch bleibt sie ein Handel, und so lässt sie ihn bleiben.
+      </p>
+    </>
   }
 
 
