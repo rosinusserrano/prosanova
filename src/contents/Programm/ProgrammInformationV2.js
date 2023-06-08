@@ -822,8 +822,11 @@ export const ProgrammAmSamstag = [
     ),
     title: "Zwischen Traditionslinien und Innovation",
     time: "10:30-11:30",
-    description:
-      "Wir wollen uns fragen: Wie genau macht man eigentlich Festivals in Hildesheim, wenn man von allen Seiten abhängig ist und welche Abhängigkeiten, vor allem bei der Betrachtung einer finanziellen Perspektive, bestehen dabei? Welche Rolle spielt die Uni und gibt es Wege, sie zu ignorieren? Julia Buchberger und Tatjana von der Beek haben in Hildesheim studiert und in Teams und Kollektiven mehrere Festivals kuratiert. Gemeinsam mit Armin Djamali sprechen sie über Erwartungshaltungen, mögliche Traditionslinien, Innovation und widerständige Unabhängigkeiten selbstorganisierter Kulturevents.",
+    description: <>
+      Wir wollen uns fragen: Wie genau macht man eigentlich Festivals in Hildesheim, wenn man von allen Seiten abhängig ist und welche Abhängigkeiten, vor allem bei der Betrachtung einer finanziellen Perspektive, bestehen dabei? Welche Rolle spielt die Uni und gibt es Wege, sie zu ignorieren? Julia Buchberger und Tatjana von der Beek haben in Hildesheim studiert und in Teams und Kollektiven mehrere Festivals kuratiert. Gemeinsam mit Armin Djamali sprechen sie über Erwartungshaltungen, mögliche Traditionslinien, Innovation und widerständige Unabhängigkeiten selbstorganisierter Kulturevents.
+      <br/><br/>
+      Anmeldung unter: <a href="https://www.kulturerlebnistage.de/anmeldung-1/">https://www.kulturerlebnistage.de/anmeldung-1/</a>
+    </>,
     type: "Diskutieren",
   },
   {
@@ -1630,7 +1633,7 @@ export const ProgrammAmSonntag = [
     description: (
       <>
         Wie wird gesprochen? Wie wird kritisiert? Welche Kriterien gibt es für gute und schlechte Wörter? Welche Worte werden als ""hochkulturell"" gelesen?
-        <br/><br/>
+        <br /><br />
         In diesem Format geht es um die guten Wörter, die zu schlechten gemacht werden. Um die sogenannten ""schönen Wörter"", die eigentlich das ""Schlechte"" implizieren wollen und verharmlosen. In einem Videobeitrag verhandelt Cana Bilir-Meier die Sprache der Kritik in der Literaturlandschaft und die Kommerzialisierung von Texten.Sie nimmt die Sprache in den Blick, die die harte Realität abbildet und die von Verlagen ungewollt bleibt. Denn sind es nicht gerade diese Worte, die es wert sind, rezipiert zu werden?
       </>
     ),
