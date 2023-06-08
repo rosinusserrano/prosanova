@@ -634,9 +634,8 @@ export const LineUpInformation = [
             *1998, studiert Inszenierung der Künste und der Medien in
             Hildesheim. Zuvor studierte they Kulturwissenschaften und
             ästhetische Praxis. Rio war zuletzt an verschiedenen
-            Performance-Produktionen beteiligt, darunter /FRAGMENTEZ /und /bbb/.
-            They ist Teil des Performance- und Technik-Kollektivs /rio&dio
-            productions//*™*/ und arbeitet freischaffend als Lichttechniker:in
+            Performance-Produktionen beteiligt, darunter <span className="font-montiac-italic">FRAGMENTEZ</span> und <span className="font-montiac-italic">bbb</span>.
+            They ist Teil des Performance- und Technik-Kollektivs <span className="font-montiac-italic">rio&dio productions</span>™ und arbeitet freischaffend als Lichttechniker:in
             und Produktionsassistenz u.a. für die Frl. Wunder AG und das
             Schauspielhaus Hannover. Aktuell organisiert Rio verschiedene
             Veranstaltungen, um Drag in Hildesheim zu etablieren.
@@ -1738,5 +1737,5 @@ export const LineUpInformation = [
     ),
   },
 
-  
+
 ];
