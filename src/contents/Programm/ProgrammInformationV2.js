@@ -824,8 +824,6 @@ export const ProgrammAmSamstag = [
     time: "10:30-11:30",
     description: <>
       Wir wollen uns fragen: Wie genau macht man eigentlich Festivals in Hildesheim, wenn man von allen Seiten abhängig ist und welche Abhängigkeiten, vor allem bei der Betrachtung einer finanziellen Perspektive, bestehen dabei? Welche Rolle spielt die Uni und gibt es Wege, sie zu ignorieren? Julia Buchberger und Tatjana von der Beek haben in Hildesheim studiert und in Teams und Kollektiven mehrere Festivals kuratiert. Gemeinsam mit Armin Djamali sprechen sie über Erwartungshaltungen, mögliche Traditionslinien, Innovation und widerständige Unabhängigkeiten selbstorganisierter Kulturevents.
-      <br/><br/>
-      Anmeldung unter: <a href="https://www.kulturerlebnistage.de/anmeldung-1/">https://www.kulturerlebnistage.de/anmeldung-1/</a>
     </>,
     type: "Diskutieren",
   },
@@ -1245,6 +1243,8 @@ export const ProgrammAmSamstag = [
         uns ein Bus-Shuttle abholt und ungefähr zwei Stunden später wieder
         absetzt. Für Getränke und etwas Kleines zu essen auf der Fahrt ist
         gesorgt.
+        <br /><br />
+        Anmeldung unter: <a href="https://www.kulturerlebnistage.de/anmeldung-1/">https://www.kulturerlebnistage.de/anmeldung-1/</a>
       </>
     ),
     type: "Lesen",
@@ -1439,7 +1439,7 @@ export const ProgrammAmSonntag = [
         multilinguale Gedichte sowie Gedichte aus Sprachen, die wir nicht
         verstehen. Grundkenntnisse sind nicht erforderlich, geleitet wird der
         Workshop auf Deutsch und Englisch, weitere Sprachen willkommen. Maximal
-        10 Teilnehmer:innen. Anmeldung per Mail unter workshops@prosanova.net
+        10 Teilnehmer:innen. Anmeldung per Mail unter workshop@prosanova.net
       </>
     ),
     type: "Teilnehmen",
