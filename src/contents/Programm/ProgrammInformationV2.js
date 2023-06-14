@@ -1,18 +1,18 @@
 import React from "react";
 
 export const ProgramTypeToColor = {
-  Diskutieren: "#BFA9ED",
-  Lesen: "#C18167",
-  Aufführen: "#C8BF9B",
-  Andauern: "#E3CC4E",
-  Teilnehmen: "#F97DD0",
+  Lesen: "#BFA9ED",
+  Andauern: "#C18167",
+  Teilnehmen: "#C8BF9B",
+  Aufführen: "#E3CC4E",
+  Diskutieren: "#F97DD0",
   Schauen: "skyblue",
   Hören: "#FF9B53",
   Feiern: "#553c6d",
 };
 
-export function makeProgramID(title, time, location) {
-  return title + time + location;
+export function makeProgramID(title, time, location, people) {
+  return title + time + location + people;
 }
 
 export const ProgrammAmFreitag = [
@@ -183,7 +183,7 @@ export const ProgrammAmFreitag = [
         dem Literaturinstitut der Universität Hildesheim.
       </>
     ),
-    time: "13:15-15:15",
+    time: "13-14",
     location: "Werkstatt",
     type: "Teilnehmen",
   },
@@ -455,7 +455,7 @@ export const ProgrammAmFreitag = [
       </>
     ),
     time: "17-18",
-    location: "Extern",
+    location: <>Extern<br />Zwischengeschoss</>,
     type: "Teilnehmen",
   },
   {
@@ -681,19 +681,29 @@ export const ProgrammAmFreitag = [
     title: "disk.o",
     people: (
       <>
-        toronto (disk.o)
-        <br />
-        tshymax303 (disk.o)
+        Ndona (disk.o)
       </>
     ),
     description: "PARTY",
-    time: "1-3",
+    time: "1-2",
     location: "Aula",
     type: "Feiern",
   },
   {
-    title: "",
-    people: <>sth that runs</>,
+    title: "disk.o",
+    people: (
+      <>
+        tshymax303 (disk.o)
+      </>
+    ),
+    description: "PARTY",
+    time: "2-3",
+    location: "Aula",
+    type: "Feiern",
+  },
+  {
+    title: "disk.o",
+    people: <>toronto (disk.o)</>,
     description: "PARTY",
     time: "3-4",
     location: "Aula",
@@ -829,7 +839,7 @@ export const ProgrammAmSamstag = [
   },
   {
     location: "Dunkelkammer",
-    people: <>HKW</>,
+    people: "Von Fabian Saul und Mathias Zeiske. Mit Don Mee Choi, Sophia Eisenhut, Lama El Khatib, Haytham El Wardany, Merve Emre, Joshua Groß, Hanne Lippard, Enis Maci, Nalan, Thuy-Han Nguyen-Chi, Tanasgol Sabbagh, Miriam Stoney, Karosh Taha, Senthuran Varatharajah und Uljana Wolf.",
     title: "Schlechte Wörter / Bad Words (Audioserie)",
     time: "10:00-17:00",
     description:
@@ -962,7 +972,6 @@ export const ProgrammAmSamstag = [
     ),
     type: "Lesen",
   },
-
   {
     location: "Aula",
     people: <>Amir Gudarzi und Tanasgol Sabbagh </>,
@@ -982,7 +991,7 @@ export const ProgrammAmSamstag = [
   },
   {
     location: "Klassenzimmer",
-    people: <>Anja Flach, Esther Winckelmann und Leyla Kaya </>,
+    people: <>Anja Flach, Esther Winkelmann und Leyla Kaya </>,
     title: "Sakine Cansız: Mein ganzes Leben war ein Kampf",
     time: "14:00 - 15:30",
     description: (
@@ -1029,9 +1038,9 @@ export const ProgrammAmSamstag = [
   {
     location: "Werkstatt",
     people:
-      "Rosa Lobejäger, Nico Crayen, Felice Wilhelms, Philip Hart, Leah Rombach und Marlo Oberließen",
+      "Rosa Lobejäger, Nico Crayen, Felice Wilhelms, Leah Rombach und Marlo Oberließen",
     title: "Bekenntnisse an das kollektive Vertrauen: Ein Schreibwettbewerb",
-    time: "15:00 - 16:00",
+    time: "15:30 - 17:30",
     description: (
       <>
         Einen Text mit Anderen zu teilen, setzt Vertrauen voraus und schafft
@@ -1148,9 +1157,9 @@ export const ProgrammAmSamstag = [
   },
   {
     location: "Werkstatt",
-    people: <>Linda Florek, Hanna Rafalski, Kay Schier und Malte Wegner</>,
+    people: <>Linda Florek, Hanna Rafalski, Kay Schier, Philip Hart und Malte Wegner</>,
     title: "Der Zwei-Stunden-Roman",
-    time: "17:00 - 19:00",
+    time: "18-20",
     description: (
       <>
         Wir gebrauchen die einsame Autor:innenschaft nicht mehr.  Was gebrauchen
@@ -1192,10 +1201,10 @@ export const ProgrammAmSamstag = [
     type: "Lesen",
   },
   {
-    location: "Zwischengeschoss",
+    location: <>Extern<br />Zwischengeschoss</>,
     people: <>Olufemi Atibioke</>,
     title: "Ausfälle",
-    time: "ab 18",
+    time: "18-20",
     description: (
       <>
         Stellen wir uns vor: Wir betreten eine Box, die mit nichts gefüllt ist
@@ -1271,7 +1280,30 @@ export const ProgrammAmSamstag = [
     ),
     type: "Diskutieren",
   },
-
+  {
+    title: "Verschlossene Sprache: Eine Annäherung an die Festung der Marianne Fritz",
+    time: "19-24",
+    location: "Container",
+    type: "Schauen",
+    people: "",
+    description: <>
+      Das Werk der Marianne Fritz kennen nur wenige.
+      Bekannt geworden 1978 mit ihrem Erstlingswerk
+      „Die Schwerkraft der Verhältnisse“,
+      für das sie den Robert-Walser-Preis
+      erhielt, geriet sie schon mit ihrem zweiten,
+      zwölfbändigen Werk „Dessen Sprache du nicht
+      verstehst“ in Verruf. Kritiker warfen ihr
+      Unzugänglichkeit, Unlesbarkeit und eine zu
+      hohe Komplexität vor. In Kim Kielhofners
+      Film „Whose Language You Don‘t Understand“
+      nähert sich die Künstlerin Marianne Fritz
+      und ihrem Werk an. Im Screening dieses
+      Films wollen wir Marianne Fritz gedenken
+      und den Zuschauer:innen einen Einblick in
+      die Festung der Marianne Fritz ermöglichen.
+    </>
+  },
   {
     location: "Labor",
     people: <>Elona Beqiraj und Agon Beqiraj</>,
@@ -1518,7 +1550,7 @@ export const ProgrammAmSonntag = [
     location: "Container",
     people: <>Olufemi Atibioke</>,
     title: "The Line / Literaturmeditation III",
-    time: "10:00 - 10:30",
+    time: "10:00 - 10:45",
     description: (
       <>
         In den Literaturmeditation werden die Augen geschlossen, die Atmung wird
