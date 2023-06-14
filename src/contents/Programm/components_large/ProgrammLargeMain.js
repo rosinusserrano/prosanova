@@ -1,11 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ProgrammLargeButton } from './ProgrammLargeButton'
 import { motion } from 'framer-motion'
-import { ProgramTypeToColor, makeProgramID } from '../ProgrammInformationV2'
+import { makeProgramID } from '../ProgrammInformationV2'
 
-function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
+function ProgrammLargeMain({ ProgrammFuerTag, animationControls, filteredTags }) {
     const [hoveredButton, setHoveredButton] = useState("")
     const [clickedButton, setClickedButton] = useState("")
+    
+    const filteredProgramm = filteredTags.length === 0 ?
+        ProgrammFuerTag
+        : ProgrammFuerTag.filter(({ type }) => filteredTags.includes(type))
+        console.log(filteredTags)
+    
     return (
         <div className='inside-main-content-wrapper'
             style={{
@@ -25,7 +31,7 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                     overflowY: "auto"
                 }}
                 animate={animationControls}>
-                {ProgrammFuerTag.map(({ title, description, location, time }) =>
+                {filteredProgramm.map(({ title, description, location, time }) =>
                     <div className='border-radius background-color-grey inside-page-padding'
                         style={{
                             gridArea: "overlay",
@@ -49,22 +55,22 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                                     placeItems: "center"
                                 }}>
                                     <motion.div
-                                    style={{
-                                    }}
-                                    transition={{
-                                        repeat: Infinity,
-                                        duration: 1,
-                                        repeatType: "loop",
-                                        ease: "linear",
-                                        bounce: false
-                                    }}
-                                    initial={{
-                                        rotate: 0
-                                    }}
-                                    animate={{
-                                        rotate: 360
-                                    }}>
-                                    PARTY
+                                        style={{
+                                        }}
+                                        transition={{
+                                            repeat: Infinity,
+                                            duration: 1,
+                                            repeatType: "loop",
+                                            ease: "linear",
+                                            bounce: false
+                                        }}
+                                        initial={{
+                                            rotate: 0
+                                        }}
+                                        animate={{
+                                            rotate: 360
+                                        }}>
+                                        PARTY
                                     </motion.div>
                                 </div>
                         }
@@ -76,7 +82,7 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls }) {
                 overflowY: "auto",
                 overflowX: "hidden"
             }}>
-                {ProgrammFuerTag.map(({ location, title, time, people, type, description }) => <>
+                {filteredProgramm.map(({ location, title, time, people, type, description }) => <>
                     <ProgrammLargeButton
                         location={location}
                         time={time}

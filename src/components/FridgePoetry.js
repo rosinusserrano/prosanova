@@ -16,6 +16,7 @@ function FridgePoetry({ children, color }) {
             marginBottom: "0",
             paddingBottom:"0",
             backgroundColor: color,
+            color: color === "white" ? "black": "white"
         }}>
             {children}
         </div>

@@ -3,11 +3,13 @@ import React, { useState } from 'react'
 import { ProgramTypeToColor } from '../ProgrammInformationV2'
 import { BACKGROUNDCOLOR } from 'constants'
 import { useTablet } from 'hooks/useMediaQuery'
+import WigglyButton from 'components/WigglyButton'
 
-function ProgrammLargeFooter({ day, setDay, animationControls }) {
+function ProgrammLargeFooter({ day, setDay, animationControls, filteredTags, setFilteredTags }) {
     const [hoveredButton, setHoveredButton] = useState("")
     const isTablet = useTablet()
     const height = isTablet ? "2rem" : "3rem"
+    console.log(filteredTags.includes("Schauen") || filteredTags.length === 0 ? ProgramTypeToColor["Schauen"] : "white")
     return (
         <footer
             className=""
@@ -44,7 +46,24 @@ function ProgrammLargeFooter({ day, setDay, animationControls }) {
                 color: "white"
             }} className={`border-radius ${isTablet ? "font-size-2" : "font-size-1"} background-color-grey`}>
                 {Object.keys(ProgramTypeToColor).map(
-                    (type) => <FridgePoetry color={ProgramTypeToColor[type]}>{type}</FridgePoetry>)}
+                    (type) => <WigglyButton onClick={() => {
+                        console.log(filteredTags)
+                        if (filteredTags.includes(type)) {
+                            const newFilteredTags = filteredTags
+                            newFilteredTags.splice(newFilteredTags.indexOf(type), 1)
+                            setFilteredTags([...newFilteredTags])
+                            animationControls.start({ flex: "0 0 0" })
+                        } else {
+                            setFilteredTags([...filteredTags, type])
+                            animationControls.start({ flex: "0 0 0" })
+                        }
+                        console.log(filteredTags)
+                    }}>
+                        <FridgePoetry
+                            color={filteredTags.includes(type) || filteredTags.length === 0 ? ProgramTypeToColor[type] : "white"}>
+                            {type}
+                        </FridgePoetry>
+                    </WigglyButton>)}
             </div>
             <div style={{
                 display: day === "sunday" ? "none" : "flex",

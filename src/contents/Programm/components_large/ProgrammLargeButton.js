@@ -16,7 +16,6 @@ export function ProgrammLargeButton({ type, time, location, title, people, descr
         cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
     }}
         onPointerOver={() => {
-            console.log(makeProgramID(title, time, location))
             setHoveredButton(makeProgramID(title, time, location))
         }}
         onPointerLeave={() => setHoveredButton("")}

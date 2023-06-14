@@ -10,6 +10,8 @@ function ProgrammLarge({ color, setDay, day }) {
 
     const controls = useAnimationControls()
 
+    const [filteredTags, setFilteredTags] = useState([])
+
     return (
         <div style={{
             display: "flex",
@@ -39,7 +41,9 @@ function ProgrammLarge({ color, setDay, day }) {
                     height: "100%",
                     overflowY: "auto"
                 }}>
-                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmFreitag} animationControls={controls} />
+                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmFreitag} animationControls={controls}
+                        filteredTags={filteredTags}
+                    />
                 </div>
                 <div style={{
                     display: day === "saturday" ? "block" : "none",
@@ -47,7 +51,8 @@ function ProgrammLarge({ color, setDay, day }) {
                     height: "100%",
                     overflowY: "auto"
                 }}>
-                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSamstag} animationControls={controls} />
+                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSamstag} animationControls={controls}
+                        filteredTags={filteredTags} />
                 </div>
                 <div style={{
                     display: day === "sunday" ? "block" : "none",
@@ -55,10 +60,19 @@ function ProgrammLarge({ color, setDay, day }) {
                     height: "100%",
                     overflowY: "auto"
                 }}>
-                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSonntag} animationControls={controls} />
+                    <ProgrammLargeMain ProgrammFuerTag={ProgrammAmSonntag} animationControls={controls}
+                        filteredTags={filteredTags}
+                    />
                 </div>
             </div>
-            {day === "" ? <StandardFooter currentColor={color} /> : <ProgrammLargeFooter day={day} setDay={setDay} animationControls={controls} />}
+            {day === "" ? <StandardFooter currentColor={color} />
+                : <ProgrammLargeFooter
+                    day={day}
+                    setDay={setDay}
+                    animationControls={controls}
+                    filteredTags={filteredTags}
+                    setFilteredTags={setFilteredTags}
+                />}
         </div>
     )
 }
