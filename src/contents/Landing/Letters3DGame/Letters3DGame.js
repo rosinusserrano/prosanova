@@ -112,7 +112,7 @@ function Lights() {
 
 function EnvMap(){
   // const {preset} = useControls("env map", {preset: "apartment"})
-  return <Environment preset={'apartment'}/>
+  return <Environment files={"dancing_hall_1k.hdr"} blur={0.5}/>
 }
 
 
@@ -142,23 +142,15 @@ export default function Letters3DGame() {
             far: 10,
             near: 0.01
           }} >
-          {/* <OrbitControls ></OrbitControls> */}
-          {/* <pointLight position={[.3 * SCALE, .3 * SCALE, .3 * SCALE]} castShadow></pointLight> */}
-          {/* <directionalLight position={[.1, .1, .1]} castShadow></directionalLight> */}
           {/* <Lights></Lights> */}
-          {/* <ambientLight></ambientLight> */}
+          <EnvMap />
           <Physics gravity={[-1, 0, 0]}
             defaultContactMaterial={{
               friction: 0.01,
-              // restitution: -0.5,
             }}>
-            {/* <Debug > */}
-            <EnvMap />
             <Buchstabis></Buchstabis>
             <Plane></Plane>
-            {/* </Debug> */}
           </Physics>
-          {/* <axesHelper></axesHelper> */}
         </Canvas>
       </div>
     </Suspense>
