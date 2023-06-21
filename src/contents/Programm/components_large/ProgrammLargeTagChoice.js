@@ -29,24 +29,19 @@ function ProgrammTagChoice({ setDayFunction }) {
                     onClick={() => setDayFunction("sunday")}
                 />
             </div>
-            {/* <div style={{height: "4rem"}} ></div>
+            <div style={{ height: "4rem" }} ></div>
             <div style={{
                 display: "flex",
-                justifyContent: "center"
+                justifyContent: "center",
+                gap: "1.5rem"
             }}>
-                <div className='border-radius background-color-grey'
-                    onPointerOver={() => setHoveredButton("pdf")}
-                    onPointerLeave={() => setHoveredButton("")}
-                    style={{
-                        textAlign: "center",
-                        padding: "0.5rem 3rem",
-                        cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
-                        backgroundColor: hoveredButton === "pdf" ? "transparent" : BACKGROUNDCOLOR
-                    }}>
+                <ProgrammPDFButton file={"Timetable_PN23.pdf"}>
                     <span >Timetable als PDF<br />herunterladen</span>
-
-                </div>
-            </div> */}
+                </ProgrammPDFButton>
+                <ProgrammPDFButton file={"Programmheft_PN23.pdf"}>
+                    <span >Programmheft als PDF<br />herunterladen</span>
+                </ProgrammPDFButton>
+            </div>
         </div>
     )
 }
@@ -55,7 +50,7 @@ function ProgrammTagChoice({ setDayFunction }) {
 function ProgrammLargeTagChoiceButton({ day, date, onClick }) {
     const [hovered, setHovered] = useState(false)
 
-    return < div className='border-radius background-color-grey'
+    return <div className='border-radius background-color-grey'
         onClick={onClick}
         onPointerOver={() => setHovered(true)}
         onPointerLeave={() => setHovered(false)}
@@ -68,7 +63,25 @@ function ProgrammLargeTagChoiceButton({ day, date, onClick }) {
         }}>
         <span className='font-b-bold font-size-1'>{day}</span><br />
         <span className=''>{date}</span>
-    </div >
+    </div>
+}
+
+function ProgrammPDFButton({ file, children }) {
+    const [hovered, setHovered] = useState(false)
+
+    return <div className='border-radius background-color-grey'
+        onClick={() => window.open(`/${file}`, "_blank")}
+        onPointerOver={() => setHovered(true)}
+        onPointerLeave={() => setHovered(false)}
+        style={{
+            textAlign: "center",
+            padding: "0.5rem 3rem",
+            cursor: "url(MouseHand-Klick_small.png) 32 0, auto",
+            backgroundColor: hovered ? "transparent" : BACKGROUNDCOLOR,
+            borderRadius: "50px"
+        }}>
+        {children}
+    </div>
 }
 
 export default ProgrammTagChoice
