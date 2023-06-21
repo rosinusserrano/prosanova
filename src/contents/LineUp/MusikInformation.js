@@ -27,7 +27,7 @@ export const MusikInformation = [
         contentJSX: <>
             <div style={{ padding: " 1.5rem", lineHeight: "200%" }}>
                 <p className="font-size-1">
-                    <PrettyName name={"SLIC"} /> <PrettyName name={"Unit"} /> Unit ist
+                    <PrettyName name={"SLIC"} /> <PrettyName name={"Unit"} /> ist
                     ein DJ Netzwerk aus Berlin und Hamburg und wurde 2020 virtuell von
                     Jaxx TMS, SENU, Nissa, yung_womb und slimgirl fat gegründet. Sie
                     teilen nicht nur ihre Begeisterung für Musik, sondern ebenso ihre
