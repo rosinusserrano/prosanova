@@ -659,7 +659,7 @@ export const ProgrammAmFreitag = [
     title: "",
     people: (
       <>
-        One Mother Collective:
+        One Mother:
         <br />
         Preach & EuroEyez
       </>

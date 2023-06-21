@@ -88,7 +88,7 @@ function ProgrammLargeFooter({ day, setDay, animationControls, filteredTags, set
 function getNextDay(currentDay, isTablet, { germanAllCaps = false }) {
     if (currentDay === "friday") {
         if (germanAllCaps) {
-            return isTablet ? "SA" : "SAMSTAG"
+            return isTablet ? "SA" : "Samstag"
         } else {
             return "saturday"
         }
