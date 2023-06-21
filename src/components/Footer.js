@@ -2,9 +2,9 @@ import React from 'react'
 import FridgePoetry from './FridgePoetry'
 
 export function StandardFooter({ currentColor, hideFooter = false }) {
-    const today = new Date()
-    const festivalDate = new Date("2023-06-23")
-    const daysDiff = Math.round((festivalDate - today) / 1000 / 60 / 60 / 24)
+    const today = new Date();
+    const festivalDate = new Date("2023-06-23");
+    const daysDiff = Math.round(((festivalDate - today) / 1000 / 60 / 60 / 24) + 1)
 
     return (
         <footer
@@ -36,6 +36,7 @@ export function StandardFooter({ currentColor, hideFooter = false }) {
                         alignItems: "flex-start",
                         gap: "0.3rem",
                         margin: "1rem",
+                        visibility: daysDiff > 0 ? "visible" : "hidden"
                     }}
                 >
                     <FridgePoetry color="white">noch</FridgePoetry>
