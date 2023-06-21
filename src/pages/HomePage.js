@@ -19,6 +19,7 @@ import FridgePoetry from "components/FridgePoetry";
 import Shop from "contents/Shop/Shop";
 import Programm from "contents/Programm/Programm";
 import { StandardFooter } from "components/Footer";
+import FestivalKit from "contents/FestivalKit/FestivalKit";
 
 function PageSwitch({ page, color, setBackFunction, backFunction }) {
   switch (page) {
@@ -42,6 +43,8 @@ function PageSwitch({ page, color, setBackFunction, backFunction }) {
       return <Blog setBackFunction={setBackFunction} />;
     case "program":
       return <Programm setBackFunction={setBackFunction} color={color} backFunction={backFunction} />
+    case "festivalkit":
+      return <FestivalKit />
     default:
       return <Landing color={color}></Landing>;
   }
@@ -112,7 +115,7 @@ export default function HomePage() {
         </main>
       </div>
 
-      <StandardFooter hideFooter={hideFooter} currentColor={currentColor}/>
+      <StandardFooter hideFooter={hideFooter} currentColor={currentColor} />
     </div>
   );
 }
