@@ -7,7 +7,6 @@ export default function Buchstabis() {
 
     const { scene } = useGLTF("PROSANOVA-Game-Web.glb")
     const children = scene.children
-    console.log(children)
 
     return (
         <Suspense>

@@ -16,7 +16,6 @@ function ProgrammSmallButton({ time, type, location, title, people, description,
       onPointerOver={() => setHovered(true)}
       onClick={() => {
         if (description !== "") {
-          console.log(description)
           setClickedButton(makeProgramID(title, time, location));
           setBackFunction(() => () => {
             setClickedButton("")

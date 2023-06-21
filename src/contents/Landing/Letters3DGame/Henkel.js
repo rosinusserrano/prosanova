@@ -28,8 +28,6 @@ function Henkel({ gltfNode }) {
     material.roughness = 0.27
     material["metalness"] = 0.52
 
-    console.log(material)
-
     return <mesh
         geometry={gltfNode["geometry"]}
         material={material}

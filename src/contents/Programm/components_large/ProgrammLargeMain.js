@@ -10,7 +10,6 @@ function ProgrammLargeMain({ ProgrammFuerTag, animationControls, filteredTags })
     const filteredProgramm = filteredTags.length === 0 ?
         ProgrammFuerTag
         : ProgrammFuerTag.filter(({ type }) => filteredTags.includes(type))
-        console.log(filteredTags)
     
     return (
         <div className='inside-main-content-wrapper'
