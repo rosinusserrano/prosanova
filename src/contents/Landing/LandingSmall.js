@@ -5,7 +5,7 @@ function LandingSmall({color}) {
 
     const today = new Date()
     const festivalDate = new Date("2023-06-23")
-    const daysDiff = Math.round((festivalDate - today) / 1000 / 60 / 60 / 24)
+    const daysDiff = Math.round(((festivalDate - today) / 1000 / 60 / 60 / 24) + 1)
 
     return (
         <div className='inside-main-content-wrapper border-radius background-color-grey inside-page-padding font-size-1'
