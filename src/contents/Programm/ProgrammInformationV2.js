@@ -1359,7 +1359,7 @@ export const ProgrammAmSamstag = [
     location: "Aula",
     people: (
       <>
-        Skilian (Pavement Gum)
+        Skilan (Pavement Gum)
         <br />
         Pauli (Pavement Gum)
         <br />
