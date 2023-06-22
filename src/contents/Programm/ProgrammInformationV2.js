@@ -847,7 +847,7 @@ export const ProgrammAmSamstag = [
     type: "Hören",
   },
   {
-    location: "Dunkelkammer",
+    location: "Aula",
     people: <>Franziska Gänsler</>,
     title: "TV is poetry",
     time: "11:00-12:00",
@@ -881,18 +881,6 @@ export const ProgrammAmSamstag = [
       </>
     ),
     type: "Aufführen",
-  },
-  {
-    location: "Container",
-    people: <></>,
-    title: "Verschlossene Sprache - eine Annäherung an die Festung der Marianne Fritz",
-    time: "19-21",
-    description: (
-      <>
-        Das Werk der Marianne Fritz kennen nur wenige. Bekannt geworden 1978 mit ihrem Erstlingswerk „Die Schwerkraft der Verhältnisse“, für das sie den Robert-Walser-Preis erhielt, geriet sie schon mit ihrem zweiten, zwölfbändigen Werk „Dessen Sprache du nicht verstehst“ in Verruf. Kritiker warfen ihr Unzugänglichkeit, Unlesbarkeit und eine zu hohe Komplexität vor. In Kim Kielhofners Film „Whose Language You Don‘t Understand“ nähert sich die Künstlerin Marianne Fritz und ihrem Werk an. Im Screening dieses Films wollen wir Marianne Fritz gedenken und den Zuschauer:innen einen Einblick in die Festung der Marianne Fritz ermöglichen.
-      </>
-    ),
-    type: "Schauen",
   },
   {
     location: "Klassenzimmer",
@@ -1282,7 +1270,7 @@ export const ProgrammAmSamstag = [
   },
   {
     title: "Verschlossene Sprache: Eine Annäherung an die Festung der Marianne Fritz",
-    time: "19-24",
+    time: "19-21",
     location: "Container",
     type: "Schauen",
     people: "",
