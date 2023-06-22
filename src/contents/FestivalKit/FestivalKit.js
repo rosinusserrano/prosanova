@@ -94,6 +94,12 @@ function FestivalKit() {
                             title={"Bus- und Bahnanbindung"}
                             text={"Vom Hildesheimer Hauptbahnhof fahren die Buslinien 1 und 4. Mit der Buslinie 1 fährt man bis zum Ostbahnhof. Von dort aus sind es etwa zehn Gehminuten bis zum Festivalzentrum. Mit der Buslinie 4 fährt man bis zum HAWK-Campus. Von dort aus ist mit fünf Gehminuten zu rechnen. Es besteht auch die Möglichkeit, mit der Regionalbahn RE10 eine Station zum Ostbahnhof zu fahren."}
                         />
+                        <FestivalKitExpandable
+                            title={"Evaluation"}
+                            text={<>
+                                Das PROSANOVA lebt vom Austausch mit unseren Besucher:innen und Gäst:innen - wir freuen uns, wenn ihr euch ein paar Minuten Zeit nehmt, die Evaluation auszufüllen: <a href='https://forms.gle/Sn39YCH3vMf8EKQ36'>https://forms.gle/Sn39YCH3vMf8EKQ36</a>
+                            </>}
+                        />
                     </div>
                 </div>
             </div>
